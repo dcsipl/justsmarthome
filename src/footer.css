@@ -1,0 +1,174 @@
+.footerTopBar{
+    position: absolute; 
+    width: 1260px; 
+    height: 28px; 
+    left: 1px; 
+    top: 1822px;
+    background: #C4C4C4;
+}.footerRectangle{
+    position: absolute;
+    width: 1260px;
+    height: 160px;
+    left: 1px;
+    top: 1850px;
+
+background: rgba(39, 42, 42, 0.8);
+}
+.address{
+    position: absolute;
+    left: 12px;
+    top: 5px;
+    font-family: 'Qwigley';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    color: white;
+}
+.address p{
+    position: absolute;
+    width: 338px;
+    height: 114px;
+    left: 50px;
+    top: 45px;
+    font-family: 'PT Serif Caption';
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+}
+.footerHome{
+    position: absolute;
+    width: 90px;
+    height: 15px;
+    left: 450px;
+    top: 5px;
+    font-family: 'Qwigley';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    text-decoration-line: underline;
+    color:white;
+}
+.footerReview{
+    position: absolute;
+    width: 90px;
+    height: 15px;
+    left: 520px;
+    top: 5px;
+    font-family: 'Qwigley';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    text-decoration-line: underline;
+    color:white;
+}
+.footerAvailable{
+    position: absolute;
+    width: 90px;
+    height: 15px;
+    left: 605px;
+    top: 5px;
+    font-family: 'Qwigley';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    text-decoration-line: underline;
+    color:white;
+}
+.footerCompleted{
+    position: absolute;
+    width: 90px;
+    height: 15px;
+    left: 780px;
+    top: 5px;
+    font-family: 'Qwigley';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    text-decoration-line: underline;
+    color:white;
+}
+.smallRect{
+    position:absolute;
+    width:680px;
+    height:90px;
+    background-color: #C4C4C4;
+    border-radius: 20px;
+    top:50px;
+    left:280px;
+    font-family: 'Qwigley';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px
+}
+.smallRect p{
+    position: absolute;
+    width: 570px;
+    height: 114px;
+    left: 60px;
+    top: 25px;
+    font-family: 'PT Serif Caption';
+    font-style: normal; 
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: black;
+    
+}
+.contact{
+    position: absolute;
+    width: 274px;
+    height: 20px;
+    left: 980px;
+    top: 5px;
+font-family: 'Qwigley';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 45px;
+color: #FFFFFF;
+}
+.contact p{
+    position: absolute; width: 323px; height: 81px; left: 5px; top: 25px;
+
+font-family: 'PT Serif Caption'; font-style: normal; font-weight: 400; font-size: 18px; line-height: 24px;
+
+color: #FFFFFF;
+}
+.phone{
+    position: absolute; width: 79px; height: 25px; left: 985px; top: 122px;
+
+font-family: 'PT Serif Caption'; font-style: normal; font-weight: 400; font-size: 18px; line-height: 24px;
+
+color: #FFFFFF;
+}
+.phone p{
+    position:absolute;
+    color:#FFFFFF;
+    width:300px;
+    left:60px;
+    top:-33px;
+    font-family: 'qwigley';
+    font-size: 30px;
+    
+}
+
+.footerBottomBar{
+    position: absolute; 
+    width:1260px;
+    height: 29px; 
+    left: 1px; 
+    top: 2010px;
+    font-family: 'PT Serif'; 
+    font-style: normal; 
+    font-weight: 400; 
+    font-size: 18px;
+    color: #FFFFFF; 
+    background-color: rgb(48, 46, 46);
+    text-align: center;
+}
