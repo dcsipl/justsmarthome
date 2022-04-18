@@ -13,7 +13,7 @@ export default function Header(){
         <div className="rectangle2"></div>
             <img src={Logo1} alt="s-logo"/>
             <p>Just Smart Custom Homes</p>
-            <a href="#" className="home">Home</a>
+            <a href="http://localhost:3000" className="home">Home</a>
             <a href="#" className="review">Reviews</a>
             <a href="#" className="available">Readily Available</a>
             <a href="#" className="completed">Completed Proj</a>

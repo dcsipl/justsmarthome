@@ -8,7 +8,7 @@ export default function Footer(){
             JustSmart Custom Homes,<br/> Edmond,<br/> OK.
             </p>
             </div>
-            <a href="#" className="footerHome">Home</a>
+            <a href="http://localhost:3000" className="footerHome">Home</a>
             <a href="#" className="footerReview">Review</a>
             <a href="#" className="footerAvailable">ReadilyAvailable</a>
             <a href="#" className="footerCompleted">CompletedProj</a>

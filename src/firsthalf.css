@@ -39,7 +39,7 @@ margin-top: -240px;
     font-size: 15px;
     
 }
-.map{
+.firstmap{
     position: absolute;
     width: 320px;
     height: 300px;
@@ -80,7 +80,7 @@ position: absolute;
     line-height: 45px;
     color: #000000;
 }
-.booking{
+.firstbooking{
     position: absolute;
    background-color:lightgreen;
    border: solid grey;
@@ -96,6 +96,6 @@ position: absolute;
 
 
 }
-.booking span{
+.firstbooking span{
     color:lightgreen;
 }

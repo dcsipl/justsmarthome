@@ -1,12 +1,20 @@
 import React from 'react';
+import Header from './header.js';
+import './header.css';
 import BasicTabs from './tab.js';
+import Footer from './footer.js';
+import './footer.css';
 import './tab.css';
 
 
 
  function SeacondPage(){
+    function ClickEvent(){
+            window.open("http://localhost:3000/c","_self");
+        }
     return(
 <>
+<Header/>
 <div className="community">
    <p>Community name : Canyon Lakes Houses</p> 
 </div>
@@ -32,14 +40,14 @@ import './tab.css';
            <li>Insulated Garage Doors</li></ul>
 <div className="details">
   <p>Canyon Lakes : <li>House Name</li></p>
-  <button>More Details</button></div>
+  <button onClick={ClickEvent}>More Details</button></div>
   <div className="description">Description: 
 <li>Number of houses/rooms</li>
 <li>How many remaining, </li>
 <li>Time of completion, </li>
 <li>How much % is completed and etc.,</li></div>  
 
-<div className="booking">
+<div className="secondbooking">
            For Booking Raj 405-361-6198<br/>
         <span>For Booking</span> Jay 650-888-0015
         </div>
@@ -60,7 +68,7 @@ import './tab.css';
             </div>
             
 
-
+<Footer/>
 </>
     )
 }
