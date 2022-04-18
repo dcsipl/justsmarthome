@@ -3,6 +3,7 @@ import BasicTabs from './tab.js';
 import './tab.css';
 
 
+
  function SeacondPage(){
     return(
 <>
