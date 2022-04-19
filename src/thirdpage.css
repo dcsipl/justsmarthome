@@ -22,24 +22,24 @@
     color: black;
     
 }
-.kitchen{
-    background: url('./pictures/kitchen 1.jpg');
-    position: absolute;
-    left:20px;
-    top:200px;
-    background-repeat: no-repeat;
-    background-size: 900px 500px;
-    width:1000px;
-    height:700px;
+.usestate1{
+    position:absolute;
+    width: 890px;
+    height: 470px;
+    left: 30px;
+    
+    top: 220px;
 }
-/* .cover{
-    width:300px;
-    height:700px;
-    position: absolute;
-    left:950px;
-    top:210px;
-    background-color: gray;
-} */
+.setimage1{
+    position:absolute;
+    width: 890px;
+    height: 470px;
+    left: 30px;
+    
+    top: 220px;
+}
+
+
 .hall-1{
     width:270px;
     height:170px;
@@ -49,6 +49,8 @@
     position: absolute;
     background-repeat: no-repeat;
     background-size: 270px 170px;
+    border-radius: 10px;
+    border:1px solid gray;
 }
 .kitchen-1{
     width:270px;
@@ -59,6 +61,8 @@
     position: absolute;
     background-repeat: no-repeat;
     background-size: 270px 170px;
+    border-radius: 10px;
+    border:1px solid gray;
 }
 .bathroom-1{
     width:270px;
@@ -69,6 +73,8 @@
     position: absolute;
     background-repeat: no-repeat;
     background-size: 270px 170px;
+    border-radius: 10px;
+    border:1px solid gray;
 }
 .booking{
     position: absolute;
@@ -119,7 +125,7 @@
     
         width:470px;
         height:670px;
-        top:900px;
+        top:880px;
         left:90px;
         background-image: url('./pictures/2 BHK house-1.webp');
         position: absolute;
@@ -130,7 +136,7 @@
     
     width:470px;
     height:670px;
-    top:920px;
+    top:890px;
     left:700px;
     background-image: url('./pictures/3 BHK house-1.jpg');
     position: absolute;

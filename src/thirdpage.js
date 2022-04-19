@@ -3,11 +3,15 @@ import Header from './header.js';
 import './header.css';
 import Footer from './footer.js';
 import './footer.css';
-
+import  { useState} from 'react';
+import Hall from "./pictures/hall 1.webp";
+import Kitchen from "./pictures/kitchen 1.jpg";
+import Bathroom from "./pictures/bathroom 1.webp";
 export default  function ThirdPage(){
-
+    const[image,setImage]=useState(<img src={Hall} alt=""className="usestate1"/>)
     return(
 <>
+<h1>{image}</h1>i
 <Header/>
 <div className="community">
    <p>Community name : Canyon Lakes - Houses Name</p>
@@ -18,9 +22,9 @@ export default  function ThirdPage(){
     
     </div>
 
-<div className="hall-1"></div>
-<div className="kitchen-1"></div>
-<div className="bathroom-1"></div>
+<div className="hall-1" onClick={()=>setImage(<img src={Hall} alt="" className="setimage1" />)}></div>
+<div className="kitchen-1" onClick={()=>setImage(<img src={Kitchen} alt="" className="setimage1" />)}></div>
+<div className="bathroom-1" onClick={()=>setImage(<img src={Bathroom} alt="" className="setimage1" />)}></div>
 
 <div className="booking">
            For Booking Raj 405-361-6198<br/>

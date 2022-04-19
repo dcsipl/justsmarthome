@@ -193,21 +193,36 @@
     line-height: 35px;
     color: #000000;
 }
-.details{
+.setimage{
+    position: absolute;
+    width: 540px;
+    height: 250px;
+    left: 680px;
+    
+    top: 150px;
+}
+
+.usestate{
+    position:absolute;
+    width: 540px;
+    height: 250px;
+    left: 680px;
+    
+    top: 150px;
+}.details{
     position: absolute;
     
     width: 540px;
     
-    height: 1010px;
+    height: 800px;
     
     left: 680px;
     
-    top: 150px;
+    top: 400px;
     
    background: #BCFBEC;
     
-   background-image: url('./pictures/availablehome-2.jpg');
-   background-repeat: no-repeat;
+  
    background-size: 600px 250px;
    
    
@@ -223,7 +238,7 @@
     margin-top:100px;
     margin-left: 70px;
     width: 200px;
-    top:-90px;
+    top:-350px;
     color: white;
 }
 .details p li{
@@ -240,7 +255,8 @@
 }
 .details button{
     position: absolute;
-    top: 200px;left:350px;
+    top: -50px;
+    left:400px;
 }
 .description{
     position: absolute;
