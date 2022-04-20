@@ -46,7 +46,7 @@ export default function BasicTabs() {
 
   return (
     <Box sx={{ width: '100%' }}>
-      <Box sx={{ width:'23%',position:'absolute',borderBottom: 1, borderColor: 'gray' ,top:'650px',left:'700px'}}>
+      <Box sx={{ width:'40%',position:'absolute',borderBottom: 1, borderColor: 'gray' ,top:'650px',left:'700px'}}>
         <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
           <Tab className="tab1" label="Common Amenities" {...a11yProps(0)} style={{position:'absolute',width:'10%',color:'green'}} />
           <Tab label="Security Systems" {...a11yProps(1)} style={{position:'absolute',width:'10%',left:'120px',color:'green'}}/>

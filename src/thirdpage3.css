@@ -40,36 +40,36 @@
 }
 
 
-.hall-1{
+.hall3{
     width:270px;
     height:170px;
     top:210px;
     left:950px;
-    background-image: url('./pictures/hall 1.webp');
+    background-image: url('./pictures/hall 3.jpg');
     position: absolute;
     background-repeat: no-repeat;
     background-size: 270px 170px;
     border-radius: 10px;
     border:1px solid gray;
 }
-.kitchen-1{
+.kitchen3{
     width:270px;
     height:170px;
     top:390px;
     left:950px;
-    background-image: url('./pictures/kitchen 1.jpg');
+    background-image: url('./pictures/kitchen 3.jpg');
     position: absolute;
     background-repeat: no-repeat;
     background-size: 270px 170px;
     border-radius: 10px;
     border:1px solid gray;
 }
-.bathroom-1{
+.bathroom3{
     width:270px;
     height:170px;
     top:570px;
     left:950px;
-    background-image: url('./pictures/bathroom 1.webp');
+    background-image: url('./pictures/bathroom 3.jpg');
     position: absolute;
     background-repeat: no-repeat;
     background-size: 270px 170px;
