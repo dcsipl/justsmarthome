@@ -1,62 +1,22 @@
-.homepic{
-    position: absolute;
-    width: 870px;
-    height: 453px;
-    left: 20px;
-    top: 130px;
-background: url('./pictures/construction_1.jpg');
-border-radius: 20px;
-border: solid grey;
-background-size: 1000px 500px;
-background-repeat: no-repeat;
-
-
-}
-.ongoing{
-    position: absolute;
-   
-    left: -30.48px;
-    top: 230px;
-    font-family: 'Qwigley';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 72px;
-    line-height: 90px;
-color:green;
-    mix-blend-mode: darken;
-margin-top: -240px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    transform: rotate(-36.54deg);
-}
-.more{
-    border-radius: 5px;
-    width:150px;
-   margin-top: 340px;
-   margin-left: 650px;
-   padding: auto;
-    color: black;
-    background-color:saddlebrown;
-    font-size: 15px;
-    
-}
-.firstmap{
+.mapp .firstmap {
     position: absolute;
     width: 320px;
     height: 300px;
-    left: 890px;
-    top: 25px;
+    left: 920px;
+    top: 145px;
     background: url('./pictures/constructionmap_1.jpg');
     border: solid grey;
 
-border-radius: 10px;
+    border-radius: 10px;
 
 }
-.homepic p{
-position: absolute;
+
+.mapp p {
+    position: absolute;
     width: 350px;
     height: 41px;
-    left: 890px;
-    top: -60px;
+    left: 920px;
+    top: 60px;
     font-family: 'Qwigley';
     font-style: normal;
     font-weight: 400;
@@ -65,14 +25,12 @@ position: absolute;
     color: #000000;
 }
 
-
-
-.lake{
+.mapp .lake {
     position: absolute;
     width: 350px;
     height: 41px;
-    left: 890px;
-    top: 330px;
+    left: 920px;
+    top: 460px;
     font-family: 'Qwigley';
     font-style: normal;
     font-weight: 400;
@@ -80,22 +38,24 @@ position: absolute;
     line-height: 45px;
     color: #000000;
 }
-.firstbooking{
+
+.firstbooking {
     position: absolute;
-   background-color:lightgreen;
-   border: solid grey;
-   width:300px;
-   height:80px;
-   top:370px;
-   left:890px;
-   border-radius: 10px;
-   font-family: 'qwigley';
-   font-size: 30px;
-   padding-left: 20px;
-  
+    background-color: lightgreen;
+    border: solid grey;
+    width: 300px;
+    height: 80px;
+    top: 500px;
+    left: 920px;
+    border-radius: 10px;
+    font-family: 'qwigley';
+    font-size: 30px;
+    padding-left: 20px;
+
 
 
 }
-.firstbooking span{
-    color:lightgreen;
+
+.firstbooking span {
+    color: lightgreen;
 }

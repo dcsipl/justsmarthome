@@ -10,13 +10,13 @@ import Footer from './footer.js';
 import './footer.css';
 
 
-export default function FirstPage(){
-    return(
+export default function HomePage() {
+    return (
         <>
-        <Header/>
-        <FirstHalf/>
-        <SecondHalf/>
-        <Footer/>
+            <Header />
+            <FirstHalf />
+            <SecondHalf />
+            <Footer />
         </>
     )
 }

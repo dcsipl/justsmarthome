@@ -1,0 +1,45 @@
+.buttoncontainer {
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 870px;
+    top: 360px;
+    left: 22px;
+    font-size: 2em;
+    color: white;
+    
+
+}
+
+
+.morebutt {
+    position: absolute;
+    left: 700px;
+    top: 720px;
+    border-radius: 5px;
+    border: 1px solid gray;
+
+    background-color: saddlebrown;
+    color: black;
+
+    margin-top: -240px;
+
+}
+
+.ongoing {
+    position: absolute;
+
+    left: -10px;
+    top: 360px;
+    font-family: 'Qwigley';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 90px;
+    color: green;
+    mix-blend-mode: darken;
+    margin-top: -240px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    transform: rotate(-36.54deg);
+}
