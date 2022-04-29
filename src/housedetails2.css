@@ -1,0 +1,38 @@
+.hall2 {
+    width: 270px;
+    height: 170px;
+    top: 210px;
+    left: 950px;
+    background-image: url('./housedetailsimages/hall 2.jpg');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 270px 170px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.kitchen2 {
+    width: 270px;
+    height: 170px;
+    top: 390px;
+    left: 950px;
+    background-image: url('./housedetailsimages/kitchen 2.jpg');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 270px 170px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+
+.bathroom2 {
+    width: 270px;
+    height: 170px;
+    top: 570px;
+    left: 950px;
+    background-image: url('./housedetailsimages/bathroom 2.webp');
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 270px 170px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
