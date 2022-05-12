@@ -29,7 +29,7 @@ const Main = (
     <Router>
         <Routes>
             <Route exact path="" element={<HomePage />} />
-            <Route path="/b" element={<CommunityDetails />} />
+            <Route path="/b" element={<CommunityDetails />}/>
             <Route path="/c1" element={<HouseDetails1 />} />
             <Route path="/c2" element={<HouseDetails2 />} />
             <Route path="/c3" element={<HouseDetails3 />} />

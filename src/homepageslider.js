@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import houses from './homepagehouses.js';
-import "./homepageslider.css";
+
 import { AiOutlineLeftCircle, AiOutlineRightCircle } from "react-icons/ai";
 export default function HomePageImageSliser() {
     const [index, setIndex] = useState(0);
-    const { nam, image, text } = houses[index];
+    const { nam, image, text ,map, locname,booking1,booking2,description} = houses[index];
     var number;
     const checkNumber = (number) => {
         if (number > houses.lenth - 1) {
@@ -33,21 +33,30 @@ export default function HomePageImageSliser() {
     return (
         <>
             <div classname="imgcontainer">
-                <img style={{
+                <a href="#"><img style={{
                     position: "absolute", width: "870px", height: "460px", left: "20px", top: "130px", borderRadius: "20px",
                     border: "solid grey"
-                }} src={image} alt={nam} />
+                }} src={image} alt={nam} onClick={ClickEvent1} />
+                </a>
+                <p className="loc">Location:</p>
+                <img className="location"src={map}/>    
                 <div className="ongoing">on going</div>
+                <div className='lake'>{locname}</div>
+                <div className="firstbooking">
+                    {booking1}<br />
+                    <span>For Booking</span> {booking2}
 
-                <button onClick={ClickEvent1} className="morebutt">More Details...</button>
+                </div>
+                <button onClick={ClickEvent1} className="morebutt">MoreDetails...</button>
             </div>
 
 
 
             <div className="buttoncontainer">
-                <div onClick={Prev} className="prev"> <AiOutlineLeftCircle /> </div>
-                <div onClick={Next} className="next"> <AiOutlineRightCircle /> </div>
+                <a href="#"><div onClick={Prev} className="prev" style={{color:"white"}}> <AiOutlineLeftCircle /> </div></a>
+                <a href="#"><div onClick={Next} className="next" style={{color:"white"}}> <AiOutlineRightCircle /> </div></a>
             </div>
+            <div className="descrp">{description}</div>
         </>
     )
 }

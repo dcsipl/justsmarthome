@@ -5,6 +5,8 @@ import BasicTabs from './tab.js';
 import Footer from './footer.js';
 import './footer.css';
 import './tab.css';
+import Logo1 from './pictures/Logo.jpeg';
+import Validation from './validation.js';
 
 import Pic1 from "./pictures/availablehome-1.jpg";
 import Pic2 from "./pictures/availablehome-2.jpg";
@@ -12,12 +14,73 @@ import Pic3 from "./pictures/availablehome-3.jpg";
 import Pic4 from "./pictures/availablehome-4.jpg";
 import Pic5 from "./pictures/availablehome-5.jpg";
 
-import { useState } from 'react';
+import { useState,useRef } from 'react';
 
 
 
 
-function CommunityDetails() {
+ function CommunityDetails() {
+   function Header(props) {
+  
+    
+      const [values, setValues]=useState({
+          gmail:""
+      });
+      const [error ,setError]=useState({
+          
+      });
+   
+      
+      function PopUp(event){
+          event.preventDefault();
+          setError(Validation(values));
+        
+      };
+  
+      function HandleChange(event){
+          setValues({
+              ...values,
+              [event.target.name]:event.target.value,
+          });
+      }
+     
+      return (
+          <>
+              <div className="rectangle">
+                  <div className="rectangle1"></div>
+                  <div className="rectangle2"></div>
+                  <img src={Logo1} alt="s-logo" />
+                  <p>Just Smart Custom Homes</p>
+                  <a href="http://localhost:3000" className="home">Home</a>
+                  <a href="#" className="review" onClick={Down} >{props.second}</a>
+                  <a href="#" className="available" onClick={Down}>{props.third}</a>
+                  <a href="#" className="completed" onClick={Down}>{props.fourth}</a>
+                  <form className="form">
+                  <label className='subscribe'>Subscribe for NewsLetter</label>
+                  <label className='email'>Email</label>
+                  <input type="text"  className="box" name="gmail" placeholder="saranya@gmail.com"value={values.gmail} onChange={HandleChange}/>
+                  {
+                      error.gmail && <p className="error"style={{position:"absolute",color:"red",fontFamily:"qwigley",fontSize:"23px",left:"1030px",top:"50px"}}>{error.gmail}</p>
+                  }
+                  <button className="butt" onClick={PopUp}>ok</button>
+                  </form>
+                 
+  
+  
+              </div>
+          </>
+      )
+  }
+  
+      const ServicesRef = useRef(null);
+      
+      const Down = () =>
+        window.scrollTo({
+          top: ServicesRef.current.offsetTop,
+          behavior: "smooth", 
+         
+         
+        });
 
    function ClickEvent1() {
       window.open("http://localhost:3000/c1", "_self");
@@ -47,75 +110,76 @@ function CommunityDetails() {
       <img src={Pic1} alt="" className="usestate" />
       <div className="details">
          <p>Canyon Lakes : <li>House Name 1</li></p>
-         <button onClick={ClickEvent1}>More Details</button>
+         <a href="#"><button onClick={ClickEvent1}>More Details</button></a>
       </div>
    </div>
    )
    return (
       <>
          <p >{image}</p>
-         <Header />
+         <Header second="Features" third="Community Plan" fourth="Google Map"  />
+         
          <div className="community">
             <p>Community name : Canyon Lakes Houses</p>
          </div>
-         <div className="home1" onClick={() => setImage(<div className="rhsimage">
+         <a href="#"><div className="home1" onClick={() => setImage(<div className="rhsimage">
             <img src={Pic1} alt="" className="usestate" />
             <div className="details">
                <p>Canyon Lakes : <li>House Name 1</li></p>
                <button onClick={ClickEvent1}>More Details</button>
             </div>
-         </div>)}><li>House Name 1</li></div>
-         <div className="home2" onClick={() => setImage(<div className="rhsimage">
+         </div>)}><li>House Name 1</li></div></a>
+         <a href="#"><div className="home2" onClick={() => setImage(<div className="rhsimage">
             <img src={Pic2} alt="" className="usestate" />
             <div className="details">
                <p>Canyon Lakes : <li>House Name 2</li></p>
                <button onClick={ClickEvent2}>More Details</button>
             </div>
-         </div>)}><li>House Name 2</li></div>
-         <div className="home3" onClick={() => setImage(<div className="rhsimage">
+         </div>)}><li>House Name 2</li></div></a>
+         <a href="#"><div className="home3" onClick={() => setImage(<div className="rhsimage">
             <img src={Pic3} alt="" className="usestate" />
             <div className="details">
                <p>Canyon Lakes : <li>House Name 3</li></p>
                <button onClick={ClickEvent3}>More Details</button>
             </div>
-         </div>)}><li>House Name 3</li></div>
-         <div className="home4" onClick={() => setImage(<div className="rhsimage">
+         </div>)}><li>House Name 3</li></div></a>
+         <a href="#"><div className="home4" onClick={() => setImage(<div className="rhsimage">
             <img src={Pic4} alt="" className="usestate" />
             <div className="details">
                <p>Canyon Lakes : <li>House Name 4</li></p>
                <button onClick={ClickEvent4}>More Details</button>
             </div>
-         </div>)}><li>House Name 4</li></div>
-         <div className="home5" onClick={() => setImage(<div className="rhsimage">
+         </div>)}><li>House Name 4</li></div></a>
+         <a href="#"><div className="home5" onClick={() => setImage(<div className="rhsimage">
             <img src={Pic5} alt="" className="usestate" />
             <div className="details">
                <p>Canyon Lakes : <li>House Name 5</li></p>
                <button onClick={ClickEvent5}>More Details</button>
             </div>
-         </div>)}><li>House Name 5</li></div>
-         <div className="home6" onClick={() => setImage(<div className="rhsimage">
+         </div>)}><li>House Name 5</li></div></a>
+         <a href="#"><div className="home6" onClick={() => setImage(<div className="rhsimage">
             <img src={Pic1} alt="" className="usestate" />
             <div className="details">
                <p>Canyon Lakes : <li>House Name 6</li></p>
                <button onClick={ClickEvent6}>More Details</button>
             </div>
-         </div>)}><li>House Name 6</li></div>
-         <div className="home7" onClick={() => setImage(<div className="rhsimage">
+         </div>)}><li>House Name 6</li></div></a>
+         <a href="#"><div className="home7" onClick={() => setImage(<div className="rhsimage">
             <img src={Pic2} alt="" className="usestate" />
             <div className="details">
                <p>Canyon Lakes : <li>House Name 7</li></p>
                <button onClick={ClickEvent7}>More Details</button>
             </div>
-         </div>)}><li>House Name 7</li></div>
-         <div className="home8" onClick={() => setImage(<div className="rhsimage">
+         </div>)}><li>House Name 7</li></div></a>
+         <a href="#"><div className="home8" onClick={() => setImage(<div className="rhsimage">
             <img src={Pic3} alt="" className="usestate" />
             <div className="details">
                <p>Canyon Lakes : <li>House Name 8</li></p>
                <button onClick={ClickEvent8}>More Details</button>
             </div>
-         </div>)}><li>House Name 8</li></div>
+         </div>)}><li>House Name 8</li></div></a>
          <div className="arrow2"></div>
-         <div className="features">Features:</div>
+         <div className="features" ref={ServicesRef}>Features:</div>
          <ul className="points">
             <li>Smart Home Fixtures</li>
             <li>Superseal Insulation Package</li>
@@ -146,7 +210,7 @@ function CommunityDetails() {
          </div>
 
          <BasicTabs />
-         <div className="overview">
+         <div className="overview" >
             <p>Community Plan</p>
          </div>
          <div className="map">

@@ -9,11 +9,14 @@ import Kitchen from "./housedetailsimages/kitchen 1.jpg";
 import Bathroom from "./housedetailsimages/bathroom 1.webp";
 
 export default function HouseDetails6() {
-    const [image, setImage] = useState(<img src={Hall} alt="" className="usestate1" />)
+    const [image, setImage] = useState(<>
+        <img src={Hall} alt="" className="usestate1" />
+      
+        </>)
     return (
         <>
             <h1>{image}</h1>
-            <Header />
+            <Header second="Details" third="Plan-2BHK" fourth="Plan-3BHK"/>
             <div className="community">
                 <p>Community name : Canyon Lakes - Houses Name 6</p>
                 <h5>Kitchen - Size - 10 ft x 10 ft</h5>
@@ -23,9 +26,12 @@ export default function HouseDetails6() {
 
             </div>
 
-            <div className="hall1" onClick={() => setImage(<img src={Hall} alt="" className="setimage1" />)}></div>
-            <div className="kitchen1" onClick={() => setImage(<img src={Kitchen} alt="" className="setimage1" />)}></div>
-            <div className="bathroom1" onClick={() => setImage(<img src={Bathroom} alt="" className="setimage1" />)}></div>
+            <a href="#"><div className="hall1" onClick={() => setImage(<><img src={Hall} alt="" className="setimage1" />
+            <h5>Hall - Size - 10 ft x 10 ft</h5></>)}></div></a>
+            <a href="#"><div className="kitchen1" onClick={() => setImage(<><img src={Kitchen} alt="" className="setimage1" />
+            <h5>Kitchen - Size - 10 ft x 10 ft</h5></>)}></div></a>
+            <a href="#"><div className="bathroom1" onClick={() => setImage(<><img src={Bathroom} alt="" className="setimage1" />
+            <h5>Bathroom - Size - 10 ft x 10 ft</h5></>)}></div></a>
 
             <div className="booking">
                 For Booking Raj 405-361-6198<br />
