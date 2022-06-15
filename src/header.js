@@ -34,9 +34,9 @@ export default function Header(props) {
    
     return (
         <>
-            <div className="rectangle">
-                <div className="rectangle1"></div>
-                <div className="rectangle2"></div>
+            <div className="headermainbar">
+                <div className="headerbottombar1"></div>
+                <div className="headerbottombar2"></div>
                 <img src={Logo1} alt="s-logo" />
                 <p>Just Smart Custom Homes</p>
                 <a href="http://localhost:3000" className="home">Home</a>

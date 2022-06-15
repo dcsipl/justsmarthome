@@ -1,4 +1,4 @@
-.rectangle {
+.headermainbar {
 
   position: absolute;
 
@@ -16,7 +16,7 @@
 
 }
 
-.rectangle1 {
+.headerbottombar1 {
   position: absolute;
 
   width: 1250px;
@@ -32,7 +32,7 @@
 
 }
 
-.rectangle2 {
+.headerbottombar2 {
   position: absolute;  
 
   width: 1250px;
@@ -47,7 +47,7 @@
   ;
 }
 
-.rectangle img {
+.headermainbar img {
 
   position: absolute;
 
@@ -61,7 +61,7 @@
 
 }
 
-.rectangle p {
+.headermainbar p {
 
   font-family: 'Playfair Display';
 
@@ -72,7 +72,7 @@
 
 }
 
-.rectangle .home {
+.headermainbar .home {
 
   position: absolute;
 
@@ -100,7 +100,7 @@
 
 }
 
-.rectangle .review {
+.headermainbar .review {
 
   position: absolute;
 
@@ -127,7 +127,7 @@
   color: white;
 }
 
-.rectangle .available {
+.headermainbar .available {
 
   position: absolute;
 
@@ -154,7 +154,7 @@
   color: white;
 }
 
-.rectangle .completed {
+.headermainbar .completed {
 
   position: absolute;
 
@@ -181,7 +181,7 @@
   color: white;
 }
 
-.rectangle .email {
+.headermainbar .email {
 
   position: absolute;
 
@@ -206,7 +206,7 @@
   color: white;
 }
 
-.rectangle .box {
+.headermainbar .box {
 
   position: absolute;
 
@@ -226,7 +226,7 @@
   box-sizing: border-box;
 }
 
-.rectangle .subscribe {
+.headermainbar .subscribe {
 
   position: absolute;
 
@@ -251,7 +251,7 @@
   color: white;
 }
 
-.rectangle .butt {
+.headermainbar .butt {
 
   position: absolute;
 

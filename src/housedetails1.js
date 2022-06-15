@@ -9,7 +9,7 @@ import Validation from './validation.js';
 import Hall from "./housedetailsimages/hall 1.webp";
 import Kitchen from "./housedetailsimages/kitchen 1.jpg";
 import Bathroom from "./housedetailsimages/bathroom 1.webp";
-
+import community from './justsmarthome.json'
 export default function HouseDetails1() {
     function Header(props) {
   
@@ -37,21 +37,21 @@ export default function HouseDetails1() {
        
         return (
             <>
-                <div className="rectangle">
-                    <div className="rectangle1"></div>
-                    <div className="rectangle2"></div>
+                <div className="headermainbar">
+                    <div className="headerbottombar1"></div>
+                    <div className="headerbottombar2"></div>
                     <img src={Logo1} alt="s-logo" />
                     <p>Just Smart Custom Homes</p>
                     <a href="http://localhost:3000" className="home">Home</a>
-                    <a href="#" className="review" >{props.second}</a>
+                    <a href="#" className="review" onClick={Down} >{props.second}</a>
                     <a href="#" className="available" onClick={Down}>{props.third}</a>
                     <a href="#" className="completed" onClick={Down}>{props.fourth}</a>
                     <form className="form">
                     <label className='subscribe'>Subscribe for NewsLetter</label>
                     <label className='email'>Email</label>
-                    <input type="text"  className="box" name="gmail" placeholder="enter the email"value={values.gmail} onChange={HandleChange}/>
+                    <input type="text"  className="box" name="gmail" placeholder="Enter the email"value={values.gmail} onChange={HandleChange}/>
                     {
-                        error.gmail && <p className="error"style={{position:"absolute",color:"red",fontFamily:"qwigley",fontSize:"23px",left:"1030px",top:"50px"}}>{error.gmail}</p>
+                        error.gmail && <p className="error"style={{position:"absolute",width:"305px",color:"red",fontSize:"15px",left:"1020px",top:"50px"}}>{error.gmail}</p>
                     }
                     <button className="butt" onClick={PopUp}>ok</button>
                     </form>
@@ -59,8 +59,8 @@ export default function HouseDetails1() {
     
     
                 </div>
-                </>
-    )
+            </>
+        )
 }
 
 const ServicesRef = useRef(null);
@@ -73,12 +73,12 @@ const Down = () =>
    
   });
     const [image, setImage] = useState(<>
-    <img src={Hall} alt="" className="usestate1" />
-    <h5>Hall - Size - 10 ft x 10 ft</h5>
+    <img src={community.JustSmartCustomHomes[0].house[0].room[0].image} alt="" className="usestate1" />
+    <h5>{community.JustSmartCustomHomes[0].house[0].room[0].type} - {community.JustSmartCustomHomes[0].house[0].room[0].measurement.totalArea}</h5>
     </>)
     return (
         <>
-            <h1>{image}</h1>i
+            <h1>{image}</h1>
             <Header second="Details" third="Plan-2BHK" fourth="Plan-3BHK" />
             <div className="community">
                 <p>Community name : Canyon Lakes - Houses Name 1</p>

@@ -4,8 +4,8 @@ import Header from './header.js';
 import './header.css';
 import HomePageSlider from "./homepageslider";
 import "./homepageslider.css";
-import SecondHalf from './secondhalf.js';
-import './secondhalf.css';
+import SecondHalf from './aboutusreview.js';
+import './aboutusreview.css';
 import Footer from './footer.js';
 import './footer.css';
 

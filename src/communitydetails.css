@@ -16,7 +16,7 @@
     height: 200px;
     top: 230px;
     left: 30px;
-    background-image: url('./pictures/availablehome-1.jpg');
+
     position: absolute;
     background-repeat: no-repeat;
     background-size: 350px;
@@ -39,7 +39,7 @@
     height: 200px;
     top: 470px;
     left: 30px;
-    background-image: url('./pictures/availablehome-2.jpg');
+    
     position: absolute;
     background-repeat: no-repeat;
     background-size: 350px;
@@ -61,7 +61,7 @@
     height: 200px;
     top: 230px;
     left: 350px;
-    background-image: url('./pictures/availablehome-3.jpg');
+   
     position: absolute;
     background-repeat: no-repeat;
     background-size: 350px;
@@ -83,7 +83,7 @@
     height: 200px;
     top: 470px;
     left: 350px;
-    background-image: url('./pictures/availablehome-4.jpg');
+
     position: absolute;
     background-repeat: no-repeat;
     background-size: 350px;
@@ -106,7 +106,7 @@
     height: 200px;
     top: 710px;
     left: 30px;
-    background-image: url('./pictures/availablehome-5.jpg');
+  
     position: absolute;
     background-repeat: no-repeat;
     background-size: 350px;
@@ -129,7 +129,7 @@
     height: 200px;
     top: 950px;
     left: 30px;
-    background-image: url('./pictures/availablehome-1.jpg');
+  
     position: absolute;
     background-repeat: no-repeat;
     background-size: 350px;
@@ -152,7 +152,7 @@
     height: 200px;
     top: 710px;
     left: 350px;
-    background-image: url('./pictures/availablehome-2.jpg');
+
     position: absolute;
     background-repeat: no-repeat;
     background-size: 350px;
@@ -175,7 +175,7 @@
     height: 200px;
     top: 950px;
     left: 350px;
-    background-image: url('./pictures/availablehome-3.jpg');
+   
     position: absolute;
     background-repeat: no-repeat;
     background-size: 350px;
@@ -209,7 +209,7 @@
 
 .points {
     position: absolute;
-    width: 400px;
+    width: 233px;
     left: 50px;
     top: 1280px;
     font-family: 'calibri';
