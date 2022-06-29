@@ -1,17 +1,17 @@
 import React, { useState } from "react";
-import houses from './homepagehouses.js';
-import "./homepageslider.css";
+import community from './justsmarthome.json'
+
 import { AiOutlineLeftCircle, AiOutlineRightCircle } from "react-icons/ai";
-export default function HomePageImageSliser() {
+export default function HomePageImageSlider() {
     const [index, setIndex] = useState(0);
-    const { nam, image, text } = houses[index];
+    const { name, sliderImg,location, locname,booking1,booking2,mainDescr} = community.JustSmartCustomHomes[index];
     var number;
     const checkNumber = (number) => {
-        if (number > houses.lenth - 1) {
+        if (number > community.JustSmartCustomHomes.lenth - 1) {
             return 0;
         }
         if (number < 0) {
-            return houses.length - 1
+            return community.JustSmartCustomHomes.length - 1
         }
         return number;
     }
@@ -28,26 +28,55 @@ export default function HomePageImageSliser() {
         })
     }
     function ClickEvent1() {
-        window.open("http://localhost:3000/b", "_self");
+        window.open("http://localhost:3000/communitydetails", "_self");
     }
     return (
         <>
-            <div classname="imgcontainer">
-                <img style={{
-                    position: "absolute", width: "870px", height: "460px", left: "20px", top: "130px", borderRadius: "20px",
-                    border: "solid grey"
-                }} src={image} alt={nam} />
+        
+            <div className="imgcontainer">
+                <a href="#"><img style={{
+                    position: "absolute", 
+                    width: "870px", 
+                    height: "460px", 
+                    left: "20px", 
+                    top: "130px", 
+                    borderRadius: "20px"}}
+                    src={sliderImg} alt={name} onClick={ClickEvent1} />
+                </a>
+                <p className="loc">Location:</p>
+                <img className="location"src={location}/>    
                 <div className="ongoing">on going</div>
-
-                <button onClick={ClickEvent1} className="morebutt">More Details...</button>
+                <div className='lake'>{locname}</div>
+                <div className="firstbooking">
+                    {booking1}<br />
+                    <span>For Booking</span> {booking2}
+                </div>
+                <button onClick={ClickEvent1} className="morebutt">MoreDetails...</button>
             </div>
-
-
-
             <div className="buttoncontainer">
-                <div onClick={Prev} className="prev"> <AiOutlineLeftCircle /> </div>
-                <div onClick={Next} className="next"> <AiOutlineRightCircle /> </div>
+                <a href="#"><div onClick={Prev} className="prev" style={{color:"white"}}> <AiOutlineLeftCircle /> </div></a>
+                <a href="#"><div onClick={Next} className="next" style={{color:"white"}}> <AiOutlineRightCircle /> </div></a>
             </div>
+            <div className="descrp">{mainDescr}</div>
+           
         </>
     )
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

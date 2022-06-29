@@ -1,5 +1,5 @@
 import React from 'react';
-export default function Footer() {
+export default function Footer(props) {
     return (
         <><div className="footerTopBar"></div>
             <div className="footerRectangle">
@@ -9,9 +9,9 @@ export default function Footer() {
                     </p>
                 </div>
                 <a href="http://localhost:3000" className="footerHome">Home</a>
-                <a href="#" className="footerReview">Review</a>
-                <a href="#" className="footerAvailable">ReadilyAvailable</a>
-                <a href="#" className="footerCompleted">CompletedProj</a>
+                <a href="http://localhost:3000" className="footerReview">Review</a>
+                <a href="http://localhost:3000" className="footerAvailable">ReadilyAvailable</a>
+                <a href="http://localhost:3000" className="footerCompleted">CompletedProj</a>
                 <div className="smallRect">Our Business Associates:
                     <p>Filmore Designers Floor Gallery Lifestyle Lightings Richburgh Stones Sherwin WIlliams Trinity Bricks</p></div>
                 <div className="contact">

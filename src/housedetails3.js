@@ -9,23 +9,27 @@ import Kitchen3 from "./housedetailsimages/kitchen 3.jpg";
 import Bathroom3 from "./housedetailsimages/bathroom 3.jpg";
 
 export default function HouseDetails3() {
-    const [image, setImage] = useState(<img src={Hall3} alt="" className="usestate1" />)
+    const [image, setImage] = useState(<><img src={Hall3} alt="" className="usestate1" />
+    <h5>Hall - Size - 10 ft x 10 ft</h5></>)
     return (
         <>
             <h1>{image}</h1>
-            <Header />
+            <Header second="Details" third="Plan-2BHK" fourth="Plan-3BHK"/>
             <div className="community">
                 <p>Community name : Canyon Lakes - Houses Name 3</p>
-                <h5>Kitchen - Size - 10 ft x 10 ft</h5>
+             
             </div>
 
             <div className="kitchen">
 
             </div>
 
-            <div className="hall3" onClick={() => setImage(<img src={Hall3} alt="" className="setimage1" />)}></div>
-            <div className="kitchen3" onClick={() => setImage(<img src={Kitchen3} alt="" className="setimage1" />)}></div>
-            <div className="bathroom3" onClick={() => setImage(<img src={Bathroom3} alt="" className="setimage1" />)}></div>
+            <a href="#"><div className="hall3" onClick={() => setImage(<><img src={Hall3} alt="" className="setimage1" />
+            <h5>Hall - Size - 10 ft x 10 ft</h5></>)}></div></a>
+            <a href="#"><div className="kitchen3" onClick={() => setImage(<><img src={Kitchen3} alt="" className="setimage1" />
+            <h5>Kitchen - Size - 10 ft x 10 ft</h5></>)}></div></a>
+            <a href="#"><div className="bathroom3" onClick={() => setImage(<><img src={Bathroom3} alt="" className="setimage1" />
+            <h5>Bathroom - Size - 10 ft x 10 ft</h5></>)}></div></a>
 
             <div className="booking">
                 For Booking Raj 405-361-6198<br />
@@ -37,8 +41,8 @@ export default function HouseDetails3() {
                 <p> Houses Name 3 - Plan</p>
 
             </div>
-            <div className="twobhk-1"><h4 style={{ position: "absolute", top: "-50px", left: "200px" }}>2 BHK</h4></div>
-            <div className="threebhk-1"><h4 style={{ position: "absolute", top: "-60px", left: "200px" }}>3 BHK</h4></div>
+            <div className="twobhk-3"><h4 style={{ position: "absolute", top: "-50px", left: "200px" }}>2 BHK</h4></div>
+            <div className="threebhk-3"><h4 style={{ position: "absolute", top: "-60px", left: "200px" }}>3 BHK</h4></div>
             <Footer />
         </>
     )

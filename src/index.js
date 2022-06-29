@@ -20,6 +20,9 @@ import './housedetails2.css';
 import './housedetails3.css';
 import './housedetails4.css';
 import './housedetails5.css';
+import "./justsmarthome.json";
+let community=require("./justsmarthome.json");
+console.log(community);
 
 
 
@@ -29,15 +32,15 @@ const Main = (
     <Router>
         <Routes>
             <Route exact path="" element={<HomePage />} />
-            <Route path="/b" element={<CommunityDetails />} />
-            <Route path="/c1" element={<HouseDetails1 />} />
-            <Route path="/c2" element={<HouseDetails2 />} />
-            <Route path="/c3" element={<HouseDetails3 />} />
-            <Route path="/c4" element={<HouseDetails4 />} />
-            <Route path="/c5" element={<HouseDetails5 />} />
-            <Route path="/c6" element={<HouseDetails6 />} />
-            <Route path="/c7" element={<HouseDetails7 />} />
-            <Route path="/c8" element={<HouseDetails8 />} />
+            <Route path="/communitydetails" element={<CommunityDetails />}/>
+            <Route path="/house1details" element={<HouseDetails1 />} />
+            <Route path="/house2details" element={<HouseDetails2 />} />
+            <Route path="/house3details" element={<HouseDetails3 />} />
+            <Route path="/house4details" element={<HouseDetails4 />} />
+            <Route path="/house5details" element={<HouseDetails5 />} />
+            <Route path="/house6details" element={<HouseDetails6 />} />
+            <Route path="/house7details" element={<HouseDetails7 />} />
+            <Route path="/house8details" element={<HouseDetails8 />} />
         </Routes>
     </Router>
 )
@@ -46,4 +49,18 @@ const Main = (
 
 
 ReactDom.render(Main, document.getElementById('root'));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
