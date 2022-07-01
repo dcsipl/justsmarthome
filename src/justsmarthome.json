@@ -1,5 +1,6 @@
 {
     "JustSmartCustomHomes": [{
+      "cname":"Canyon Lakes",
       "name": "Deer Valley Estates-1",
       "type": "Community-1",
       "status": "OnGoing-1",
@@ -15,11 +16,305 @@
       "communityPlan": "./images/community overview-1.jpg",
       "googlemap":"./images/constructionmap_1.jpg",
       "sliderImg": "./images/construction_1.jpg",
-      
+      "aboutus":"At JustSmart Custom Homes (JSCH), we believe that meticulous supervision is the only manner in which to build a truly custom home.<br/>Creating exceptionally high-quality and distinctive custom homes is our passion. Unwavering commitment to you, our customer, is paramount. Our experienced team will work closely with you to ensure your vision is realized-and that the homebuilding experience is an enjoyable one. We are confident that you, like many of our other customers, will marvel at the level of service you will receive-even after moving into your new dream home.",
     "house": [{
+     
       "id": "identifier",
       "name": "house name 1",
       "image":"./images/availablehome-1.jpg",
+      "completed": "60%",
+      "expectedTimecompletion": "December,2022",
+      "sold": "Yes/No",
+      "measurement": {
+        "totalArea": "1200 sq.ft"
+      },
+      "room": [
+         {
+          "type": "hall",
+          "image": "./housedetailsimages/hall 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "kitchen",
+          "image": "./housedetailsimages/kitchen 1.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "bathroom",
+          "image": "./housedetailsimages/bathroom 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        }
+        ]
+    }, {
+      "id": "identifier",
+      "name": "house name two",
+      "image":"./images/availablehome-2.jpg",
+      "completed": "60%",
+      "expectedTimecompletion": "December,2022",
+      "sold": "Yes/No",
+      "measurement": {
+        "totalArea": "1200 sq.ft"
+      },
+      "room": [
+         {
+          "type": "hall",
+          "image": "./housedetailsimages/hall 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "kitchen",
+          "image": "./housedetailsimages/kitchen 1.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "bathroom",
+          "image": "./housedetailsimages/bathroom 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        }
+        ]
+    },
+    {
+      "id": "identifier",
+      "name": "house name three",
+      "image":"./images/availablehome-3.jpg",
+      "completed": "60%",
+      "expectedTimecompletion": "December,2022",
+      "sold": "Yes/No",
+      "measurement": {
+        "totalArea": "1200 sq.ft"
+      },
+      "room": [
+         {
+          "type": "hall",
+          "image": "./housedetailsimages/hall 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "kitchen",
+          "image": "./housedetailsimages/kitchen 1.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "bathroom",
+          "image": "./housedetailsimages/bathroom 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        }
+        ]
+    },
+    {
+      "id": "identifier",
+      "name": "house name four",
+      "image":"./images/availablehome-4.jpg",
+      "completed": "60%",
+      "expectedTimecompletion": "December,2022",
+      "sold": "Yes/No",
+      "measurement": {
+        "totalArea": "1200 sq.ft"
+      },
+      "room": [
+         {
+          "type": "hall",
+          "image": "./housedetailsimages/hall 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "kitchen",
+          "image": "./housedetailsimages/kitchen 1.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "bathroom",
+          "image": "./housedetailsimages/bathroom 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        }
+        ]
+    },
+    {
+      "id": "identifier",
+      "name": "house name five",
+      "image":"./images/availablehome-5.jpg",
+      "completed": "60%",
+      "expectedTimecompletion": "December,2022",
+      "sold": "Yes/No",
+      "measurement": {
+        "totalArea": "1200 sq.ft"
+      },
+      "room": [
+         {
+          "type": "hall",
+          "image": "./housedetailsimages/hall 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "kitchen",
+          "image": "./housedetailsimages/kitchen 1.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "bathroom",
+          "image": "./housedetailsimages/bathroom 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        }
+        ]
+    },{
+      "id": "identifier",
+      "name": "house name six",
+      "image":"./images/availablehome-1.jpg",
+      "completed": "60%",
+      "expectedTimecompletion": "December,2022",
+      "sold": "Yes/No",
+      "measurement": {
+        "totalArea": "1200 sq.ft"
+      },
+      "room": [
+         {
+          "type": "hall",
+          "image": "./housedetailsimages/hall 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "kitchen",
+          "image": "./housedetailsimages/kitchen 1.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "bathroom",
+          "image": "./housedetailsimages/bathroom 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        }
+        ]
+    },
+    {
+      "id": "identifier",
+      "name": "house name seven",
+      "image":"./images/availablehome-2.jpg",
+      "completed": "60%",
+      "expectedTimecompletion": "December,2022",
+      "sold": "Yes/No",
+      "measurement": {
+        "totalArea": "1200 sq.ft"
+      },
+      "room": [
+         {
+          "type": "hall",
+          "image": "./housedetailsimages/hall 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "kitchen",
+          "image": "./housedetailsimages/kitchen 1.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "bathroom",
+          "image": "./housedetailsimages/bathroom 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        }
+        ]
+    },
+    {
+      "id": "identifier",
+      "name": "house name eight",
+      "image":"./images/availablehome-3.jpg",
+      "completed": "60%",
+      "expectedTimecompletion": "December,2022",
+      "sold": "Yes/No",
+      "measurement": {
+        "totalArea": "1200 sq.ft"
+      },
+      "room": [
+         {
+          "type": "hall",
+          "image": "./housedetailsimages/hall 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "kitchen",
+          "image": "./housedetailsimages/kitchen 1.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "bathroom",
+          "image": "./housedetailsimages/bathroom 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        }
+        ]
+    },{
+      "id": "identifier",
+      "name": "house name nine",
+      "image":"./images/availablehome-5.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -72,8 +367,8 @@
       
     "house": [{
       "id": "identifier",
-      "name": "house name 2",
-      "image":"./images/availablehome-3.jpg",
+      "name": "house name one",
+      "image":"./images/availablehome-1.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -100,6 +395,227 @@
          {
           "type": "bathroom",
           "image": "./housedetailsimages/bathroom 2.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        }
+        ]
+    },{
+      "id": "identifier",
+      "name": "house name two",
+      "image":"./images/availablehome-2.jpg",
+      "completed": "60%",
+      "expectedTimecompletion": "December,2022",
+      "sold": "Yes/No",
+      "measurement": {
+        "totalArea": "1200 sq.ft"
+      },
+      "room": [
+         {
+          "type": "hall",
+          "image": "./housedetailsimages/hall 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "kitchen",
+          "image": "./housedetailsimages/kitchen 1.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "bathroom",
+          "image": "./housedetailsimages/bathroom 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        }
+        ]
+    },{
+      "id": "identifier",
+      "name": "house name three",
+      "image":"./images/availablehome-3.jpg",
+      "completed": "60%",
+      "expectedTimecompletion": "December,2022",
+      "sold": "Yes/No",
+      "measurement": {
+        "totalArea": "1200 sq.ft"
+      },
+      "room": [
+         {
+          "type": "hall",
+          "image": "./housedetailsimages/hall 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "kitchen",
+          "image": "./housedetailsimages/kitchen 1.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "bathroom",
+          "image": "./housedetailsimages/bathroom 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        }
+        ]
+    },
+    
+    {
+     
+      "id": "identifier",
+      "name": "house name four",
+      "image":"./images/availablehome-4.jpg",
+      "completed": "60%",
+      "expectedTimecompletion": "December,2022",
+      "sold": "Yes/No",
+      "measurement": {
+        "totalArea": "1200 sq.ft"
+      },
+      "room": [
+         {
+          "type": "hall",
+          "image": "./housedetailsimages/hall 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "kitchen",
+          "image": "./housedetailsimages/kitchen 1.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "bathroom",
+          "image": "./housedetailsimages/bathroom 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        }
+        ]
+    }, {
+      "id": "identifier",
+      "name": "house name five",
+      "image":"./images/availablehome-5.jpg",
+      "completed": "60%",
+      "expectedTimecompletion": "December,2022",
+      "sold": "Yes/No",
+      "measurement": {
+        "totalArea": "1200 sq.ft"
+      },
+      "room": [
+         {
+          "type": "hall",
+          "image": "./housedetailsimages/hall 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "kitchen",
+          "image": "./housedetailsimages/kitchen 1.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "bathroom",
+          "image": "./housedetailsimages/bathroom 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        }
+        ]
+    },
+    {
+      "id": "identifier",
+      "name": "house name six",
+      "image":"./images/availablehome-1.jpg",
+      "completed": "60%",
+      "expectedTimecompletion": "December,2022",
+      "sold": "Yes/No",
+      "measurement": {
+        "totalArea": "1200 sq.ft"
+      },
+      "room": [
+         {
+          "type": "hall",
+          "image": "./housedetailsimages/hall 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "kitchen",
+          "image": "./housedetailsimages/kitchen 1.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "bathroom",
+          "image": "./housedetailsimages/bathroom 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        }
+        ]
+    },
+    {
+      "id": "identifier",
+      "name": "house name seven",
+      "image":"./images/availablehome-2.jpg",
+      "completed": "60%",
+      "expectedTimecompletion": "December,2022",
+      "sold": "Yes/No",
+      "measurement": {
+        "totalArea": "1200 sq.ft"
+      },
+      "room": [
+         {
+          "type": "hall",
+          "image": "./housedetailsimages/hall 1.webp",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "kitchen",
+          "image": "./housedetailsimages/kitchen 1.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          },
+          "tiles": "type of tiles"
+        },
+         {
+          "type": "bathroom",
+          "image": "./housedetailsimages/bathroom 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },

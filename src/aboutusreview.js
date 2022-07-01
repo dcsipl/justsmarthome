@@ -2,9 +2,9 @@ import React from 'react';
 import HouseIcon from './pictures/houseicon.jpg';
 
 
-export default function SecondHalf() {
+export default function AboutusReview() {
     function ClickEvent1() {
-        window.open("http://localhost:3000/communitydetails", "_self");
+        window.open("http://localhost:3000/community1details", "_self");
     }
     return (
         <>

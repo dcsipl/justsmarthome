@@ -1,4 +1,4 @@
-.community p {
+/* .community p {
     position: absolute;
     width: 600px;
     top: 90px;
@@ -191,7 +191,7 @@
     top: 210px;
     left: 40px;
     color:black;
-}
+} */
 
 .features {
     position: absolute;
@@ -220,7 +220,7 @@
     color: #000000;
 }
 
-.setimage {
+/* .setimage {
     position: absolute;
     width: 540px;
     height: 250px;
@@ -239,7 +239,7 @@
     top: 150px;
     border-radius: 10px;
     border: 1px solid gray;
-}
+} 
 
 .details {
     position: absolute;
@@ -285,7 +285,7 @@
     border: 1px solid gray;
     border-radius: 5px;
 
-}
+}*/
 
 .description {
     position: absolute;
