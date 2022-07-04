@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import community from './justsmarthome.json'
-
 import { AiOutlineLeftCircle, AiOutlineRightCircle } from "react-icons/ai";
 export default function HomePageImageSlider() {
     const [index, setIndex] = useState(0);
@@ -28,12 +27,29 @@ export default function HomePageImageSlider() {
         })
     }
     function ClickEvent1() {
-        window.open("http://localhost:3000/communitydetails", "_self");
+        window.open("http://localhost:3000/community1details", "_self");
     }
+    function ClickEvent2() {
+        window.open("http://localhost:3000/community2details", "_self");
+    }
+    function ClickEvent3() {
+        window.open("http://localhost:3000/community3details", "_self");
+    }
+    function ClickEvent4() {
+        window.open("http://localhost:3000/community4details", "_self");
+    }
+    function ClickEvent5() {
+        window.open("http://localhost:3000/community5details", "_self");
+    }
+    
+    
+    const arr3=[ClickEvent1,ClickEvent2,ClickEvent3,ClickEvent4,ClickEvent5]
+    console.log(arr3)
+
     return (
-        <>
-        
+        <>        
             <div className="imgcontainer">
+                
                 <a href="#"><img style={{
                     position: "absolute", 
                     width: "870px", 
@@ -41,8 +57,10 @@ export default function HomePageImageSlider() {
                     left: "20px", 
                     top: "130px", 
                     borderRadius: "20px"}}
-                    src={sliderImg} alt={name} onClick={ClickEvent1} />
+                    src={sliderImg} alt={name} onClick={arr3[index]} />
+                    
                 </a>
+                
                 <p className="loc">Location:</p>
                 <img className="location"src={location}/>    
                 <div className="ongoing">on going</div>
@@ -51,7 +69,7 @@ export default function HomePageImageSlider() {
                     {booking1}<br />
                     <span>For Booking</span> {booking2}
                 </div>
-                <button onClick={ClickEvent1} className="morebutt">MoreDetails...</button>
+                <button onClick={arr3[index]} className="morebutt">MoreDetails...</button>
             </div>
             <div className="buttoncontainer">
                 <a href="#"><div onClick={Prev} className="prev" style={{color:"white"}}> <AiOutlineLeftCircle /> </div></a>

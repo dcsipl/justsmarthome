@@ -1,18 +1,12 @@
 import React from 'react';
 import Header from './header.js';
 import './header.css';
-import BasicTabs from './tab.js';
 import Footer from './footer.js';
 import './footer.css';
+import BasicTabs from './tab.js';
 import './tab.css';
 import Logo1 from './pictures/Logo.jpeg';
 import Validation from './validation.js';
-
-// import Pic1 from "./pictures/availablehome-1.jpg";
-// import Pic2 from "./pictures/availablehome-2.jpg";
-// import Pic3 from "./pictures/availablehome-3.jpg";
-// import Pic4 from "./pictures/availablehome-4.jpg";
-// import Pic5 from "./pictures/availablehome-5.jpg";
 import community from './justsmarthome.json'
 
 import { useState,useRef } from 'react';
@@ -20,7 +14,7 @@ import { useState,useRef } from 'react';
 
 
 
- function CommunityDetails() {
+ function CommunityDetails(props) {
    function Header(props) {
   
     
@@ -107,85 +101,95 @@ import { useState,useRef } from 'react';
    function ClickEvent8() {
       window.open("http://localhost:3000/house8details", "_self");
    }
-   const [image, setImage] = useState(<div className="rhsimage">
-      <img src={community.JustSmartCustomHomes[0].house[0].image} alt="" className="usestate" />
-      <div className="details">
-         <p>Canyon Lakes : <li>{community.JustSmartCustomHomes[0].house[0].name}</li></p>
-         <a href="#"><button onClick={ClickEvent1}>More Details</button></a>
-      </div>
-   </div>
-   )
-   return (
-      <>
-      
-         <p >{image}</p>
-         <Header second="Features" third="Community Plan" fourth="Google Map"  />
-         
-         <div className="community">
-            <p>Community name : Canyon Lakes Houses</p>
-         </div>
-         <a href="#"><div className="home1" style={{backgroundImage: `url(${community.JustSmartCustomHomes[0].house[0].image})`,}} onClick={() => setImage(<div className="rhsimage">
-            <img src={community.JustSmartCustomHomes[0].house[0].image} alt="" className="usestate" />
-            <div className="details">
-               <p>Canyon Lakes : <li>{community.JustSmartCustomHomes[0].house[0].name}</li></p>
-               <button onClick={ClickEvent1}>More Details</button>
-            </div>
-         </div>)}><li>{community.JustSmartCustomHomes[0].house[0].name}</li></div></a>
-         <a href="#"><div className="home2" style={{backgroundImage: `url(${community.JustSmartCustomHomes[1].house[0].image})`,}} onClick={() => setImage(<div className="rhsimage">
-            <img src={community.JustSmartCustomHomes[1].house[0].image} alt="" className="usestate" />
-            <div className="details">
-               <p>Canyon Lakes : <li>{community.JustSmartCustomHomes[1].house[0].name}</li></p>
-               <button onClick={ClickEvent2}>More Details</button>
-            </div>
-         </div>)}><li>{community.JustSmartCustomHomes[1].house[0].name}</li></div></a>
-         <a href="#"><div className="home3" style={{backgroundImage: `url(${community.JustSmartCustomHomes[2].house[0].image})`,}} onClick={() => setImage(<div className="rhsimage">
-            <img src={community.JustSmartCustomHomes[2].house[0].image} alt="" className="usestate" />
-            <div className="details">
-               <p>Canyon Lakes : <li>{community.JustSmartCustomHomes[2].house[0].name}</li></p>
-               <button onClick={ClickEvent3}>More Details</button>
-            </div>
-         </div>)}><li>{community.JustSmartCustomHomes[2].house[0].name}</li></div></a>
-         <a href="#"><div className="home4" style={{backgroundImage: `url(${community.JustSmartCustomHomes[3].house[0].image})`,}} onClick={() => setImage(<div className="rhsimage">
-            <img src={community.JustSmartCustomHomes[3].house[0].image} alt="" className="usestate" />
-            <div className="details">
-               <p>Canyon Lakes : <li>{community.JustSmartCustomHomes[3].house[0].name}</li></p>
-               <button onClick={ClickEvent4}>More Details</button>
-            </div>
-         </div>)}><li>{community.JustSmartCustomHomes[3].house[0].name}</li></div></a>
-         <a href="#"><div className="home5" style={{backgroundImage: `url(${community.JustSmartCustomHomes[4].house[0].image})`,}} onClick={() => setImage(<div className="rhsimage">
-            <img src={community.JustSmartCustomHomes[4].house[0].image} alt="" className="usestate" />
-            <div className="details">
-               <p>Canyon Lakes : <li>{community.JustSmartCustomHomes[4].house[0].name}</li></p>
-               <button onClick={ClickEvent5}>More Details</button>
-            </div>
-         </div>)}><li>{community.JustSmartCustomHomes[4].house[0].name}</li></div></a>
-         <a href="#"><div className="home6" style={{backgroundImage:`url(${community.JustSmartCustomHomes[0].house[0].image})`,}} onClick={() => setImage(<div className="rhsimage">
-            <img src={community.JustSmartCustomHomes[0].house[0].image} alt="" className="usestate" />
-            <div className="details">
-               <p>Canyon Lakes : <li>{community.JustSmartCustomHomes[0].house[0].name}</li></p>
-               <button onClick={ClickEvent6}>More Details</button>
-            </div>
-         </div>)}><li>{community.JustSmartCustomHomes[0].house[0].name}</li></div></a>
-         <a href="#"><div className="home7" style={{backgroundImage:`url(${community.JustSmartCustomHomes[1].house[0].image})`,}} onClick={() => setImage(<div className="rhsimage">
-            <img src={community.JustSmartCustomHomes[1].house[0].image} alt="" className="usestate" />
-            <div className="details">
-               <p>Canyon Lakes : <li>{community.JustSmartCustomHomes[1].house[0].name}</li></p>
-               <button onClick={ClickEvent7}>More Details</button>
-            </div>
-         </div>)}><li>{community.JustSmartCustomHomes[1].house[0].name}</li></div></a>
-         <a href="#"><div className="home8" style={{backgroundImage:`url(${community.JustSmartCustomHomes[2].house[0].image})`,}} onClick={() => setImage(<div className="rhsimage">
-            <img src={community.JustSmartCustomHomes[2].house[0].image} alt="" className="usestate" />
-            <div className="details">
-               <p>Canyon Lakes : <li>{community.JustSmartCustomHomes[2].house[0].name}</li></p>
-               <button onClick={ClickEvent8}>More Details</button>
-            </div>
-         </div>)}><li>{community.JustSmartCustomHomes[2].house[0].name}</li></div></a>
-         <div className="arrow2"></div>
-         <div className="features" ref={ServicesRef}>Features:</div>
-         <ul className="points">
-            {community.JustSmartCustomHomes[0].extraFeatures}</ul>
+   const arr3=[ClickEvent1,ClickEvent2,ClickEvent3,ClickEvent4,ClickEvent5]
+   const [image, setImage] = useState('');
+    
+   console.log(props)
+   const arr2=props.community.house.map((record1,i)=>
+      <div>
+         <p style={{position:"absolute",
+                    width:"500px",
+                    height:"20px",
+                    left:"680px",
+                    top:"80px",
+                    fontSize:"35px",
+                    fontFamily:"qwigley"}}>
+            {props.community.name}
+       </p>
+       <li style={{position:"absolute",
+                   width:"500px",
+                   height:"20px",
+                   left:"900px",
+                   top:"120px",
+                   fontSize:"20px"}}>
+           {record1.name}
+       </li>
+       <img  style={{position:"absolute",
+                     width:"540px",
+                     height:"250px",
+                     left:"660px",
+                     top:"150px",
+                     border:"1px solid gray",
+                     borderRadius:"10px"}}
+            src={record1.image} 
+            onClick={arr3[i]}/>
+       <button style={{position:"absolute",width:"100px",
+                        height:"20px",
+                        left:"1000px",
+                        top:"350px"}}
+               onClick={arr3[i]}>
+               more details
+      </button>
+</div>);
+function ClickEvent1() {
+   window.open("http://localhost:3000/house1details", "_self");
+}
 
-         <div className="description">Description:
+
+   return (
+       <>
+       <Header second="Features" third="Community Plan" fourth="Google Map"  />
+       <p style={{position:"absolute",
+                  width:"500px",
+                  height:"20px",
+                  left:"50px",
+                  top:"70px",
+                  fontSize:"40px",
+                  fontFamily:"qwigley"}}>
+          Community name : {props.community.name}
+       </p>
+       <div style={{width:"630px",
+                    height:"1000px",
+                    display: "grid",
+                    gap: "10px 50px",
+                    gridTemplateColumns: "auto auto ",
+                    paddingLeft:"10px",
+                    paddingTop:"110px",
+                    overflowX:"hidden",
+                    overflowY:"scroll",}}>
+            {props.community.house.map((record1,i)=>
+            <div >
+               <p style={{fontFamily: 'Playfair Display',
+                          fontSize: "20px",
+                          width:"250px",
+                          position:"relative",
+                          left:"50px",
+                          top:"15px"}}>
+                  {record1.name}
+               </p>
+               <img style={{width: "270px",
+                            height: "200px",
+                            border:"1px solid gray",
+                            borderRadius:"10px",
+                           }} 
+                   src={record1.image} 
+                   onClick={() => {setImage(arr2[i])}}
+               />
+            </div>)}
+            <p>{image}</p>
+       </div>
+   
+        <div className="description">Description:
             <li>Number of houses/rooms</li>
             <li>How many remaining, </li>
             <li>Time of completion, </li>
@@ -204,17 +208,18 @@ import { useState,useRef } from 'react';
          </div>
       
          <BasicTabs />
+         <div className="features" ref={ServicesRef}>Features:</div>
+         <ul className="points">
+            {community.JustSmartCustomHomes[0].extraFeatures}</ul>
          <div className="overview" style={{backgroundImage: `url(${community.JustSmartCustomHomes[0].communityPlan})`,}} >
             <p>Community Plan</p>
          </div>
          <div className="map" style={{backgroundImage: `url(${community.JustSmartCustomHomes[0].googlemap})`,}}>
             <p>Google Map</p>
          </div>
-
-
          <Footer />
-         
-      </>
-   )
+        </>
+    );
+
 }
 export default CommunityDetails;

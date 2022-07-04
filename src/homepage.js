@@ -4,7 +4,7 @@ import Header from './header.js';
 import './header.css';
 import HomePageSlider from "./homepageslider";
 import "./homepageslider.css";
-import SecondHalf from './aboutusreview.js';
+import AboutusReview from './aboutusreview.js';
 import './aboutusreview.css';
 import Footer from './footer.js';
 import './footer.css';
@@ -15,7 +15,7 @@ export default function HomePage() {
         <>
             <Header second="Reviews" third="Readily Available" fourth="Completed Proj" scroll="Down"/>
             <HomePageSlider />
-            <SecondHalf />
+            <AboutusReview />
             <Footer />
         </>
     )

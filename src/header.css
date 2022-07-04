@@ -71,6 +71,9 @@
   color: white;
 
 }
+.headermainbar a:hover{
+  color: yellow;
+}
 
 .headermainbar .home {
 
@@ -99,6 +102,8 @@
   color: white;
 
 }
+
+
 
 .headermainbar .review {
 
