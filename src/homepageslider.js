@@ -50,21 +50,22 @@ export default function HomePageImageSlider() {
         <>        
             <div className="imgcontainer">
                 
-                <a href="#"><img style={{
+               <img style={{
                     position: "absolute", 
                     width: "870px", 
                     height: "460px", 
                     left: "20px", 
                     top: "130px", 
-                    borderRadius: "20px"}}
+                    borderRadius: "20px",
+                    cursor:"pointer"}}
                     src={sliderImg} alt={name} onClick={arr3[index]} />
                     
-                </a>
+          
                 
-                <p className="loc">Location:</p>
-                <img className="location"src={location}/>    
+                <p className="maindes">Description:</p>
+                <div className="descrip">{mainDescr}</div>    
                 <div className="ongoing">on going</div>
-                <div className='lake'>{locname}</div>
+                <div className='lake'>{name}</div>
                 <div className="firstbooking">
                     {booking1}<br />
                     <span>For Booking</span> {booking2}
@@ -75,7 +76,7 @@ export default function HomePageImageSlider() {
                 <a href="#"><div onClick={Prev} className="prev" style={{color:"white"}}> <AiOutlineLeftCircle /> </div></a>
                 <a href="#"><div onClick={Next} className="next" style={{color:"white"}}> <AiOutlineRightCircle /> </div></a>
             </div>
-            <div className="descrp">{mainDescr}</div>
+           
            
         </>
     )

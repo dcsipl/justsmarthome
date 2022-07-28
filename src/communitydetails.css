@@ -290,15 +290,16 @@
 .description {
     position: absolute;
     font-family: 'Playfair Display';
-    font-size: 15px;
+    font-size: 17px;
     margin-top: 100px;
-    margin-left: 70px;
-    width: 250px;
+    margin-left: 50px;
+    width: 275px;
     top: 300px;
     left: 630px;
     line-height: 30px;
 
 }
+
 
 .secondbooking {
     position: absolute;
@@ -323,7 +324,7 @@
 
 .nearby {
     position: absolute;
-    width: 500px;
+    width: 600px;
     height: 80px;
     top: 550px;
     left: 900px;
@@ -339,8 +340,8 @@
 .nearby ul {
     position: absolute;
     top: 30px;
-    width: 400px;
-    left: -200px;
+    width: 500px;
+    left: -250px;
     display: flex;
     font-family: 'Playfair Display';
     font-size: 17px;
@@ -378,7 +379,9 @@
 
 
 }
-
+.scroll::-webkit-scrollbar{
+    display: none;
+}
 .overview p {
     position: absolute;
     color: black;
