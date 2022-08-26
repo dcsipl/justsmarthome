@@ -27,19 +27,19 @@ export default function HomePageImageSlider() {
         })
     }
     function ClickEvent1() {
-        window.open("http://localhost:3000/community1details", "_self");
+        window.open("http://localhost:3000/Community-1", "_self");
     }
     function ClickEvent2() {
-        window.open("http://localhost:3000/community2details", "_self");
+        window.open("http://localhost:3000/Community-2", "_self");
     }
     function ClickEvent3() {
-        window.open("http://localhost:3000/community3details", "_self");
+        window.open("http://localhost:3000/Community-3", "_self");
     }
     function ClickEvent4() {
-        window.open("http://localhost:3000/community4details", "_self");
+        window.open("http://localhost:3000/Community-4", "_self");
     }
     function ClickEvent5() {
-        window.open("http://localhost:3000/community5details", "_self");
+        window.open("http://localhost:3000/Community-5", "_self");
     }
     
     

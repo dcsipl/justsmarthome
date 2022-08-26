@@ -5,8 +5,8 @@
       "status": "OnGoing-1",
       "mainDescr": "Deer Valley Estates is conveniently located across Spring Creek Elementary School on N Rockwell Ave and North of 150th Street.  There are a limited number of lots and homes available.  Please contact us for more details.Corgeous brand new construction.   From the moment you walk in the door, you will feel at home.  Upgrades gallore everywhere you turn.  From the barrell  and Coffered Ceilings to the upgraded high quality flooring, these homes are noting buy class.   HDMI ports, CAT ports, Web enabled dimmers, USB chargers,  Web enabled springler modules, High efficiency HAVC unitis, Energy efficient insulation package,  Open kitchen, Box windows with window seats, Spacious master closets with dresser, shoe racks,  Whirlpool appliances and much more.",
       "locname":"Canyon Lakes - Ohlahoma1",
-      "booking1":"For Booking Raj1 405-361-6198",
-      "booking2":"Jay1 650-888-0015",
+      "booking1":"For Booking Raj 405-361-6198",
+      "booking2":"Jay 650-888-0015",
       "measurement": {
         "totalArea": "50000 sq.ft"
       },
@@ -39,7 +39,7 @@
         {"line3":"OK."}
       ],
       "businessAsso":[
-        {"name":"Filmore Designers","link":"https://fillmoredesign.com"},
+        {"name":"Fillmore Designers","link":"https://fillmoredesign.com"},
         {"name":"Floor Gallery","link":"https://www.mapquest.com/us/oklahoma/business-oklahoma-city/floor-gallery-345742938"},
         {"name":"Lifestyle Lightings","link":"http://www.lifestylesstores.com/"},
         {"name":"Richburgh Stones","link":"http://www.richburgstone.com/"},
@@ -394,8 +394,8 @@
         "status": "OnGoing-2",
         "mainDescr": "Canyon Lakes community is conveniently located in south east corner of Memorial and Council.  Canyon Lakes is a 120 acre community designed around the 18 acre spring fed lake.  It features lighted fountains, fishing pier, community pool, club house, playground, soccer field, park and walkng trail around the lake.  There are a limited number of lots and homes left.  Please contact us for more dettails.Corgeous brand new construction.   From the moment you walk in the door, you will feel at home.  Upgrades gallore everywhere you turn.  From the barrell  and Coffered Ceilings to the upgraded high quality flooring, these homes are noting buy class.   HDMI ports, CAT ports, Web enabled dimmers, USB chargers,  Web enabled springler modules, High efficiency HAVC unitis, Energy efficient insulation package,  Open kitchen, Box windows with window seats, Spacious master closets with dresser, shoe racks,  Whirlpool appliances and much more.",
         "locname":"Canyon Lakes - Ohlahoma2",
-        "booking1":"For Booking Raj2 405-361-6198",
-        "booking2":"Jay2 650-888-0015",
+        "booking1":"For Booking Raj 405-361-6198",
+        "booking2":"Jay 650-888-0015",
         "measurement": {
           "totalArea": "50000 sq.ft"
         },
@@ -407,13 +407,13 @@
         ],
         "nearby":[
           {"place1":"Police Station",
-           "km1":"2 km"},
+           "km1":"1 km"},
            {"place2":"Walmart super center",
-           "km2":"4 km"},
+           "km2":"2 km"},
            {"place3":"Hospital",
-           "km3":"1.3 km"},
+           "km3":"3 km"},
            {"place4":"School",
-           "km4":"2 km"}
+           "km4":"4 km"}
         ],
         "extraFeatures": "Smart Home Fixtures, uperseal Insulation Package, Extradinary Lightings, Upgraded Flooring, Whirlpool Applicances, Enormous Use Of Crowns, Barrel/Cofferred Ceilings, Sprinkler With Web Module, Insulated Garage Doors",
         "communityPlan": "./images/community overview-1.jpg",
@@ -614,8 +614,8 @@
       "mainDescr": "Deer-3",
       "location": "./images/constructionmap_1.jpg",
       "locname":"Canyon Lakes - Ohlahoma3",
-      "booking1":"For Booking Raj3 405-361-6198",
-      "booking2":"Jay3 650-888-0015",
+      "booking1":"For Booking Raj 405-361-6198",
+      "booking2":"Jay 650-888-0015",
       "measurement": {
         "totalArea": "50000 sq.ft"
       },
@@ -687,8 +687,8 @@
     "mainDescr": "Deer-4",
     "location": "./images/constructionmap_1.jpg",
     "locname":"Canyon Lakes - Ohlahoma4",
-    "booking1":"For Booking Raj4 405-361-6198",
-    "booking2":"Jay4 650-888-0015",
+    "booking1":"For Booking Raj 405-361-6198",
+    "booking2":"Jay 650-888-0015",
     "measurement": {
       "totalArea": "50000 sq.ft"
     },
@@ -759,8 +759,8 @@
   "mainDescr": "Deer-5",
   "location": "./images/constructionmap_1.jpg",
   "locname":"Canyon Lakes - Ohlahoma5",
-  "booking1":"For Booking Raj5 405-361-6198",
-  "booking2":"Jay5 650-888-0015",
+  "booking1":"For Booking Raj 405-361-6198",
+  "booking2":"Jay 650-888-0015",
   "measurement": {
     "totalArea": "50000 sq.ft"
   },

@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDom from 'react-dom';
 import Header from './header.js';
 import './header.css';
 import HomePageSlider from "./homepageslider";

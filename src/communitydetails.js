@@ -105,7 +105,7 @@ import { useState,useRef } from 'react';
    const [image, setImage] = useState('');
     
    console.log(props)
-   const arr2=props.community.house.map((record1,i)=>
+   const arr2=props.url[0].house.map((record1,i)=>
       <div>
          <p style={{position:"absolute",
                     width:"500px",
@@ -115,7 +115,7 @@ import { useState,useRef } from 'react';
                     fontSize:"35px",
                     fontFamily:"qwigley",
                     }}>
-            {props.community.name}
+            {props.url[0].name}
        </p>
        <li style={{position:"absolute",
                    width:"500px",
@@ -157,7 +157,7 @@ import { useState,useRef } from 'react';
                   top:"70px",
                   fontSize:"40px",
                   fontFamily:"qwigley"}}>
-          Community name : {props.community.name}
+          Community name : {props.url[0].name}
        </p>
        <h1 style={{color:"white"}}>jdfffffffffffffffffffffffffffffffk<br/>
        hjbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbvhbsjv<br/>
@@ -174,7 +174,7 @@ import { useState,useRef } from 'react';
                     marginTop:"-20px",
                    overflowY:"auto",
                    overflowX:"hidden"}}>
-            {props.community.house.map((record1,i)=>
+            {props.url[0].house.map((record1,i)=>
             <div >
                <p style={{fontFamily: 'Playfair Display',
                           fontSize: "20px",
@@ -196,7 +196,7 @@ import { useState,useRef } from 'react';
             </div>)}
             <p>{image}</p>
        </div>
-       {props.community.description.map((record,i)=>
+       {props.url[0].description.map((record,i)=>
         <div className="description"><span style={{fontSize:"30px",fontFamily:"qwigley"}}>Description:</span><br/>
             <li>{record.one}</li>
             <li>{record.two}</li>
@@ -204,10 +204,10 @@ import { useState,useRef } from 'react';
             <li>{record.four}</li></div>)}
 
          <div className="secondbooking">
-            {props.community.booking1}<br />
-            <span>For Booking</span> {props.community.booking2}
+            {props.url[0].booking1}<br />
+            <span>For Booking</span> {props.url[0].booking2}
          </div>
-         {props.community.nearby.map((near,i)=>
+         {props.url[0].nearby.map((near,i)=>
          <div className="nearby">Near by
             <ul >
                <li>{near.place1}<br />{near.km1}</li>
@@ -221,11 +221,11 @@ import { useState,useRef } from 'react';
          <BasicTabs />
          <div className="features" ref={ServicesRef}>Features:</div>
          <ul className="points">
-            {props.community.extraFeatures}</ul>
-         <div className="overview" style={{backgroundImage: `url(${props.community.communityPlan})`,}} >
+            {props.url[0].extraFeatures}</ul>
+         <div className="overview" style={{backgroundImage: `url(${props.url[0].communityPlan})`,}} >
             <p>Community Plan</p>
          </div>
-         <div className="map" style={{backgroundImage: `url(${ props.community.googlemap})`,}}>
+         <div className="map" style={{backgroundImage: `url(${ props.url[0].googlemap})`,}}>
             <p>Google Map</p>
          </div>
          <Footer />

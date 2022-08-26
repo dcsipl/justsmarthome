@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import { BrowserRouter as Router, Routes, Route, Link, NavLink } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route,} from "react-router-dom";
 
 import HomePage from './homepage.js';
 import CommunityDetails from './communitydetails.js';
@@ -12,11 +12,7 @@ import HouseDetails5 from './housedetails5.js';
 import HouseDetails6 from './housedetails6.js';
 import HouseDetails7 from './housedetails7.js';
 import HouseDetails8 from './housedetails8.js';
-import Community1 from './community1.js';
-import Community2 from './community2.js';
-import Community3 from './community3.js';
-import Community4 from './community4.js';
-import Community5 from './community5.js';
+
 
 import './communitydetails.css';
 import './housedetails1.css';
@@ -24,23 +20,29 @@ import './housedetails2.css';
 import './housedetails3.css';
 import './housedetails4.css';
 import './housedetails5.css';
-import "./justsmarthome.json";
-let community=require("./justsmarthome.json");
+import community from "./justsmarthome.json";
+
 console.log(community);
 
 
 
 
-const Main = (
-
+function Main(){
+    let filename = window.location.href.split('/').pop();
+    console.log(filename)
+              const urls = community.JustSmartCustomHomes.filter(data=>data.type === filename);
+              console.log(urls)
+              let keys = Object.keys(urls);
+              console.log(keys)
+return(
     <Router>
         <Routes>
             <Route exact path="" element={<HomePage />} />
-            <Route path="/community1details" element={<Community1/>}/>
-            <Route path="/community2details" element={<Community2/>}/>
-            <Route path="/community3details" element={<Community3/>}/>
-            <Route path="/community4details" element={<Community4/>}/>
-            <Route path="/community5details" element={<Community5/>}/>
+            <Route path="/Community-1" element={<CommunityDetails url={urls}/>}/>
+            <Route path="/Community-2" element={<CommunityDetails url={urls}/>}/>
+            <Route path="/Community-3" element={<CommunityDetails url={urls}/>}/>
+            <Route path="/Community-4" element={<CommunityDetails url={urls}/>}/>
+            <Route path="/Community-5" element={<CommunityDetails url={urls}/>}/>
             <Route path="/house1details" element={<HouseDetails1 />} />
             <Route path="/house2details" element={<HouseDetails2 />} />
             <Route path="/house3details" element={<HouseDetails3 />} />
@@ -54,9 +56,9 @@ const Main = (
 )
 
 
+}
 
-
-ReactDom.render(Main, document.getElementById('root'));
+ReactDom.render(<Main/>, document.getElementById('root'));
 
 
 

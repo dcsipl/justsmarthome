@@ -198,7 +198,7 @@
     width: 250px;
     height: 44px;
     left: 30px;
-    top: 1230px;
+    top: 1330px;
     font-family: 'Qwigley';
     font-style: normal;
     font-weight: 400;
@@ -211,7 +211,7 @@
     position: absolute;
     width: 233px;
     left: 50px;
-    top: 1280px;
+    top: 1370px;
     font-family: 'calibri';
     font-style: normal;
     font-weight: 400;
@@ -354,7 +354,7 @@
     position: absolute;
     width: 400px;
     height: 330px;
-    top: 1290px;
+    top: 1390px;
     left: 380px;
     background-image: url('./pictures/community overview-1.jpg');
     background-size: 400px 330px;
@@ -370,7 +370,7 @@
     width: 400px;
     height: 330px;
     left: 850px;
-    top: 1290px;
+    top: 1390px;
     background: url('./pictures/constructionmap_1.jpg');
     border: 1px solid gray;
     border-radius: 10px;

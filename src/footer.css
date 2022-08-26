@@ -138,8 +138,13 @@
     font-size: 18px;
 }
 .smallRect ul li a{
-   text-decoration: none;
+   
    color: black;
+}
+.smallRect ul li a:hover{
+   
+   color:cornflowerblue
+
 }
 
 .contact {

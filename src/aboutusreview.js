@@ -4,19 +4,19 @@ import HouseIcon from './pictures/houseicon.jpg';
 import community from "./justsmarthome.json";
 export default function AboutusReview() {
     function ClickEvent1() {
-        window.open("http://localhost:3000/community1details", "_self");
+        window.open("http://localhost:3000/Community-1", "_self");
     }
     function ClickEvent2() {
-        window.open("http://localhost:3000/community2details", "_self");
+        window.open("http://localhost:3000/Community-2", "_self");
     }
     function ClickEvent3() {
-        window.open("http://localhost:3000/community3details", "_self");
+        window.open("http://localhost:3000/Community-3", "_self");
     }
     function ClickEvent4() {
-        window.open("http://localhost:3000/community4details", "_self");
+        window.open("http://localhost:3000/Community-4", "_self");
     }
     function ClickEvent5() {
-        window.open("http://localhost:3000/community5details", "_self");
+        window.open("http://localhost:3000/Community-5", "_self");
     }
     
     
@@ -87,7 +87,7 @@ export default function AboutusReview() {
                 <img style={{position:"relative",cursor:"pointer",borderRadius:"10px", width: "350px",height: "200px",top:"700px",left:"10px",margin:"-60px"}} src={record.availableImg} onClick={arr3[i]}/>
                 <h1 style={{width: "190px", backgroundColor: "gray", color: "white", position: "relative", fontSize: "20px",margin:"-80px",borderRadius:"5px",padding:"5px",top:"795px",left:"120px"}}>{record.name}</h1>
                 <div className="rect"><p>{record.aboutus}</p></div> 
-                 <img style={{position:"relative",cursor:"pointer",borderRadius:"10px", width: "350px",height: "200px",top:"640px",left:"780px",margin:"40px"}} src={record.completedImg} onClick={arr3[i]}/>
+                 <img style={{position:"relative",cursor:"pointer",borderRadius:"10px", width: "350px",height: "200px",top:"640px",left:"805px",margin:"40px"}} src={record.completedImg} onClick={arr3[i]}/>
                  <h1 style={{width: "190px", backgroundColor: "gray", color: "white", position: "relative", fontSize: "20px",margin:"-80px",borderRadius:"5px",padding:"5px",top:"635px",left:"1000px"}}>{record.name}</h1>
                 
                 </div>
