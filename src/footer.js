@@ -1,29 +1,44 @@
 import React from 'react';
+import community from './justsmarthome.json'
 export default function Footer(props) {
     return (
         <><div className="footerTopBar"></div>
             <div className="footerRectangle">
-                <div className="address">Address:
-                    <p>
-                        JustSmart Custom Homes,<br /> Edmond,<br /> OK.
-                    </p>
-                </div>
+            {community.JustSmartCustomHomes[0].address.map((add)=>
+            <div className="address">Address:
+            <p>
+               {add.line1}<br/> {add.line2}<br/> {add.line3}
+            </p>
+        </div>
+            )}
+                
                 <a href="http://localhost:3000" className="footerHome">Home</a>
                 <a href="http://localhost:3000" className="footerReview">Review</a>
                 <a href="http://localhost:3000" className="footerAvailable">ReadilyAvailable</a>
                 <a href="http://localhost:3000" className="footerCompleted">CompletedProj</a>
-                <div className="smallRect">Our Business Associates:
-                    <p>Filmore Designers Floor Gallery Lifestyle Lightings Richburgh Stones Sherwin WIlliams Trinity Bricks</p></div>
+                
+                <div className="smallRect">OurBusinessAssociates:
+                {community.JustSmartCustomHomes[0].businessAsso.map((associate)=>
+                <ul>
+                    
+                    <li><a href={associate.link}>{associate.name}</a></li>
+                  
+                </ul>)}
+
+                </div>
+                {community.JustSmartCustomHomes[0].contactus.map((contact)=>
+                <div>
                 <div className="contact">
                     Contact Us:
-                    <p>Email: <br />raju@justsmartcustomhomes.com <br />Jay@Justsmartcustomhomes.com</p>
+                    <p>Email: <br />{contact.email1} <br />{contact.email2}</p>
                 </div>
                 <div className="phone">
                     Phone:
-                    <p>405-361-6198<br />650-888-0015</p></div>
+                    <p>{contact.phone1}<br />{contact.phone2}</p></div>
+                </div>)}
             </div>
             <div className="footerBottomBar">
-                Copyright © 2022 JustSmartCustom Homes. All Rights Reserved.
+               {community.JustSmartCustomHomes[0].copyRight}
             </div>
         </>
     )

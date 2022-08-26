@@ -104,7 +104,7 @@
 }
 
 .smallRect {
-    position: absolute;
+    position: relative;
     width: 680px;
     height: 90px;
     background-color: #C4C4C4;
@@ -114,22 +114,32 @@
     font-family: 'Qwigley';
     font-style: normal;
     font-weight: 400;
-    font-size: 33px
+    font-size: 33px;
+    display: flex;
+    flex-direction: row;
 }
 
-.smallRect p {
-    position: absolute;
-    width: 570px;
-    height: 114px;
-    left: 60px;
-    top: 25px;
-    font-family: 'PT Serif Caption';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
+.smallRect ul {
+   
+    list-style: none;
     color: black;
 
+}
+.smallRect ul li{
+    position: relative;
+    top: -70px;
+    left: 5px;
+    width:50px;
+    margin:-10px;
+    padding-top:90px;
+    padding-left:30px;
+    left:-150px;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+}
+.smallRect ul li a{
+   text-decoration: none;
+   color: black;
 }
 
 .contact {

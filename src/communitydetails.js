@@ -113,7 +113,8 @@ import { useState,useRef } from 'react';
                     left:"680px",
                     top:"80px",
                     fontSize:"35px",
-                    fontFamily:"qwigley"}}>
+                    fontFamily:"qwigley",
+                    }}>
             {props.community.name}
        </p>
        <li style={{position:"absolute",
@@ -127,23 +128,23 @@ import { useState,useRef } from 'react';
        <img  style={{position:"absolute",
                      width:"540px",
                      height:"250px",
-                     left:"660px",
+                     left:"680px",
                      top:"150px",
                      border:"1px solid gray",
-                     borderRadius:"10px"}}
+                     borderRadius:"10px",
+                     cursor:"pointer"
+                     }}
             src={record1.image} 
             onClick={arr3[i]}/>
        <button style={{position:"absolute",width:"100px",
                         height:"20px",
                         left:"1000px",
-                        top:"350px"}}
+                        top:"350px",
+                        cursor:"pointer"}}
                onClick={arr3[i]}>
                more details
       </button>
 </div>);
-function ClickEvent1() {
-   window.open("http://localhost:3000/house1details", "_self");
-}
 
 
    return (
@@ -158,15 +159,21 @@ function ClickEvent1() {
                   fontFamily:"qwigley"}}>
           Community name : {props.community.name}
        </p>
+       <h1 style={{color:"white"}}>jdfffffffffffffffffffffffffffffffk<br/>
+       hjbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbvhbsjv<br/>
+       hjbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbvhbsjv<br/>
+       hjbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbvhbsjv<br/>
+       hjbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbvhbsjv<br/></h1>
        <div style={{width:"630px",
                     height:"1000px",
                     display: "grid",
                     gap: "10px 50px",
                     gridTemplateColumns: "auto auto ",
                     paddingLeft:"10px",
-                    paddingTop:"110px",
-                    overflowX:"hidden",
-                    overflowY:"scroll",}}>
+                    
+                    marginTop:"-20px",
+                   overflowY:"auto",
+                   overflowX:"hidden"}}>
             {props.community.house.map((record1,i)=>
             <div >
                <p style={{fontFamily: 'Playfair Display',
@@ -181,6 +188,7 @@ function ClickEvent1() {
                             height: "200px",
                             border:"1px solid gray",
                             borderRadius:"10px",
+                            cursor:"pointer"
                            }} 
                    src={record1.image} 
                    onClick={() => {setImage(arr2[i])}}
@@ -188,33 +196,36 @@ function ClickEvent1() {
             </div>)}
             <p>{image}</p>
        </div>
-   
-        <div className="description">Description:
-            <li>Number of houses/rooms</li>
-            <li>How many remaining, </li>
-            <li>Time of completion, </li>
-            <li>How much % is completed and etc.,</li></div>
+       {props.community.description.map((record,i)=>
+        <div className="description"><span style={{fontSize:"30px",fontFamily:"qwigley"}}>Description:</span><br/>
+            <li>{record.one}</li>
+            <li>{record.two}</li>
+            <li>{record.three}</li>
+            <li>{record.four}</li></div>)}
 
          <div className="secondbooking">
-            For Booking Raj 405-361-6198<br />
-            <span>For Booking</span> Jay 650-888-0015
+            {props.community.booking1}<br />
+            <span>For Booking</span> {props.community.booking2}
          </div>
+         {props.community.nearby.map((near,i)=>
          <div className="nearby">Near by
-            <ul ><li>Police Station<br />2 Km</li>
-               <li>Walmart Super Center<br />4 km</li>
-               <li>Hospital<br />2 Km</li>
-               <li>School<br /> 1.3 Km</li>
+            <ul >
+               <li>{near.place1}<br />{near.km1}</li>
+               <li>{near.place2}<br />{near.km2}</li>
+               <li>{near.place3}<br />{near.km3}</li>
+               <li>{near.place4}<br />{near.km4}</li>
+              
             </ul>
-         </div>
+         </div>)}
       
          <BasicTabs />
          <div className="features" ref={ServicesRef}>Features:</div>
          <ul className="points">
-            {community.JustSmartCustomHomes[0].extraFeatures}</ul>
-         <div className="overview" style={{backgroundImage: `url(${community.JustSmartCustomHomes[0].communityPlan})`,}} >
+            {props.community.extraFeatures}</ul>
+         <div className="overview" style={{backgroundImage: `url(${props.community.communityPlan})`,}} >
             <p>Community Plan</p>
          </div>
-         <div className="map" style={{backgroundImage: `url(${community.JustSmartCustomHomes[0].googlemap})`,}}>
+         <div className="map" style={{backgroundImage: `url(${ props.community.googlemap})`,}}>
             <p>Google Map</p>
          </div>
          <Footer />

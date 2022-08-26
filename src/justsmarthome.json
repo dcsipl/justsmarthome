@@ -1,26 +1,60 @@
 {
     "JustSmartCustomHomes": [{
-      "cname":"Canyon Lakes",
-      "name": "Deer Valley Estates-1",
+      "name": "Deer Valley Estates",
       "type": "Community-1",
       "status": "OnGoing-1",
-      "mainDescr": "Deer-1",
-      "location": "./images/constructionmap_1.jpg",
+      "mainDescr": "Deer Valley Estates is conveniently located across Spring Creek Elementary School on N Rockwell Ave and North of 150th Street.  There are a limited number of lots and homes available.  Please contact us for more details.Corgeous brand new construction.   From the moment you walk in the door, you will feel at home.  Upgrades gallore everywhere you turn.  From the barrell  and Coffered Ceilings to the upgraded high quality flooring, these homes are noting buy class.   HDMI ports, CAT ports, Web enabled dimmers, USB chargers,  Web enabled springler modules, High efficiency HAVC unitis, Energy efficient insulation package,  Open kitchen, Box windows with window seats, Spacious master closets with dresser, shoe racks,  Whirlpool appliances and much more.",
       "locname":"Canyon Lakes - Ohlahoma1",
       "booking1":"For Booking Raj1 405-361-6198",
-        "booking2":"Jay1 650-888-0015",
+      "booking2":"Jay1 650-888-0015",
       "measurement": {
         "totalArea": "50000 sq.ft"
       },
+      "description":[
+        {"one":"Number of houses/rooms,"},
+        {"two":"How many remaining ,"},
+        {"three":"Time of completion , "},
+        {"four":"How much % is completed and etc.,"}
+      ],
+      "nearby":[
+         {"place1":"Police Station",
+         "km1":"2 km"},
+         {"place2":"Walmart super center",
+         "km2":"4 km"},
+         {"place3":"Hospital",
+         "km3":"1.3 km"},
+         {"place4":"School",
+         "km4":"2 km"}
+      ],
       "extraFeatures": "Smart Home Fixtures, uperseal Insulation Package, Extradinary Lightings, Upgraded Flooring, Whirlpool Applicances, Enormous Use Of Crowns, Barrel/Cofferred Ceilings, Sprinkler With Web Module, Insulated Garage Doors",
       "communityPlan": "./images/community overview-1.jpg",
       "googlemap":"./images/constructionmap_1.jpg",
       "sliderImg": "./images/construction_1.jpg",
+      "availableImg": "./images/construction_1.jpg",
+      "completedImg": "./images/availablehome-1.jpg",
       "aboutus":"At JustSmart Custom Homes (JSCH), we believe that meticulous supervision is the only manner in which to build a truly custom home.<br/>Creating exceptionally high-quality and distinctive custom homes is our passion. Unwavering commitment to you, our customer, is paramount. Our experienced team will work closely with you to ensure your vision is realized-and that the homebuilding experience is an enjoyable one. We are confident that you, like many of our other customers, will marvel at the level of service you will receive-even after moving into your new dream home.",
-    "house": [{
+      "address":[
+        {"line1":"JustSmart Custom Homes"},
+        {"line2":"Edmond,"},
+        {"line3":"OK."}
+      ],
+      "businessAsso":[
+        {"name":"Filmore Designers","link":"https://fillmoredesign.com"},
+        {"name":"Floor Gallery","link":"https://www.mapquest.com/us/oklahoma/business-oklahoma-city/floor-gallery-345742938"},
+        {"name":"Lifestyle Lightings","link":"http://www.lifestylesstores.com/"},
+        {"name":"Richburgh Stones","link":"http://www.richburgstone.com/"},
+        {"name":"Sherwin WIlliams","link":"https://www.sherwin-williams.com/store-locator/paint-store/oklahoma-city/ok/7201?utm_source=google&amp;utm_medium=local_listing&amp;utm_campaign=tag_local_listing"},
+        {"name":"Trinity Bricks","link":"http://www.trinitybrick.com/"}
+      ],
+      "contactus":[
+        {"email1":"raju@justsmartcustomhomes.com","phone1":"405-361-6198"},
+        {"email2":"jay@justsmartcustomhomes.com","phone2":"650-888-0015"}
+      ],
+      "copyRight":" Copyright © 2022 JustSmartCustom Homes. All Rights Reserved.",
+      "house": [{
      
       "id": "identifier",
-      "name": "house name 1",
+      "name": "House name 1",
       "image":"./images/availablehome-1.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
@@ -28,6 +62,7 @@
       "measurement": {
         "totalArea": "1200 sq.ft"
       },
+     
       "room": [
          {
           "type": "hall",
@@ -53,10 +88,11 @@
           },
           "tiles": "type of tiles"
         }
+      
         ]
     }, {
       "id": "identifier",
-      "name": "house name two",
+      "name": "House name two",
       "image":"./images/availablehome-2.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
@@ -64,6 +100,8 @@
       "measurement": {
         "totalArea": "1200 sq.ft"
       },
+      "twobhk":"./images/availablehome-2.jpg",
+      "threebhk":"./images/availablehome-2.jpg",
       "room": [
          {
           "type": "hall",
@@ -89,11 +127,12 @@
           },
           "tiles": "type of tiles"
         }
+        
         ]
     },
     {
       "id": "identifier",
-      "name": "house name three",
+      "name": "House name three",
       "image":"./images/availablehome-3.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
@@ -130,7 +169,7 @@
     },
     {
       "id": "identifier",
-      "name": "house name four",
+      "name": "House name four",
       "image":"./images/availablehome-4.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
@@ -167,7 +206,7 @@
     },
     {
       "id": "identifier",
-      "name": "house name five",
+      "name": "House name five",
       "image":"./images/availablehome-5.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
@@ -203,7 +242,7 @@
         ]
     },{
       "id": "identifier",
-      "name": "house name six",
+      "name": "House name six",
       "image":"./images/availablehome-1.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
@@ -240,7 +279,7 @@
     },
     {
       "id": "identifier",
-      "name": "house name seven",
+      "name": "House name seven",
       "image":"./images/availablehome-2.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
@@ -277,7 +316,7 @@
     },
     {
       "id": "identifier",
-      "name": "house name eight",
+      "name": "House name eight",
       "image":"./images/availablehome-3.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
@@ -313,7 +352,7 @@
         ]
     },{
       "id": "identifier",
-      "name": "house name nine",
+      "name": "House name nine",
       "image":"./images/availablehome-5.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
@@ -350,25 +389,43 @@
     }]
     },
     {
-        "name": "Deer Valley Estates-2",
+        "name": "Canyon Lakes",
         "type": "Community-2",
         "status": "OnGoing-2",
-        "mainDescr": "Deer-2",
-        "location": "./images/constructionmap_1.jpg",
+        "mainDescr": "Canyon Lakes community is conveniently located in south east corner of Memorial and Council.  Canyon Lakes is a 120 acre community designed around the 18 acre spring fed lake.  It features lighted fountains, fishing pier, community pool, club house, playground, soccer field, park and walkng trail around the lake.  There are a limited number of lots and homes left.  Please contact us for more dettails.Corgeous brand new construction.   From the moment you walk in the door, you will feel at home.  Upgrades gallore everywhere you turn.  From the barrell  and Coffered Ceilings to the upgraded high quality flooring, these homes are noting buy class.   HDMI ports, CAT ports, Web enabled dimmers, USB chargers,  Web enabled springler modules, High efficiency HAVC unitis, Energy efficient insulation package,  Open kitchen, Box windows with window seats, Spacious master closets with dresser, shoe racks,  Whirlpool appliances and much more.",
         "locname":"Canyon Lakes - Ohlahoma2",
         "booking1":"For Booking Raj2 405-361-6198",
         "booking2":"Jay2 650-888-0015",
         "measurement": {
           "totalArea": "50000 sq.ft"
         },
-        "extraFeatures": "Smart Home Fixtures,Superseal Insulation Package,  Extradinary Lightings,Upgraded Flooring",
-        "communityPlan": "img",
+        "description":[
+          {"one":"Number of houses/rooms,"},
+          { "two":"How many remaining ,"},
+          {"three":"Time of completion , "},
+          {"four":"How much % is completed and etc.,"}
+        ],
+        "nearby":[
+          {"place1":"Police Station",
+           "km1":"2 km"},
+           {"place2":"Walmart super center",
+           "km2":"4 km"},
+           {"place3":"Hospital",
+           "km3":"1.3 km"},
+           {"place4":"School",
+           "km4":"2 km"}
+        ],
+        "extraFeatures": "Smart Home Fixtures, uperseal Insulation Package, Extradinary Lightings, Upgraded Flooring, Whirlpool Applicances, Enormous Use Of Crowns, Barrel/Cofferred Ceilings, Sprinkler With Web Module, Insulated Garage Doors",
+        "communityPlan": "./images/community overview-1.jpg",
+        "googlemap":"./images/constructionmap_1.jpg",
         "sliderImg": "./images/availablehome-1.jpg",
+        "availableImg": "./images/availablehome-1.jpg",
+        "completedImg": "./images/availablehome-2.jpg",
       
     "house": [{
       "id": "identifier",
-      "name": "house name one",
-      "image":"./images/availablehome-1.jpg",
+      "name": "House name one",
+      "image":"./images/comm-2 house1.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -403,8 +460,8 @@
         ]
     },{
       "id": "identifier",
-      "name": "house name two",
-      "image":"./images/availablehome-2.jpg",
+      "name": "House name two",
+      "image":"./images/comm-2 house2.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -439,8 +496,8 @@
         ]
     },{
       "id": "identifier",
-      "name": "house name three",
-      "image":"./images/availablehome-3.jpg",
+      "name": "House name three",
+      "image":"./images/comm-2 house3.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -478,8 +535,8 @@
     {
      
       "id": "identifier",
-      "name": "house name four",
-      "image":"./images/availablehome-4.jpg",
+      "name": "House name four",
+      "image":"./images/comm-2 house4.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -514,8 +571,8 @@
         ]
     }, {
       "id": "identifier",
-      "name": "house name five",
-      "image":"./images/availablehome-5.jpg",
+      "name": "House name five",
+      "image":"../images/comm-2 house5.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -548,81 +605,8 @@
           "tiles": "type of tiles"
         }
         ]
-    },
-    {
-      "id": "identifier",
-      "name": "house name six",
-      "image":"./images/availablehome-1.jpg",
-      "completed": "60%",
-      "expectedTimecompletion": "December,2022",
-      "sold": "Yes/No",
-      "measurement": {
-        "totalArea": "1200 sq.ft"
-      },
-      "room": [
-         {
-          "type": "hall",
-          "image": "./housedetailsimages/hall 1.webp",
-          "measurement": {
-            "totalArea": "10/10 sq.ft"
-          },
-          "tiles": "type of tiles"
-        },
-         {
-          "type": "kitchen",
-          "image": "./housedetailsimages/kitchen 1.jpg",
-          "measurement": {
-            "totalArea": "10/10 sq.ft"
-          },
-          "tiles": "type of tiles"
-        },
-         {
-          "type": "bathroom",
-          "image": "./housedetailsimages/bathroom 1.webp",
-          "measurement": {
-            "totalArea": "10/10 sq.ft"
-          },
-          "tiles": "type of tiles"
-        }
-        ]
-    },
-    {
-      "id": "identifier",
-      "name": "house name seven",
-      "image":"./images/availablehome-2.jpg",
-      "completed": "60%",
-      "expectedTimecompletion": "December,2022",
-      "sold": "Yes/No",
-      "measurement": {
-        "totalArea": "1200 sq.ft"
-      },
-      "room": [
-         {
-          "type": "hall",
-          "image": "./housedetailsimages/hall 1.webp",
-          "measurement": {
-            "totalArea": "10/10 sq.ft"
-          },
-          "tiles": "type of tiles"
-        },
-         {
-          "type": "kitchen",
-          "image": "./housedetailsimages/kitchen 1.jpg",
-          "measurement": {
-            "totalArea": "10/10 sq.ft"
-          },
-          "tiles": "type of tiles"
-        },
-         {
-          "type": "bathroom",
-          "image": "./housedetailsimages/bathroom 1.webp",
-          "measurement": {
-            "totalArea": "10/10 sq.ft"
-          },
-          "tiles": "type of tiles"
-        }
-        ]
-    }]
+    }
+    ]
     },{
       "name": "Deer Valley Estates-3",
       "type": "Community-3",
@@ -635,13 +619,33 @@
       "measurement": {
         "totalArea": "50000 sq.ft"
       },
-      "extraFeatures": "Smart Home Fixtures,Superseal Insulation Package,  Extradinary Lightings,Upgraded Flooring",
-      "communityPlan": "img",
+      "description":[
+        {"one":"Number of houses/rooms,"},
+        { "two":"How many remaining ,"},
+        {"three":"Time of completion , "},
+        {"four":"How much % is completed and etc.,"}
+      ],
+      "nearby":[
+        {"place1":"Police Station",
+         "km1":"2 km"},
+         {"place2":"Walmart super center",
+         "km2":"4 km"},
+         {"place3":"Hospital",
+         "km3":"1.3 km"},
+         {"place4":"School",
+         "km4":"2 km"}
+      ],
+
+      "extraFeatures": "Smart Home Fixtures, uperseal Insulation Package, Extradinary Lightings, Upgraded Flooring, Whirlpool Applicances, Enormous Use Of Crowns, Barrel/Cofferred Ceilings, Sprinkler With Web Module, Insulated Garage Doors",
+      "communityPlan": "./images/community overview-1.jpg",
+      "googlemap":"./images/constructionmap_1.jpg",
       "sliderImg": "./images/availablehome-2.jpg",
+      "availableImg": "./images/availablehome-2.jpg",
+      "completedImg": "./images/availablehome-3.jpg",
     
   "house": [{
     "id": "identifier",
-    "name": "house name 3",
+    "name": "House name 3",
     "image":"./images/availablehome-4.jpg",
     "completed": "60%",
     "expectedTimecompletion": "December,2022",
@@ -688,13 +692,32 @@
     "measurement": {
       "totalArea": "50000 sq.ft"
     },
-    "extraFeatures": "Smart Home Fixtures,Superseal Insulation Package,  Extradinary Lightings,Upgraded Flooring",
-    "communityPlan": "img",
+    "description":[
+      {"one":"Number of houses/rooms,"},
+      {"two":"How many remaining ,"},
+      {"three":"Time of completion , "},
+      {"four":"How much % is completed and etc.,"}
+    ],
+    "nearby":[
+      {"place1":"Police Station",
+       "km1":"2 km"},
+       {"place2":"Walmart super center",
+       "km2":"4 km"},
+       {"place3":"Hospital",
+       "km3":"1.3 km"},
+       {"place4":"School",
+       "km4":"2 km"}
+    ],
+    "extraFeatures": "Smart Home Fixtures, uperseal Insulation Package, Extradinary Lightings, Upgraded Flooring, Whirlpool Applicances, Enormous Use Of Crowns, Barrel/Cofferred Ceilings, Sprinkler With Web Module, Insulated Garage Doors",
+    "communityPlan": "./images/community overview-1.jpg",
+    "googlemap":"./images/constructionmap_1.jpg",
     "sliderImg": "./images/availablehome-3.jpg",
+    "availableImg": "./images/availablehome-3.jpg",
+    "completedImg": "./images/availablehome-4.jpg",
   
 "house": [{
   "id": "identifier",
-  "name": "house name 4",
+  "name": "House name 4",
   "image":"./images/availablehome-5.jpg",
   "completed": "60%",
   "expectedTimecompletion": "December,2022",
@@ -741,13 +764,32 @@
   "measurement": {
     "totalArea": "50000 sq.ft"
   },
-  "extraFeatures": "Smart Home Fixtures,Superseal Insulation Package,  Extradinary Lightings,Upgraded Flooring",
-  "communityPlan": "img",
+  "description":[
+    {"one":"Number of houses/rooms,"},
+    {"two":"How many remaining ,"},
+    {"three":"Time of completion , "},
+    {"four":"How much % is completed and etc.,"}
+  ],
+  "nearby":[
+    {"place1":"Police Station",
+     "km1":"2 km"},
+     {"place2":"Walmart super center",
+     "km2":"4 km"},
+     {"place3":"Hospital",
+     "km3":"1.3 km"},
+     {"place4":"School",
+     "km4":"2 km"}
+  ],
+  "extraFeatures": "Smart Home Fixtures, uperseal Insulation Package, Extradinary Lightings, Upgraded Flooring, Whirlpool Applicances, Enormous Use Of Crowns, Barrel/Cofferred Ceilings, Sprinkler With Web Module, Insulated Garage Doors",
+  "communityPlan": "./images/community overview-1.jpg",
+  "googlemap":"./images/constructionmap_1.jpg",
   "sliderImg": "./images/construction_1.jpg",
+  "availableImg": "./images/construction_1.jpg",
+  "completedImg": "./images/availablehome-2.jpg",
 
 "house": [{
 "id": "identifier",
-"name": "house name 5",
+"name": "House name 5",
 "image":"./images/availablehome-2.jpg",
 "completed": "60%",
 "expectedTimecompletion": "December,2022",
