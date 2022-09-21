@@ -103,6 +103,8 @@
   text-decoration-line: underline;
 
   color: white;
+  
+  cursor: pointer;
 
 }
 
@@ -133,6 +135,8 @@
   text-decoration-line: underline;
 
   color: white;
+
+  cursor: pointer;
 }
 
 .headermainbar .available {
@@ -160,6 +164,8 @@
   text-decoration-line: underline;
 
   color: white;
+
+  cursor: pointer;
 }
 
 .headermainbar .completed {
@@ -187,6 +193,8 @@
   text-decoration-line: underline;
 
   color: white;
+
+  cursor: pointer;
 }
 
 .headermainbar .email {

@@ -56,7 +56,7 @@
       "id": "identifier",
       "name": "House name 1",
       "houseType":"House-1",
-      "image":"./images/availablehome-1.jpg",
+      "image":"./Pictures/CommunityDetailsImages/availablehome-1.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -68,7 +68,7 @@
       "room": [
          {
           "type": "hall",
-          "image": "./housedetailsimages/hall 1.webp",
+          "image": "./Pictures/HouseDetailsImages/hall 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -76,7 +76,7 @@
         },
          {
           "type": "kitchen",
-          "image": "./housedetailsimages/kitchen 1.jpg",
+          "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -84,7 +84,7 @@
         },
          {
           "type": "bathroom",
-          "image": "./housedetailsimages/bathroom 1.webp",
+          "image": "./Pictures/HouseDetailsImages/bathroom 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -96,7 +96,7 @@
       "id": "identifier",
       "name": "House name two",
       "houseType":"House-2",
-      "image":"./images/availablehome-2.jpg",
+      "image":"./Pictures/CommunityDetailsImages/availablehome-2.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -108,7 +108,7 @@
       "room": [
          {
           "type": "hall",
-          "image": "./housedetailsimages/hall 2.jpg",
+          "image": "./Pictures/HouseDetailsImages/hall 2.jpg",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -116,7 +116,7 @@
         },
          {
           "type": "kitchen",
-          "image": "./housedetailsimages/kitchen 2.jpg",
+          "image": "./Pictures/HouseDetailsImages/kitchen 2.jpg",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -124,7 +124,7 @@
         },
          {
           "type": "bathroom",
-          "image": "./housedetailsimages/bathroom 2.webp",
+          "image": "./Pictures/HouseDetailsImages/bathroom 2.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -137,7 +137,7 @@
       "id": "identifier",
       "name": "House name three",
       "houseType":"House-3",
-      "image":"./images/availablehome-3.jpg",
+      "image":"./Pictures/CommunityDetailsImages/availablehome-3.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -149,7 +149,7 @@
       "room": [
          {
           "type": "hall",
-          "image": "./housedetailsimages/hall 3.jpg",
+          "image": "./Pictures/HouseDetailsImages/hall 3.jpg",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -157,7 +157,7 @@
         },
          {
           "type": "kitchen",
-          "image": "./housedetailsimages/kitchen 3.jpg",
+          "image": "./Pictures/HouseDetailsImages/kitchen 3.jpg",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -165,7 +165,7 @@
         },
          {
           "type": "bathroom",
-          "image": "./housedetailsimages/bathroom 3.jpg",
+          "image": "./Pictures/HouseDetailsImages/bathroom 3.jpg",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -177,7 +177,7 @@
       "id": "identifier",
       "name": "House name four",
       "houseType":"House-4",
-      "image":"./images/availablehome-4.jpg",
+      "image":"./Pictures/CommunityDetailsImages/availablehome-4.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -189,7 +189,7 @@
       "room": [
          {
           "type": "hall",
-          "image": "./housedetailsimages/hall 1.webp",
+          "image": "./Pictures/HouseDetailsImages/hall 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -197,7 +197,7 @@
         },
          {
           "type": "kitchen",
-          "image": "./housedetailsimages/kitchen 1.jpg",
+          "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -205,7 +205,7 @@
         },
          {
           "type": "bathroom",
-          "image": "./housedetailsimages/bathroom 1.webp",
+          "image": "./Pictures/HouseDetailsImages/bathroom 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -217,7 +217,7 @@
       "id": "identifier",
       "name": "House name five",
       "houseType":"House-5",
-      "image":"./images/availablehome-5.jpg",
+      "image":"./Pictures/CommunityDetailsImages/availablehome-5.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -229,7 +229,7 @@
       "room": [
          {
           "type": "hall",
-          "image": "./housedetailsimages/hall 1.webp",
+          "image": "./Pictures/HouseDetailsImages/hall 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -237,7 +237,7 @@
         },
          {
           "type": "kitchen",
-          "image": "./housedetailsimages/kitchen 1.jpg",
+          "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -245,7 +245,7 @@
         },
          {
           "type": "bathroom",
-          "image": "./housedetailsimages/bathroom 1.webp",
+          "image": "./Pictures/HouseDetailsImages/bathroom 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -256,7 +256,7 @@
       "id": "identifier",
       "name": "House name six",
       "houseType":"House-6",
-      "image":"./images/availablehome-1.jpg",
+      "image":"./Pictures/CommunityDetailsImages/availablehome-1.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -268,7 +268,7 @@
       "room": [
          {
           "type": "hall",
-          "image": "./housedetailsimages/hall 1.webp",
+          "image": "./Pictures/HouseDetailsImages/hall 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -276,7 +276,7 @@
         },
          {
           "type": "kitchen",
-          "image": "./housedetailsimages/kitchen 1.jpg",
+          "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -284,7 +284,7 @@
         },
          {
           "type": "bathroom",
-          "image": "./housedetailsimages/bathroom 1.webp",
+          "image": "./Pictures/HouseDetailsImages/bathroom 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -296,7 +296,7 @@
       "id": "identifier",
       "name": "House name seven",
       "houseType":"House-7",
-      "image":"./images/availablehome-2.jpg",
+      "image":"./Pictures/CommunityDetailsImages/availablehome-2.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -308,7 +308,7 @@
       "room": [
          {
           "type": "hall",
-          "image": "./housedetailsimages/hall 1.webp",
+          "image": "./Pictures/HouseDetailsImages/hall 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -316,7 +316,7 @@
         },
          {
           "type": "kitchen",
-          "image": "./housedetailsimages/kitchen 1.jpg",
+          "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -324,7 +324,7 @@
         },
          {
           "type": "bathroom",
-          "image": "./housedetailsimages/bathroom 1.webp",
+          "image": "./Pictures/HouseDetailsImages/bathroom 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -336,7 +336,7 @@
       "id": "identifier",
       "name": "House name eight",
       "houseType":"House-8",
-      "image":"./images/availablehome-3.jpg",
+      "image":"./Pictures/CommunityDetailsImages/availablehome-3.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -348,7 +348,7 @@
       "room": [
          {
           "type": "hall",
-          "image": "./housedetailsimages/hall 1.webp",
+          "image": "./Pictures/HouseDetailsImages/hall 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -356,7 +356,7 @@
         },
          {
           "type": "kitchen",
-          "image": "./housedetailsimages/kitchen 1.jpg",
+          "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -364,7 +364,7 @@
         },
          {
           "type": "bathroom",
-          "image": "./housedetailsimages/bathroom 1.webp",
+          "image": "./Pictures/HouseDetailsImages/bathroom 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -375,7 +375,7 @@
       "id": "identifier",
       "name": "House name nine",
       "houseType":"House-9",
-      "image":"./images/availablehome-4.jpg",
+      "image":"./Pictures/CommunityDetailsImages/availablehome-4.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -387,7 +387,7 @@
       "room": [
          {
           "type": "hall",
-          "image": "./housedetailsimages/hall 1.webp",
+          "image": "./Pictures/HouseDetailsImages/hall 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -395,7 +395,7 @@
         },
          {
           "type": "kitchen",
-          "image": "./housedetailsimages/kitchen 1.jpg",
+          "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -403,7 +403,7 @@
         },
          {
           "type": "bathroom",
-          "image": "./housedetailsimages/bathroom 1.webp",
+          "image": "./Pictures/HouseDetailsImages/bathroom 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -450,7 +450,7 @@
       "id": "identifier",
       "name": "House name one",
       "houseType":"House-1",
-      "image":"./images/comm-2 house1.jpg",
+      "image":"./Pictures/CommunityDetailsImages/construction-1.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -462,7 +462,7 @@
       "room": [
          {
           "type": "hall",
-          "image": "./housedetailsimages/hall 2.jpg",
+          "image": "./Pictures/HouseDetailsImages/hall 2.jpg",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -470,7 +470,7 @@
         },
          {
           "type": "kitchen",
-          "image": "./housedetailsimages/kitchen 2.jpg",
+          "image": "./Pictures/HouseDetailsImages/kitchen 2.jpg",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -478,7 +478,7 @@
         },
          {
           "type": "bathroom",
-          "image": "./housedetailsimages/bathroom 2.webp",
+          "image": "./Pictures/HouseDetailsImages/bathroom 2.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -489,7 +489,7 @@
       "id": "identifier",
       "name": "House name two",
       "houseType":"House-2",
-      "image":"./images/comm-2 house2.jpg",
+      "image":"./Pictures/CommunityDetailsImages/construction-2.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -501,7 +501,7 @@
       "room": [
          {
           "type": "hall",
-          "image": "./housedetailsimages/hall 1.webp",
+          "image": "./Pictures/HouseDetailsImages/hall 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -509,7 +509,7 @@
         },
          {
           "type": "kitchen",
-          "image": "./housedetailsimages/kitchen 1.jpg",
+          "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -517,7 +517,7 @@
         },
          {
           "type": "bathroom",
-          "image": "./housedetailsimages/bathroom 1.webp",
+          "image": "./Pictures/HouseDetailsImages/bathroom 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -528,7 +528,7 @@
       "id": "identifier",
       "name": "House name three",
       "houseType":"House-3",
-      "image":"./images/comm-2 house3.jpg",
+      "image":"./Pictures/CommunityDetailsImages/construction-3.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -540,7 +540,7 @@
       "room": [
          {
           "type": "hall",
-          "image": "./housedetailsimages/hall 1.webp",
+          "image": "./Pictures/HouseDetailsImages/hall 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -548,7 +548,7 @@
         },
          {
           "type": "kitchen",
-          "image": "./housedetailsimages/kitchen 1.jpg",
+          "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -556,7 +556,7 @@
         },
          {
           "type": "bathroom",
-          "image": "./housedetailsimages/bathroom 1.webp",
+          "image": "../Pictures/HouseDetailsImages/bathroom 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -570,7 +570,7 @@
       "id": "identifier",
       "name": "House name four",
       "houseType":"House-4",
-      "image":"./images/comm-2 house4.jpg",
+      "image":"./Pictures/CommunityDetailsImages/construction-4.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -582,7 +582,7 @@
       "room": [
          {
           "type": "hall",
-          "image": "./housedetailsimages/hall 1.webp",
+          "image": "./Pictures/HouseDetailsImages/hall 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -590,7 +590,7 @@
         },
          {
           "type": "kitchen",
-          "image": "./housedetailsimages/kitchen 1.jpg",
+          "image": "../Pictures/HouseDetailsImages/kitchen 1.jpg",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -598,7 +598,7 @@
         },
          {
           "type": "bathroom",
-          "image": "./housedetailsimages/bathroom 1.webp",
+          "image": "../Pictures/HouseDetailsImages/bathroom 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -609,7 +609,7 @@
       "id": "identifier",
       "name": "House name five",
       "houseType":"House-5",
-      "image":"../images/comm-2 house5.jpg",
+      "image":"./Pictures/CommunityDetailsImages/construction-5.jpg",
       "completed": "60%",
       "expectedTimecompletion": "December,2022",
       "sold": "Yes/No",
@@ -621,7 +621,7 @@
       "room": [
          {
           "type": "hall",
-          "image": "./housedetailsimages/hall 1.webp",
+          "image": "./Pictures/HouseDetailsImages/hall 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -629,7 +629,7 @@
         },
          {
           "type": "kitchen",
-          "image": "./housedetailsimages/kitchen 1.jpg",
+          "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -637,7 +637,7 @@
         },
          {
           "type": "bathroom",
-          "image": "./housedetailsimages/bathroom 1.webp",
+          "image": "./Pictures/HouseDetailsImages/bathroom 1.webp",
           "measurement": {
             "totalArea": "10/10 sq.ft"
           },
@@ -685,7 +685,7 @@
     "id": "identifier",
     "name": "House name 1",
     "houseType":"House-1",
-    "image":"./images/availablehome-1.jpg",
+    "image":"./Pictures/CommunityDetailsImages/availablehome-1.jpg",
     "completed": "60%",
     "expectedTimecompletion": "December,2022",
     "sold": "Yes/No",
@@ -697,7 +697,7 @@
     "room": [
        {
         "type": "hall",
-        "image": "./housedetailsimages/hall 2.jpg",
+        "image": "./Pictures/HouseDetailsImages/hall 2.jpg",
         "measurement": {
           "totalArea": "10/10 sq.ft"
         },
@@ -705,7 +705,7 @@
       },
        {
         "type": "kitchen",
-        "image": "./housedetailsimages/kitchen 2.jpg",
+        "image": "./Pictures/HouseDetailsImages/kitchen 2.jpg",
         "measurement": {
           "totalArea": "10/10 sq.ft"
         },
@@ -713,7 +713,7 @@
       },
        {
         "type": "bathroom",
-        "image": "./housedetailsimages/bathroom 2.webp",
+        "image": "./Pictures/HouseDetailsImages/bathroom 2.webp",
         "measurement": {
           "totalArea": "10/10 sq.ft"
         },
@@ -760,7 +760,7 @@
   "id": "identifier",
   "name": "House name 1",
   "houseType":"House-1",
-  "image":"./images/availablehome-5.jpg",
+  "image":"./Pictures/CommunityDetailsImages/availablehome-5.jpg",
   "completed": "60%",
   "expectedTimecompletion": "December,2022",
   "sold": "Yes/No",
@@ -772,7 +772,7 @@
   "room": [
      {
       "type": "hall",
-      "image": "./housedetailsimages/hall 2.jpg",
+      "image": "./Pictures/HouseDetailsImages/hall 2.jpg",
       "measurement": {
         "totalArea": "10/10 sq.ft"
       },
@@ -780,7 +780,7 @@
     },
      {
       "type": "kitchen",
-      "image": "./housedetailsimages/kitchen 2.jpg",
+      "image": "./Pictures/HouseDetailsImages/kitchen 2.jpg",
       "measurement": {
         "totalArea": "10/10 sq.ft"
       },
@@ -788,7 +788,7 @@
     },
      {
       "type": "bathroom",
-      "image": "./housedetailsimages/bathroom 2.webp",
+      "image": "./Pictures/HouseDetailsImages/bathroom 2.webp",
       "measurement": {
         "totalArea": "10/10 sq.ft"
       },
@@ -835,7 +835,7 @@
 "id": "identifier",
 "name": "House name 1",
 "houseType":"House-1",
-"image":"./images/availablehome-2.jpg",
+"image":"./Pictures/CommunityDetailsImages/availablehome-2.jpg",
 "completed": "60%",
 "expectedTimecompletion": "December,2022",
 "sold": "Yes/No",
@@ -847,7 +847,7 @@
 "room": [
    {
     "type": "hall",
-    "image": "./housedetailsimages/hall 2.jpg",
+    "image": "./Pictures/HouseDetailsImages/hall 2.jpg",
     "measurement": {
       "totalArea": "10/10 sq.ft"
     },
@@ -855,7 +855,7 @@
   },
    {
     "type": "kitchen",
-    "image": "./housedetailsimages/kitchen 2.jpg",
+    "image": "./Pictures/HouseDetailsImages/kitchen 2.jpg",
     "measurement": {
       "totalArea": "10/10 sq.ft"
     },
@@ -863,7 +863,7 @@
   },
    {
     "type": "bathroom",
-    "image": "./housedetailsimages/bathroom 2.webp",
+    "image": "./Pictures/HouseDetailsImages/bathroom 2.webp",
     "measurement": {
       "totalArea": "10/10 sq.ft"
     },
@@ -871,6 +871,8 @@
   }
   ]
 }]
-}]  
+}
+
+]  
   }
       

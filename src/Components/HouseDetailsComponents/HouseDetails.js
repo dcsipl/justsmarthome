@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../CommonComponents/Header';
 import '../CommonComponents/Header.css';
 import Footer from '../CommonComponents/Footer.js';
 import '../CommonComponents/Footer.css';
@@ -9,71 +10,26 @@ import community from '../../Justsmarthome.json';
 
 
 export default function HouseDetails(props) {
-    function Header(props) {
   
-    
-        const [values, setValues]=useState({
-            gmail:""
-        });
-        const [error ,setError]=useState({
-            
-        });
-        
-        
-        function PopUp(event){
-            event.preventDefault();
-            setError(Validation(values));
-          
-        };
-    
-        function HandleChange(event){
-            setValues({
-                ...values,
-                [event.target.name]:event.target.value,
-            });
-        }
-       
-        return (
-            <>
-                <div className="headermainbar">
-                    <div className="headerbottombar1"></div>
-                    <div className="headerbottombar2"></div>
-                    <img src={Logo1} alt="s-logo" />
-                    <p>Just Smart Custom Homes</p>
-                    <a href="http://localhost:3000" className="home">Home</a>
-                    <a href="#" className="review" onClick={Down} >{props.second}</a>
-                    <a href="#" className="available" onClick={Down}>{props.third}</a>
-                    <a href="#" className="completed" onClick={Down}>{props.fourth}</a>
-                    <form className="form">
-                    <label className='subscribe'>Subscribe for NewsLetter</label>
-                    <label className='email'>Email</label>
-                    <input type="text"  className="box" name="gmail" placeholder="Enter the email"value={values.gmail} onChange={HandleChange}/>
-                    {
-                        error.gmail && <p className="error"style={{position:"absolute",width:"305px",color:"red",fontSize:"15px",left:"1020px",top:"50px"}}>{error.gmail}</p>
-                    }
-                    <button className="butt" onClick={PopUp}>ok</button>
-                    </form>
-                   
-    
-    
-                </div>
-            </>
-        )
-}
-
-const ServicesRef = useRef(null);
-      
-const Down = () =>
-  window.scrollTo({
-    top: ServicesRef.current.offsetTop,
-    behavior: "smooth", 
    
    
-  });
-   
-    const [image, setImage] = useState('')
     
-  
+    const [image, setImage] = useState(<><p style={{position:"absolute",
+    width:"500px",
+    height:"20px",
+    left:"400px",
+    top:"140px",
+    fontSize:"20px"}}>{ props.url1[0].room[0].type}-{props.url1[0].room[0].measurement.totalArea}</p>
+    <img  style={{position:"absolute",
+                     width:"840px",
+                     height:"470px",
+                     left:"30px",
+                     top:"190px",
+                     border:"1px solid gray",
+                     borderRadius:"25px"}}
+            src={props.url1[0].room[0].image} 
+            /></>)
+ 
     const arr2=props.url1[0].room.map((record1,i)=>
       <div>
          
@@ -97,7 +53,7 @@ const Down = () =>
 </div>);
     return (
         <>
-            <Header second="Details" third="Plan-2BHK" fourth="Plan-3BHK"/>
+            <Header second="Details" third="Plan-2BHK" fourth="Plan-3BHK" secondid="details" thirdid="plan2BHK" fourthid="plan3BHK"/>
            <h1 style={{color:"white"}}>
             some text for plays scroll in  down
             some text for plays scroll in  down
@@ -173,13 +129,13 @@ const Down = () =>
                 <span style={{color:"#D8F0D0"}}>For Booking</span> {community.JustSmartCustomHomes[0].booking2}
             </div>
             <div className="houseplan">
-                <h5>Details....</h5>
+                <h5 id="details">Details....</h5>
                 <p> {props.url1[0].name}- Plan</p>
 
             </div>
           
-          <div ref={ServicesRef}>
-          <h4 style={{ position: "absolute", top: "825px", left: "300px", fontSize:"18px", }}>2 BHK</h4>  
+          <div>
+          <h4 style={{ position: "absolute", top: "825px", left: "300px", fontSize:"18px", }} id="plan2BHK">2 BHK</h4>  
            <img src={props.url1[0].twobhk} style={{ position:"absolute",
                                             width: "500px",
                                             height: "670px",
@@ -188,7 +144,7 @@ const Down = () =>
                                             
           </div>
           <div>
-          <h4 style={{ position: "absolute", top: "825px", left: "900px", fontSize:"18px", }}>3 BHK</h4>  
+          <h4 style={{ position: "absolute", top: "825px", left: "900px", fontSize:"18px", }} id="plan3BHK">3 BHK</h4>  
            <img src={props.url1[0].threebhk} style={{ position:"absolute",
                                             width: "500px",
                                             height: "670px",

@@ -27,7 +27,7 @@ export default function AboutusReview() {
      
        
             <> 
-            <div style={{ display:"flex",width:"100%",position:"relative",top:"580px",height:"auto"}}>
+            <div style={{ display:"flex",width:"100%",position:"relative",top:"580px",height:"auto"}} >
             <div className="availablehouses">
             <img className="houseIcon" src={HouseIcon} alt="houseIcon" style={{height: "90px",width: "80px"}}/>
                         <p className="type" 
@@ -36,7 +36,7 @@ export default function AboutusReview() {
                                    color: "#000000",
                                    left:" 90px",
                                    top: "-20px",
-                                   position:"absolute"}}>
+                                   position:"absolute"}} id="readilyavailable">
                           Readily Available
                         </p>
                         <div style={{width:"390px",height:"1130px",position:"relative",overflowX:"hidden",overflowY:"auto"}}>
@@ -81,7 +81,7 @@ export default function AboutusReview() {
                                       left: "420px",
                                       top: "780px",
                                       fontFamily: 'Qwigley',
-                                      fontSize:"50px"}}>
+                                      fontSize:"50px"}} id="reviews">
                             Reviews
                         </div>
         
@@ -137,7 +137,7 @@ export default function AboutusReview() {
                                 color: "#000000",
                                 left:" 950px",
                                 top: "-20px",
-                                position:"absolute"}}> 
+                                position:"absolute"}} id="completedproj"> 
                         Completed Projects
                     </p>
                     <div style={{left:"858px",width:"390px",height:"1130px",position:"absolute",overflowX:"hidden",overflowY:"auto"}}>

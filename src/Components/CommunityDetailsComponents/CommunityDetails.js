@@ -1,80 +1,20 @@
 import React from 'react';
+import Header from '../CommonComponents/Header';
 import '../CommonComponents/Header.css';
 import Footer from '../CommonComponents/Footer.js';
 import '../CommonComponents/Footer.css';
 import BasicTabs from '../CommunityDetailsComponents/Tab';
 import '../CommunityDetailsComponents/Tab.css';
-import Logo1 from '../../Pictures/CommonImages/Logo.jpeg';
-import Validation from '../CommonComponents/Validation.js';
+import './CommunityDetails.css'
 
-import { useState,useRef } from 'react';
+import { useState } from 'react';
+import { style } from '@mui/system';
 
 
 
 
  function CommunityDetails(props) {
-   function Header(props) {
-  
-    
-      const [values, setValues]=useState({
-         gmail:""
-     });
-     const [error ,setError]=useState({
-         
-     });
-     
-     
-     function PopUp(event){
-         event.preventDefault();
-         setError(Validation(values));
-       
-     };
- 
-     function HandleChange(event){
-         setValues({
-             ...values,
-             [event.target.name]:event.target.value,
-         });
-     }
-    
-     return (
-         <>
-             <div className="headermainbar">
-                 <div className="headerbottombar1"></div>
-                 <div className="headerbottombar2"></div>
-                 <img src={Logo1} alt="s-logo" />
-                 <p>Just Smart Custom Homes</p>
-                 <a href="http://localhost:3000" className="home">Home</a>
-                 <a href="#" className="review" onClick={Down}>{props.second}</a>
-                 <a href="#" className="available" onClick={Down}>{props.third}</a>
-                 <a href="#" className="completed" onClick={Down}>{props.fourth}</a>
-                 <form className="form">
-                 <label className='subscribe'>Subscribe for NewsLetter</label>
-                 <label className='email'>Email</label>
-                 <input type="text"  className="box" name="gmail" placeholder="Enter the email"value={values.gmail} onChange={HandleChange}/>
-                 {
-                     error.gmail && <p className="error"style={{position:"absolute",width:"305px",color:"red",fontSize:"15px",left:"1020px",top:"50px"}}>{error.gmail}</p>
-                 }
-                 <button className="butt" onClick={PopUp}>ok</button>
-                 </form>
-                
- 
- 
-             </div>
-         </>
-     )
-  }
-  
-      const ServicesRef = useRef(null);
-      
-      const Down = () =>
-        window.scrollTo({
-          top: ServicesRef.current.offsetTop,
-          behavior: "smooth", 
-         
-         
-        });
-
+   
         function changeHouse(event,key){
          (key===0)?window.open("/House-1", "_self"):
          (key===1)?window.open("/House-2", "_self"):
@@ -87,7 +27,36 @@ import { useState,useRef } from 'react';
                    window.open("/House-9", "_self")
      }
      
-   const [image, setImage] = useState('');
+   const [image, setImage] = useState(<> <p style={{position:"absolute",
+   width:"500px",
+   height:"20px",
+   left:"680px",
+   top:"80px",
+   fontSize:"35px",
+   fontFamily:"qwigley",
+   }}>
+{props.url[0].name}
+</p>
+ <li style={{position:"absolute",
+   width:"500px",
+   height:"20px",
+   left:"900px",
+   top:"120px",
+   fontSize:"20px",
+   }}>
+{props.url[0].house[0].name}
+</li>
+<img  style={{position:"absolute",
+     width:"540px",
+     height:"250px",
+     left:"680px",
+     top:"150px",
+     border:"1px solid gray",
+     borderRadius:"10px",
+     cursor:"pointer"
+     }}
+src={props.url[0].house[0].image}/>
+</>);
     
    console.log(props)
    const arr2=props.url[0].house.map((record1,key)=>
@@ -107,7 +76,8 @@ import { useState,useRef } from 'react';
                    height:"20px",
                    left:"900px",
                    top:"120px",
-                   fontSize:"20px"}}>
+                   fontSize:"20px",
+                   }}>
            {record1.name}
        </li>
        <img  style={{position:"absolute",
@@ -134,7 +104,7 @@ import { useState,useRef } from 'react';
 
    return (
        <>
-       <Header second="Features" third="Community Plan" fourth="Google Map"  />
+       <Header second="Features" third="Near by Places" fourth="Google Map" secondid="features" thirdid="nearbyplaces" fourthid="googlemap"  />
        <p style={{position:"absolute",
                   width:"500px",
                   height:"20px",
@@ -193,7 +163,7 @@ import { useState,useRef } from 'react';
             <span>For Booking</span> {props.url[0].booking2}
          </div>
          {props.url[0].nearby.map((near,i)=>
-         <div className="nearby">Near by
+         <div className="nearby" id="nearbyplaces">Near by
             <ul >
                <li>{near.place1}<br />{near.km1}</li>
                <li>{near.place2}<br />{near.km2}</li>
@@ -204,15 +174,19 @@ import { useState,useRef } from 'react';
          </div>)}
       
          <BasicTabs />
-         <div className="features" ref={ServicesRef}>Features:</div>
+         <div className="features" id="features">Features:</div>
          <ul className="points">
             {props.url[0].extraFeatures}</ul>
-         <div className="overview" style={{backgroundImage: `url(${props.url[0].communityPlan})`,}} >
+        <div className="overview" >
             <p>Community Plan</p>
-         </div>
-         <div className="map" style={{backgroundImage: `url(${ props.url[0].googlemap})`,}}>
+            <img  src={props.url[0].communityPlan}/>
+            </div>
+         <div className="map" id="googlemap">
             <p>Google Map</p>
+            <img  src={props.url[0].googlemap}/>
          </div>
+            
+        
          <Footer />
         </>
     );
