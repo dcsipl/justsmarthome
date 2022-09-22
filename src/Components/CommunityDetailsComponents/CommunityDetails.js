@@ -31,7 +31,7 @@ import { style } from '@mui/system';
    width:"500px",
    height:"20px",
    left:"680px",
-   top:"80px",
+   top:"110px",
    fontSize:"35px",
    fontFamily:"qwigley",
    }}>
@@ -65,7 +65,7 @@ src={props.url[0].house[0].image}/>
                     width:"500px",
                     height:"20px",
                     left:"680px",
-                    top:"80px",
+                    top:"110px",
                     fontSize:"35px",
                     fontFamily:"qwigley",
                     }}>
@@ -109,7 +109,7 @@ src={props.url[0].house[0].image}/>
                   width:"500px",
                   height:"20px",
                   left:"50px",
-                  top:"70px",
+                  top:"100px",
                   fontSize:"40px",
                   fontFamily:"qwigley"}}>
           Community name : {props.url[0].name}
@@ -136,7 +136,7 @@ src={props.url[0].house[0].image}/>
                           width:"250px",
                           position:"relative",
                           left:"50px",
-                          top:"15px"}}>
+                          top:"-5px"}}>
                   {record1.name}
                </p>
                <img style={{width: "270px",
@@ -151,7 +151,8 @@ src={props.url[0].house[0].image}/>
             </div>)}
             <p>{image}</p>
        </div>
-       {props.url[0].description.map((record,i)=>
+       <div style={{width:"550px",height:"760px",borderRadius:"10px",backgroundColor:"#BCFBEC",position:"absolute",left:"675px",top:"400px"}}>
+       </div> {props.url[0].description.map((record,i)=>
         <div className="description"><span style={{fontSize:"30px",fontFamily:"qwigley"}}>Description:</span><br/>
             <li>{record.one}</li>
             <li>{record.two}</li>
@@ -160,7 +161,7 @@ src={props.url[0].house[0].image}/>
 
          <div className="secondbooking">
             {props.url[0].booking1}<br />
-            <span>For Booking</span> {props.url[0].booking2}
+            <span>For Booking</span>{props.url[0].booking2}
          </div>
          {props.url[0].nearby.map((near,i)=>
          <div className="nearby" id="nearbyplaces">Near by
@@ -174,6 +175,7 @@ src={props.url[0].house[0].image}/>
          </div>)}
       
          <BasicTabs />
+      
          <div className="features" id="features">Features:</div>
          <ul className="points">
             {props.url[0].extraFeatures}</ul>

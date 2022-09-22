@@ -66,7 +66,7 @@ export default function HouseDetails(props) {
            </h1>
            <div style={{ position:" absolute",
     width: '600px',
-    top: '75px',
+    top: '105px',
     left: '20px',
     fontFamily: 'Qwigley',
     fontStyle: 'normal',
@@ -77,8 +77,8 @@ export default function HouseDetails(props) {
                 
             </div>
             <div style={{ 
-            width:"300px",
-            height:"540px",
+           
+            height:"600px",
             display: "flex",
             flexDirection:"column",
             paddingLeft:"950px",
@@ -96,17 +96,18 @@ export default function HouseDetails(props) {
                           width:"250px",
                           margin:"10px",
                           position:"relative",
-                          left:"70px",
+                          left:"75px",
                           top:"15px"}}>
                   {record1.type}
                </p>
                <img style={{width: "290px",
                             height: "160px",
-                            margin:"-20px",
+                            margin:"-10px",
                             border:"1px solid gray",
                             borderRadius:"10px",
                             cursor:"pointer",
-                            
+                            position:"relative",
+                            top:"20px"
                            }} 
                    src={record1.image} 
                    onClick={() => {setImage(arr2[i])}}
@@ -116,21 +117,21 @@ export default function HouseDetails(props) {
 </div>
             <div style={{position: "absolute",
                          background:" #D8F0D0",
-                         border: "solid grey",
-                         width: "285px",
+                         border: "1px solid grey",
+                         width: "310px",
                          height: "80px",
                          top: "710px",
-                         left: "595px",
+                         left: "565px",
                          borderRadius:" 10px",
                          fontFamily: 'qwigley',
                          fontSize: "30px",
                          paddingLeft:" 20px"}}>
                 {community.JustSmartCustomHomes[0].booking1}<br />
-                <span style={{color:"#D8F0D0"}}>For Booking</span> {community.JustSmartCustomHomes[0].booking2}
+                <span style={{color:"#D8F0D0"}}>For Booking</span>{community.JustSmartCustomHomes[0].booking2}
             </div>
             <div className="houseplan">
                 <h5 id="details">Details....</h5>
-                <p> {props.url1[0].name}- Plan</p>
+                <p> {props.url1[0].name} - Plan</p>
 
             </div>
           

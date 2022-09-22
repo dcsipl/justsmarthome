@@ -10,6 +10,7 @@ import HouseDetails from './Components/HouseDetailsComponents/HouseDetails';
 
 import './Components/CommunityDetailsComponents/CommunityDetails.css';
 import './Components/HouseDetailsComponents/HouseDetails.css';
+import './index.css';
 
 import community from "./Justsmarthome.json";
 

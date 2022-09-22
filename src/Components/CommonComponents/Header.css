@@ -4,7 +4,7 @@
 
   z-index: 1;
   
-  width: 1170px;
+  width: 100%;
 
   height: 80px;
 
@@ -21,7 +21,7 @@
 .headerbottombar1 {
   position: absolute;
 
-  width: 1260px;
+  width: 100%;
 
   height: 21px;
 
@@ -37,7 +37,7 @@
 .headerbottombar2 {
   position: absolute;  
 
-  width: 1260px;
+  width: 100%;
 
   height: 11px;
 
@@ -74,9 +74,14 @@
   color: white;
 
 }
+.headermainbar a:active{
+  text-decoration: underline;
+  text-decoration-color: white;
+  color: yellow;}
 .headermainbar a:hover{
-  color: yellow;
-}
+text-decoration: underline;
+text-decoration-color: white;
+color: yellow;}
 
 .headermainbar .home {
 
@@ -100,13 +105,14 @@
 
   line-height: 45px;
 
-  text-decoration-line: underline;
+  text-decoration:none;
 
   color: white;
   
   cursor: pointer;
 
 }
+
 
 
 
@@ -132,8 +138,7 @@
 
   line-height: 45px;
 
-  text-decoration-line: underline;
-
+  text-decoration:none;
   color: white;
 
   cursor: pointer;
@@ -161,8 +166,7 @@
 
   line-height: 45px;
 
-  text-decoration-line: underline;
-
+  text-decoration:none;
   color: white;
 
   cursor: pointer;
@@ -190,8 +194,7 @@
 
   line-height: 45px;
 
-  text-decoration-line: underline;
-
+  text-decoration:none;
   color: white;
 
   cursor: pointer;

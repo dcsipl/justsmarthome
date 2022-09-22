@@ -5,19 +5,19 @@ import HouseIcon from '../../Pictures/CommonImages/houseicon.jpg';
 import community from "../../Justsmarthome.json";
 export default function AboutusReview() {
     function ClickEvent1() {
-        window.open("http://localhost:3000/Community-1", "_self");
+        window.open("/Community-1", "_self");
     }
     function ClickEvent2() {
-        window.open("http://localhost:3000/Community-2", "_self");
+        window.open("/Community-2", "_self");
     }
     function ClickEvent3() {
-        window.open("http://localhost:3000/Community-3", "_self");
+        window.open("/Community-3", "_self");
     }
     function ClickEvent4() {
-        window.open("http://localhost:3000/Community-4", "_self");
+        window.open("/Community-4", "_self");
     }
     function ClickEvent5() {
-        window.open("http://localhost:3000/Community-5", "_self");
+        window.open("/Community-5", "_self");
     }
     
     
@@ -35,7 +35,7 @@ export default function AboutusReview() {
                                    fontSize: "48px",
                                    color: "#000000",
                                    left:" 90px",
-                                   top: "-20px",
+                                   top: "30px",
                                    position:"absolute"}} id="readilyavailable">
                           Readily Available
                         </p>
@@ -43,7 +43,7 @@ export default function AboutusReview() {
                         {community.JustSmartCustomHomes.map((record, i) =>
                         <div key={i} style={{paddingLeft:"10px",paddingTop:"20px"}} >                    
                              <img  src={record.availableImg} onClick={arr3[i]} style={{height: "200px",width: "350px",borderRadius:"5px",position:"relative"}} />
-                             <h1 style={{width: "190px", backgroundColor: "gray", color: "white", fontSize: "20px",borderRadius:"5px",padding:"5px",position:"relative",marginTop:"-45px",marginLeft:"70px"}}>{record.name}</h1>                
+                             <h1 style={{width: "200px", backgroundColor: "gray", color: "white", fontSize: "20px",borderRadius:"5px",padding:"5px",position:"relative",marginTop:"-45px",marginLeft:"70px"}}>{record.name}</h1>                
                         </div>
                         )}
                         </div> 
@@ -87,7 +87,7 @@ export default function AboutusReview() {
         
                         <div className="revrect1" 
                              style={{position: "absolute",
-                                     width:" 270px",
+                                     width:" 410px",
                                      height: "110px",
                                      left: "410px",
                                      top: "850px",
@@ -109,7 +109,7 @@ export default function AboutusReview() {
                         </div>
                         <div className="revrect2" 
                              style={{position: "absolute",
-                                     width:" 270px",
+                                     width:" 410px",
                                      height: "110px",
                                      left: "410px",
                                      top: "1000px",
@@ -136,7 +136,7 @@ export default function AboutusReview() {
                                 fontSize: "48px",
                                 color: "#000000",
                                 left:" 950px",
-                                top: "-20px",
+                                top: "30px",
                                 position:"absolute"}} id="completedproj"> 
                         Completed Projects
                     </p>
@@ -144,7 +144,7 @@ export default function AboutusReview() {
                      {community.JustSmartCustomHomes.map((record, i) =>
                         <div key={i} style={{paddingLeft:"10px",paddingTop:"20px"}}>    
                        <img  src={record.completedImg} onClick={arr3[i]} style={{height: "200px",width: "350px",borderRadius:"5px",position:"relative"}} />
-                       <h1 style={{width: "190px", backgroundColor: "gray", color: "white", fontSize: "20px",borderRadius:"5px",padding:"5px",position:"relative",marginTop:"-45px",marginLeft:"70px"}}>{record.name}</h1>                
+                       <h1 style={{width: "200px", backgroundColor: "gray", color: "white", fontSize: "20px",borderRadius:"5px",padding:"5px",position:"relative",marginTop:"-45px",marginLeft:"70px"}}>{record.name}</h1>                
                       </div>
                         )}
                      </div>

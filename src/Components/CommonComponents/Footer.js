@@ -13,11 +13,11 @@ export default function Footer(props) {
             )}
                 
                 <a href="/" className="footerHome">Home</a>
-                <a href="/" className="footerReview">Review</a>
-                <a href="/" className="footerAvailable">ReadilyAvailable</a>
-                <a href="/" className="footerCompleted">CompletedProj</a>
+                <a href="/" className="footerReview">Reviews</a>
+                <a href="/" className="footerAvailable">Readily Available</a>
+                <a href="/" className="footerCompleted">Completed Proj</a>
                 
-                <div className="smallRect">OurBusinessAssociates:
+                <div className="smallRect"><p>OurBusinessAssociates:</p><br/>
                 {community.JustSmartCustomHomes[0].businessAsso.map((associate)=>
                 <ul>
                     

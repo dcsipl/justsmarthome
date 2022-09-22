@@ -44,7 +44,7 @@
     position: absolute;
     background-color: lightgreen;
     border: solid grey;
-    width: 300px;
+    width: 310px;
     height: 80px;
     top: 430px;
     left: 890px;
@@ -78,9 +78,9 @@
 
 .nearby ul {
     position: absolute;
-    top: 30px;
+    top: 40px;
     width: 500px;
-    left: -250px;
+    left: -200px;
     display: flex;
     font-family: 'Playfair Display';
     font-size: 17px;
