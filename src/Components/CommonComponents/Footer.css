@@ -22,10 +22,9 @@
     position: absolute;
     left: 12px;
     top: 5px;
-    font-family: 'Qwigley';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 30px;
     color: white;
 }
 
@@ -53,12 +52,11 @@
     position: absolute;
     width: 90px;
     height: 15px;
-    left: 380px;
+    left: 310px;
     top: 5px;
-    font-family: 'Qwigley';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 26px;
     line-height: 45px;
     text-decoration: none;
     color: white;
@@ -68,12 +66,11 @@
     position: absolute;
     width: 90px;
     height: 15px;
-    left: 480px;
+    left: 420px;
     top: 5px;
-    font-family: 'Qwigley';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 26px;
     line-height: 45px;
     text-decoration: none;
     color: white;
@@ -81,14 +78,14 @@
 
 .footerAvailable {
     position: absolute;
+    
     width: 200px;
     height: 15px;
-    left: 590px;
+    left: 555px;
     top: 5px;
-    font-family: 'Qwigley';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 26px;
     line-height: 45px;
     text-decoration: none;
     color: white;
@@ -96,14 +93,13 @@
 
 .footerCompleted {
     position: absolute;
-    width: 150px;
+    width: 170px;
     height: 15px;
     left: 780px;
     top: 5px;
-    font-family: 'Qwigley';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 26px;
     line-height: 45px;
     text-decoration:none;
     color: white;
@@ -119,11 +115,11 @@
     left: 280px;
     display: flex;
     flex-direction: row;
+    padding: 10px;
 }
 .smallRect p{
     position: relative;
-    font-family: "qwigley";
-    font-size: 33px;
+    font-size: 23px;
 }
 .smallRect ul li{
     position: relative;
@@ -156,21 +152,21 @@
     width: 274px;
     height: 20px;
     left: 980px;
-    top: 5px;
-    font-family: 'Qwigley';
+    top: -5px;
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 27px;
     line-height: 45px;
     color: #FFFFFF;
+    margin: 10px;
 }
 
 .contact p {
     position: absolute;
     width: 323px;
     height: 81px;
-    left: 5px;
-    top: 30px;
+    left: 25px;
+    top: 35px;
 
     font-family: 'PT Serif Caption';
     font-style: normal;
@@ -185,7 +181,7 @@
     position: absolute;
     width: 79px;
     height: 25px;
-    left: 985px;
+    left: 1015px;
     top: 122px;
 
     font-family: 'PT Serif Caption';
@@ -203,8 +199,7 @@
     width: 300px;
     left: 60px;
     top: -5px;
-    font-family: 'qwigley';
-    font-size: 30px;
+    font-size: 20px;
 
 }
 

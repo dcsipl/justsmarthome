@@ -23,17 +23,16 @@
 
   height: 23px;
 
-  left: 990px;
+  left: 980px;
 
   top: 25px;
 
-  font-family: 'Qwigley';
 
   font-style: normal;
 
   font-weight: 400;
 
-  font-size: 24px;
+  font-size: 20px;
 
   line-height: 30px;
 
@@ -68,17 +67,16 @@
 
   height: 23px;
 
-  left: 1050px;
+  left: 1040px;
 
   top: 0.1px;
 
-  font-family: 'Qwigley';
 
   font-style: normal;
 
   font-weight: 400;
 
-  font-size: 24px;
+  font-size: 15px;
 
   line-height: 30px;
 
@@ -107,7 +105,7 @@
 
   color: white;
 
-  font-size: 15px;
+  font-size: 13px;
 
 }
 

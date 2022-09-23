@@ -68,15 +68,14 @@ export default function HouseDetails(props) {
     width: '600px',
     top: '105px',
     left: '20px',
-    fontFamily: 'Qwigley',
     fontStyle: 'normal',
     fontWeight: 400,
-    fontSize: '40px',
+    fontSize: '28px',
     color: 'black'}}>
                 <p style={{width:"1000px"}}>Community name : {community.JustSmartCustomHomes[0].name} - {props.url1[0].name}</p>
                 
             </div>
-            <div style={{ 
+            <div  style={{ 
            
             height:"600px",
             display: "flex",
@@ -90,7 +89,7 @@ export default function HouseDetails(props) {
             }}>
             {props.url1[0].room.map((record1,i)=>
            
-            <div>
+            <div >
                <p style={{fontFamily: 'Playfair Display',
                           fontSize: "20px",
                           width:"250px",
@@ -123,15 +122,14 @@ export default function HouseDetails(props) {
                          top: "710px",
                          left: "565px",
                          borderRadius:" 10px",
-                         fontFamily: 'qwigley',
-                         fontSize: "30px",
-                         paddingLeft:" 20px"}}>
+                         fontSize: "22px",
+                         padding:" 10px"}}>
                 {community.JustSmartCustomHomes[0].booking1}<br />
-                <span style={{color:"#D8F0D0"}}>For Booking</span>{community.JustSmartCustomHomes[0].booking2}
+                <span style={{color:"#D8F0D0"}}>For Booking </span>{community.JustSmartCustomHomes[0].booking2}
             </div>
             <div className="houseplan">
                 <h5 id="details">Details....</h5>
-                <p> {props.url1[0].name} - Plan</p>
+                <p> {props.url1[0].name} - Plan:</p>
 
             </div>
           

@@ -65,11 +65,10 @@
     width: 350px;
     height: 41px;
     left: 920px;
-    top: 110px;
-    font-family: 'Qwigley';
+    top: 100px;
     font-style: normal;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 28px;
     line-height: 45px;
     color: #000000;
 }
@@ -79,24 +78,22 @@
     height: 41px;
     left: 920px;
     top: 460px;
-    font-family: 'Qwigley';
     font-style: normal;
     font-weight: 400;
-    font-size: 35px;
+    font-size: 25px;
     line-height: 45px;
     color: #000000;
 }
 .firstbooking {
     position: absolute;
     background-color: lightgreen;
-   
+   padding: 10px;
     width: 300px;
     height: 80px;
     top: 500px;
     left: 920px;
     border-radius: 10px;
-    font-family: 'qwigley';
-    font-size: 30px;
+    font-size: 21px;
     padding-left: 20px;
 
 

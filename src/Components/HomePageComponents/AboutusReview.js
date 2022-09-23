@@ -31,11 +31,11 @@ export default function AboutusReview() {
             <div className="availablehouses">
             <img className="houseIcon" src={HouseIcon} alt="houseIcon" style={{height: "90px",width: "80px"}}/>
                         <p className="type" 
-                           style={{fontFamily: 'Qwigley',
-                                   fontSize: "48px",
+                           style={{
+                                   fontSize: "30px",
                                    color: "#000000",
                                    left:" 90px",
-                                   top: "30px",
+                                   top: "45px",
                                    position:"absolute"}} id="readilyavailable">
                           Readily Available
                         </p>
@@ -51,10 +51,9 @@ export default function AboutusReview() {
                         <div>
                         <div className="aboutus" 
                              style={{position: "absolute",
-                                     left: "405px",
-                                     top: "30px",
-                                     fontFamily: 'Qwigley',
-                                     fontSize: "48px",
+                                     left: "555px",
+                                     top: "37px",
+                                     fontSize: "30px",
                                      color: "#000000"}}>
                              Aboutus
                         </div>
@@ -83,8 +82,7 @@ export default function AboutusReview() {
                              style={{ position: "absolute",
                                       left: "420px",
                                       top: "780px",
-                                      fontFamily: 'Qwigley',
-                                      fontSize:"50px"}} id="reviews">
+                                      fontSize:"33px"}} id="reviews">
                             Reviews
                         </div>
         
@@ -96,11 +94,10 @@ export default function AboutusReview() {
                                      top: "850px",
                                      paddingLeft: "130px",
                                      paddingTop: "20px",
-                                     fontFamily: 'Qwigley',
-                                     fontSize: "33px",
+                                     fontSize: "23px",
                                      background: "lightgreen"}}>
                              "Exceptional and on-time"<br />
-                            <span style={{color:"lightgreen"}}>......................</span>-Arun
+                            <span style={{color:"lightgreen"}}>..............................</span>-Arun
                             <img className="houseIcon"
                                  src={HouseIcon} 
                                  alt="houseIcon1" 
@@ -108,7 +105,7 @@ export default function AboutusReview() {
                                           left: "10px",
                                           top:"5px",
                                           height: "80px"}}/>
-                            <p style={{position:"absolute",left:"10px",top:"70px",fontSize:"25px"}}>More details about the reviews</p>
+                            <p style={{position:"absolute",left:"10px",top:"70px",fontSize:"18px"}}>More details about the reviews</p>
                         </div>
                         <div className="revrect2" 
                              style={{position: "absolute",
@@ -118,11 +115,10 @@ export default function AboutusReview() {
                                      top: "1000px",
                                      paddingLeft: "130px",
                                      paddingTop: "20px",
-                                     fontFamily: 'Qwigley',
-                                     fontSize: "33px",
+                                     fontSize: "23px",
                                      background: "lightgreen"}}>
                              "Exceptional and on-time"<br />
-                            <span style={{color:"lightgreen"}}>......................</span>-Arun
+                            <span style={{color:"lightgreen"}}>..............................</span>-Arun
                             <img className="houseIcon" 
                                  src={HouseIcon}
                                  alt="houseIcon2"  
@@ -130,16 +126,16 @@ export default function AboutusReview() {
                                           left: "10px",
                                           top:"5px",
                                           height: "80px"}} />
-                            <p style={{position:"absolute",left:"10px",top:"70px",fontSize:"25px"}}>More details about the reviews</p>
+                            <p style={{position:"absolute",left:"10px",top:"70px",fontSize:"18px"}}>More details about the reviews</p>
                         </div>
                         </div>
                      <div className="completedhouses">
                      <img className="houseIcon" src={HouseIcon} alt="houseIcon"  style={{position:"relative",left:"470px",height: "90px",width: "80px"}}/>
-                     <p style={{fontFamily: 'Qwigley',
-                                fontSize: "48px",
+                     <p style={{
+                                fontSize: "30px",
                                 color: "#000000",
                                 left:" 950px",
-                                top: "30px",
+                                top: "45px",
                                 position:"absolute"}} id="completedproj"> 
                         Completed Projects
                     </p>
