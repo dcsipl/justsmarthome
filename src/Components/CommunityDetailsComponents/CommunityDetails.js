@@ -130,7 +130,7 @@ src={props.url[0].house[0].image}/>
                    overflowY:"auto",
                    overflowX:"hidden"}}>
             {props.url[0].house.map((record1,i)=>
-            <div >
+            <div className='houses'>
                <p style={{fontFamily: 'Playfair Display',
                           fontSize: "20px",
                           width:"250px",

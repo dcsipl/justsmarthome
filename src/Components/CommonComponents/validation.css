@@ -1,0 +1,174 @@
+
+
+
+
+.popup {
+  margin: 10px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  height: 10px;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+
+
+ .email {
+
+  position: absolute;
+
+  width: 86px;
+
+  height: 23px;
+
+  left: 990px;
+
+  top: 25px;
+
+  font-family: 'Qwigley';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-size: 24px;
+
+  line-height: 30px;
+
+  color: white;
+}
+
+ .box {
+
+  position: absolute;
+
+  width: 170px;
+
+  height: 27px;
+
+  left: 1035px;
+
+  top: 25px;
+
+  background: rgba(255, 253, 253, 0.02);
+
+  border: 1px solid yellow;
+  color:white;
+
+  box-sizing: border-box;
+}
+
+.subscribe {
+
+  position: absolute;
+
+  width: 169px;
+
+  height: 23px;
+
+  left: 1050px;
+
+  top: 0.1px;
+
+  font-family: 'Qwigley';
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-size: 24px;
+
+  line-height: 30px;
+
+  color: white;
+}
+
+.butt {
+
+  position: absolute;
+
+  cursor:pointer;
+
+  width: 30px;
+
+  height: 27px;
+
+  left: 1207px;
+
+  top: 25px;
+
+  background-color: #012060;
+
+  border-radius: 5px;
+
+  border-color:  white;
+
+  color: white;
+
+  font-size: 15px;
+
+}
+
+
+.popup {
+  padding: 20px;
+  background:lightgray;
+  border-radius: 10px;
+  border-top: none;
+  width: 25%;
+  height: 50px;
+  position: relative;
+  top:-15px;
+  left:431px;
+}
+
+
+.popup .close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup .close:hover{
+color: black}
+
+.popup .content {
+ 
+
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: 'Times New Roman', Times, serif; 
+    font-size: 16px;
+    color: green
+  }
+  
+  /* Animation */
+  .popup .content {
+    animation: animated-text 2s linear 0s 1 normal both
+              
+  }
+  /* text animation */
+  
+  @keyframes animated-text{
+    from{width: 0;}
+    to{width: 456px;}
+  }
+
+.triangle-up {
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 20px solid lightgray;
+  position: relative;
+  left:1120px;
+  top:5px;
+  transform:rotate(45deg);
+
+}
+

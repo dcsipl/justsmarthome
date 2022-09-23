@@ -1,6 +1,6 @@
 import React from 'react';
 import HouseIcon from '../../Pictures/CommonImages/houseicon.jpg';
-//import './AboutusReview.css'
+import './AboutusReview.css'
 
 import community from "../../Justsmarthome.json";
 export default function AboutusReview() {
@@ -41,7 +41,7 @@ export default function AboutusReview() {
                         </p>
                         <div style={{width:"390px",height:"1130px",position:"relative",overflowX:"hidden",overflowY:"auto"}}>
                         {community.JustSmartCustomHomes.map((record, i) =>
-                        <div key={i} style={{paddingLeft:"10px",paddingTop:"20px"}} >                    
+                        <div key={i} style={{paddingLeft:"10px",paddingTop:"20px"}} className="availimg">                    
                              <img  src={record.availableImg} onClick={arr3[i]} style={{height: "200px",width: "350px",borderRadius:"5px",position:"relative"}} />
                              <h1 style={{width: "200px", backgroundColor: "gray", color: "white", fontSize: "20px",borderRadius:"5px",padding:"5px",position:"relative",marginTop:"-45px",marginLeft:"70px"}}>{record.name}</h1>                
                         </div>
@@ -67,11 +67,14 @@ export default function AboutusReview() {
                                       left: "395px",
                                       top: "95px",
                                       background: "rgba(248, 197, 197, 0.22)",}}>
-                        <p style={{fontFamily: 'Qwigley',
-                                   fontSize: "35px",
+                        <p style={{
+                            fontFamily:"georgia",
+
+                                   fontSize: "21px",
                                    textIndent: "50px",
-                                   margin: "20px",}}>
-                        {record.aboutus}
+                                   margin: "20px",
+                                   lineHeight:"40px"}}>
+                        {record.aboutusone}<br/>{record.aboutustwo}
                         </p>
                         </div>
                         </div> 
@@ -140,9 +143,9 @@ export default function AboutusReview() {
                                 position:"absolute"}} id="completedproj"> 
                         Completed Projects
                     </p>
-                    <div style={{left:"858px",width:"390px",height:"1130px",position:"absolute",overflowX:"hidden",overflowY:"auto"}}>
+                    <div  style={{left:"858px",width:"390px",height:"1130px",position:"absolute",overflowX:"hidden",overflowY:"auto"}}>
                      {community.JustSmartCustomHomes.map((record, i) =>
-                        <div key={i} style={{paddingLeft:"10px",paddingTop:"20px"}}>    
+                        <div key={i} style={{paddingLeft:"10px",paddingTop:"20px"}} className="compleimg">    
                        <img  src={record.completedImg} onClick={arr3[i]} style={{height: "200px",width: "350px",borderRadius:"5px",position:"relative"}} />
                        <h1 style={{width: "200px", backgroundColor: "gray", color: "white", fontSize: "20px",borderRadius:"5px",padding:"5px",position:"relative",marginTop:"-45px",marginLeft:"70px"}}>{record.name}</h1>                
                       </div>

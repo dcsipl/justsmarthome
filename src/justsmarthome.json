@@ -32,7 +32,8 @@
       "sliderImg":"./Pictures/HomePageImages/construction_1.jpg",
       "availableImg": "./Pictures/HomePageImages/construction_1.jpg",
       "completedImg": "./Pictures/HomePageImages/availablehome-1.jpg",
-      "aboutus":"At JustSmart Custom Homes (JSCH), we believe that meticulous supervision is the only manner in which to build a truly custom home.<br/>Creating exceptionally high-quality and distinctive custom homes is our passion. Unwavering commitment to you, our customer, is paramount. Our experienced team will work closely with you to ensure your vision is realized-and that the homebuilding experience is an enjoyable one. We are confident that you, like many of our other customers, will marvel at the level of service you will receive-even after moving into your new dream home.",
+      "aboutusone":"At JustSmart Custom Homes (JSCH), we believe that meticulous supervision is the only manner in which to build a truly custom home.",
+       "aboutustwo":"Creating exceptionally high-quality and distinctive custom homes is our passion. Unwavering commitment to you, our customer, is paramount. Our experienced team will work closely with you to ensure your vision is realized-and that the homebuilding experience is an enjoyable one. We are confident that you, like many of our other customers, will marvel at the level of service you will receive-even after moving into your new dream home.",
       "address":[
         {"line1":"JustSmart Custom Homes"},
         {"line2":"Edmond,"},

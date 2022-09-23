@@ -11,27 +11,7 @@ import {Link} from 'react-scroll'
 export default function Header(props) {
   
     
-    const [values, setValues]=useState({
-        gmail:""
-    });
-    const [error ,setError]=useState({
-        
-    });
     
-    
-    function PopUp(event){
-        event.preventDefault();
-        setError(Validation(values));
-      
-    };
-
-    function HandleChange(event){
-        setValues({
-            ...values,
-            [event.target.name]:event.target.value,
-        });
-    }
-
 
     return (
         <>
@@ -71,15 +51,7 @@ export default function Header(props) {
                       duration={500}> {props.fourth}
                     </Link>
               </a>       
-                <form className="form">
-                <label className='subscribe'>Subscribe for NewsLetter</label>
-                <label className='email'>Email</label>
-                <input type="text"  className="box" name="gmail" placeholder="Enter the email"value={values.gmail} onChange={HandleChange}/>
-                {
-                    error.gmail && <p className="error"style={{position:"absolute",width:"305px",color:"red",fontSize:"15px",left:"1020px",top:"50px"}}>{error.gmail}</p>
-                }
-                <button className="butt" onClick={PopUp}>ok</button>
-                </form>
+              <Validation/>
                
 
 
