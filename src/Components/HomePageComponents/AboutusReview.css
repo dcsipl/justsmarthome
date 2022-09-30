@@ -1,0 +1,211 @@
+.secondhalfcontainer {
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 580px;
+    height: auto
+}
+
+.availablehouseicon {
+    height: 90px;
+    width: 80px
+}
+
+.availablehousestitle {
+
+    font-size: 30px;
+    color: #000000;
+    left: 90px;
+    top: 45px;
+    position: absolute;
+}
+
+.availableimgcontainer {
+    width: 390px;
+    height: 1130px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.availableimages {
+    padding-left: 10px;
+    padding-top: 20px
+}
+
+.availableimages:hover {
+    transform: scale(0.9);
+
+
+}
+
+.availableimg {
+    height: 200px;
+    width: 350px;
+    border-radius: 5px;
+    position: relative
+}
+
+.availablename {
+    width: 200px;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    margin-top: -45px;
+    margin-left: 70px
+}
+
+.aboutustitle {
+
+    position: absolute;
+    left: 555px;
+    top: 37px;
+    font-size: 30px;
+    color: #000000
+}
+
+.aboutuscontentbox {
+    position: absolute;
+    width: 450px;
+    height: 640px;
+    left: 395px;
+    top: 95px;
+    background: rgba(248, 197, 197, 0.22)
+}
+
+.aboutuscontent {
+
+    font-family: georgia;
+    font-size: 21px;
+    text-indent: 50px;
+    margin: 20px;
+    line-height: 40px
+}
+
+.reviewtitle {
+
+    position: absolute;
+    left: 420px;
+    top: 780px;
+    font-size: 33px
+}
+
+.reviewcontentbox1 {
+    position: absolute;
+    width: 410px;
+    height: 110px;
+    left: 410px;
+    top: 850px;
+    padding-left: 130px;
+    padding-top: 20px;
+    font-size: 23px;
+    background: lightgreen
+}
+
+.reviewhouseicon1 {
+
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    height: 80px
+}
+
+.reviewcontentbox1 span {
+    position: absolute;
+    left: 300px
+}
+
+.reviewcontent1 {
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    font-size: 18px
+}
+
+.reviewcontentbox2 {
+    position: absolute;
+    width: 410px;
+    height: 110px;
+    left: 410px;
+    top: 1000px;
+    padding-left: 130px;
+    padding-top: 20px;
+    font-size: 23px;
+    background: lightgreen
+}
+
+.reviewhouseicon2 {
+
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    height: 80px
+}
+
+.reviewcontentbox2 span {
+    position: absolute;
+    left: 300px
+}
+
+.reviewcontent2 {
+    position: absolute;
+    left: 10px;
+    top: 70px;
+    font-size: 18px
+}
+
+.completedhouseicon {
+    height: 90px;
+    width: 80px
+}
+
+.completedhousestitle {
+
+    font-size: 30px;
+    color: #000000;
+    left: 900px;
+    top: 45px;
+    position: absolute;
+}
+
+.completedimgcontainer {
+    width: 390px;
+    height: 1130px;
+    left: 470px;
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.completedimages {
+    padding-left: 10px;
+    padding-top: 20px
+}
+
+.completedimages:hover {
+    transform: scale(0.9);
+
+
+}
+
+.completedimg {
+    height: 200px;
+    width: 350px;
+    border-radius: 5px;
+    position: relative
+}
+
+.completedname {
+    width: 200px;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    position: relative;
+    margin-top: -45px;
+    margin-left: 70px
+}
