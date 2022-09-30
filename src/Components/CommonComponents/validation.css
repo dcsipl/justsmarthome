@@ -1,21 +1,30 @@
+ 
+.container form .subscribe {
+
+  position: absolute;
+
+  width: 169px;
+
+  height: 23px;
+
+  left: 1040px;
+
+  top: 0.1px;
 
 
+  font-style: normal;
 
+  font-weight: 400;
 
-.popup {
-  margin: 10px auto;
-  padding: 20px;
-  background: #fff;
-  border-radius: 5px;
-  width: 50%;
-  height: 10px;
-  position: relative;
-  transition: all 5s ease-in-out;
+  font-size: 15px;
+
+  line-height: 30px;
+
+  color: white;
+
 }
 
-
-
- .email {
+.container form .email {
 
   position: absolute;
 
@@ -39,7 +48,7 @@
   color: white;
 }
 
- .box {
+.container form .box {
 
   position: absolute;
 
@@ -54,36 +63,13 @@
   background: rgba(255, 253, 253, 0.02);
 
   border: 1px solid yellow;
+
   color:white;
 
   box-sizing: border-box;
 }
 
-.subscribe {
-
-  position: absolute;
-
-  width: 169px;
-
-  height: 23px;
-
-  left: 1040px;
-
-  top: 0.1px;
-
-
-  font-style: normal;
-
-  font-weight: 400;
-
-  font-size: 15px;
-
-  line-height: 30px;
-
-  color: white;
-}
-
-.butt {
+.container form .button {
 
   position: absolute;
 
@@ -108,65 +94,126 @@
   font-size: 13px;
 
 }
+.container form .error{
 
+position:absolute;
 
-.popup {
-  padding: 20px;
-  background:lightgray;
-  border-radius: 10px;
-  border-top: none;
-  width: 25%;
-  height: 50px;
-  position: relative;
-  top:-15px;
-  left:431px;
+width:305px;
+
+color:red;
+
+font-size:18px;
+
+left:1040px;
+
+top:55px
+
 }
-
-
-.popup .close {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-  font-size: 20px;
-  font-weight: bold;
-  text-decoration: none;
-  color: #333;
-}
-.popup .close:hover{
-color: black}
-
-.popup .content {
- 
-
-    white-space: nowrap;
-    overflow: hidden;    
-    font-family: 'Times New Roman', Times, serif; 
-    font-size: 16px;
-    color: green
-  }
-  
-  /* Animation */
-  .popup .content {
-    animation: animated-text 2s linear 0s 1 normal both
-              
-  }
-  /* text animation */
-  
-  @keyframes animated-text{
-    from{width: 0;}
-    to{width: 456px;}
-  }
 
 .triangle-up {
+
+  z-index: 1;
+
   width: 0;
+
   height: 0;
+
   border-left: 10px solid transparent;
+
   border-right: 10px solid transparent;
+
   border-bottom: 20px solid lightgray;
+
   position: relative;
+
   left:1120px;
+
   top:5px;
+
   transform:rotate(45deg);
 
 }
+.popup {
+
+  position: fixed;
+
+  z-index: 1;
+
+  padding: 20px;
+
+  background:lightgray;
+
+  border-radius: 10px;
+
+  border-top: none;
+
+  width: 25%;
+
+  height: 50px;
+
+  position: relative;
+
+  top:-5px;
+
+  left:875px;
+}
+
+
+
+.popup .content {
+
+  white-space: nowrap;
+  
+  overflow: hidden;    
+  
+  font-family: 'Times New Roman', Times, serif; 
+  
+  font-size: 16px;
+  
+  color: green
+  
+  }
+  
+  /* Animation */
+  
+  .popup .content {
+
+  animation: animated-text 2s linear 0s 1 normal both
+              
+  }
+
+  /* text animation */
+  
+  @keyframes animated-text{
+    
+    from{width: 0;}
+    
+    to{width: 456px;}
+  }
+
+.popup .close {
+
+  position: absolute;
+
+  top: 5px;
+
+  right: 5px;
+
+  font-size: 20px;
+
+  font-weight: bold;
+  
+  text-decoration: none;
+  
+  color: #333;
+}
+
+.popup .close:hover{
+
+color: red
+
+}
+
+
+
 

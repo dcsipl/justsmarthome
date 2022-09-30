@@ -2,19 +2,16 @@
     position: absolute;
     width: 100%;
     height: 28px;
-    left: 1px;
     top: 1822px;
     background: #C4C4C4;
     
 }
 
-.footerRectangle {
+.footerMainBar {
     position: absolute;
     width: 100%;
     height: 160px;
-    left: 1px;
     top: 1850px;
-
     background: rgba(39, 42, 42, 0.8);
 }
 
@@ -32,7 +29,7 @@
     position: absolute;
     width: 338px;
     height: 114px;
-    left: 50px;
+    left: 5px;
     top: 45px;
     font-family: 'PT Serif Caption';
     font-style: normal;
@@ -41,7 +38,7 @@
     line-height: 24px;
     color: white;
 }
-.footerRectangle a:hover{
+.footerMainBar a:hover{
     color: yellow;
     text-decoration-line: underline;
     text-decoration-color: white;
@@ -78,7 +75,6 @@
 
 .footerAvailable {
     position: absolute;
-    
     width: 200px;
     height: 15px;
     left: 555px;
@@ -105,7 +101,7 @@
     color: white;
 }
 
-.smallRect {
+.insideBox {
     position: relative;
     width: 680px;
     height: 90px;
@@ -117,11 +113,16 @@
     flex-direction: row;
     padding: 10px;
 }
-.smallRect p{
+.insideBox p{
     position: relative;
     font-size: 23px;
 }
-.smallRect ul li{
+.insideBox ul {
+    list-style: none;
+    color: black;
+
+}
+.insideBox ul li{
     position: relative;
     top: 30px;
     left:-70px;
@@ -130,19 +131,11 @@
     font-weight: 400;
     font-size: 18px;
 }
-.smallRect ul {
-   
-    list-style: none;
-    color: black;
 
-}
-
-.smallRect ul li a{
-   
+.insideBox ul li a{
    color: black;
 }
-.smallRect ul li a:hover{
-   
+.insideBox ul li a:hover{
    color:cornflowerblue
 
 }
@@ -167,13 +160,11 @@
     height: 81px;
     left: 25px;
     top: 35px;
-
     font-family: 'PT Serif Caption';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-
     color: #FFFFFF;
 }
 
@@ -183,13 +174,11 @@
     height: 25px;
     left: 1015px;
     top: 122px;
-
     font-family: 'PT Serif Caption';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-
     color: #FFFFFF;
 }
 
@@ -207,7 +196,6 @@
     position: absolute;
     width: 100%;
     height: 29px;
-    left: 1px;
     top: 2010px;
     font-family: 'PT Serif';
     font-style: normal;

@@ -3,8 +3,8 @@ import ReactDom from 'react-dom';
 import { BrowserRouter as Router, Routes, Route,} from "react-router-dom";
 
 import HomePage from './Components/HomePageComponents/HomePage.js';
-import CommunityDetails from './Components/CommunityDetailsComponents/CommunityDetails';
-import HouseDetails from './Components/HouseDetailsComponents/HouseDetails';
+import CommunityDetailsPage from './Components/CommunityDetailsComponents/CommunityDetailsPage';
+import HouseDetailsPage from './Components/HouseDetailsComponents/HouseDetailsPage.js';
 
 
 
@@ -37,21 +37,21 @@ return(
     <Router>
         <Routes>
             <Route exact path="" element={<HomePage />} />
-            <Route path="/Community-1" element={<CommunityDetails url={urls}/>}/>
-            <Route path="/Community-2" element={<CommunityDetails url={urls}/>}/>
-            <Route path="/Community-3" element={<CommunityDetails url={urls}/>}/>
-            <Route path="/Community-4" element={<CommunityDetails url={urls}/>}/>
-            <Route path="/Community-5" element={<CommunityDetails url={urls}/>}/>
-            <Route path="/House-1" element={<HouseDetails url1={urls1[0]}/>} />
-            <Route path="/House-2" element={<HouseDetails url1={urls1[0]}/>} />
-            <Route path="/House-3" element={<HouseDetails url1={urls1[0]}/>} />
-            <Route path="/House-4" element={<HouseDetails url1={urls1[0]}/>} />
-            <Route path="/House-5" element={<HouseDetails url1={urls1[0]}/>} />
-            <Route path="/House-6" element={<HouseDetails url1={urls1[0]}/>} />
-            <Route path="/House-7" element={<HouseDetails url1={urls1[0]}/>} />
-            <Route path="/House-8" element={<HouseDetails url1={urls1[0]}/>} />
-            <Route path="/House-9" element={<HouseDetails url1={urls1[0]}/>} />
-            <Route path="/House-10" element={<HouseDetails url1={urls1[0]}/>} />
+            <Route path="/Community-1" element={<CommunityDetailsPage url={urls}/>}/>
+            <Route path="/Community-2" element={<CommunityDetailsPage url={urls}/>}/>
+            <Route path="/Community-3" element={<CommunityDetailsPage url={urls}/>}/>
+            <Route path="/Community-4" element={<CommunityDetailsPage url={urls}/>}/>
+            <Route path="/Community-5" element={<CommunityDetailsPage url={urls}/>}/>
+            <Route path="/House-1" element={<HouseDetailsPage url1={urls1[0]}/>} />
+            <Route path="/House-2" element={<HouseDetailsPage url1={urls1[0]}/>} />
+            <Route path="/House-3" element={<HouseDetailsPage url1={urls1[0]}/>} />
+            <Route path="/House-4" element={<HouseDetailsPage url1={urls1[0]}/>} />
+            <Route path="/House-5" element={<HouseDetailsPage url1={urls1[0]}/>} />
+            <Route path="/House-6" element={<HouseDetailsPage url1={urls1[0]}/>} />
+            <Route path="/House-7" element={<HouseDetailsPage url1={urls1[0]}/>} />
+            <Route path="/House-8" element={<HouseDetailsPage url1={urls1[0]}/>} />
+            <Route path="/House-9" element={<HouseDetailsPage url1={urls1[0]}/>} />
+            <Route path="/House-10" element={<HouseDetailsPage url1={urls1[0]}/>} />
            
            
         </Routes>

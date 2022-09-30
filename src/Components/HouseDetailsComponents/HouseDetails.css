@@ -1,3 +1,68 @@
+.communityname-housename {
+    position: absolute;
+    width: 1000px;
+    top: 105px;
+    left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: black;
+}
+
+.roommeasurement {
+    position: absolute;
+    width: 500px;
+    height: 20px;
+    left: 400px;
+    top: 140px;
+    font-size: 20px;
+}
+
+.mainroom {
+    position: absolute;
+    width: 840px;
+    height: 470px;
+    left: 30px;
+    top: 190px;
+    border-radius: 25px;
+}
+
+.roomscontainer {
+
+
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 950px;
+    padding-top: -10px;
+    overflow-y: auto;
+    overflow-x: hidden
+}
+
+.roomslider:hover {
+    transform: scale(0.9);
+}
+
+.roomsname {
+    font-family: Playfair Display;
+    font-size: 20px;
+    width: 250px;
+    margin: 10px;
+    position: relative;
+    left: 75px;
+    top: 15px;
+}
+
+.roomsimg {
+    width: 290px;
+    height: 160px;
+    margin: -10px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    top: 20px
+}
+
 .houseplan p {
     position: absolute;
     width: 600px;
@@ -9,6 +74,7 @@
     color: black;
 
 }
+
 .houseplan h5 {
     position: absolute;
     width: 600px;
@@ -21,6 +87,50 @@
     color: black;
 
 }
-.roomslider{
-    transform: scale(0.9);
+
+.housepagebooking {
+    position: absolute;
+    background: #D8F0D0;
+    width: 310px;
+    height: 80px;
+    top: 710px;
+    left: 565px;
+    border-radius: 10px;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.housepagebooking span {
+    position: absolute;
+    left: 130px;
+}
+
+.twobhktitle {
+    position: absolute;
+    top: 825px;
+    left: 300px;
+    font-size: 18px
+}
+
+.twobhkimg {
+    position: absolute;
+    width: 500px;
+    height: 670px;
+    top: 890px;
+    left: 90px
+}
+
+.threebhktitle {
+    position: absolute;
+    top: 825px;
+    left: 900px;
+    font-size: 18px
+}
+
+.threebhkimg {
+    position: absolute;
+    width: 500px;
+    height: 670px;
+    top: 890px;
+    left: 700px
 }

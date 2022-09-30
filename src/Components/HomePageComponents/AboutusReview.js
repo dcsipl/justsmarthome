@@ -1,8 +1,8 @@
 import React from 'react';
 import HouseIcon from '../../Pictures/CommonImages/houseicon.jpg';
-import './AboutusReview.css'
+import './AboutusReview.css';
+import json from "../../Justsmarthome.json";
 
-import community from "../../Justsmarthome.json";
 export default function AboutusReview() {
     function ClickEvent1() {
         window.open("/Community-1", "_self");
@@ -19,136 +19,72 @@ export default function AboutusReview() {
     function ClickEvent5() {
         window.open("/Community-5", "_self");
     }
-    
-    
-    const arr3=[ClickEvent1,ClickEvent2,ClickEvent3,ClickEvent4,ClickEvent5]
-    console.log(arr3)
-    return (
-     
-       
-            <> 
-            <div style={{ display:"flex",width:"100%",position:"relative",top:"580px",height:"auto"}} >
-            <div className="availablehouses">
-            <img className="houseIcon" src={HouseIcon} alt="houseIcon" style={{height: "90px",width: "80px"}}/>
-                        <p className="type" 
-                           style={{
-                                   fontSize: "30px",
-                                   color: "#000000",
-                                   left:" 90px",
-                                   top: "45px",
-                                   position:"absolute"}} id="readilyavailable">
-                          Readily Available
-                        </p>
-                        <div style={{width:"390px",height:"1130px",position:"relative",overflowX:"hidden",overflowY:"auto"}}>
-                        {community.JustSmartCustomHomes.map((record, i) =>
-                        <div key={i} style={{paddingLeft:"10px",paddingTop:"20px"}} className="availimg">                    
-                             <img  src={record.availableImg} onClick={arr3[i]} style={{height: "200px",width: "350px",borderRadius:"5px",position:"relative"}} />
-                             <h1 style={{width: "200px", backgroundColor: "gray", color: "white", fontSize: "20px",borderRadius:"5px",padding:"5px",position:"relative",marginTop:"-45px",marginLeft:"70px"}}>{record.name}</h1>                
-                        </div>
-                        )}
-                        </div> 
-                        </div>
-                        <div>
-                        <div className="aboutus" 
-                             style={{position: "absolute",
-                                     left: "555px",
-                                     top: "37px",
-                                     fontSize: "30px",
-                                     color: "#000000"}}>
-                             Aboutus
-                        </div>
-                        {community.JustSmartCustomHomes.map((record, i) =>
-                        <div key={i}>    
-                        <div className="rect" 
-                             style={{ position: "absolute",
-                                      width: "450px",
-                                      height: "640px",
-                                      left: "395px",
-                                      top: "95px",
-                                      background: "rgba(248, 197, 197, 0.22)",}}>
-                        <p style={{
-                            fontFamily:"georgia",
 
-                                   fontSize: "21px",
-                                   textIndent: "50px",
-                                   margin: "20px",
-                                   lineHeight:"40px"}}>
-                        {record.aboutusone}<br/>{record.aboutustwo}
-                        </p>
-                        </div>
-                        </div> 
+
+    const array = [ClickEvent1, ClickEvent2, ClickEvent3, ClickEvent4, ClickEvent5]
+    console.log(array)
+    return (
+        <>
+            <div className="secondhalfcontainer">
+                <div className="availablehouses">
+                    <img className="availablehouseicon" src={HouseIcon} alt="houseIcon" />
+                    <p className="availablehousestitle" id="readilyavailable">
+                        Readily Available
+                    </p>
+                    <div className="availableimgcontainer">
+                        {json.JustSmartCustomHomes.map((community, i) =>
+                            <div key={i} className="availableimages">
+                                <img className="availableimg" src={community.availableImg} onClick={array[i]} />
+                                <h1 className="availablename">{community.name}</h1>
+                            </div>
                         )}
-                        <div className="reviews" 
-                             style={{ position: "absolute",
-                                      left: "420px",
-                                      top: "780px",
-                                      fontSize:"33px"}} id="reviews">
-                            Reviews
+                    </div>
+                </div>
+                <div>
+                    <div className="aboutustitle">
+                        Aboutus
+                    </div>
+                    {json.JustSmartCustomHomes.map((community, i) =>
+                        <div key={i}>
+                            <div className="aboutuscontentbox">
+                                <p className="aboutuscontent">
+                                    {community.aboutuscontentone}<br />{community.aboutuscontenttwo}
+                                </p>
+                            </div>
                         </div>
-        
-                        <div className="revrect1" 
-                             style={{position: "absolute",
-                                     width:" 410px",
-                                     height: "110px",
-                                     left: "410px",
-                                     top: "850px",
-                                     paddingLeft: "130px",
-                                     paddingTop: "20px",
-                                     fontSize: "23px",
-                                     background: "lightgreen"}}>
-                             "Exceptional and on-time"<br />
-                            <span style={{color:"lightgreen"}}>..............................</span>-Arun
-                            <img className="houseIcon"
-                                 src={HouseIcon} 
-                                 alt="houseIcon1" 
-                                 style={{ position: "absolute",
-                                          left: "10px",
-                                          top:"5px",
-                                          height: "80px"}}/>
-                            <p style={{position:"absolute",left:"10px",top:"70px",fontSize:"18px"}}>More details about the reviews</p>
-                        </div>
-                        <div className="revrect2" 
-                             style={{position: "absolute",
-                                     width:" 410px",
-                                     height: "110px",
-                                     left: "410px",
-                                     top: "1000px",
-                                     paddingLeft: "130px",
-                                     paddingTop: "20px",
-                                     fontSize: "23px",
-                                     background: "lightgreen"}}>
-                             "Exceptional and on-time"<br />
-                            <span style={{color:"lightgreen"}}>..............................</span>-Arun
-                            <img className="houseIcon" 
-                                 src={HouseIcon}
-                                 alt="houseIcon2"  
-                                 style={{ position: "absolute",
-                                          left: "10px",
-                                          top:"5px",
-                                          height: "80px"}} />
-                            <p style={{position:"absolute",left:"10px",top:"70px",fontSize:"18px"}}>More details about the reviews</p>
-                        </div>
-                        </div>
-                     <div className="completedhouses">
-                     <img className="houseIcon" src={HouseIcon} alt="houseIcon"  style={{position:"relative",left:"470px",height: "90px",width: "80px"}}/>
-                     <p style={{
-                                fontSize: "30px",
-                                color: "#000000",
-                                left:" 950px",
-                                top: "45px",
-                                position:"absolute"}} id="completedproj"> 
+                    )}
+                    <div className="reviewtitle" id="reviews">
+                        Reviews
+                    </div>
+
+                    <div className="reviewcontentbox1">
+                        "Exceptional and on-time"<br />
+                        <span>-Arun</span>
+                        <img className="reviewhouseicon1" src={HouseIcon} alt="houseIcon1" />
+                        <p className="reviewcontent1">More details about the reviews</p>
+                    </div>
+                    <div className="reviewcontentbox2">
+                        "Exceptional and on-time"<br />
+                        <span>-Arun</span>
+                        <img className="reviewhouseicon2" src={HouseIcon} alt="houseIcon1" />
+                        <p className="reviewcontent2">More details about the reviews</p>
+                    </div>
+                </div>
+                <div className="completedhouses">
+                    <img className="completedhouseicon" src={HouseIcon} alt="houseIcon" />
+                    <p className="completedhousestitle" id="completedproj">
                         Completed Projects
                     </p>
-                    <div  style={{left:"858px",width:"390px",height:"1130px",position:"absolute",overflowX:"hidden",overflowY:"auto"}}>
-                     {community.JustSmartCustomHomes.map((record, i) =>
-                        <div key={i} style={{paddingLeft:"10px",paddingTop:"20px"}} className="compleimg">    
-                       <img  src={record.completedImg} onClick={arr3[i]} style={{height: "200px",width: "350px",borderRadius:"5px",position:"relative"}} />
-                       <h1 style={{width: "200px", backgroundColor: "gray", color: "white", fontSize: "20px",borderRadius:"5px",padding:"5px",position:"relative",marginTop:"-45px",marginLeft:"70px"}}>{record.name}</h1>                
-                      </div>
+                    <div className="completedimgcontainer">
+                        {json.JustSmartCustomHomes.map((community, i) =>
+                            <div key={i} className="completedimages">
+                                <img className="completedimg" src={community.completedImg} onClick={array[i]} />
+                                <h1 className="completedname">{community.name}</h1>
+                            </div>
                         )}
-                     </div>
-                     </div>
-                  </div>
-                 </>
-             )
+                    </div>
+                </div>
+            </div>
+        </>
+    )
 }

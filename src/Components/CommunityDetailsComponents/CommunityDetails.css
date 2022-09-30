@@ -1,29 +1,87 @@
-
-
-.features {
+.communityname {
     position: absolute;
-    width: 250px;
-    height: 44px;
-    left: 30px;
-    top: 1290px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 60px;
-    color: #000000;
+    width: 500px;
+    height: 20px;
+    left: 50px;
+    top: 110px;
+    font-size: 28px
 }
 
-.points {
-    position: absolute;
-    width: 233px;
-    left: 50px;
-    top: 1370px;
-    font-family: 'calibri';
-    font-style: normal;
-    font-weight: 400;
+.housescontainer {
+    width: 630px;
+    height: 1000px;
+    display: grid;
+    gap: 10px 50px;
+    grid-template-columns: auto auto;
+    padding-left: 10px;
+    margin-top: -20px;
+    overflow-y: auto;
+    overflow-x: hidden
+}
+
+.housesname {
+    font-family: Playfair Display;
     font-size: 20px;
-    line-height: 35px;
-    color: #000000;
+    width: 250px;
+    position: relative;
+    left: 50px;
+    top: -5px
+}
+
+.housesimg {
+    width: 270px;
+    height: 200px;
+    border-radius: 5px;
+    cursor: pointer
+}
+
+.maincommunityname {
+    position: absolute;
+    width: 500px;
+    height: 20px;
+    left: 680px;
+    top: 115px;
+    font-size: 25px;
+
+}
+
+.mainhousename {
+    position: absolute;
+    width: 500px;
+    height: 20px;
+    left: 900px;
+    top: 120px;
+    font-size: 20px;
+
+}
+
+.mainhouseimg {
+    position: absolute;
+    width: 540px;
+    height: 250px;
+    left: 680px;
+    top: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.moredetailsbutton {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    left: 1000px;
+    top: 350px;
+    cursor: pointer
+}
+
+.backgroundcolor {
+    width: 550px;
+    height: 760px;
+    background-color: #BCFBEC;
+    position: absolute;
+    left: 675px;
+    top: 400px
 }
 
 .description {
@@ -34,16 +92,15 @@
     margin-left: 50px;
     width: 275px;
     top: 300px;
-    left: 630px;
+    left: 640px;
     line-height: 30px;
 
 }
 
 
-.secondbooking {
+.communitypagebooking {
     position: absolute;
     background-color: lightgreen;
-    border: solid grey;
     width: 310px;
     height: 80px;
     top: 430px;
@@ -56,8 +113,9 @@
 
 }
 
-.secondbooking span {
-    color: lightgreen;
+.communitypagebooking span {
+    position: absolute;
+    left: 130px
 }
 
 .nearby {
@@ -88,48 +146,72 @@
 
 }
 
-.scroll::-webkit-scrollbar{
-    display: none;
+
+.features {
+    position: absolute;
+    width: 250px;
+    height: 44px;
+    left: 30px;
+    top: 1290px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 60px;
+    color: #000000;
 }
+
+.features .points {
+    position: absolute;
+    width: 233px;
+    left: 50px;
+    font-family: 'calibri';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 35px;
+    color: #000000;
+}
+
 .map p {
     position: absolute;
     top: 1300px;
-    left:800px;
+    left: 800px;
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
 }
 
-.overview img{
+.overview img {
     position: absolute;
     top: 1370px;
-    left:350px;
+    left: 350px;
     border-radius: 10px;
     border: 1px solid gray;
-    width:420px;
+    width: 420px;
     height: 300px;
 }
 
 .overview p {
     position: absolute;
     top: 1300px;
-    left:360px;
+    left: 360px;
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
     font-size: 28px;
 }
 
-.map img{
+.map img {
     position: absolute;
     top: 1370px;
-    left:800px;
+    left: 800px;
     border-radius: 10px;
     border: 1px solid gray;
-    width:420px;
+    width: 420px;
     height: 300px;
 }
-.houses:hover{
+
+.houses:hover {
     transform: scale(0.9);
 }

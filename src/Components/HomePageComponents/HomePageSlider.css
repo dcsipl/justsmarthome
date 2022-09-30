@@ -1,37 +1,15 @@
-.buttoncontainer {
-    position: absolute;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    width: 870px;
-    top: 360px;
-    left: 22px;
-    font-size: 2em;
-    color: white;
-    
-
+.slider img{
+    position: absolute; 
+        width: 870px; 
+      height: 460px;
+      left: 20px;
+      top: 130px; 
+      border-radius: 20px;
+      cursor:pointer
 }
-
-
-.morebutt {
-    position: absolute;
-    width:150px;
-    left: 650px;
-    top: 740px;
-    border-radius: 5px;
-    border: 1px solid gray;
-    cursor:pointer;
-    background-color: saddlebrown;
-    color: black;
-    font-size:18px;
-    margin-top: -240px;
-
-}
-
 
 .ongoing {
     position: absolute;
-
     left: -10px;
     top: 360px;
     font-family: 'Qwigley';
@@ -45,22 +23,33 @@
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: rotate(-36.54deg);
 }
-.descrip{
+.morebutton {
     position: absolute;
-    width: 325px;
-    height: 300px;
-    left: 919px;
-    top: 145px;
-  color:black;
-   font-size: 14px;
-   text-indent: 65px;
-   font-family:initial;
-
-   
+    width:150px;
+    left: 650px;
+    top: 740px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    cursor:pointer;
+    background-color:moccasin;
+    color: black;
+    font-size:18px;
+    margin-top: -240px;
 
 }
+.arrowContainer {
+    position: absolute;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    width: 870px;
+    top: 360px;
+    left: 22px;
+    color: white;
+    
 
- .maindes{
+}
+.descriptionTitle{
     position: absolute;
     width: 350px;
     height: 41px;
@@ -72,7 +61,23 @@
     line-height: 45px;
     color: #000000;
 }
-.lake {
+.descriptionContent{
+    position: absolute;
+    width: 325px;
+    height: 300px;
+    left: 919px;
+    top: 145px;
+   color:black;
+   font-size: 14px;
+   text-indent: 65px;
+   font-family:initial;
+   text-align:justify
+   
+
+}
+
+
+.communityName {
     position: absolute;
     width: 350px;
     height: 41px;
@@ -84,7 +89,7 @@
     line-height: 45px;
     color: #000000;
 }
-.firstbooking {
+.booking {
     position: absolute;
     background-color: lightgreen;
    padding: 10px;
@@ -100,6 +105,8 @@
 
 }
 
-.firstbooking span {
-    color: lightgreen;
+.booking span{
+    position: absolute;
+    left:130px
+    
 }

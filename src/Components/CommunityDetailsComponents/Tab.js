@@ -1,8 +1,14 @@
+
+
+
+
+
 import * as React from 'react';
 import Tabs from '@mui/material/Tabs';
 import Tab from '@mui/material/Tab';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import './Tab.css'
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -37,7 +43,7 @@ function a11yProps(index: number) {
   };
 }
 
-export default function BasicTabs() {
+export default function BasicTabs(props) {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event: React.SyntheticEvent, newValue: number) => {
@@ -45,40 +51,35 @@ export default function BasicTabs() {
   };
 
   return (
-    <Box sx={{ width: '100%' }}>
-      <Box sx={{ width: '40%', position: 'absolute', borderBottom: 1, borderColor: 'gray', top: '650px', left: '700px' }}>
-        <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-          <Tab className="tab1" label="Common Amenities" {...a11yProps(0)} style={{ position: 'absolute', width: '10%', color: 'green' }} />
-          <Tab label="Security Systems" {...a11yProps(1)} style={{ position: 'absolute', width: '10%', left: '120px', color: 'green' }} />
-          <Tab label="Water Treatement" {...a11yProps(2)} style={{ position: 'absolute', width: '20%', left: '250px', color: 'green' }} />
-          <Tab label="Sewage Treatment" {...a11yProps(3)} style={{ position: 'absolute', width: '10%', left: '400px', color: 'green' }} />
-        </Tabs>
-      </Box>
-      <TabPanel className="deftab1" value={value} index={0} style={{ position: 'absolute', top: '750px', left: '700px' }}>
-        Grand Entrance Gate to the project
-        <li> Five swimming pools including one Indoor Heated Pool.</li>
-        <li> Beautifully Landscaped Gardens, Boulevards & Floral Walkways</li>
-        <li>Grand Atrium with lounge area for each tower</li>
-        <li> Jogging / Walking Trail.</li>
-        <li> Outdoor Exercise Area with Equipment</li>
-        <li>Children's Play Areas</li>
-        <li>Amphitheatre</li>
-        <li>Home Concierge</li>
-        <li>Chip & Puttgreen</li>
-        <li>Outdoor Party Area with Barbeque Pits</li>
-        <li>Indoor Party Hall/Multi-Purpose Hall</li>
-        <li>A Crèche managed by professionals</li>
-        <li>Common toilets for servants / drivers</li>
-      </TabPanel>
-      <TabPanel value={value} index={1} style={{ position: 'absolute', top: '900px', left: '900px' }}>
-        Security<br />Systems
-      </TabPanel>
-      <TabPanel value={value} index={2} style={{ position: 'absolute', top: '900px', left: '900px' }}>
-        Water<br />Treatment
-      </TabPanel>
-      <TabPanel value={value} index={3} style={{ position: 'absolute', top: '900px', left: '900px' }}>
-        Sewage<br />Treatment
-      </TabPanel>
+    <Box>
+      {props.tabs.map((tab) =>
+        <>
+          <Box className="box">
+            <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
+
+              <Tab className="tab1" label={tab.title1} {...a11yProps(0)} />
+              <Tab className="tab2" label={tab.title2} {...a11yProps(1)} />
+              <Tab className="tab3" label={tab.title3} {...a11yProps(2)} />
+              <Tab className="tab4" label={tab.title4} {...a11yProps(3)} />
+
+            </Tabs>
+          </Box>
+
+
+
+          <TabPanel className="tabcontent" value={value} index={0} >
+            Grand Entrance Gate to the project:<br />
+            <li>{tab.content1}</li>
+          </TabPanel>
+          <TabPanel className="tabcontent" value={value} index={1} >
+            <li>{tab.content2}</li>
+          </TabPanel>
+          <TabPanel className="tabcontent" value={value} index={2} >
+            <li>{tab.content3}</li>
+          </TabPanel>
+          <TabPanel className="tabcontent" value={value} index={3} >
+            <li>{tab.content4}</li>
+          </TabPanel></>)}
     </Box>
   );
 }
