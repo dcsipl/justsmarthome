@@ -13,13 +13,14 @@ import './Components/HouseDetailsComponents/HouseDetails.css';
 import './index.css';
 
 import community from "./Justsmarthome.json";
+import GalleryPage from './Components/GalleryComponent/GalleryPage.js';
 
 console.log(community);
 
 
 
 
-function Main(){
+    function Main(){
     let filename = window.location.href.split('/').pop();
     console.log(filename)
               const urls = community.JustSmartCustomHomes.filter(data=>data.type === filename);
@@ -28,7 +29,7 @@ function Main(){
               console.log(keys)
 
               const urls1=  community.JustSmartCustomHomes.map(record=>
-                record.house.filter(record2=>
+                record.completedhouses.filter(record2=>
                    record2.houseType===filename)
                 )
                
@@ -37,6 +38,7 @@ return(
     <Router>
         <Routes>
             <Route exact path="" element={<HomePage />} />
+            <Route exact path="/gallery" element={<GalleryPage/>} />
             <Route path="/Community-1" element={<CommunityDetailsPage url={urls}/>}/>
             <Route path="/Community-2" element={<CommunityDetailsPage url={urls}/>}/>
             <Route path="/Community-3" element={<CommunityDetailsPage url={urls}/>}/>

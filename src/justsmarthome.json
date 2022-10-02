@@ -1,74 +1,20 @@
 {
   "JustSmartCustomHomes": [
     {
-      "name": "Deer Valley Estates",
-      "type": "Community-1",
-      "status": "OnGoing-1",
-      "mainDescr": "Deer Valley Estates is conveniently located across Spring Creek Elementary School on N Rockwell Ave and North of 150th Street.  There are a limited number of lots and homes available.  Please contact us for more details.Corgeous brand new construction.   From the moment you walk in the door, you will feel at home.  Upgrades gallore everywhere you turn.  From the barrell  and Coffered Ceilings to the upgraded high quality flooring, these homes are noting buy class.   HDMI ports, CAT ports, Web enabled dimmers, USB chargers,  Web enabled springler modules, High efficiency HAVC unitis, Energy efficient insulation package,  Open kitchen, Box windows with window seats, Spacious master closets with dresser, shoe racks,  Whirlpool appliances and much more.",
-      "locname": "Canyon Lakes - Ohlahoma1",
-      "booking1": "Raj 405-361-6198",
-      "booking2": "Jay 650-888-0015",
-      "measurement": {
-        "totalArea": "50000 sq.ft"
-      },
-      "description": [
+      "aboutus": [
         {
-          "one": "Number of houses/rooms,"
+          "content": "At JustSmart Custom Homes (JSCH), we believe that meticulous supervision is the only manner in which to build a truly custom home. We believe so strongly in this that a hands-on approach for all projects has become our philosophy."
         },
         {
-          "two": "How many remaining ,"
+          "content": "What captures all buyers of a JSCH Home is the exceptional attention to the details that make their homes stand out among the rest. "
         },
         {
-          "three": "Time of completion , "
+          "content": "Our promise to you is a one-of-a-kind custom home designed and built with the highest level of architectural talent, personalized service and top-of-the-line building materials. You will notice our innovative designs are elegant and stylish, while at the same time, comfortable and functional. We strive to achieve this important balance in all of our custom homes."
         },
         {
-          "four": "How much % is completed and etc.,"
+          "content": "Creating exceptionally high-quality and distinctive custom homes is our passion. Unwavering commitment to you, our customer, is paramount. Our experienced team will work closely with you to ensure your vision is realized-and that the homebuilding experience is an enjoyable one. We are confident that you, like many of our other customers, will marvel at the level of service you will receive-even after moving into your new dream home."
         }
       ],
-      "nearby": [
-        {
-          "place1": "Police Station",
-          "km1": "2 km"
-        },
-        {
-          "place2": "Walmart super center",
-          "km2": "4 km"
-        },
-        {
-          "place3": "Hospital",
-          "km3": "1.3 km"
-        },
-        {
-          "place4": "School",
-          "km4": "2 km"
-        }
-      ],
-      "tabs": [
-        {
-          "title1": "Common Amenities",
-          "content1": "Five swimming pools including one Indoor Heated Pool.\n\nBeautifully Landscaped Gardens, Boulevards & Floral Walkways.Grand Atrium with lounge area for each tower. Jogging / Walking Trail.Outdoor Exercise Area with Equipment.Children's Play Areas. Amphitheatre.Home Concierge.Chip & Puttgreen.Outdoor Party Area with Barbeque Pits.Indoor Party Hall/Multi-Purpose Hall.A Crèche managed by professionals.Common toilets for servants / drivers."
-        },
-        {
-          "title2": "Security Systems",
-          "content2": "Security Systems"
-        },
-        {
-          "title3": "Water treatment",
-          "content3": "Water treatment"
-        },
-        {
-          "title4": "Sewage Treatment",
-          "content4": "Sewage Treatment"
-        }
-      ],
-      "extraFeatures": "Smart Home Fixtures, uperseal Insulation Package, Extradinary Lightings, Upgraded Flooring, Whirlpool Applicances, Enormous Use Of Crowns, Barrel/Cofferred Ceilings, Sprinkler With Web Module, Insulated Garage Doors",
-      "communityPlan": "./Pictures/CommunityDetailsImages/community overview-1.jpg",
-      "googlemap": "./Pictures/CommunityDetailsImages/constructionmap_1.jpg",
-      "sliderImg": "./Pictures/HomePageImages/construction_1.jpg",
-      "availableImg": "./Pictures/HomePageImages/construction_1.jpg",
-      "completedImg": "./Pictures/HomePageImages/availablehome-1.jpg",
-      "aboutuscontentone": "At JustSmart Custom Homes (JSCH), we believe that meticulous supervision is the only manner in which to build a truly custom home.",
-      "aboutuscontenttwo": "Creating exceptionally high-quality and distinctive custom homes is our passion. Unwavering commitment to you, our customer, is paramount. Our experienced team will work closely with you to ensure your vision is realized-and that the homebuilding experience is an enjoyable one. We are confident that you, like many of our other customers, will marvel at the level of service you will receive-even after moving into your new dream home.",
       "address": [
         {
           "line1": "JustSmart Custom Homes"
@@ -108,7 +54,7 @@
       ],
       "contactus": [
         {
-          "email1": "raju@justsmartcustomhomes.com",
+          "email1": "Raju@justsmartcustomhomes.com",
           "phone1": "405-361-6198"
         },
         {
@@ -117,364 +63,574 @@
         }
       ],
       "copyRight": " Copyright © 2022 JustSmartCustom Homes. All Rights Reserved.",
-      "house": [
+      "gallery": [
+        {
+          "image": "./pictures/GalleryImages/image1.jpg"
+        },
+        {
+          "image": "./pictures/GalleryImages/image2.jpg"
+        },
+        {
+          "image": "./pictures/GalleryImages/image3.jpg"
+        },
+        {
+          "image": "./pictures/GalleryImages/image4.jpg"
+        },
+        {
+          "image": "./pictures/GalleryImages/image5.jpg"
+        },
+        {
+          "image": "./pictures/GalleryImages/image6.jpg"
+        },
+        {
+          "image": "./pictures/GalleryImages/image7.jpg"
+        },
+        {
+          "image": "./pictures/GalleryImages/image8.jpg"
+        },
+        {
+          "image": "./pictures/GalleryImages/image9.jpg"
+        },
+        {
+          "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room1.jpg"
+        },
+        {
+          "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room2.jpg"
+        },
+        {
+          "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room3.jpg"
+        },
+        {
+          "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room4.jpg"
+        },
+        {
+          "image": "./Pictures/HouseDetailsImages/comp_deer_house8_room1.jpg"
+        },
+        {
+          "image": "./Pictures/HouseDetailsImages/comp_deer_house8_room2.jpg"
+        },
+        {
+          "image": "./Pictures/HouseDetailsImages/comp_deer_house8_room3.jpg"
+        },
+        {
+          "image": "./Pictures/HouseDetailsImages/comp_deer_house8_room4.jpg"
+        },
+        {
+          "image": "./Pictures/HouseDetailsImages/comp_deer_house8_room5.jpg"
+        }
+      ],
+      
+      "name": "Deer Valley Estates",
+      "type": "Community-1",
+      "status": "OnGoing-1",
+      "mainDescr": "Deer Valley Estates is conveniently located across Spring Creek Elementary School on N Rockwell Ave and North of 150th Street.  There are a limited number of lots and homes available.  Please contact us for more details.Corgeous brand new construction.   From the moment you walk in the door, you will feel at home.  Upgrades gallore everywhere you turn.  From the barrell  and Coffered Ceilings to the upgraded high quality flooring, these homes are noting buy class.   HDMI ports, CAT ports, Web enabled dimmers, USB chargers,  Web enabled springler modules, High efficiency HAVC unitis, Energy efficient insulation package,  Open kitchen, Box windows with window seats, Spacious master closets with dresser, shoe racks,  Whirlpool appliances and much more.",
+      "booking1": "Raju 405-361-6198",
+      "booking2": "Jay 650-888-0015",
+      "nearby": [
+        {
+          "place1": "Police Station",
+          "km1": "-km"
+        },
+        {
+          "place2": "Walmart super center",
+          "km2": "-km"
+        },
+        {
+          "place3": "Hospital",
+          "km3": "-km"
+        },
+        {
+          "place4": "School",
+          "km4": "-km"
+        }
+      ],
+      "tabs": [
+        {
+          "title1": "Common Amenities",
+          "content1": "Common Amenities"
+        },
+        {
+          "title2": "Security Systems",
+          "content2": "Security Systems"
+        },
+        {
+          "title3": "Water treatment",
+          "content3": "Water treatment"
+        },
+        {
+          "title4": "Sewage Treatment",
+          "content4": "Sewage Treatment"
+        }
+      ],
+      "extraFeatures": "Smart Home Fixtures, uperseal Insulation Package, Extradinary Lightings, Upgraded Flooring, Whirlpool Applicances, Enormous Use Of Crowns, Barrel/Cofferred Ceilings, Sprinkler With Web Module, Insulated Garage Doors",
+      "communityPlan": "./Pictures/CommunityDetailsImages/community overview-1.jpg",
+      "location": "./Pictures/CommunityDetailsImages/constructionmap_1.jpg",
+      "sliderImg": "./Pictures/HomePageImages/construction_1.jpg",
+      "availableImg": "./Pictures/HomePageImages/construction_1.jpg",
+      "completedImg": "./Pictures/HomePageImages/availablehome-1.jpg",
+     
+      "completedhouses": [
         {
           "id": "identifier",
-          "name": "House name 1",
+          "name": " ",
           "houseType": "House-1",
-          "image": "./Pictures/CommunityDetailsImages/availablehome-1.jpg",
-          "completed": "60%",
-          "expectedTimecompletion": "December,2022",
-          "sold": "Yes/No",
-          "measurement": {
-            "totalArea": "1200 sq.ft"
-          },
-          "twobhk": "./Pictures/HouseDetailsImages/2 BHK house-1.webp",
-          "threebhk": "./Pictures/HouseDetailsImages/3 BHK house-1.jpg",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house1.jpg",
+          "description": "         Bed Rooms:    3                 Age of Home:  2017/New               Cooling:  Central Electric          Bathrooms:     3                 Level:               1                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2301sqft                 Heat:      Central Gas             Lot:                  4                Block:               3                             Garage:  2 cars",
           "room": [
             {
-              "type": "hall",
-              "image": "./Pictures/HouseDetailsImages/hall 1.webp",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room1.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "kitchen",
-              "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room2.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "bathroom",
-              "image": "./Pictures/HouseDetailsImages/bathroom 1.webp",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room3.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room5.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room6.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room7.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
             }
           ]
         },
         {
           "id": "identifier",
-          "name": "House name two",
+          "name": " ",
           "houseType": "House-2",
-          "image": "./Pictures/CommunityDetailsImages/availablehome-2.jpg",
-          "completed": "60%",
-          "expectedTimecompletion": "December,2022",
-          "sold": "Yes/No",
-          "measurement": {
-            "totalArea": "1200 sq.ft"
-          },
-          "twobhk": "./Pictures/HouseDetailsImages/2 BHK house-1.webp",
-          "threebhk": "./Pictures/HouseDetailsImages/3 BHK house-1.jpg",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house2.jpg",
+          "description": "         Bed Rooms:    4                 Age of Home:  2017/New               Cooling:  Central Electric          Bathrooms:     2.5              Level:               1                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2150sqft                 Heat:      Central Gas             Lot:                  3                Block:               3                             Garage:  2 cars",
           "room": [
             {
-              "type": "hall",
-              "image": "./Pictures/HouseDetailsImages/hall 2.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room1.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "kitchen",
-              "image": "./Pictures/HouseDetailsImages/kitchen 2.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room2.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "bathroom",
-              "image": "./Pictures/HouseDetailsImages/bathroom 2.webp",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room3.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room5.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room6.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room7.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
             }
           ]
         },
         {
           "id": "identifier",
-          "name": "House name three",
+          "name": " ",
           "houseType": "House-3",
-          "image": "./Pictures/CommunityDetailsImages/availablehome-3.jpg",
-          "completed": "60%",
-          "expectedTimecompletion": "December,2022",
-          "sold": "Yes/No",
-          "measurement": {
-            "totalArea": "1200 sq.ft"
-          },
-          "twobhk": "./Pictures/HouseDetailsImages/2 BHK house-1.webp",
-          "threebhk": "./Pictures/HouseDetailsImages/3 BHK house-1.jpg",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house3.jpg",
+          "description": "          Bed Rooms:    4                 Age of Home:  2018/New               Cooling:  Central Electric          Bathrooms:     2.5              Level:               1                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       1954sqft                 Heat:      Central Gas             Lot:                  3                Block:               3                             Garage:  2 cars",
           "room": [
             {
-              "type": "hall",
-              "image": "./Pictures/HouseDetailsImages/hall 3.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house3_room1.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "kitchen",
-              "image": "./Pictures/HouseDetailsImages/kitchen 3.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house3_room2.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "bathroom",
-              "image": "./Pictures/HouseDetailsImages/bathroom 3.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house3_room3.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house3_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
             }
           ]
         },
         {
           "id": "identifier",
-          "name": "House name four",
+          "name": " ",
           "houseType": "House-4",
-          "image": "./Pictures/CommunityDetailsImages/availablehome-4.jpg",
-          "completed": "60%",
-          "expectedTimecompletion": "December,2022",
-          "sold": "Yes/No",
-          "measurement": {
-            "totalArea": "1200 sq.ft"
-          },
-          "twobhk": "./Pictures/HouseDetailsImages/2 BHK house-1.webp",
-          "threebhk": "./Pictures/HouseDetailsImages/3 BHK house-1.jpg",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house4.jpg",
+          "description": "         Bed Rooms:    4                 Age of Home:  2018/New               Cooling:  Central Electric          Bathrooms:     3.0              Level:               1                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2174sqft                 Heat:      Central Gas             Lot:                  8                Block:               2                             Garage:  2 cars",
           "room": [
             {
-              "type": "hall",
-              "image": "./Pictures/HouseDetailsImages/hall 1.webp",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house4_room1.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "kitchen",
-              "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house4_room2.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "bathroom",
-              "image": "./Pictures/HouseDetailsImages/bathroom 1.webp",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house4_room3.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house4_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house4_room5.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house4_room6.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house4_room7.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house4_room8.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
             }
           ]
         },
         {
           "id": "identifier",
-          "name": "House name five",
+          "name": " ",
           "houseType": "House-5",
-          "image": "./Pictures/CommunityDetailsImages/availablehome-5.jpg",
-          "completed": "60%",
-          "expectedTimecompletion": "December,2022",
-          "sold": "Yes/No",
-          "measurement": {
-            "totalArea": "1200 sq.ft"
-          },
-          "twobhk": "./Pictures/HouseDetailsImages/2 BHK house-1.webp",
-          "threebhk": "./Pictures/HouseDetailsImages/3 BHK house-1.jpg",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house5.jpg",
+          "description": "            Bed Rooms:    4                 Age of Home:  2018/New               Cooling:  Central Electric          Bathrooms:     2.5              Level:               1                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2151sqft                 Heat:      Central Gas             Lot:                  9                Block:               2                             Garage:  2 cars",
           "room": [
             {
-              "type": "hall",
-              "image": "./Pictures/HouseDetailsImages/hall 1.webp",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house5_room1.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "kitchen",
-              "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house5_room2.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "bathroom",
-              "image": "./Pictures/HouseDetailsImages/bathroom 1.webp",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house5_room3.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house5_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house5_room5.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house5_room6.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house5_room7.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house5_room8.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
             }
           ]
         },
         {
           "id": "identifier",
-          "name": "House name six",
+          "name": " ",
           "houseType": "House-6",
-          "image": "./Pictures/CommunityDetailsImages/availablehome-1.jpg",
-          "completed": "60%",
-          "expectedTimecompletion": "December,2022",
-          "sold": "Yes/No",
-          "measurement": {
-            "totalArea": "1200 sq.ft"
-          },
-          "twobhk": "./Pictures/HouseDetailsImages/2 BHK house-1.webp",
-          "threebhk": "./Pictures/HouseDetailsImages/3 BHK house-1.jpg",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house6.jpg",
+          "description": "          Bed Rooms:    5                 Age of Home:  2018/New               Cooling:  Central Electric          Bathrooms:     3                 Level:               2                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2300sqft                 Heat:      Central Gas             Lot:                  10                Block:               2                             Garage:  3 cars",
           "room": [
             {
-              "type": "hall",
-              "image": "./Pictures/HouseDetailsImages/hall 1.webp",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house6_room1.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "kitchen",
-              "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house6_room2.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "bathroom",
-              "image": "./Pictures/HouseDetailsImages/bathroom 1.webp",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house6_room3.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house6_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house6_room5.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house6_room6.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house6_room7.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house6_room8.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
             }
           ]
         },
         {
           "id": "identifier",
-          "name": "House name seven",
+          "name": " ",
           "houseType": "House-7",
-          "image": "./Pictures/CommunityDetailsImages/availablehome-2.jpg",
-          "completed": "60%",
-          "expectedTimecompletion": "December,2022",
-          "sold": "Yes/No",
-          "measurement": {
-            "totalArea": "1200 sq.ft"
-          },
-          "twobhk": "./Pictures/HouseDetailsImages/2 BHK house-1.webp",
-          "threebhk": "./Pictures/HouseDetailsImages/3 BHK house-1.jpg",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house7.jpg",
+          "description": "        Bed Rooms:    5                 Age of Home:  2019/New               Cooling:  Central Electric          Bathrooms:     3                 Level:               2                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2300sqft                 Heat:      Central Gas             Lot:                  11                Block:               2                             Garage:  2 cars",
           "room": [
             {
-              "type": "hall",
-              "image": "./Pictures/HouseDetailsImages/hall 1.webp",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house7_room1.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "kitchen",
-              "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house7_room2.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "bathroom",
-              "image": "./Pictures/HouseDetailsImages/bathroom 1.webp",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house7_room3.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house7_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house7_room5.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house7_room6.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house7_room7.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
             }
           ]
         },
         {
           "id": "identifier",
-          "name": "House name eight",
+          "name": " ",
           "houseType": "House-8",
-          "image": "./Pictures/CommunityDetailsImages/availablehome-3.jpg",
-          "completed": "60%",
-          "expectedTimecompletion": "December,2022",
-          "sold": "Yes/No",
-          "measurement": {
-            "totalArea": "1200 sq.ft"
-          },
-          "twobhk": "./Pictures/HouseDetailsImages/2 BHK house-1.webp",
-          "threebhk": "./Pictures/HouseDetailsImages/3 BHK house-1.jpg",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house8.jpg",
+          "description": "        Bed Rooms:    5                 Age of Home:  2020/New               Cooling:  Central Electric          Bathrooms:     3                 Level:               2                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2400sqft                 Heat:      Central Gas             Lot:                  11                Block:               2                             Garage:  2 cars",
           "room": [
             {
-              "type": "hall",
-              "image": "./Pictures/HouseDetailsImages/hall 1.webp",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house8_room1.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "kitchen",
-              "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
+              "type": "Hall",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house8_room2.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "bathroom",
-              "image": "./Pictures/HouseDetailsImages/bathroom 1.webp",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house8_room3.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
-            }
-          ]
-        },
-        {
-          "id": "identifier",
-          "name": "House name nine",
-          "houseType": "House-9",
-          "image": "./Pictures/CommunityDetailsImages/availablehome-4.jpg",
-          "completed": "60%",
-          "expectedTimecompletion": "December,2022",
-          "sold": "Yes/No",
-          "measurement": {
-            "totalArea": "1200 sq.ft"
-          },
-          "twobhk": "./Pictures/HouseDetailsImages/2 BHK house-1.webp",
-          "threebhk": "./Pictures/HouseDetailsImages/3 BHK house-1.jpg",
-          "room": [
-            {
-              "type": "hall",
-              "image": "./Pictures/HouseDetailsImages/hall 1.webp",
-              "measurement": {
-                "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "kitchen",
-              "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house8_room4.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "bathroom",
-              "image": "./Pictures/HouseDetailsImages/bathroom 1.webp",
+              "type": "Kitchen",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house8_room5.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house8_room6.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "Bathroom",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house8_room7.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
             }
           ]
         }
@@ -485,48 +641,30 @@
       "type": "Community-2",
       "status": "OnGoing-2",
       "mainDescr": "Canyon Lakes community is conveniently located in south east corner of Memorial and Council.  Canyon Lakes is a 120 acre community designed around the 18 acre spring fed lake.  It features lighted fountains, fishing pier, community pool, club house, playground, soccer field, park and walkng trail around the lake.  There are a limited number of lots and homes left.  Please contact us for more dettails.Corgeous brand new construction.   From the moment you walk in the door, you will feel at home.  Upgrades gallore everywhere you turn.  From the barrell  and Coffered Ceilings to the upgraded high quality flooring, these homes are noting buy class.   HDMI ports, CAT ports, Web enabled dimmers, USB chargers,  Web enabled springler modules, High efficiency HAVC unitis, Energy efficient insulation package,  Open kitchen, Box windows with window seats, Spacious master closets with dresser, shoe racks,  Whirlpool appliances and much more.",
-      "locname": "Canyon Lakes - Ohlahoma2",
-      "booking1": "Raj 405-361-6198",
+      "booking1": "Raju 405-361-6198",
       "booking2": "Jay 650-888-0015",
-      "measurement": {
-        "totalArea": "50000 sq.ft"
-      },
-      "description": [
-        {
-          "one": "Number of houses/rooms,"
-        },
-        {
-          "two": "How many remaining ,"
-        },
-        {
-          "three": "Time of completion , "
-        },
-        {
-          "four": "How much % is completed and etc.,"
-        }
-      ],
       "nearby": [
         {
           "place1": "Police Station",
-          "km1": "1 km"
+          "km1": "-km"
         },
         {
           "place2": "Walmart super center",
-          "km2": "2 km"
+          "km2": "-km"
         },
         {
           "place3": "Hospital",
-          "km3": "3 km"
+          "km3": "-km"
         },
         {
           "place4": "School",
-          "km4": "4 km"
+          "km4": "-km"
         }
       ],
       "tabs": [
         {
           "title1": "Common Amenities",
-          "content1": "Five swimming pools including one Indoor Heated Pool.Beautifully Landscaped Gardens, Boulevards & Floral Walkways.Grand Atrium with lounge area for each tower. Jogging / Walking Trail.Outdoor Exercise Area with Equipment.Children's Play Areas. Amphitheatre.Home Concierge.Chip & Puttgreen.Outdoor Party Area with Barbeque Pits.Indoor Party Hall/Multi-Purpose Hall.A Crèche managed by professionals.Common toilets for servants / drivers."
+          "content1": "Common Amenities"
         },
         {
           "title2": "Security Systems",
@@ -543,261 +681,95 @@
       ],
       "extraFeatures": "Smart Home Fixtures, uperseal Insulation Package, Extradinary Lightings, Upgraded Flooring, Whirlpool Applicances, Enormous Use Of Crowns, Barrel/Cofferred Ceilings, Sprinkler With Web Module, Insulated Garage Doors",
       "communityPlan": "./Pictures/CommunityDetailsImages/community overview-1.jpg",
-      "googlemap": "./Pictures/CommunityDetailsImages/constructionmap_1.jpg",
+      "location": "./Pictures/CommunityDetailsImages/constructionmap_1.jpg",
       "sliderImg": "./Pictures/HomePageImages/availablehome-1.jpg",
       "availableImg": "./Pictures/HomePageImages/availablehome-1.jpg",
       "completedImg": "./Pictures/HomePageImages/availablehome-2.jpg",
-      "house": [
+      
+      "completedhouses": [
         {
           "id": "identifier",
-          "name": "House name one",
+          "name": " ",
           "houseType": "House-1",
-          "image": "./Pictures/CommunityDetailsImages/construction-1.jpg",
-          "completed": "60%",
-          "expectedTimecompletion": "December,2022",
-          "sold": "Yes/No",
-          "measurement": {
-            "totalArea": "1200 sq.ft"
-          },
-          "twobhk": "./Pictures/HouseDetailsImages/2 BHK house-1.webp",
-          "threebhk": "./Pictures/HouseDetailsImages/3 BHK house-1.jpg",
+          "image": "./Pictures/CommunityDetailsImages/comp_canyon_house1.jpg",
+          "description": "         Bed Rooms:    5                 Age of Home:  2020/New               Cooling:  Central Electric          Bathrooms:     3                 Level:               2                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2400sqft                 Heat:      Central Gas             Lot:                  11                Block:               2                             Garage:  2 cars",
           "room": [
             {
-              "type": "hall",
-              "image": "./Pictures/HouseDetailsImages/hall 2.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room1.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "kitchen",
-              "image": "./Pictures/HouseDetailsImages/kitchen 2.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room2.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "bathroom",
-              "image": "./Pictures/HouseDetailsImages/bathroom 2.webp",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room3.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
-            }
-          ]
-        },
-        {
-          "id": "identifier",
-          "name": "House name two",
-          "houseType": "House-2",
-          "image": "./Pictures/CommunityDetailsImages/construction-2.jpg",
-          "completed": "60%",
-          "expectedTimecompletion": "December,2022",
-          "sold": "Yes/No",
-          "measurement": {
-            "totalArea": "1200 sq.ft"
-          },
-          "twobhk": "./Pictures/HouseDetailsImages/2 BHK house-1.webp",
-          "threebhk": "./Pictures/HouseDetailsImages/3 BHK house-1.jpg",
-          "room": [
-            {
-              "type": "hall",
-              "image": "./Pictures/HouseDetailsImages/hall 1.webp",
-              "measurement": {
-                "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "kitchen",
-              "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room4.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "bathroom",
-              "image": "./Pictures/HouseDetailsImages/bathroom 1.webp",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room5.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
-            }
-          ]
-        },
-        {
-          "id": "identifier",
-          "name": "House name three",
-          "houseType": "House-3",
-          "image": "./Pictures/CommunityDetailsImages/construction-3.jpg",
-          "completed": "60%",
-          "expectedTimecompletion": "December,2022",
-          "sold": "Yes/No",
-          "measurement": {
-            "totalArea": "1200 sq.ft"
-          },
-          "twobhk": "./Pictures/HouseDetailsImages/2 BHK house-1.webp",
-          "threebhk": "./Pictures/HouseDetailsImages/3 BHK house-1.jpg",
-          "room": [
-            {
-              "type": "hall",
-              "image": "./Pictures/HouseDetailsImages/hall 1.webp",
-              "measurement": {
-                "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "kitchen",
-              "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room6.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
-            },
-            {
-              "type": "bathroom",
-              "image": "../Pictures/HouseDetailsImages/bathroom 1.webp",
-              "measurement": {
-                "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
-            }
-          ]
-        },
-        {
-          "id": "identifier",
-          "name": "House name four",
-          "houseType": "House-4",
-          "image": "./Pictures/CommunityDetailsImages/construction-4.jpg",
-          "completed": "60%",
-          "expectedTimecompletion": "December,2022",
-          "sold": "Yes/No",
-          "measurement": {
-            "totalArea": "1200 sq.ft"
-          },
-          "twobhk": "./Pictures/HouseDetailsImages/2 BHK house-1.webp",
-          "threebhk": "./Pictures/HouseDetailsImages/3 BHK house-1.jpg",
-          "room": [
-            {
-              "type": "hall",
-              "image": "./Pictures/HouseDetailsImages/hall 1.webp",
-              "measurement": {
-                "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
-            },
-            {
-              "type": "kitchen",
-              "image": "../Pictures/HouseDetailsImages/kitchen 1.jpg",
-              "measurement": {
-                "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
-            },
-            {
-              "type": "bathroom",
-              "image": "../Pictures/HouseDetailsImages/bathroom 1.webp",
-              "measurement": {
-                "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
-            }
-          ]
-        },
-        {
-          "id": "identifier",
-          "name": "House name five",
-          "houseType": "House-5",
-          "image": "./Pictures/CommunityDetailsImages/construction-5.jpg",
-          "completed": "60%",
-          "expectedTimecompletion": "December,2022",
-          "sold": "Yes/No",
-          "measurement": {
-            "totalArea": "1200 sq.ft"
-          },
-          "twobhk": "./Pictures/HouseDetailsImages/2 BHK house-1.webp",
-          "threebhk": "./Pictures/HouseDetailsImages/3 BHK house-1.jpg",
-          "room": [
-            {
-              "type": "hall",
-              "image": "./Pictures/HouseDetailsImages/hall 1.webp",
-              "measurement": {
-                "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
-            },
-            {
-              "type": "kitchen",
-              "image": "./Pictures/HouseDetailsImages/kitchen 1.jpg",
-              "measurement": {
-                "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
-            },
-            {
-              "type": "bathroom",
-              "image": "./Pictures/HouseDetailsImages/bathroom 1.webp",
-              "measurement": {
-                "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             }
           ]
         }
       ]
     },
     {
-      "name": "Deer Valley Estates-3",
+      "name": "Thorn Hills",
       "type": "Community-3",
       "status": "OnGoing-3",
-      "mainDescr": "Deer-3",
-      "location": "./images/constructionmap_1.jpg",
-      "locname": "Canyon Lakes - Ohlahoma3",
-      "booking1": "Raj 405-361-6198",
+      "mainDescr": "Thornhill Addition in West Edmond is a unique neighborhood located off Danforth Road between Penn and Western Avenues. The construction began in 2005 with the idea that homeowners would have beautiful quality construction in Edmond with most of their square footage being on ground level or ALL on one level. The homes in the neighborhood are unique, because many different builders have added their touch to Thornhill over the years. Homes range anywhere from 2000 square feet to 5000 square feet depending which of the 5 sections of the neighborhood you are in.  The homeowners association fee covers the maintenance of entrances, a playground, basketball court, disc golf, and a greenbelt area. Thornhill is close by Frontier Elementary and Heartland Middle Schools in Edmond.",
+      "booking1": "Raju 405-361-6198",
       "booking2": "Jay 650-888-0015",
-      "measurement": {
-        "totalArea": "50000 sq.ft"
-      },
-      "description": [
-        {
-          "one": "Number of houses/rooms,"
-        },
-        {
-          "two": "How many remaining ,"
-        },
-        {
-          "three": "Time of completion , "
-        },
-        {
-          "four": "How much % is completed and etc.,"
-        }
-      ],
+      
       "nearby": [
         {
           "place1": "Police Station",
-          "km1": "2 km"
+          "km1": "-km"
         },
         {
           "place2": "Walmart super center",
-          "km2": "4 km"
+          "km2": "-km"
         },
         {
           "place3": "Hospital",
-          "km3": "1.3 km"
+          "km3": "-km"
         },
         {
           "place4": "School",
-          "km4": "2 km"
+          "km4": "-km"
         }
       ],
       "tabs": [
         {
           "title1": "Common Amenities",
-          "content1": "Five swimming pools including one Indoor Heated Pool.Beautifully Landscaped Gardens, Boulevards & Floral Walkways.Grand Atrium with lounge area for each tower. Jogging / Walking Trail.Outdoor Exercise Area with Equipment.Children's Play Areas. Amphitheatre.Home Concierge.Chip & Puttgreen.Outdoor Party Area with Barbeque Pits.Indoor Party Hall/Multi-Purpose Hall.A Crèche managed by professionals.Common toilets for servants / drivers."
+          "content1": "Common Amenities"
         },
         {
           "title2": "Security Systems",
@@ -814,270 +786,226 @@
       ],
       "extraFeatures": "Smart Home Fixtures, uperseal Insulation Package, Extradinary Lightings, Upgraded Flooring, Whirlpool Applicances, Enormous Use Of Crowns, Barrel/Cofferred Ceilings, Sprinkler With Web Module, Insulated Garage Doors",
       "communityPlan": "./Pictures/CommunityDetailsImages/community overview-1.jpg",
-      "googlemap": "./Pictures/CommunityDetailsImages/constructionmap_1.jpg",
+      "location": "./Pictures/CommunityDetailsImages/constructionmap_1.jpg",
       "sliderImg": "./Pictures/HomePageImages/availablehome-2.jpg",
       "availableImg": "./Pictures/HomePageImages/availablehome-2.jpg",
       "completedImg": "./Pictures/HomePageImages/availablehome-3.jpg",
-      "house": [
+      
+      "completedhouses": [
         {
           "id": "identifier",
-          "name": "House name 1",
+          "name": " ",
           "houseType": "House-1",
-          "image": "./Pictures/CommunityDetailsImages/availablehome-1.jpg",
-          "completed": "60%",
-          "expectedTimecompletion": "December,2022",
-          "sold": "Yes/No",
-          "measurement": {
-            "totalArea": "1200 sq.ft"
-          },
-          "twobhk": "./Pictures/HouseDetailsImages/2 BHK house-1.webp",
-          "threebhk": "./Pictures/HouseDetailsImages/3 BHK house-1.jpg",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house1.jpg",
+          "description": "      Bed Rooms:    5                 Age of Home:  2020/New               Cooling:  Central Electric          Bathrooms:     3                 Level:               2                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2400sqft                 Heat:      Central Gas             Lot:                  11                Block:               2                             Garage:  2 cars",
           "room": [
             {
-              "type": "hall",
-              "image": "./Pictures/HouseDetailsImages/hall 2.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room1.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "kitchen",
-              "image": "./Pictures/HouseDetailsImages/kitchen 2.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room2.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "bathroom",
-              "image": "./Pictures/HouseDetailsImages/bathroom 2.webp",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room3.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room5.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room6.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room7.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
             }
           ]
-        }
-      ]
-    },
-    {
-      "name": "Deer Valley Estates-4",
-      "type": "Community-4",
-      "status": "OnGoing-4",
-      "mainDescr": "Deer-4",
-      "location": "./images/constructionmap_1.jpg",
-      "locname": "Canyon Lakes - Ohlahoma4",
-      "booking1": "Raj 405-361-6198",
-      "booking2": "Jay 650-888-0015",
-      "measurement": {
-        "totalArea": "50000 sq.ft"
-      },
-      "description": [
-        {
-          "one": "Number of houses/rooms,"
-        },
-        {
-          "two": "How many remaining ,"
-        },
-        {
-          "three": "Time of completion , "
-        },
-        {
-          "four": "How much % is completed and etc.,"
-        }
-      ],
-      "nearby": [
-        {
-          "place1": "Police Station",
-          "km1": "2 km"
-        },
-        {
-          "place2": "Walmart super center",
-          "km2": "4 km"
-        },
-        {
-          "place3": "Hospital",
-          "km3": "1.3 km"
-        },
-        {
-          "place4": "School",
-          "km4": "2 km"
-        }
-      ],
-      "tabs": [
-        {
-          "title1": "Common Amenities",
-          "content1": "Five swimming pools including one Indoor Heated Pool.Beautifully Landscaped Gardens, Boulevards & Floral Walkways.Grand Atrium with lounge area for each tower. Jogging / Walking Trail.Outdoor Exercise Area with Equipment.Children's Play Areas. Amphitheatre.Home Concierge.Chip & Puttgreen.Outdoor Party Area with Barbeque Pits.Indoor Party Hall/Multi-Purpose Hall.A Crèche managed by professionals.Common toilets for servants / drivers."
-        },
-        {
-          "title2": "Security Systems",
-          "content2": "Security Systems"
-        },
-        {
-          "title3": "Water treatment",
-          "content3": "Water treatment"
-        },
-        {
-          "title4": "Sewage Treatment",
-          "content4": "Sewage Treatment"
-        }
-      ],
-      "extraFeatures": "Smart Home Fixtures, uperseal Insulation Package, Extradinary Lightings, Upgraded Flooring, Whirlpool Applicances, Enormous Use Of Crowns, Barrel/Cofferred Ceilings, Sprinkler With Web Module, Insulated Garage Doors",
-      "communityPlan": "./Pictures/CommunityDetailsImages/community overview-1.jpg",
-      "googlemap": "./Pictures/CommunityDetailsImages/constructionmap_1.jpg",
-      "sliderImg": "./Pictures/HomePageImages/availablehome-3.jpg",
-      "availableImg": "./Pictures/HomePageImages/availablehome-3.jpg",
-      "completedImg": "./Pictures/HomePageImages/availablehome-4.jpg",
-      "house": [
-        {
+        },{
           "id": "identifier",
-          "name": "House name 1",
-          "houseType": "House-1",
-          "image": "./Pictures/CommunityDetailsImages/availablehome-5.jpg",
-          "completed": "60%",
-          "expectedTimecompletion": "December,2022",
-          "sold": "Yes/No",
-          "measurement": {
-            "totalArea": "1200 sq.ft"
-          },
-          "twobhk": "./Pictures/HouseDetailsImages/2 BHK house-1.webp",
-          "threebhk": "./Pictures/HouseDetailsImages/3 BHK house-1.jpg",
+          "name": " ",
+          "houseType": "House-2",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house2.jpg",
+          "description": "         Bed Rooms:    4                 Age of Home:  2017/New               Cooling:  Central Electric          Bathrooms:     2.5              Level:               1                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2150sqft                 Heat:      Central Gas             Lot:                  3                Block:               3                             Garage:  2 cars",
           "room": [
             {
-              "type": "hall",
-              "image": "./Pictures/HouseDetailsImages/hall 2.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room1.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "kitchen",
-              "image": "./Pictures/HouseDetailsImages/kitchen 2.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room2.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "bathroom",
-              "image": "./Pictures/HouseDetailsImages/bathroom 2.webp",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room3.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room5.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room6.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room7.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
             }
           ]
-        }
-      ]
-    },
-    {
-      "name": "Deer Valley Estates-5",
-      "type": "Community-5",
-      "status": "OnGoing-5",
-      "mainDescr": "Deer-5",
-      "location": "./images/constructionmap_1.jpg",
-      "locname": "Canyon Lakes - Ohlahoma5",
-      "booking1": "Raj 405-361-6198",
-      "booking2": "Jay 650-888-0015",
-      "measurement": {
-        "totalArea": "50000 sq.ft"
-      },
-      "description": [
-        {
-          "one": "Number of houses/rooms,"
         },
-        {
-          "two": "How many remaining ,"
-        },
-        {
-          "three": "Time of completion , "
-        },
-        {
-          "four": "How much % is completed and etc.,"
-        }
-      ],
-      "nearby": [
-        {
-          "place1": "Police Station",
-          "km1": "2 km"
-        },
-        {
-          "place2": "Walmart super center",
-          "km2": "4 km"
-        },
-        {
-          "place3": "Hospital",
-          "km3": "1.3 km"
-        },
-        {
-          "place4": "School",
-          "km4": "2 km"
-        }
-      ],
-      "tabs": [
-        {
-          "title1": "Common Amenities",
-          "content1": "Five swimming pools including one Indoor Heated Pool.Beautifully Landscaped Gardens, Boulevards & Floral Walkways.Grand Atrium with lounge area for each tower. Jogging / Walking Trail.Outdoor Exercise Area with Equipment.Children's Play Areas. Amphitheatre.Home Concierge.Chip & Puttgreen.Outdoor Party Area with Barbeque Pits.Indoor Party Hall/Multi-Purpose Hall.A Crèche managed by professionals.Common toilets for servants / drivers."
-        },
-        {
-          "title2": "Security Systems",
-          "content2": "Security Systems"
-        },
-        {
-          "title3": "Water treatment",
-          "content3": "Water treatment"
-        },
-        {
-          "title4": "Sewage Treatment",
-          "content4": "Sewage Treatment"
-        }
-      ],
-      "extraFeatures": "Smart Home Fixtures, uperseal Insulation Package, Extradinary Lightings, Upgraded Flooring, Whirlpool Applicances, Enormous Use Of Crowns, Barrel/Cofferred Ceilings, Sprinkler With Web Module, Insulated Garage Doors",
-      "communityPlan": "./Pictures/CommunityDetailsImages/community overview-1.jpg",
-      "googlemap": "./Pictures/CommunityDetailsImages/constructionmap_1.jpg",
-      "sliderImg": "./Pictures/HomePageImages/availablehome-4.jpg",
-      "availableImg": "./Pictures/HomePageImages/availablehome-4.jpg",
-      "completedImg": "./Pictures/HomePageImages/availablehome-5.jpg",
-      "house": [
         {
           "id": "identifier",
-          "name": "House name 1",
-          "houseType": "House-1",
-          "image": "./Pictures/CommunityDetailsImages/availablehome-2.jpg",
-          "completed": "60%",
-          "expectedTimecompletion": "December,2022",
-          "sold": "Yes/No",
-          "measurement": {
-            "totalArea": "1200 sq.ft"
-          },
-          "twobhk": "./Pictures/HouseDetailsImages/2 BHK house-1.webp",
-          "threebhk": "./Pictures/HouseDetailsImages/3 BHK house-1.jpg",
+          "name": " ",
+          "houseType": "House-3",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house3.jpg",
+          "description": "          Bed Rooms:    4                 Age of Home:  2018/New               Cooling:  Central Electric          Bathrooms:     2.5              Level:               1                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       1954sqft                 Heat:      Central Gas             Lot:                  3                Block:               3                             Garage:  2 cars",
           "room": [
             {
-              "type": "hall",
-              "image": "./Pictures/HouseDetailsImages/hall 2.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house3_room1.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "kitchen",
-              "image": "./Pictures/HouseDetailsImages/kitchen 2.jpg",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house3_room2.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
             },
             {
-              "type": "bathroom",
-              "image": "./Pictures/HouseDetailsImages/bathroom 2.webp",
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house3_room3.jpg",
               "measurement": {
                 "totalArea": "10/10 sq.ft"
-              },
-              "tiles": "type of tiles"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house3_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            }
+          ]
+        },
+        {
+          "id": "identifier",
+          "name": " ",
+          "houseType": "House-4",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house4.jpg",
+          "description": "         Bed Rooms:    4                 Age of Home:  2018/New               Cooling:  Central Electric          Bathrooms:     3.0              Level:               1                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2174sqft                 Heat:      Central Gas             Lot:                  8                Block:               2                             Garage:  2 cars",
+          "room": [
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house4_room1.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house4_room2.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house4_room3.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house4_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house4_room5.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house4_room6.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house4_room7.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house4_room8.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
             }
           ]
         }

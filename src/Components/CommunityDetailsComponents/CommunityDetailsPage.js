@@ -9,7 +9,7 @@ import '../CommonComponents/Footer.css';
 export default function CommunityDetailsPage(props){
     return(
         <>
-        <Header second="Features" third="Near by Places" fourth="Google Map" secondid="features" thirdid="nearbyplaces" fourthid="googlemap" />
+        <Header second="Features" third="Near by Places" fourth="Location" secondid="features" thirdid="nearbyplaces" fourthid="location" />
         <CommunityDetails url={props.url}/>
         <Footer/>
         </>

@@ -42,18 +42,14 @@ export default function AboutusReview() {
                 </div>
                 <div>
                     <div className="aboutustitle">
-                        Aboutus
+                        About-us
                     </div>
-                    {json.JustSmartCustomHomes.map((community, i) =>
-                        <div key={i}>
-                            <div className="aboutuscontentbox">
-                                <p className="aboutuscontent">
-                                    {community.aboutuscontentone}<br />{community.aboutuscontenttwo}
-                                </p>
-                            </div>
-                        </div>
-                    )}
-                    <div className="reviewtitle" id="reviews">
+
+                    <div className="aboutuscontentbox">
+                        {json.JustSmartCustomHomes[0].aboutus.map((data) => <p className="aboutuscontent">{data.content}</p>)}
+                    </div>
+
+                    {/* <div className="reviewtitle" id="reviews">
                         Reviews
                     </div>
 
@@ -68,7 +64,7 @@ export default function AboutusReview() {
                         <span>-Arun</span>
                         <img className="reviewhouseicon2" src={HouseIcon} alt="houseIcon1" />
                         <p className="reviewcontent2">More details about the reviews</p>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="completedhouses">
                     <img className="completedhouseicon" src={HouseIcon} alt="houseIcon" />

@@ -10,7 +10,7 @@ import '../CommonComponents/Footer.css';
 export default function HouseDetailsPage(props) {
   return (
     <>
-    <Header second="Details" third="Plan-2BHK" fourth="Plan-3BHK" secondid="details" thirdid="plan2BHK" fourthid="plan3BHK"/>
+    <Header  third="Plan" fifth="Gallery" secondid="details" thirdid="plan"/>
     <HouseDetails url1={props.url1}/>
     <Footer/>
     </>

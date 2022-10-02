@@ -68,7 +68,6 @@ export default function BasicTabs(props) {
 
 
           <TabPanel className="tabcontent" value={value} index={0} >
-            Grand Entrance Gate to the project:<br />
             <li>{tab.content1}</li>
           </TabPanel>
           <TabPanel className="tabcontent" value={value} index={1} >
