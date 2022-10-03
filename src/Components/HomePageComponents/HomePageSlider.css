@@ -2,26 +2,34 @@
     position: absolute; 
         width: 870px; 
       height: 460px;
-      left: 20px;
+      left: 40px;
       top: 130px; 
       border-radius: 20px;
+      border: 1px solid gray;
       cursor:pointer
 }
 
 .ongoing {
     position: absolute;
-    left: -10px;
-    top: 360px;
+    width: 244.66px;
+    height: 128.19px;
+    left: 10px;
+    top: 90px;
     font-family: 'Qwigley';
     font-style: normal;
     font-weight: 400;
     font-size: 72px;
     line-height: 90px;
-    color: green;
+    color: #FFFFFF;
     mix-blend-mode: darken;
-    margin-top: -240px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: rotate(-36.54deg);
+   -webkit-text-stroke-color: #9D4949;
+   -webkit-text-stroke-width: 1px;
+
+
+    
+
 }
 .morebutton {
     position: absolute;
@@ -44,12 +52,12 @@
     flex-direction: row;
     width: 870px;
     top: 360px;
-    left: 22px;
+    left: 40px;
     color: white;
     
 
 }
-.descriptionTitle{
+.communityName {
     position: absolute;
     width: 350px;
     height: 41px;
@@ -57,10 +65,12 @@
     top: 100px;
     font-style: normal;
     font-weight: 400;
-    font-size: 28px;
+    font-family: "qwigley";
+    font-size: 40px;
     line-height: 45px;
     color: #000000;
 }
+
 .descriptionContent{
     position: absolute;
     width: 325px;
@@ -77,36 +87,28 @@
 }
 
 
-.communityName {
+
+.booking{
     position: absolute;
-    width: 350px;
-    height: 41px;
+    font-family: "qwigley";
+    font-size: 40px;
+    top: 450px;
     left: 920px;
-    top: 460px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 25px;
-    line-height: 45px;
-    color: #000000;
 }
-.booking {
+.bookingnum {
     position: absolute;
     background-color: lightgreen;
-   padding: 10px;
+   padding: 15px;
+   word-spacing: 10px;
     width: 300px;
     height: 80px;
     top: 500px;
     left: 920px;
     border-radius: 10px;
+    border: 1px solid gray;
     font-size: 21px;
     padding-left: 20px;
 
 
-
 }
 
-.booking span{
-    position: absolute;
-    left:130px
-    
-}

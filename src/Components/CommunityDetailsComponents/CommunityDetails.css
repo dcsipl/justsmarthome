@@ -1,15 +1,29 @@
-.communityname {
+.wholedivision{
+    position: relative;
+    top:400px;
+}.communityname {
     position: absolute;
     width: 500px;
     height: 20px;
     left: 50px;
-    top: 110px;
-    font-size: 28px
+    top: -280px;
+    font-family: "qwigley";
+    font-size: 40px
 }
-
+.communitydescription{
+    position: absolute;
+    line-height: 20px;
+    top: -230px;
+    left: 20px;
+    width: 600px;
+    font-family: Georgia;
+    font-size: 13px;
+    text-align: justify;
+    
+}
 .housescontainer {
     width: 630px;
-    height: 1000px;
+    height: 900px;
     display: grid;
     gap: 10px 50px;
     grid-template-columns: auto auto;
@@ -32,82 +46,85 @@
     width: 270px;
     height: 200px;
     border-radius: 5px;
+    border: 1px solid gray;
     cursor: pointer
 }
 
-.maincommunityname {
-    position: absolute;
-    width: 500px;
-    height: 20px;
-    left: 680px;
-    top: 115px;
-    font-size: 25px;
 
-}
 
 .mainhousename {
     position: absolute;
     width: 500px;
     height: 20px;
     left: 900px;
-    top: 120px;
+    top: -270px;
     font-size: 20px;
+    list-style: none;
 
 }
 
 .mainhouseimg {
     position: absolute;
-    width: 540px;
-    height: 250px;
-    left: 680px;
-    top: 150px;
+    width: 590px;
+    height: 360px;
+    left: 655px;
+    top: -240px;
     border-radius: 10px;
+    border: 1px solid gray;
     cursor: pointer;
 
 }
 
 .moredetailsbutton {
     position: absolute;
-    width: 100px;
+    width: 150px;
     height: 20px;
-    left: 1000px;
-    top: 350px;
+    left: 1030px;
+    top: 40px;
+    font-size: 15px;
     cursor: pointer
 }
 
 .backgroundcolor {
-    width: 550px;
-    height: 760px;
+    width: 590px;
+    height: 1160px;
     background-color: #BCFBEC;
     position: absolute;
-    left: 675px;
-    top: 400px
+    left: 655px;
+    top: -270px
 }
 
 .description {
     position: absolute;
     font-family: 'Playfair Display';
-    font-size: 17px;
+    font-size: 15px;
     margin-top: 100px;
     margin-left: 50px;
-    width: 275px;
-    top: 300px;
+    width: 555px;
+    top: 50px;
     left: 640px;
     line-height: 30px;
 
 }
 
+.description span{
+    font-family: 'Playfair Display';
+    font-size: 20px;
+    position: relative;
+    top: -20px;
+}
 
 .communitypagebooking {
     position: absolute;
     background-color: lightgreen;
-    width: 310px;
+    width: 280px;
     height: 80px;
-    top: 430px;
-    left: 890px;
+    top: 290px;
+    left: 900px;
     border-radius: 10px;
+    border: 1px solid gray;
     font-size: 22px;
-    padding: 10px;
+    padding: 5px;
 
 
 
@@ -115,17 +132,15 @@
 
 .communitypagebooking span {
     position: absolute;
-    left: 130px
+    left: 50px
 }
 
 .nearby {
     position: absolute;
     width: 600px;
     height: 80px;
-    top: 550px;
+    top: 390px;
     left: 900px;
-
-
     font-family: 'Playfair Display';
     font-size: 30px;
 
@@ -152,7 +167,7 @@
     width: 250px;
     height: 44px;
     left: 30px;
-    top: 1290px;
+    top: 950px;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -172,19 +187,11 @@
     color: #000000;
 }
 
-.map p {
-    position: absolute;
-    top: 1300px;
-    left: 800px;
-    font-family: 'Playfair Display';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-}
+
 
 .overview img {
     position: absolute;
-    top: 1370px;
+    top: 1030px;
     left: 350px;
     border-radius: 10px;
     border: 1px solid gray;
@@ -194,7 +201,7 @@
 
 .overview p {
     position: absolute;
-    top: 1300px;
+    top: 970px;
     left: 360px;
     font-family: 'Playfair Display';
     font-style: normal;
@@ -202,14 +209,23 @@
     font-size: 28px;
 }
 
-.map img {
+.location img {
     position: absolute;
-    top: 1370px;
+    top: 1030px;
     left: 800px;
     border-radius: 10px;
     border: 1px solid gray;
     width: 420px;
     height: 300px;
+}
+.location p {
+    position: absolute;
+    top: 970px;
+    left: 800px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
 }
 
 .houses:hover {

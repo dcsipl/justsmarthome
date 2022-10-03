@@ -12,7 +12,7 @@ export default function Footer() {
           </div>)}
 
         <a href="/" className="footerHome">Home</a>
-        <a href="/" className="footerReview">Reviews</a>
+        <a href="/gallery" className="footerGallery">Gallery</a>
         <a href="/" className="footerAvailable">Readily Available</a>
         <a href="/" className="footerCompleted">Completed Proj</a>
 
@@ -25,7 +25,7 @@ export default function Footer() {
         </div>
         {jsondata.JustSmartCustomHomes[0].contactus.map((contact) =>
           <div>
-            <div className="contact">
+            <div className="contact" id="contactus">
               Contact Us:
               <p>Email: <br />{contact.email1} <br />{contact.email2}</p>
             </div>

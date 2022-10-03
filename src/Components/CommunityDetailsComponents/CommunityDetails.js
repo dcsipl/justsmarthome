@@ -19,55 +19,61 @@ export default function CommunityDetails(props) {
 
    const [image, setImage] = useState(
       <>
-         <p className="maincommunityname">{props.url[0].name}</p>
-         <li className="mainhousename">{props.url[0].house[0].name}</li>
-         <img className="mainhouseimg" src={props.url[0].house[0].image} />
+               <div className="backgroundcolor"></div>
+
+         <li className="mainhousename">{props.url[0].completedhouses[0].name}</li>
+         <img className="mainhouseimg" src={props.url[0].completedhouses[0].image}/> 
+         <div className="description"><span>Description:</span><br/>
+         <b>Elemntary:</b> Spring Creek <b> Middle:</b>  Deer Creek 
+         <b> High:</b>  Deer Creek 
+         <b> School Dist:</b> Deer Creek<br/>
+         {props.url[0].completedhouses[0].description}
+         </div>
+
       </>);
 
-   const array = props.url[0].house.map((data, key) =>
+   const array = props.url[0].completedhouses.map((data, key) =>
       <div>
-         <p className="maincommunityname">{props.url[0].name}</p>
+                  <div className="backgroundcolor"></div>
+
          <li className="mainhousename">{data.name}</li>
          <img className='mainhouseimg' src={data.image} onClick={event => changeHouse(event, key)} key={key} />
          <button className="moredetailsbutton" onClick={event => changeHouse(event, key)} key={key}>
             more details
          </button>
+
+         <div className="description"><span>Description:</span><br/>
+         <b>Elemntary:</b> Spring Creek <b> Middle:</b>  Deer Creek 
+         <b> High:</b>  Deer Creek 
+         <b> School Dist:</b> Deer Creek<br/>
+            <div>
+            {data.description}
+            </div>
+         
+         </div>
       </div>);
 
 
    return (
       <>
+      <div className="wholedivision">
          <p className="communityname">Community name : {props.url[0].name}
          </p>
-         <h1 style={{ color: "white" }}>
-            jdfffffffffffffffffffffffffffffffk<br />
-            hjbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbvhbsjv<br />
-            hjbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbvhbsjv<br />
-            hjbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbvhbsjv<br />
-            hjbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbvhbsjv<br />
-         </h1>
+         <div className='communitydescription'>{props.url[0].mainDescr}</div>
+         
          <div className="housescontainer">
-            {props.url[0].house.map((record1, i) =>
+            {props.url[0].completedhouses.map((record1, i) =>
                <div className='houses'>
                   <p className="housesname">{record1.name}</p>
                   <img className="housesimg" src={record1.image} onClick={() => { setImage(array[i]) }} />
                </div>)}
             <p>{image}</p>
          </div>
-         <div className="backgroundcolor"></div>
-         {props.url[0].description.map((descr, i) =>
-            <div className="description">Description:<br />
-               <ul>
-                  <li>{descr.one}</li>
-                  <li>{descr.two}</li>
-                  <li>{descr.three}</li>
-                  <li>{descr.four}</li>
-               </ul>
-            </div>)}
+         
 
-         <div className="communitypagebooking">For Booking:
-            {props.url[0].booking1}<br />
-            <span>{props.url[0].booking2}</span>
+         <div className="communitypagebooking">For Booking:<br/>
+         <span>{props.url[0].booking1}<br />
+            {props.url[0].booking2}</span>
          </div>
          {props.url[0].nearby.map((near, i) =>
             <div className="nearby" id="nearbyplaces" key={i}>Near by
@@ -89,9 +95,10 @@ export default function CommunityDetails(props) {
             <p>Community Plan</p>
             <img src={props.url[0].communityPlan} />
          </div>
-         <div className="map" id="googlemap">
-            <p>Google Map</p>
-            <img src={props.url[0].googlemap} />
+         <div className="location" id="location">
+            <p>Location</p>
+            <img src={props.url[0].location} />
+         </div>
          </div>
     </>
    );

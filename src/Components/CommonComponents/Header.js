@@ -10,16 +10,8 @@ export default function Header(props) {
                         <img src={Logo} alt="js-logo" />
                         <p>Justsmart Custom Homes</p>
                         <a href="/" className="home">Home</a>
+                       
                         <a className="available">
-                              <Link activeClass="active"
-                                    to={props.thirdid}
-                                    spy={true}
-                                    smooth={true}
-                                    offset={-100}
-                                    duration={500}>{props.third}
-                              </Link>
-                        </a>
-                        <a className="review">
                               <Link activeClass="active"
                                     to={props.secondid}
                                     spy={true}
@@ -28,7 +20,16 @@ export default function Header(props) {
                                     duration={500}>{props.second}
                               </Link>
                         </a>
-                        <a className="completed" >
+                        <a className="completed">
+                              <Link activeClass="active"
+                                    to={props.thirdid}
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-100}
+                                    duration={500}>{props.third}
+                              </Link>
+                        </a>
+                        <a className="contactus" >
                               <Link activeClass="active"
                                     to={props.fourthid}
                                     spy={true}
@@ -36,6 +37,9 @@ export default function Header(props) {
                                     offset={-100}
                                     duration={500}>{props.fourth}
                               </Link>
+                        </a>
+                        <a href="/gallery" className="gallery" >
+                             {props.fifth}
                         </a>
                         <Validation />
                   </div>

@@ -2,7 +2,7 @@
     position: absolute;
     width: 100%;
     height: 28px;
-    top: 1822px;
+    top: 1722px;
     background: #C4C4C4;
     
 }
@@ -11,7 +11,7 @@
     position: absolute;
     width: 100%;
     height: 160px;
-    top: 1850px;
+    top: 1750px;
     background: rgba(39, 42, 42, 0.8);
 }
 
@@ -19,9 +19,10 @@
     position: absolute;
     left: 12px;
     top: 5px;
+    font-family: "qwigley";
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 40px;
     color: white;
 }
 
@@ -53,13 +54,14 @@
     top: 5px;
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
+    font-family: "qwigley";
+    font-size: 40px;
     line-height: 45px;
     text-decoration: none;
     color: white;
 }
 
-.footerReview {
+.footerGallery {
     position: absolute;
     width: 90px;
     height: 15px;
@@ -67,7 +69,8 @@
     top: 5px;
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
+    font-family: "qwigley";
+    font-size: 40px;
     line-height: 45px;
     text-decoration: none;
     color: white;
@@ -81,7 +84,8 @@
     top: 5px;
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
+    font-family: "qwigley";
+    font-size: 40px;
     line-height: 45px;
     text-decoration: none;
     color: white;
@@ -95,7 +99,8 @@
     top: 5px;
     font-style: normal;
     font-weight: 400;
-    font-size: 26px;
+    font-family: "qwigley";
+    font-size: 40px;
     line-height: 45px;
     text-decoration:none;
     color: white;
@@ -115,7 +120,8 @@
 }
 .insideBox p{
     position: relative;
-    font-size: 23px;
+    font-family: "qwigley";
+    font-size: 40px;
 }
 .insideBox ul {
     list-style: none;
@@ -148,7 +154,8 @@
     top: -5px;
     font-style: normal;
     font-weight: 400;
-    font-size: 27px;
+    font-family: "qwigley";
+    font-size: 40px;
     line-height: 45px;
     color: #FFFFFF;
     margin: 10px;
@@ -158,7 +165,7 @@
     position: absolute;
     width: 323px;
     height: 81px;
-    left: 25px;
+    left: 20px;
     top: 35px;
     font-family: 'PT Serif Caption';
     font-style: normal;
@@ -196,7 +203,7 @@
     position: absolute;
     width: 100%;
     height: 29px;
-    top: 2010px;
+    top: 1910px;
     font-family: 'PT Serif';
     font-style: normal;
     font-weight: 400;

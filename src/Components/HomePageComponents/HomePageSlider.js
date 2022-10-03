@@ -54,12 +54,13 @@ export default function HomePageImageSlider() {
                     <div onClick={Prev} className="prev"> <AiOutlineLeftCircle size={"50px"} /> </div>
                     <div onClick={Next} className="next"> <AiOutlineRightCircle size={"50px"} /> </div>
                 </div>
-                <p className="descriptionTitle">Description:</p>
-                <div className="descriptionContent">{mainDescr}</div>
                 <div className='communityName'>{name}</div>
-                <div className="booking">For Booking:{booking1}<br />
-                    <span>{booking2}</span>
-                </div>
+                <div className="descriptionContent">{mainDescr}</div>
+                <div className="booking">For Booking:</div>
+                    <div className="bookingnum">
+                        {booking1}<br />
+                        {booking2}
+                    </div>
             </div>
         </>
     )
