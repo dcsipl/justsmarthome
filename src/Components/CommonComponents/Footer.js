@@ -1,4 +1,6 @@
 import React from 'react';
+import {FaAddressCard} from "react-icons/fa"
+import {TiLocation} from "react-icons/ti"
 import jsondata from '../../Justsmarthome.json'
 
 export default function Footer() {
@@ -7,7 +9,8 @@ export default function Footer() {
       <div className="footerTopBar"></div>
       <div className="footerMainBar">
         {jsondata.JustSmartCustomHomes[0].address.map((add) =>
-          <div className="address">Address:
+          <div className="address"><FaAddressCard size={40}/>
+          {/* <TiLocation/> */}
             <p>{add.line1}<br /> {add.line2}<br /> {add.line3}</p>
           </div>)}
 
@@ -17,11 +20,7 @@ export default function Footer() {
         <a href="/" className="footerCompleted">Completed Proj</a>
 
         <div className="insideBox">
-          <p>OurBusinessAssociates:</p><br />
-          {jsondata.JustSmartCustomHomes[0].businessAsso.map((associate) =>
-            <ul>
-              <li><a href={associate.link}>{associate.name}</a></li>
-            </ul>)}
+          
         </div>
         {jsondata.JustSmartCustomHomes[0].contactus.map((contact) =>
           <div>

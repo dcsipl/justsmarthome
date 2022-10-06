@@ -1,6 +1,21 @@
 {
   "JustSmartCustomHomes": [
     {
+      "slides":[
+
+        {"image":"./Pictures/ImageSlides/slide1.jpg"},
+        {"image":"./Pictures/ImageSlides/slide2.jpg"},
+        {"image":"./Pictures/ImageSlides/slide3.jpg"},
+        {"image":"./Pictures/ImageSlides/slide4.jpg"},
+        {"image":"./Pictures/ImageSlides/slide5.jpg"},
+        {"image":"./Pictures/ImageSlides/slide6.jpg"},
+        {"image":"./Pictures/ImageSlides/slide7.jpg"},
+        {"image":"./Pictures/ImageSlides/slide8.jpg"},
+        {"image":"./Pictures/ImageSlides/slide9.jpg"},
+        {"image":"./Pictures/ImageSlides/slide10.jpg"},
+        {"image":"./Pictures/ImageSlides/slide11.jpg"},
+        {"image":"./Pictures/ImageSlides/slide12.jpg"}
+      ],
       "aboutus": [
         {
           "content": "At JustSmart Custom Homes (JSCH), we believe that meticulous supervision is the only manner in which to build a truly custom home. We believe so strongly in this that a hands-on approach for all projects has become our philosophy."
@@ -55,11 +70,11 @@
       "contactus": [
         {
           "email1": "Raju@justsmartcustomhomes.com",
-          "phone1": "405-361-6198"
+          "phone1": "(405) 361 - 6198"
         },
         {
           "email2": "jay@justsmartcustomhomes.com",
-          "phone2": "650-888-0015"
+          "phone2": "(650) 888 - 0015"
         }
       ],
       "copyRight": " Copyright © 2022 JustSmartCustom Homes. All Rights Reserved.",
@@ -124,8 +139,8 @@
       "type": "Community-1",
       "status": "OnGoing-1",
       "mainDescr": "Deer Valley Estates is conveniently located across Spring Creek Elementary School on N Rockwell Ave and North of 150th Street.  There are a limited number of lots and homes available.  Please contact us for more details.Corgeous brand new construction.   From the moment you walk in the door, you will feel at home.  Upgrades gallore everywhere you turn.  From the barrell  and Coffered Ceilings to the upgraded high quality flooring, these homes are noting buy class.   HDMI ports, CAT ports, Web enabled dimmers, USB chargers,  Web enabled springler modules, High efficiency HAVC unitis, Energy efficient insulation package,  Open kitchen, Box windows with window seats, Spacious master closets with dresser, shoe racks,  Whirlpool appliances and much more.",
-      "booking1": "Raju 405-361-6198",
-      "booking2": "Jay 650-888-0015",
+      "booking1": "Raju (405) 361 - 6198",
+      "booking2": "Jay (650) 888 - 0015",
       "nearby": [
         {
           "place1": "Police Station",
@@ -164,7 +179,7 @@
       ],
       "extraFeatures": "Smart Home Fixtures, uperseal Insulation Package, Extradinary Lightings, Upgraded Flooring, Whirlpool Applicances, Enormous Use Of Crowns, Barrel/Cofferred Ceilings, Sprinkler With Web Module, Insulated Garage Doors",
       "communityPlan": "./Pictures/CommunityDetailsImages/community overview-1.jpg",
-      "location": "./Pictures/CommunityDetailsImages/constructionmap_1.jpg",
+      "location": "./Pictures/CommunityDetailsImages/deervalley_map.png",
       "sliderImg": "./Pictures/HomePageImages/construction_1.jpg",
       "availableImg": "./Pictures/HomePageImages/construction_1.jpg",
       "completedImg": "./Pictures/HomePageImages/availablehome-1.jpg",
@@ -641,8 +656,8 @@
       "type": "Community-2",
       "status": "OnGoing-2",
       "mainDescr": "Canyon Lakes community is conveniently located in south east corner of Memorial and Council.  Canyon Lakes is a 120 acre community designed around the 18 acre spring fed lake.  It features lighted fountains, fishing pier, community pool, club house, playground, soccer field, park and walkng trail around the lake.  There are a limited number of lots and homes left.  Please contact us for more dettails.Corgeous brand new construction.   From the moment you walk in the door, you will feel at home.  Upgrades gallore everywhere you turn.  From the barrell  and Coffered Ceilings to the upgraded high quality flooring, these homes are noting buy class.   HDMI ports, CAT ports, Web enabled dimmers, USB chargers,  Web enabled springler modules, High efficiency HAVC unitis, Energy efficient insulation package,  Open kitchen, Box windows with window seats, Spacious master closets with dresser, shoe racks,  Whirlpool appliances and much more.",
-      "booking1": "Raju 405-361-6198",
-      "booking2": "Jay 650-888-0015",
+      "booking1": "Raju (405) 361 - 6198",
+      "booking2": "Jay (650) 888 - 0015",
       "nearby": [
         {
           "place1": "Police Station",
@@ -681,9 +696,9 @@
       ],
       "extraFeatures": "Smart Home Fixtures, uperseal Insulation Package, Extradinary Lightings, Upgraded Flooring, Whirlpool Applicances, Enormous Use Of Crowns, Barrel/Cofferred Ceilings, Sprinkler With Web Module, Insulated Garage Doors",
       "communityPlan": "./Pictures/CommunityDetailsImages/community overview-1.jpg",
-      "location": "./Pictures/CommunityDetailsImages/constructionmap_1.jpg",
-      "sliderImg": "./Pictures/HomePageImages/availablehome-1.jpg",
-      "availableImg": "./Pictures/HomePageImages/availablehome-1.jpg",
+      "location": "./Pictures/CommunityDetailsImages/canyon_map.jpg",
+      "sliderImg": "./Pictures/ImageSlides/slide7.jpg",
+      "availableImg": "./Pictures/ImageSlides/slide10.jpg",
       "completedImg": "./Pictures/HomePageImages/availablehome-2.jpg",
       
       "completedhouses": [
@@ -745,8 +760,8 @@
       "type": "Community-3",
       "status": "OnGoing-3",
       "mainDescr": "Thornhill Addition in West Edmond is a unique neighborhood located off Danforth Road between Penn and Western Avenues. The construction began in 2005 with the idea that homeowners would have beautiful quality construction in Edmond with most of their square footage being on ground level or ALL on one level. The homes in the neighborhood are unique, because many different builders have added their touch to Thornhill over the years. Homes range anywhere from 2000 square feet to 5000 square feet depending which of the 5 sections of the neighborhood you are in.  The homeowners association fee covers the maintenance of entrances, a playground, basketball court, disc golf, and a greenbelt area. Thornhill is close by Frontier Elementary and Heartland Middle Schools in Edmond.",
-      "booking1": "Raju 405-361-6198",
-      "booking2": "Jay 650-888-0015",
+      "booking1": "Raju (405) 361 - 6198",
+      "booking2": "Jay (650) 888 - 0015",
       
       "nearby": [
         {
@@ -786,8 +801,8 @@
       ],
       "extraFeatures": "Smart Home Fixtures, uperseal Insulation Package, Extradinary Lightings, Upgraded Flooring, Whirlpool Applicances, Enormous Use Of Crowns, Barrel/Cofferred Ceilings, Sprinkler With Web Module, Insulated Garage Doors",
       "communityPlan": "./Pictures/CommunityDetailsImages/community overview-1.jpg",
-      "location": "./Pictures/CommunityDetailsImages/constructionmap_1.jpg",
-      "sliderImg": "./Pictures/HomePageImages/availablehome-2.jpg",
+      "location": "./Pictures/CommunityDetailsImages/thornhill_map.jpg",
+      "sliderImg": "./Pictures/ImageSlides/slide4.jpg",
       "availableImg": "./Pictures/HomePageImages/availablehome-2.jpg",
       "completedImg": "./Pictures/HomePageImages/availablehome-3.jpg",
       

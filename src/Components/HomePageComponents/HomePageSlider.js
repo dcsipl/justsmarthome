@@ -1,31 +1,36 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import { AiOutlineLeftCircle, AiOutlineRightCircle } from "react-icons/ai";//npm i react-icons
-import communityDetails from '../../Justsmarthome.json'
+import communityDetails from '../../Justsmarthome.json';
+import "./HomePageSlider.css";
 
-export default function HomePageImageSlider() {
-    const [index, setIndex] = useState(0);
-    const { name, sliderImg, booking1, booking2, mainDescr } = communityDetails.JustSmartCustomHomes[index];
-    function CheckNumber(number) {
-        if (number > communityDetails.JustSmartCustomHomes.lenth - 1) {
-            return 0;
+
+export default function HomePageImageSlider() {         
+    
+    const[sliderImgIndex,setSliderImgIndex]=useState(0)
+    useEffect(()=>{
+        setTimeout(()=>{
+                  autoPlay()
+        },4000)
+    })
+    function autoPlay(){
+       sliderImgIndex===communityDetails.JustSmartCustomHomes.length-1?
+              setSliderImgIndex(0):setSliderImgIndex(sliderImgIndex+1)
         }
-        if (number < 0) {
-            return communityDetails.JustSmartCustomHomes.length - 1
-        }
-        return number;
-    }
-    function Prev() {
-        setIndex((index) => {
-            let newIndex = index - 1;
-            return CheckNumber(newIndex)
-        })
-    }
-    function Next() {
-        setIndex((index) => {
-            let newIndex = index + 1;
-            return CheckNumber(newIndex)
-        })
-    }
+           
+    function Prev(){
+        sliderImgIndex===0?
+           setSliderImgIndex(communityDetails.JustSmartCustomHomes.length-1)
+      :
+           setSliderImgIndex(sliderImgIndex-1)
+        
+   }
+   function Next(){
+               sliderImgIndex===communityDetails.JustSmartCustomHomes.length-1?
+                   setSliderImgIndex(0)
+               :
+                   setSliderImgIndex(sliderImgIndex+1)
+               
+   }
     function ClickEvent1() {
         window.open("/Community-1", "_self");
     }
@@ -44,28 +49,30 @@ export default function HomePageImageSlider() {
 
 
     const array = [ClickEvent1, ClickEvent2, ClickEvent3, ClickEvent4, ClickEvent5]
-    return (
-        <>
-            <div className="slider">
-                <img src={sliderImg} alt={name} onClick={array[index]} />
-                <div className="ongoing">on going</div>
-                <button onClick={array[index]} className="morebutton">MoreDetails...</button>
-                <div className="arrowContainer">
-                    <div onClick={Prev} className="prev"> <AiOutlineLeftCircle size={"50px"} /> </div>
-                    <div onClick={Next} className="next"> <AiOutlineRightCircle size={"50px"} /> </div>
-                </div>
-                <div className='communityName'>{name}</div>
-                <div className="descriptionContent">{mainDescr}</div>
-                <div className="booking">For Booking:</div>
+    return(
+    communityDetails.JustSmartCustomHomes.map((data,index)=>{
+        return (
+        <>    
+
+             <div key={index} className={index===sliderImgIndex?"sliderimages":"sliderimagesnone"}>       
+                     <img className="sliderimg" src={data.sliderImg}  alt={data.name} onClick={array[index]}/>
+                     <div className="ongoing">on going</div>
+                     {/* <div className="arrowcontainer">
+                        <div  onClick={Prev}> <AiOutlineLeftCircle size={"50px"} /> </div>
+                        <div  onClick={Next}> <AiOutlineRightCircle size={"50px"} /> </div>
+                    </div> */}
+                     <button  className="morebutton" onClick={array[index]}>MoreDetails...</button>
+                     <div className="communame">{data.name}</div>
+                     <div className="descriptioncontent">{data.mainDescr}</div>
+                     <div className="booking">For Booking:</div>
                     <div className="bookingnum">
-                        {booking1}<br />
-                        {booking2}
+                        {data.booking1}<br />
+                        {data.booking2}
                     </div>
             </div>
         </>
-    )
-}
-
+    )}))
+    }
 
 
 

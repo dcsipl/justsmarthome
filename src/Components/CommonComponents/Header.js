@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll'// npm i react-scroll
 import Logo from '../../Pictures/CommonImages/Logo.jpeg';
 import Validation from './Validation.js';
-
+import json from '../../Justsmarthome.json'
 export default function Header(props) {
       return (
             <>
@@ -41,6 +41,15 @@ export default function Header(props) {
                         <a href="/gallery" className="gallery" >
                              {props.fifth}
                         </a>
+                 <a className="menu"> {props.sixth}<br/> 
+                 <ul>
+                 <p>Our Business Associates:</p>
+          {json.JustSmartCustomHomes[0].businessAsso.map((associate) =>
+            
+             <li> <a href={associate.link} target="_blank">{associate.name}</a></li>
+           )}
+           </ul> </a> 
+        
                         <Validation />
                   </div>
                   <div className="headerbottombar1"></div>

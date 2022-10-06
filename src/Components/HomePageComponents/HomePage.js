@@ -12,7 +12,7 @@ import '../CommonComponents/Footer.css';
 export default function HomePage() {
     return (
         <>
-            <Header second="Readily Available" third="Completed Proj" fourth="Contact-us" fifth="Gallery" secondid="readilyavailable" thirdid="completedproj" fourthid="contactus" />
+            <Header second="Readily Available" third="Completed Proj" fourth="Contact-us" fifth="Gallery" sixth="Menu" secondid="readilyavailable" thirdid="completedproj" fourthid="contactus" />
             <HomePageSlider />
             <AboutusReview />
             <Footer />
