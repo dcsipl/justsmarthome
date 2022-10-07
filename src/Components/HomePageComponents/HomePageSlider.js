@@ -8,10 +8,11 @@ export default function HomePageImageSlider() {
     
     const[sliderImgIndex,setSliderImgIndex]=useState(0)
     useEffect(()=>{
-        setTimeout(()=>{
+       const interval=setTimeout(()=>{
                   autoPlay()
         },4000)
-    })
+        return()=>clearTimeout(interval)
+    },[sliderImgIndex])
     function autoPlay(){
        sliderImgIndex===communityDetails.JustSmartCustomHomes.length-1?
               setSliderImgIndex(0):setSliderImgIndex(sliderImgIndex+1)
@@ -57,10 +58,10 @@ export default function HomePageImageSlider() {
              <div key={index} className={index===sliderImgIndex?"sliderimages":"sliderimagesnone"}>       
                      <img className="sliderimg" src={data.sliderImg}  alt={data.name} onClick={array[index]}/>
                      <div className="ongoing">on going</div>
-                     {/* <div className="arrowcontainer">
+                     <div className="arrowcontainer">
                         <div  onClick={Prev}> <AiOutlineLeftCircle size={"50px"} /> </div>
                         <div  onClick={Next}> <AiOutlineRightCircle size={"50px"} /> </div>
-                    </div> */}
+                    </div>
                      <button  className="morebutton" onClick={array[index]}>MoreDetails...</button>
                      <div className="communame">{data.name}</div>
                      <div className="descriptioncontent">{data.mainDescr}</div>
