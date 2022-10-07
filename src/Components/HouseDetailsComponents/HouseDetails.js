@@ -1,8 +1,15 @@
 import React from 'react';
-import { useState } from 'react';
+import { useState,useEffect } from 'react';
 import json from '../../Justsmarthome.json';
 
 export default function HouseDetails(props) {
+    const[slideIndex,setSlideIndex]=useState(0)
+    useEffect(()=>{
+        setTimeout(()=>{
+                   slideIndex===json.JustSmartCustomHomes[0].slides.length-1?
+                   setSlideIndex(0):setSlideIndex(slideIndex+1)
+            },3000)
+    })
     const [image, setImage] = useState(
         <>
             <p className="roommeasurement">{props.url1[0].room[0].type} {props.url1[0].room[0].measurement.totalArea}</p>
@@ -43,8 +50,18 @@ export default function HouseDetails(props) {
                 <h4 className="threebhktitle" >3 BHK</h4>
                 <img className="threebhkimg" src={props.url1[0].threebhk} />
             </div> */}
-            <h1 className='work'>Work in progress</h1>
-            </div>
+            <h1 className='work'>Auto Image Slider</h1>
+{json.JustSmartCustomHomes[0].slides.map((data,index)=>{
+    return(<>
+        <div key={index} className={index===slideIndex?"myslides fade":"myslidesnone"}>       
+                 <img className="slideimg" src={data.image} alt="....."/>
+        </div>
+        
+        <div key={index} className={index===slideIndex?"dots active":"dots"}>       
+        
+        </div>
+        </>)
+})}</div>
         </>
     )
 }

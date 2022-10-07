@@ -62,7 +62,7 @@ color: yellow;
 
   height: 15px;
 
-  left: 250px;
+  left: 150px;
 
   top: 40px;
 
@@ -92,7 +92,7 @@ color: yellow;
 
   height: 13px;
 
-  left: 350px;
+  left: 250px;
 
   top: 40px;
 
@@ -121,7 +121,7 @@ color: yellow;
 
   height: 16px;
 
-  left: 560px;
+  left: 460px;
 
   top: 40px;
 
@@ -150,7 +150,7 @@ color: yellow;
 
   height: 15px;
 
-  left: 750px;
+  left: 650px;
 
   top: 40px;
 
@@ -159,7 +159,6 @@ color: yellow;
   font-style: normal;
 
   font-weight: 400;
-
   font-size: 35px;
 
   line-height: 45px;
@@ -179,7 +178,7 @@ color: yellow;
 
   height: 15px;
 
-  left: 880px;
+  left: 780px;
 
   top: 40px;
 
@@ -199,7 +198,79 @@ color: yellow;
 
   cursor: pointer;
 }
+.headermainbar .menu{
 
+  position: absolute;
+
+  width: 189px;
+
+  height: 15px;
+
+  left: 900px;
+
+  top: 40px;
+
+  font-family: "qwigley";
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-size: 35px;
+
+  line-height: 45px;
+
+  text-decoration:none;
+
+  color: white;
+
+  cursor: pointer;
+}
+.headermainbar .menu ul p{
+  color: #012060;
+  font-family:"qwigley";
+  font-size: 28px;
+  position: relative;
+  left:-10px;
+  top: -10px;
+}
+
+.headermainbar .menu ul{
+  display: none;
+  position: relative;
+  width: 230px;
+  left:-50px;
+  height: 230px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 35px;
+ border:3px solid gainsboro;
+
+
+}
+.headermainbar .menu:hover ul{ 
+  display: block;
+}
+.headermainbar .menu ul li{
+  list-style: none;
+  font-family: georgia;
+  font-size: 15px;
+  line-height: 30px;
+ position: relative;
+ top:-20px
+}
+.headermainbar .menu ul li a{
+  text-decoration: none;
+color: black; 
+
+}
+.headermainbar .menu ul li a:hover{
+  color: #3ca0e7;
+  padding-left: 10px;
+      transition: all 0.3s ease;
+border-radius: 5px;
+}
 .headerbottombar1 {
   
   position: absolute;

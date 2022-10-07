@@ -71,7 +71,7 @@ export default function CommunityDetails(props) {
          </div>
          
 
-         <div className="communitypagebooking">For Booking:<br/>
+         <div className="communitypagebooking">For Details:<br/>
          <span>{props.url[0].booking1}<br />
             {props.url[0].booking2}</span>
          </div>

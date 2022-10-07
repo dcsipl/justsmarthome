@@ -1,20 +1,20 @@
 .gallerybox{
     position:absolute;
-    height: 1500px;
+    height: 1550px;
     top:150px;
     left: 50px;
     display: grid;
-    gap: 30px 50px;
+    gap: 30px 25px;
     grid-template-columns: auto auto auto;
    overflow-y: auto;
    overflow-x: hidden;
 }
 .galleryimages{
    
-    width:350px;
-    height: 200px;
+    width:370px;
+    height: 230px;
     border-radius: 5px;
-    border: 1px solid gray;
+    border: 1.5px solid gray;
 }
 .galleryimages:hover{
     transform: scale(0.9);

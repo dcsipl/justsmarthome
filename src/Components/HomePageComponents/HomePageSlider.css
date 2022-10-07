@@ -1,20 +1,29 @@
-.slider img{
-    position: absolute; 
-        width: 870px; 
-      height: 460px;
-      left: 40px;
-      top: 130px; 
-      border-radius: 20px;
-      border: 1px solid gray;
-      cursor:pointer
+
+
+.sliderimages{
+    
+    position: absolute;
+    top: 130px;
+    left: 40px;
+    transition: none;
+}
+.sliderimg{
+    width: 870px; 
+    height: 460px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    cursor:pointer
+}
+.sliderimagesnone{
+   display: none;
 }
 
 .ongoing {
     position: absolute;
     width: 244.66px;
     height: 128.19px;
-    left: 10px;
-    top: 90px;
+    left: -30px;
+    top: -40px;
     font-family: 'Qwigley';
     font-style: normal;
     font-weight: 400;
@@ -34,8 +43,8 @@
 .morebutton {
     position: absolute;
     width:150px;
-    left: 650px;
-    top: 740px;
+    left: 550px;
+    top: 600px;
     border-radius: 5px;
     border: 1px solid gray;
     cursor:pointer;
@@ -45,38 +54,32 @@
     margin-top: -240px;
 
 }
-.arrowContainer {
+.arrowcontainer {
     position: absolute;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
     width: 870px;
-    top: 360px;
-    left: 40px;
+    top: 230px;
+    left: 1px;
     color: white;
     
 
 }
-.communityName {
-    position: absolute;
-    width: 350px;
-    height: 41px;
-    left: 920px;
-    top: 100px;
-    font-style: normal;
-    font-weight: 400;
-    font-family: "qwigley";
-    font-size: 40px;
-    line-height: 45px;
-    color: #000000;
+.communame{
+  width:300px;
+  font-family:"qwigley";
+  font-size:40px;
+  position:absolute;
+  top:-35px;
+  left:880px;
 }
-
-.descriptionContent{
+.descriptioncontent{
     position: absolute;
     width: 325px;
     height: 300px;
-    left: 919px;
-    top: 145px;
+    left: 885px;
+    top: 10px;
    color:black;
    font-size: 14px;
    text-indent: 65px;
@@ -85,30 +88,27 @@
    
 
 }
-
-
-
 .booking{
     position: absolute;
+    width: 200px;
     font-family: "qwigley";
     font-size: 40px;
-    top: 450px;
-    left: 920px;
+    top: 330px;
+    left: 900px;
 }
 .bookingnum {
     position: absolute;
     background-color: lightgreen;
    padding: 15px;
-   word-spacing: 10px;
     width: 300px;
     height: 80px;
-    top: 500px;
-    left: 920px;
+    top: 380px;
+    left: 900px;
     border-radius: 10px;
     border: 1px solid gray;
     font-size: 21px;
     padding-left: 20px;
 
 
-}
+} 
 

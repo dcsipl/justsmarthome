@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import { BrowserRouter as Router, Routes, Route,} from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route,} from "react-router-dom";//npm i react-router-dom
 
 import HomePage from './Components/HomePageComponents/HomePage.js';
 import CommunityDetailsPage from './Components/CommunityDetailsComponents/CommunityDetailsPage';
@@ -54,8 +54,6 @@ return(
             <Route path="/House-8" element={<HouseDetailsPage url1={urls1[0]}/>} />
             <Route path="/House-9" element={<HouseDetailsPage url1={urls1[0]}/>} />
             <Route path="/House-10" element={<HouseDetailsPage url1={urls1[0]}/>} />
-           
-           
         </Routes>
     </Router>
 )
