@@ -20,7 +20,7 @@ export default function Footer() {
         <a href="/" className="footerCompleted">Completed Proj</a>
 
         <div className="insideBox">
-          
+          <h1>Smart Step, Every Step.</h1>
         </div>
         {jsondata.JustSmartCustomHomes[0].contactus.map((contact) =>
           <div>

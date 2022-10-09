@@ -118,33 +118,17 @@
     flex-direction: row;
     padding: 10px;
 }
-.insideBox p{
+.insideBox h1{
+    left:150px;
     position: relative;
     font-family: "qwigley";
-    font-size: 40px;
-}
-.insideBox ul {
-    list-style: none;
-    color: black;
-
-}
-.insideBox ul li{
-    position: relative;
-    top: 30px;
-    left:-70px;
-    font-family:'Times New Roman';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
+    font-size: 60px;
+    color:#012060;
+    /* -webkit-text-stroke-color: black;
+   -webkit-text-stroke-width: 0.1px; */
 }
 
-.insideBox ul li a{
-   color: black;
-}
-.insideBox ul li a:hover{
-   color:cornflowerblue
 
-}
 
 .contact {
     position: absolute;

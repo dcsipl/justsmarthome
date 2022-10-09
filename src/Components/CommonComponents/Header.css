@@ -62,7 +62,7 @@ color: yellow;
 
   height: 15px;
 
-  left: 150px;
+  left: 120px;
 
   top: 40px;
 
@@ -92,7 +92,7 @@ color: yellow;
 
   height: 13px;
 
-  left: 250px;
+  left: 220px;
 
   top: 40px;
 
@@ -121,7 +121,7 @@ color: yellow;
 
   height: 16px;
 
-  left: 460px;
+  left: 430px;
 
   top: 40px;
 
@@ -150,7 +150,7 @@ color: yellow;
 
   height: 15px;
 
-  left: 650px;
+  left: 620px;
 
   top: 40px;
 
@@ -178,7 +178,7 @@ color: yellow;
 
   height: 15px;
 
-  left: 780px;
+  left: 750px;
 
   top: 40px;
 
@@ -206,7 +206,7 @@ color: yellow;
 
   height: 15px;
 
-  left: 900px;
+  left: 870px;
 
   top: 40px;
 
@@ -226,14 +226,7 @@ color: yellow;
 
   cursor: pointer;
 }
-.headermainbar .menu ul p{
-  color: #012060;
-  font-family:"qwigley";
-  font-size: 28px;
-  position: relative;
-  left:-10px;
-  top: -10px;
-}
+
 
 .headermainbar .menu ul{
   display: none;
@@ -256,9 +249,9 @@ color: yellow;
   list-style: none;
   font-family: georgia;
   font-size: 15px;
-  line-height: 30px;
+  line-height: 35px;
  position: relative;
- top:-20px
+ top:-5px
 }
 .headermainbar .menu ul li a{
   text-decoration: none;
