@@ -50,7 +50,7 @@
     position: absolute;
     width: 90px;
     height: 15px;
-    left: 310px;
+    left: 330px;
     top: 5px;
     font-style: normal;
     font-weight: 400;
@@ -65,7 +65,7 @@
     position: absolute;
     width: 90px;
     height: 15px;
-    left: 420px;
+    left: 450px;
     top: 5px;
     font-style: normal;
     font-weight: 400;
@@ -80,7 +80,7 @@
     position: absolute;
     width: 200px;
     height: 15px;
-    left: 555px;
+    left: 585px;
     top: 5px;
     font-style: normal;
     font-weight: 400;
@@ -95,7 +95,7 @@
     position: absolute;
     width: 170px;
     height: 15px;
-    left: 780px;
+    left: 820px;
     top: 5px;
     font-style: normal;
     font-weight: 400;
@@ -113,7 +113,7 @@
     background-color: #C4C4C4;
     border-radius: 20px;
     top: 45px;
-    left: 280px;
+    left: 320px;
     display: flex;
     flex-direction: row;
     padding: 10px;
@@ -124,8 +124,7 @@
     font-family: "qwigley";
     font-size: 60px;
     color:#012060;
-    /* -webkit-text-stroke-color: black;
-   -webkit-text-stroke-width: 0.1px; */
+    
 }
 
 
@@ -134,7 +133,7 @@
     position: absolute;
     width: 274px;
     height: 20px;
-    left: 980px;
+    left: 1090px;
     top: -5px;
     font-style: normal;
     font-weight: 400;
@@ -163,7 +162,7 @@
     position: absolute;
     width: 79px;
     height: 25px;
-    left: 1015px;
+    left: 1120px;
     top: 122px;
     font-family: 'PT Serif Caption';
     font-style: normal;

@@ -23,15 +23,7 @@ export default function HouseDetails(props) {
 
 
 
-    const [slideIndex, setSlideIndex] = useState(0)
-    useEffect(() => {
-        setTimeout(() => {
-            slideIndex === json.JustSmartCustomHomes[0].slides.length - 1 ?
-                setSlideIndex(0) 
-                : 
-                setSlideIndex(slideIndex + 1)
-        }, 3000)
-    })
+    
 
     return (
         <>
@@ -74,18 +66,7 @@ export default function HouseDetails(props) {
                 <h4 className="threebhktitle" >3 BHK</h4>
                 <img className="threebhkimg" src={props.url1[0].threebhk} />
             </div> */}
-                <h1 className='work'>Auto Play Image Slider</h1>
-                {json.JustSmartCustomHomes[0].slides.map((data, index) => {
-                    return (<>
-                        <div key={index} className={index === slideIndex ? "myslides fade" : "myslidesnone"}>
-                            <img className="slideimg" src={data.image} alt="....." />
-                        </div>
-
-                        <div key={index} className={index === slideIndex ? "dots active" : "dots"}>
-
-                        </div>
-                    </>)
-                })}</div>
+                </div>
         </>
     )
 }

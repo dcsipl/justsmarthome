@@ -183,7 +183,316 @@
       "sliderImg": "./Pictures/HomePageImages/construction_1.jpg",
       "availableImg": "./Pictures/HomePageImages/construction_1.jpg",
       "completedImg": "./Pictures/HomePageImages/availablehome-1.jpg",
-     
+      "ongoinghouses": [
+        {
+          "id": "identifier",
+          "name": "Project 1",
+          "houseType": "House-1",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house1.jpg",
+          "description": "         Bed Rooms:    3                 Age of Home:  2017/New               Cooling:  Central Electric          Bathrooms:     3                 Level:               1                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2301sqft                 Heat:      Central Gas             Lot:                  4                Block:               3                             Garage:  2 cars",
+          "room": [
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room1.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room2.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room3.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room5.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room6.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room7.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            }
+          ]
+        },
+        {
+          "id": "identifier",
+          "name": "Project 2",
+          "houseType": "House-2",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house2.jpg",
+          "description": "         Bed Rooms:    4                 Age of Home:  2017/New               Cooling:  Central Electric          Bathrooms:     2.5              Level:               1                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2150sqft                 Heat:      Central Gas             Lot:                  3                Block:               3                             Garage:  2 cars",
+          "room": [
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room1.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room2.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room3.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room5.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room6.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room7.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            }
+          ]
+        },
+        {
+          "id": "identifier",
+          "name": "Project 3",
+          "houseType": "House-3",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house3.jpg",
+          "description": "          Bed Rooms:    4                 Age of Home:  2018/New               Cooling:  Central Electric          Bathrooms:     2.5              Level:               1                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       1954sqft                 Heat:      Central Gas             Lot:                  3                Block:               3                             Garage:  2 cars",
+          "room": [
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house3_room1.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house3_room2.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house3_room3.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house3_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            }
+          ]
+        }],
+
+      "availablehouses": [
+        {
+          "id": "identifier",
+          "name": "Project 1",
+          "houseType": "House-1",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house1.jpg",
+          "description": "         Bed Rooms:    3                 Age of Home:  2017/New               Cooling:  Central Electric          Bathrooms:     3                 Level:               1                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2301sqft                 Heat:      Central Gas             Lot:                  4                Block:               3                             Garage:  2 cars",
+          "room": [
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room1.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room2.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room3.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room5.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room6.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room7.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            }
+          ]
+        },
+        {
+          "id": "identifier",
+          "name": "Project 2",
+          "houseType": "House-2",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house2.jpg",
+          "description": "         Bed Rooms:    4                 Age of Home:  2017/New               Cooling:  Central Electric          Bathrooms:     2.5              Level:               1                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2150sqft                 Heat:      Central Gas             Lot:                  3                Block:               3                             Garage:  2 cars",
+          "room": [
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room1.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room2.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room3.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room5.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room6.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room7.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            }
+          ]
+        },
+        {
+          "id": "identifier",
+          "name": "Project 3",
+          "houseType": "House-3",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house3.jpg",
+          "description": "          Bed Rooms:    4                 Age of Home:  2018/New               Cooling:  Central Electric          Bathrooms:     2.5              Level:               1                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       1954sqft                 Heat:      Central Gas             Lot:                  3                Block:               3                             Garage:  2 cars",
+          "room": [
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house3_room1.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house3_room2.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house3_room3.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house3_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            }
+          ]
+        }],
+
       "completedhouses": [
         {
           "id": "identifier",
@@ -701,7 +1010,60 @@
       "availableImg": "./Pictures/ImageSlides/slide10.jpg",
       "completedImg": "./Pictures/HomePageImages/availablehome-2.jpg",
       
-      "completedhouses": [
+      "ongoinghouses": [
+        {
+          "id": "identifier",
+          "name": "Project 1",
+          "houseType": "House-1",
+          "image": "./Pictures/CommunityDetailsImages/comp_canyon_house1.jpg",
+          "description": "         Bed Rooms:    5                 Age of Home:  2020/New               Cooling:  Central Electric          Bathrooms:     3                 Level:               2                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2400sqft                 Heat:      Central Gas             Lot:                  11                Block:               2                             Garage:  2 cars",
+          "room": [
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room1.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room2.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room3.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room5.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room6.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            }
+          ]
+        }
+      ],
+      "availablehouses": [
         {
           "id": "identifier",
           "name": "Project 1",
@@ -754,6 +1116,61 @@
           ]
         }
       ]
+   ,
+   "completedhouses": [
+    {
+      "id": "identifier",
+      "name": "Project 1",
+      "houseType": "House-1",
+      "image": "./Pictures/CommunityDetailsImages/comp_canyon_house1.jpg",
+      "description": "         Bed Rooms:    5                 Age of Home:  2020/New               Cooling:  Central Electric          Bathrooms:     3                 Level:               2                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2400sqft                 Heat:      Central Gas             Lot:                  11                Block:               2                             Garage:  2 cars",
+      "room": [
+        {
+          "type": "",
+          "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room1.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          }
+        },
+        {
+          "type": "",
+          "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room2.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          }
+        },
+        {
+          "type": "",
+          "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room3.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          }
+        },
+        {
+          "type": "",
+          "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room4.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          }
+        },
+        {
+          "type": "",
+          "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room5.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          }
+        },
+        {
+          "type": "",
+          "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room6.jpg",
+          "measurement": {
+            "totalArea": "10/10 sq.ft"
+          }
+        }
+      ]
+    }
+  ]
+
     },
     {
       "name": "Thorn Hills",
@@ -805,7 +1222,238 @@
       "sliderImg": "./Pictures/ImageSlides/slide4.jpg",
       "availableImg": "./Pictures/HomePageImages/availablehome-2.jpg",
       "completedImg": "./Pictures/HomePageImages/availablehome-3.jpg",
-      
+      "ongoinghouses": [
+        {
+          "id": "identifier",
+          "name": "Project 1",
+          "houseType": "House-1",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house1.jpg",
+          "description": "      Bed Rooms:    5                 Age of Home:  2020/New               Cooling:  Central Electric          Bathrooms:     3                 Level:               2                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2400sqft                 Heat:      Central Gas             Lot:                  11                Block:               2                             Garage:  2 cars",
+          "room": [
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room1.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room2.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room3.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room5.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room6.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room7.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            }
+          ]
+        },{
+          "id": "identifier",
+          "name": "Project 2",
+          "houseType": "House-2",
+          "image": "./Pictures/CommunityDetailsImages/comp_deer_house2.jpg",
+          "description": "         Bed Rooms:    4                 Age of Home:  2017/New               Cooling:  Central Electric          Bathrooms:     2.5              Level:               1                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2150sqft                 Heat:      Central Gas             Lot:                  3                Block:               3                             Garage:  2 cars",
+          "room": [
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room1.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room2.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room3.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room4.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room5.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room6.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            },
+            {
+              "type": "",
+              "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room7.jpg",
+              "measurement": {
+                "totalArea": "10/10 sq.ft"
+              }
+            }
+          ]
+        }],
+        "availablehouses": [
+          {
+            "id": "identifier",
+            "name": "Project 1",
+            "houseType": "House-1",
+            "image": "./Pictures/CommunityDetailsImages/comp_deer_house1.jpg",
+            "description": "      Bed Rooms:    5                 Age of Home:  2020/New               Cooling:  Central Electric          Bathrooms:     3                 Level:               2                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2400sqft                 Heat:      Central Gas             Lot:                  11                Block:               2                             Garage:  2 cars",
+            "room": [
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room1.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room2.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room3.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room4.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room5.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room6.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_deer_house1_room7.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              }
+            ]
+          },{
+            "id": "identifier",
+            "name": "Project 2",
+            "houseType": "House-2",
+            "image": "./Pictures/CommunityDetailsImages/comp_deer_house2.jpg",
+            "description": "         Bed Rooms:    4                 Age of Home:  2017/New               Cooling:  Central Electric          Bathrooms:     2.5              Level:               1                             Floor:      Tile/Carpet                                Lot Size:         55x128       Home Size:       2150sqft                 Heat:      Central Gas             Lot:                  3                Block:               3                             Garage:  2 cars",
+            "room": [
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room1.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room2.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room3.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room4.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room5.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room6.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_deer_house2_room7.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              }
+            ]
+          }],
       "completedhouses": [
         {
           "id": "identifier",

@@ -32,6 +32,16 @@ export default function HomePageImageSlider() {
                    setSliderImgIndex(sliderImgIndex+1)
                
    }
+
+   const [slideIndex, setSlideIndex] = useState(0)
+    useEffect(() => {
+        setTimeout(() => {
+            slideIndex === communityDetails.JustSmartCustomHomes[0].slides.length - 1 ?
+                setSlideIndex(0) 
+                : 
+                setSlideIndex(slideIndex + 1)
+        }, 3000)
+    })
     function ClickEvent1() {
         window.open("/Community-1", "_self");
     }
@@ -65,11 +75,22 @@ export default function HomePageImageSlider() {
                      <button  className="morebutton" onClick={array[index]}>MoreDetails...</button>
                      <div className="communame">{data.name}</div>
                      <div className="descriptioncontent">{data.mainDescr}</div>
-                     <div className="booking">For Booking:</div>
+                     {/* <div className="booking">For Booking:</div>
                     <div className="bookingnum">
                         {data.booking1}<br />
                         {data.booking2}
-                    </div>
+                    </div> */}
+                {communityDetails.JustSmartCustomHomes[0].slides.map((data, index) => {
+                    return (<>
+                        <div key={index} className={index === slideIndex ? "myslides fade" : "myslidesnone"}>
+                            <img className="slideimg" src={data.image} alt="....." />
+                        </div>
+
+                        <div key={index} className={index === slideIndex ? "dots active" : "dots"}>
+
+                        </div>
+                    </>)
+                })}
             </div>
         </>
     )}))
