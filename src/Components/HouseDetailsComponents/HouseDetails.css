@@ -22,7 +22,7 @@
     font-size: 20px;
 }
 
-.mainroom {
+/* .mainroom {
     position: absolute;
     width: 840px;
     height: 470px;
@@ -31,15 +31,15 @@
     border-radius: 25px;
     border: 1px solid gray;
 
-}
+} */
 
 
 .roomscontainer{
     position: relative;
-    left:900px;
+    left:970px;
     display: flex;
     flex-direction: column;
-    width:350px;
+    width:400px;
     top: 20px;
     height: 500px;
     overflow-y: auto;
@@ -58,8 +58,8 @@
     top: 15px;
 }
 
-.roomsimg {
-    width: 290px;
+/* .roomsimg {
+    width: 340px;
     height: 160px;
     margin: 5px;
     border-radius: 5px;
@@ -68,7 +68,7 @@
     position: relative;
     top: 20px;
     left: -20px;
-}
+} */
 
 .houseplan p {
     position: absolute;
@@ -98,9 +98,9 @@
 .housepagebooking {
     position: absolute;
     background: #D8F0D0;
-    width: 310px;
+    width: 330px;
     height: 80px;
-    top: 710px;
+    top: 680px;
     left: 565px;
     border-radius: 10px;
     border: 1px solid gray;
@@ -146,7 +146,7 @@
 .myroomslides {
    
     position: absolute;
-    top: 10px;
+    top: 50px;
     left:20px;
     transition: none;
 }
@@ -155,8 +155,8 @@
 }
 .mainroom{
     border-radius: 10px;
-    width: 800px;
-    height: 420px;
+    width: 900px;
+    height: 450px;
 }
 .rooms {
     height: 315px;
@@ -168,7 +168,7 @@
 }
 .smallroom{
     border-radius: 10px;
-    width: 300px;
+    width: 350px;
     height:200px;
     margin-top: 20px;
     position: relative;
@@ -176,4 +176,9 @@
 .activee {
     cursor: pointer;
     transform: scale(0.9);
+}
+.work{
+    position: relative;
+    top:500px;
+    left:600px
 }

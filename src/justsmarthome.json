@@ -336,7 +336,8 @@
               }
             }
           ]
-        }],
+        }
+      ],
 
       "availablehouses": [
         {
@@ -491,7 +492,8 @@
               }
             }
           ]
-        }],
+        }
+      ],
 
       "completedhouses": [
         {
@@ -1115,9 +1117,8 @@
             }
           ]
         }
-      ]
-   ,
-   "completedhouses": [
+      ],
+      "completedhouses": [
     {
       "id": "identifier",
       "name": "Project 1",
@@ -1169,7 +1170,7 @@
         }
       ]
     }
-  ]
+      ]
 
     },
     {
@@ -1337,8 +1338,9 @@
               }
             }
           ]
-        }],
-        "availablehouses": [
+        }
+      ],
+      "availablehouses": [
           {
             "id": "identifier",
             "name": "Project 1",
@@ -1453,7 +1455,8 @@
                 }
               }
             ]
-          }],
+          }
+      ],
       "completedhouses": [
         {
           "id": "identifier",

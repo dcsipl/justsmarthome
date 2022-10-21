@@ -86,7 +86,7 @@ export default function HomePageImageSlider() {
                             <img className="slideimg" src={data.image} alt="....." />
                         </div>
 
-                        <div key={index} className={index === slideIndex ? "dots active" : "dots"}>
+                        <div key={index} className={index === slideIndex ? "dots activeee" : "dots"}>
 
                         </div>
                     </>)

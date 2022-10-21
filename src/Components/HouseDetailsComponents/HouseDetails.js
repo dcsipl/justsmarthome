@@ -58,6 +58,7 @@ export default function HouseDetails(props) {
                 <div className="houseplan" id="plan">
                     <p> Plan: {props.url1[0].name}</p>
                 </div>
+                <h1 className='work'>work in progress</h1>
                 {/* <div>
                 <h4 className="twobhktitle" id="plan">2 BHK</h4>
                 <img className="twobhkimg" src={props.url1[0].twobhk} />
