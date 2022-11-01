@@ -8,7 +8,7 @@
 
 .availablehouseicon {
     position:relative;
-    left:10px;
+    left:70px;
     height: 90px;
     width: 80px;
     top:10px
@@ -19,7 +19,7 @@
     font-family: "qwigley";
     font-size: 45px;
     color: #000000;
-    left: 90px;
+    left: 160px;
     top: 45px;
     position: absolute;
 }
@@ -30,6 +30,7 @@
     position: relative;
     overflow-x: hidden;
     overflow-y: auto;
+    left: 40px;
 }
 
 .availableimages {
@@ -66,7 +67,7 @@
 .aboutustitle {
 
     position: absolute;
-    left: 435px;
+    left: 535px;
     top: 37px;
     font-family: "qwigley";
     font-size: 45px;
@@ -75,9 +76,9 @@
 
 .aboutuscontentbox {
     position: absolute;
-    width: 450px;
+    width: 500px;
     height: 640px;
-    left: 395px;
+    left: 455px;
     top: 95px;
 }
 
@@ -87,7 +88,7 @@
     font-size: 18px;
     text-indent: 20px;
     margin: 20px;
-    line-height: 30px;
+    line-height: 38px;
     text-align: justify;
 }
 
@@ -165,7 +166,7 @@
 
 .completedhouseicon {
     position:relative;
-    left:490px;
+    left:630px;
     height: 90px;
     width: 80px;
     top:10px
@@ -175,7 +176,7 @@
     font-family: "qwigley";
     font-size: 45px;
     color: #000000;
-    left: 960px;
+    left: 1120px;
     top: 45px;
     position: absolute;
 }
@@ -183,7 +184,7 @@
 .completedimgcontainer {
     width: 390px;
     height: 1030px;
-    left: 470px;
+    left: 610px;
     position: relative;
     overflow-x: hidden;
     overflow-y: auto;

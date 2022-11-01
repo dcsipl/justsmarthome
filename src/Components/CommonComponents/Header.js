@@ -43,7 +43,6 @@ export default function Header(props) {
                         </a>
                  <a className="menu"> {props.sixth}<br/> 
                  <ul>
-                 <p>Our Business Associates:</p>
           {json.JustSmartCustomHomes[0].businessAsso.map((associate) =>
             
              <li> <a href={associate.link} target="_blank">{associate.name}</a></li>

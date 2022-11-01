@@ -1,6 +1,6 @@
 .thirdpage{
     position: relative;
-    top: 130px;
+    top: 110px;
 }.communityname-housename {
     position: absolute;
     width: 1000px;
@@ -22,7 +22,7 @@
     font-size: 20px;
 }
 
-.mainroom {
+/* .mainroom {
     position: absolute;
     width: 840px;
     height: 470px;
@@ -31,24 +31,25 @@
     border-radius: 25px;
     border: 1px solid gray;
 
-}
+} */
 
-.roomscontainer {
-    height: 600px;
+
+.roomscontainer{
+    position: relative;
+    left:970px;
     display: flex;
     flex-direction: column;
-    padding-left: 950px;
-    padding-top: -10px;
+    width:400px;
+    top: 20px;
+    height: 500px;
     overflow-y: auto;
-    overflow-x: hidden
+    overflow-x: hidden;
 }
 
-.roomslider:hover {
-    transform: scale(0.9);
-}
+
 
 .roomsname {
-    font-family: Playfair Display;
+    font-family: "Playfair Display";
     font-size: 20px;
     width: 250px;
     margin: 10px;
@@ -57,8 +58,8 @@
     top: 15px;
 }
 
-.roomsimg {
-    width: 290px;
+/* .roomsimg {
+    width: 340px;
     height: 160px;
     margin: 5px;
     border-radius: 5px;
@@ -67,7 +68,7 @@
     position: relative;
     top: 20px;
     left: -20px;
-}
+} */
 
 .houseplan p {
     position: absolute;
@@ -97,9 +98,9 @@
 .housepagebooking {
     position: absolute;
     background: #D8F0D0;
-    width: 310px;
+    width: 330px;
     height: 80px;
-    top: 710px;
+    top: 680px;
     left: 565px;
     border-radius: 10px;
     border: 1px solid gray;
@@ -141,54 +142,43 @@
     top: 890px;
     left: 700px
 }
-.work{
-    position: absolute;
-    top: 1000px;
-    left:600px
-}
-.myslides{
-    
-    position: absolute;
-    top: 1100px;
-    left:500px;
-}
-.fade{
-    animation-name: fade;
-    animation-duration: 1s;
-}
-@keyframes fade{
-    from{
-        opacity: .4;
-    }
-    to{
-        opacity: 1;
-    }
-}
 
-.slideimg{
-    border-radius: 20px;
-    border: 1px solid gray;
-    width: 500px;
-    height: 300px;
+.myroomslides {
+   
+    position: absolute;
+    top: 50px;
+    left:20px;
+    transition: none;
 }
-.myslidesnone{
-   display: none;
+.myroomslidesnone {
+    display: none;
 }
-.dots{
-    position: relative;
-    z-index: 1;
-    margin: 3px;
-    left: 680px;
-    top:770px;
-    height: 8px;
-    width: 8px;
+.mainroom{
+    border-radius: 10px;
+    width: 900px;
+    height: 450px;
+}
+.rooms {
+    height: 315px;
+    width: 515px;
     border-radius: 50%;
-    background-color:white;
-    display: inline-block
+    display: flex;
+    position: relative;
+    
 }
-.active{
-    background-color: gray;
+.smallroom{
+    border-radius: 10px;
+    width: 350px;
+    height:200px;
+    margin-top: 20px;
+    position: relative;
+}
+.activee {
     cursor: pointer;
-    height: 10px;
-    width: 10px;
+    transform: scale(0.9);
+}
+.work{
+    position: relative;
+    top:500px;
+    left:600px
 }

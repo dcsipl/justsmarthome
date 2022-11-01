@@ -29,9 +29,9 @@
     font-weight: 400;
     font-size: 72px;
     line-height: 90px;
-    color: #FFFFFF;
+    color: #184e05c4;
     mix-blend-mode: darken;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    /* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
     transform: rotate(-36.54deg);
    -webkit-text-stroke-color: #9D4949;
    -webkit-text-stroke-width: 1px;
@@ -42,16 +42,17 @@
 }
 .morebutton {
     position: absolute;
-    width:150px;
+    width:160px;
     left: 550px;
     top: 600px;
     border-radius: 5px;
-    border: 1px solid gray;
+    border: 1px solid moccasin;
     cursor:pointer;
-    background-color:moccasin;
+    background-color:white;
     color: black;
     font-size:18px;
     margin-top: -240px;
+    box-shadow: 3px 3px rgb(238, 234, 227);
 
 }
 .arrowcontainer {
@@ -63,6 +64,7 @@
     top: 230px;
     left: 1px;
     color: white;
+    cursor: pointer;
     
 
 }
@@ -76,7 +78,7 @@
 }
 .descriptioncontent{
     position: absolute;
-    width: 325px;
+    width: 460px;
     height: 300px;
     left: 885px;
     top: 10px;
@@ -112,3 +114,49 @@
 
 } 
 
+
+.myslides{
+    
+    position: absolute;
+    top: 220px;
+    left:895px;
+}
+.fade{
+    animation-name: fade;
+    animation-duration: 1s;
+}
+@keyframes fade{
+    from{
+        opacity: .4;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.slideimg{
+    border: 2px solid gray;
+    width: 450px;
+    height: 250px;
+}
+.myslidesnone{
+   display: none;
+}
+.dots{
+    position: relative;
+    z-index: 1;
+    margin: 3px;
+    left: 170px;
+    top:1px;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background-color:white;
+    display: inline-block
+}
+.activeee{
+    background-color: gray;
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+}

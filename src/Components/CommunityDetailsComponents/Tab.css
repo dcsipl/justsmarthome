@@ -1,9 +1,9 @@
 .box {
-    width: 40%;
+    width: 35%;
     position: absolute;
     border-bottom: 1px solid gray;
     top: 550px;
-    left: 700px;
+    left: 780px;
 }
 
 .tab1 {
@@ -43,5 +43,5 @@
     position: absolute;
     width: 400px;
     top: 750px;
-    left: 700px
+    left: 800px
 }
