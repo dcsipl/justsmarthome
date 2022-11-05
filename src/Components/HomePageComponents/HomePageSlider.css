@@ -76,6 +76,14 @@
   top:-35px;
   left:880px;
 }
+.gallerytitle{
+    width:300px;
+    font-family:"qwigley";
+    font-size:40px;
+    position:absolute;
+    top:230px;
+    left:880px;
+  }
 .descriptioncontent{
     position: absolute;
     width: 460px;
@@ -118,7 +126,7 @@
 .myslides{
     
     position: absolute;
-    top: 220px;
+    top: 270px;
     left:895px;
 }
 .fade{
@@ -137,7 +145,7 @@
 .slideimg{
     border: 2px solid gray;
     width: 450px;
-    height: 250px;
+    height: 200px;
 }
 .myslidesnone{
    display: none;

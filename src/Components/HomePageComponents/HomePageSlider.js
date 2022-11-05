@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from "react";
 import { AiOutlineLeftCircle, AiOutlineRightCircle } from "react-icons/ai";//npm i react-icons
-import communityDetails from '../../Justsmarthome.json';
+import communityDetails from '../../JustsmartCustomHomes.json';
 import "./HomePageSlider.css";
 
 
@@ -42,37 +42,22 @@ export default function HomePageImageSlider() {
                 setSlideIndex(slideIndex + 1)
         }, 3000)
     })
-    function ClickEvent1() {
-        window.open("/Community-1", "_self");
-    }
-    function ClickEvent2() {
-        window.open("/Community-2", "_self");
-    }
-    function ClickEvent3() {
-        window.open("/Community-3", "_self");
-    }
-    function ClickEvent4() {
-        window.open("/Community-4", "_self");
-    }
-    function ClickEvent5() {
-        window.open("/Community-5", "_self");
-    }
 
-
-    const array = [ClickEvent1, ClickEvent2, ClickEvent3, ClickEvent4, ClickEvent5]
+    const ongoingurl1= communityDetails.JustSmartCustomHomes.map((data,i)=>data.status1);
+    console.log(ongoingurl1)
     return(
     communityDetails.JustSmartCustomHomes.map((data,index)=>{
         return (
         <>    
 
              <div key={index} className={index===sliderImgIndex?"sliderimages":"sliderimagesnone"}>       
-                     <img className="sliderimg" src={data.sliderImg}  alt={data.name} onClick={array[index]}/>
+                     <img className="sliderimg" src={data.sliderImg}  alt={data.name} onClick={()=>{window.open(ongoingurl1[index],"_self")}}/>
                      <div className="ongoing">on going</div>
                      <div className="arrowcontainer">
                         <div  onClick={Prev}> <AiOutlineLeftCircle size={"50px"} /> </div>
                         <div  onClick={Next}> <AiOutlineRightCircle size={"50px"} /> </div>
                     </div>
-                     <button  className="morebutton" onClick={array[index]}>MoreDetails...</button>
+                     <button  className="morebutton" onClick={()=>{window.open(ongoingurl1[index],"_self")}}>MoreDetails...</button>
                      <div className="communame">{data.name}</div>
                      <div className="descriptioncontent">{data.mainDescr}</div>
                      {/* <div className="booking">For Booking:</div>
@@ -80,6 +65,7 @@ export default function HomePageImageSlider() {
                         {data.booking1}<br />
                         {data.booking2}
                     </div> */}
+                     <div className="gallerytitle">Gallery</div>
                 {communityDetails.JustSmartCustomHomes[0].slides.map((data, index) => {
                     return (<>
                         <div key={index} className={index === slideIndex ? "myslides fade" : "myslidesnone"}>

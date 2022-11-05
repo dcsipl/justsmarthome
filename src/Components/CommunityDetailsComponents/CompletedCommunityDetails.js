@@ -4,7 +4,7 @@ import './CommunityDetails.css'
 import BasicTabs from './Tab.js';
 import '../CommunityDetailsComponents/Tab.css';
 
-export default function CommunityDetails(props) {
+export default function CompletedCommunityDetails(props) {
    function changeHouse(event, key) {
       (key === 0) ? window.open("/House-1", "_self") :
          (key === 1) ? window.open("/House-2", "_self") :
@@ -21,18 +21,18 @@ export default function CommunityDetails(props) {
       <>
                <div className="backgroundcolor"></div>
 
-         <li className="mainhousename">{props.url[0].completedhouses[0].name}</li>
-         <img className="mainhouseimg" src={props.url[0].completedhouses[0].image}/> 
+         <li className="mainhousename">{props.completedurl[0].completedhouses[0].name}</li>
+         <img className="mainhouseimg" src={props.completedurl[0].completedhouses[0].image}/> 
          <div className="description"><span>Description:</span><br/>
          <b>Elemntary:</b> Spring Creek <b> Middle:</b>  Deer Creek 
          <b> High:</b>  Deer Creek 
          <b> School Dist:</b> Deer Creek<br/>
-         {props.url[0].completedhouses[0].description}
+         {props.completedurl[0].completedhouses[0].description}
          </div>
 
       </>);
 
-   const array = props.url[0].completedhouses.map((data, key) =>
+   const array = props.completedurl[0].completedhouses.map((data, key) =>
       <div>
                   <div className="backgroundcolor"></div>
 
@@ -57,12 +57,12 @@ export default function CommunityDetails(props) {
    return (
       <>
       <div className="wholedivision">
-         <p className="communityname">Community name : {props.url[0].name}
+         <p className="communityname">Community name : {props.completedurl[0].name}
          </p>
-         <div className='communitydescription'>{props.url[0].mainDescr}</div>
+         <div className='communitydescription'>{props.completedurl[0].mainDescr}</div>
          
          <div className="housescontainer">
-            {props.url[0].completedhouses.map((record1, i) =>
+            {props.completedurl[0].completedhouses.map((record1, i) =>
                <div className='houses'>
                   <p className="housesname">{record1.name}</p>
                   <img className="housesimg" src={record1.image} onClick={() => { setImage(array[i]) }} />
@@ -72,10 +72,10 @@ export default function CommunityDetails(props) {
          
 
          <div className="communitypagebooking">For Details:<br/>
-         <span>{props.url[0].booking1}<br />
-            {props.url[0].booking2}</span>
+         <span>{props.completedurl[0].booking1}<br />
+            {props.completedurl[0].booking2}</span>
          </div>
-         {props.url[0].nearby.map((near, i) =>
+         {props.completedurl[0].nearby.map((near, i) =>
             <div className="nearby" id="nearbyplaces" key={i}>Near by
                <ul>
                   <li>{near.place1}<br />{near.km1}</li>
@@ -84,20 +84,20 @@ export default function CommunityDetails(props) {
                   <li>{near.place4}<br />{near.km4}</li>
                </ul>
             </div>)}
-         <BasicTabs tabs={props.url[0].tabs} />
+         <BasicTabs tabs={props.completedurl[0].tabs} />
 
 
          <div className="features" id="features">
             Features:
-            <div className="points">{props.url[0].extraFeatures}</div>
+            <div className="points">{props.completedurl[0].extraFeatures}</div>
          </div>
          <div className="overview" >
             <p>Community Plan</p>
-            <img src={props.url[0].communityPlan} />
+            <img src={props.completedurl[0].communityPlan} />
          </div>
          <div className="location" id="location">
             <p>Location</p>
-            <img src={props.url[0].location} />
+            <img src={props.completedurl[0].location} />
          </div>
          </div>
     </>

@@ -1,7 +1,7 @@
 import React from 'react';
 import {FaAddressCard} from "react-icons/fa"
 import {TiLocation} from "react-icons/ti"
-import jsondata from '../../Justsmarthome.json'
+import jsondata from '../../JustsmartCustomHomes.json'
 
 export default function Footer() {
   return (

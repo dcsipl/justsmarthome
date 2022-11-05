@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-scroll'// npm i react-scroll
 import Logo from '../../Pictures/CommonImages/Logo.jpeg';
 import Validation from './Validation.js';
-import json from '../../Justsmarthome.json'
+import json from '../../JustsmartCustomHomes.json'
 export default function Header(props) {
       return (
             <>

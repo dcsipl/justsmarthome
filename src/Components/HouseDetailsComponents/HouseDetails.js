@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import json from '../../Justsmarthome.json';
+import json from '../../JustsmartCustomHomes.json';
 
 export default function HouseDetails(props) {
 
@@ -29,7 +29,7 @@ export default function HouseDetails(props) {
         <>
             <div className='thirdpage'>
                 <div className="communityname-housename">
-                    Community name : 
+                    Community name : Deer Valley Estates
                 </div>
                 <div>
                     {props.url1[0].room.map((data, index) => {
