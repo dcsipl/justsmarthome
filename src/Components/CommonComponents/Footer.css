@@ -45,90 +45,71 @@
     text-decoration-color: white;
 
 }
-
-.footerHome {
+.footernavbar{
     position: absolute;
-    width: 90px;
-    height: 15px;
     left: 330px;
     top: 5px;
+    width:680px;
+    display: flex;
+    justify-content: space-around;
     font-style: normal;
     font-weight: 400;
     font-family: "qwigley";
     font-size: 40px;
     line-height: 45px;
-    text-decoration: none;
-    color: white;
+   
 }
-
-.footerGallery {
-    position: absolute;
-    width: 90px;
-    height: 15px;
-    left: 450px;
-    top: 5px;
-    font-style: normal;
-    font-weight: 400;
-    font-family: "qwigley";
-    font-size: 40px;
-    line-height: 45px;
-    text-decoration: none;
-    color: white;
-}
-
-.footerAvailable {
-    position: absolute;
-    width: 200px;
-    height: 15px;
-    left: 585px;
-    top: 5px;
-    font-style: normal;
-    font-weight: 400;
-    font-family: "qwigley";
-    font-size: 40px;
-    line-height: 45px;
-    text-decoration: none;
-    color: white;
-}
-
-.footerCompleted {
-    position: absolute;
-    width: 170px;
-    height: 15px;
-    left: 820px;
-    top: 5px;
-    font-style: normal;
-    font-weight: 400;
-    font-family: "qwigley";
-    font-size: 40px;
-    line-height: 45px;
+.footernavbar a{
     text-decoration:none;
     color: white;
 }
-
 .insideBox {
     position: relative;
     width: 680px;
-    height: 90px;
+    height: 80px;
     background-color: #C4C4C4;
     border-radius: 20px;
     top: 45px;
     left: 320px;
-    display: flex;
-    flex-direction: row;
+   
     padding: 10px;
 }
 .insideBox h1{
-    left:150px;
+    left:190px;
     position: relative;
     font-family: "qwigley";
-    font-size: 60px;
+    font-size: 40px;
     color:#012060;
+    
+    
+}
+.insideBox h4{
+    top:-10px;
+    position: relative;
+    font-family: georgia;
+    font-size: 20px;
+    
     
 }
 
-
-
+.insideBox .business{
+position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: georgia;
+}
+.business a{
+    
+    text-decoration: none;
+   color: black;
+   font-size: 18px;
+   width: 80px;
+   list-style: none;
+}
+.business a:hover{
+    color: rgb(17, 92, 189);
+}
 .contact {
     position: absolute;
     width: 274px;

@@ -3,6 +3,7 @@ import { useState } from 'react';
 import './CommunityDetails.css'
 import BasicTabs from './Tab.js';
 import '../CommunityDetailsComponents/Tab.css';
+import Card from '@mui/material/Card';
 
 export default function AvailableCommunityDetails(props) {
    function changeHouse(event, key) {
@@ -19,37 +20,76 @@ export default function AvailableCommunityDetails(props) {
 
    const [image, setImage] = useState(
       <>
-               <div className="backgroundcolor"></div>
+         <Card className="backgroundcolor"></Card>
 
          <li className="mainhousename">{props.availableurl[0].availablehouses[0].name}</li>
-         <img className="mainhouseimg" src={props.availableurl[0].availablehouses[0].image}/> 
-         <div className="description"><span>Description:</span><br/>
-         <b>Elemntary:</b> Spring Creek <b> Middle:</b>  Deer Creek 
-         <b> High:</b>  Deer Creek 
-         <b> School Dist:</b> Deer Creek<br/>
-         {props.availableurl[0].availablehouses[0].description}
+         <img className="mainhouseimg" src={props.availableurl[0].availablehouses[0].image} onClick={()=>{window.open("/House-1","_self")}}/> 
+         <button className="moredetailsbutton" onClick={()=>{window.open("/House-1","_self")}}>
+            More details
+         </button>
+         <div className="description"><span>Description:</span><br />
+         <b>Elemntary:</b> Spring Creek ,  <b> Middle:</b>  Deer Creek , <b> High:</b>  Deer Creek , <b> School Dist:</b> Deer Creek<br />
+            <div className="descriptiontable"> 
+                <table>
+                    <tbody>
+            {props.availableurl[0].availablehouses[0].descriptions.map((datas)=>
+             <div className="tablebody">
+             <tr className="firstrow">
+                 <td >{datas.descriptitle1}:</td>
+                 <td >{datas.descripcontent1}</td>
+             </tr>
+             <tr className="secondtrow">
+                 <td >{datas.descriptitle2}:</td>
+                 <td>{datas.descripcontent2}</td>
+             </tr>
+             <tr className="thirdrow">
+                 <td>{datas.descriptitle3}:</td>
+                 <td>{datas.descripcontent3}</td>
+             </tr>
+         </div>
+            )}
+              </tbody>
+                </table>
+            </div>
+
          </div>
 
       </>);
 
    const array = props.availableurl[0].availablehouses.map((data, key) =>
       <div>
-                  <div className="backgroundcolor"></div>
-
+                  <Card className="backgroundcolor"></Card>
          <li className="mainhousename">{data.name}</li>
          <img className='mainhouseimg' src={data.image} onClick={event => changeHouse(event, key)} key={key} />
          <button className="moredetailsbutton" onClick={event => changeHouse(event, key)} key={key}>
             more details
          </button>
 
-         <div className="description"><span>Description:</span><br/>
-         <b>Elemntary:</b> Spring Creek <b> Middle:</b>  Deer Creek 
-         <b> High:</b>  Deer Creek 
-         <b> School Dist:</b> Deer Creek<br/>
-            <div>
-            {data.description}
+         <div className="description"><span>Description:</span><br />
+            <b>Elemntary:</b> Spring Creek ,  <b> Middle:</b>  Deer Creek , <b> High:</b>  Deer Creek , <b> School Dist:</b> Deer Creek<br />
+            <div className="descriptiontable">
+                <table>
+                    <tbody>
+                        {data.descriptions.map((datas) =>
+                            <div className="tablebody">
+                                <tr className="firstrow">
+                                    <td >{datas.descriptitle1}:</td>
+                                    <td >{datas.descripcontent1}</td>
+                                </tr>
+                                <tr className="secondrow">
+                                    <td >{datas.descriptitle2}:</td>
+                                    <td>{datas.descripcontent2}</td>
+                                </tr>
+                                <tr className="thirdrow">
+                                    <td>{datas.descriptitle3}:</td>
+                                    <td>{datas.descripcontent3}</td>
+                                </tr>
+                            </div>
+                        )}
+                    </tbody>
+                </table>
             </div>
-         
+
          </div>
       </div>);
 
@@ -71,10 +111,20 @@ export default function AvailableCommunityDetails(props) {
          </div>
          
 
-         <div className="communitypagebooking">For Details:<br/>
-         <span>{props.availableurl[0].booking1}<br />
-            {props.availableurl[0].booking2}</span>
-         </div>
+         <div className="communitypagebooking">For Details:<br />
+         <span>
+               <table>
+                  <tbody>
+                     {props.availableurl[0].booking.map((book, i) =>
+                        <tr>
+                           <td style={{paddingRight:"10px"}}>{book.name}</td>
+                           <td>{book.number}</td>
+                        </tr>
+                     )}
+                  </tbody>
+               </table>
+               </span>
+            </div>
          {props.availableurl[0].nearby.map((near, i) =>
             <div className="nearby" id="nearbyplaces" key={i}>Near by
                <ul>

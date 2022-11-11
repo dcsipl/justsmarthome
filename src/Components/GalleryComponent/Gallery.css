@@ -1,13 +1,12 @@
-.gallerybox{
+/* .
+gallerybox{
     position:absolute;
-    height: 1550px;
     top:150px;
     left: 80px;
     display: grid;
     gap: 30px 30px;
     grid-template-columns: auto auto auto;
-   overflow-y: auto;
-   overflow-x: hidden;
+  
 }
 .galleryimages{
    
@@ -15,6 +14,27 @@
     height: 230px;
     border-radius: 5px;
     border: 1.5px solid gray;
+}
+.galleryimages:hover{
+    transform: scale(0.9);
+
+} */
+.gallerybox{
+    position:absolute;
+    width: 1300px;
+    height: 1550px;
+    overflow-y: auto;;
+    overflow-x: hidden;
+    top:150px;
+    left: 80px;
+    display: grid;
+    gap: 30px 50px;
+    grid-template-columns: auto auto auto;
+  
+}
+.galleryimages{
+    width: 380px;
+    height: 380px;
 }
 .galleryimages:hover{
     transform: scale(0.9);

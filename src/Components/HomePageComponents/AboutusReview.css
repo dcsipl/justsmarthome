@@ -11,7 +11,7 @@
     left:70px;
     height: 90px;
     width: 80px;
-    top:10px
+    top:60px
 
 }
 
@@ -20,22 +20,30 @@
     font-size: 45px;
     color: #000000;
     left: 160px;
-    top: 45px;
+    top: 95px;
     position: absolute;
 }
 
 .availableimgcontainer {
-    width: 390px;
-    height: 1030px;
+    width: 400px;
+    height:980px;
     position: relative;
     overflow-x: hidden;
     overflow-y: auto;
+    top:50px;
     left: 40px;
 }
 
 .availableimages {
-    padding-left: 10px;
-    padding-top: 20px
+    margin-top: 30px;
+    margin-right: 10px;
+    height: 260px;
+    width:360px;
+
+}
+.availableimg{
+    height: 200px;
+    padding-top: 10px;
 }
 
 .availableimages:hover {
@@ -44,31 +52,11 @@
 
 }
 
-.availableimg {
-    height: 300px;
-    width: 350px;
-    border-radius: 5px;
-    border: 1px solid gray;
-    position: relative
-}
-
-.availablename {
-    width: 200px;
-    background-color: gray;
-    color: white;
-    font-size: 20px;
-    border-radius: 5px;
-    padding: 5px;
-    position: relative;
-    margin-top: -45px;
-    margin-left: 70px
-}
-
 .aboutustitle {
 
     position: absolute;
     left: 535px;
-    top: 37px;
+    top: 87px;
     font-family: "qwigley";
     font-size: 45px;
     color: #000000
@@ -76,10 +64,10 @@
 
 .aboutuscontentbox {
     position: absolute;
-    width: 500px;
+    width: 520px;
     height: 640px;
-    left: 455px;
-    top: 95px;
+    left: 445px;
+    top: 125px;
 }
 
 .aboutuscontent {
@@ -166,33 +154,29 @@
 
 .completedhouseicon {
     position:relative;
-    left:630px;
+    left:600px;
     height: 90px;
     width: 80px;
-    top:10px
+    top:60px
 }
 
 .completedhousestitle {
     font-family: "qwigley";
     font-size: 45px;
     color: #000000;
-    left: 1120px;
-    top: 45px;
+    left: 1100px;
+    top: 95px;
     position: absolute;
 }
 
 .completedimgcontainer {
-    width: 390px;
-    height: 1030px;
-    left: 610px;
+    width: 400px;
+    height: 980px;
+    left: 600px;
+    top:50px;
     position: relative;
     overflow-x: hidden;
     overflow-y: auto;
-}
-
-.completedimages {
-    padding-left: 10px;
-    padding-top: 20px
 }
 
 .completedimages:hover {
@@ -201,22 +185,17 @@
 
 }
 
-.completedimg {
-    height: 300px;
-    width: 350px;
-    border-radius: 5px;
-    border: 1px solid gray;
-    position: relative
+.completedimages {
+    margin-top: 30px;
+    margin-right: 10px;
+    height: 260px;
+    width:360px;
+
+}
+.completedimg{
+    height: 200px;
+    padding-top: 10px;
+
 }
 
-.completedname {
-    width: 200px;
-    background-color: gray;
-    color: white;
-    font-size: 20px;
-    border-radius: 5px;
-    padding: 5px;
-    position: relative;
-    margin-top: -45px;
-    margin-left: 70px
-}
+

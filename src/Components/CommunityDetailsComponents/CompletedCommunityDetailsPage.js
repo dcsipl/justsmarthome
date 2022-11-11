@@ -9,7 +9,7 @@ import '../CommonComponents/Footer.css';
 export default function CompletedCommunityDetailsPage(props){
     return(
         <>
-        <Header second="Near by Places" third="Features" fourth="Location" secondid="nearbyplaces" thirdid="features" fourthid="location" />
+        <Header  second="Features" third="Location" fourth="Contact-us" fifth="Gallery" secondid="features" thirdid="location" fourthid="contactus" />
         <CompletedCommunityDetails completedurl={props.completedurl}/>
         <Footer/>
         </>

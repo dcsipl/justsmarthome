@@ -9,6 +9,7 @@ export default function Header(props) {
                   <div className="headermainbar">
                         <img src={Logo} alt="js-logo" />
                         <p>Justsmart Custom Homes</p>
+                        <div className='anchortags'>
                         <a href="/" className="home">Home</a>
                        
                         <a className="available">
@@ -38,16 +39,17 @@ export default function Header(props) {
                                     duration={500}>{props.fourth}
                               </Link>
                         </a>
-                        <a href="/gallery" className="gallery" >
+                        <a href="/Gallery" className="gallery" >
                              {props.fifth}
                         </a>
-                 <a className="menu"> {props.sixth}<br/> 
+                 {/* <a className="menu"> {props.sixth}<br/> 
                  <ul>
           {json.JustSmartCustomHomes[0].businessAsso.map((associate) =>
             
              <li> <a href={associate.link} target="_blank">{associate.name}</a></li>
            )}
-           </ul> </a> 
+           </ul> </a>  */}
+           </div>
         
                         <Validation />
                   </div>

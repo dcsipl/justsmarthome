@@ -29,7 +29,8 @@ export default function HouseDetails(props) {
         <>
             <div className='thirdpage'>
                 <div className="communityname-housename">
-                    Community name : Deer Valley Estates
+                <p> Community name : Deer Valley Estates - {props.url1[0].name}</p>
+            
                 </div>
                 <div>
                     {props.url1[0].room.map((data, index) => {
@@ -51,14 +52,25 @@ export default function HouseDetails(props) {
                             )
                         })}</div>
                 </div>
-                <div className="housepagebooking">For Booking:<br />
-                    <span>{json.JustSmartCustomHomes[0].booking1}<br />
-                        {json.JustSmartCustomHomes[0].booking2} </span>
+                <div className="housepagebooking"id="booking">For Booking:<br />
+            <span>
+               <table>
+                  <tbody >
+                     {json.JustSmartCustomHomes[0].booking.map((book, i) =>
+                        <tr>
+                           <td style={{paddingRight:"10px"}}>{book.name}</td>
+                           <td>{book.number}</td>
+                        </tr>
+                     )}
+                  </tbody>
+               </table>
+               </span>
+            
                 </div>
                 <div className="houseplan" id="plan">
                     <p> Plan: {props.url1[0].name}</p>
                 </div>
-                <h1 className='work'>work in progress</h1>
+               
                 {/* <div>
                 <h4 className="twobhktitle" id="plan">2 BHK</h4>
                 <img className="twobhkimg" src={props.url1[0].twobhk} />

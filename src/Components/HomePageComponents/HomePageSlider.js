@@ -10,7 +10,7 @@ export default function HomePageImageSlider() {
     useEffect(()=>{
        const interval=setTimeout(()=>{
                   autoPlay()
-        },4000)
+        },5000)
         return()=>clearTimeout(interval)
     },[sliderImgIndex])
     function autoPlay(){
@@ -40,7 +40,7 @@ export default function HomePageImageSlider() {
                 setSlideIndex(0) 
                 : 
                 setSlideIndex(slideIndex + 1)
-        }, 3000)
+        }, 4000)
     })
 
     const ongoingurl1= communityDetails.JustSmartCustomHomes.map((data,i)=>data.status1);
@@ -65,7 +65,6 @@ export default function HomePageImageSlider() {
                         {data.booking1}<br />
                         {data.booking2}
                     </div> */}
-                     <div className="gallerytitle">Gallery</div>
                 {communityDetails.JustSmartCustomHomes[0].slides.map((data, index) => {
                     return (<>
                         <div key={index} className={index === slideIndex ? "myslides fade" : "myslidesnone"}>
