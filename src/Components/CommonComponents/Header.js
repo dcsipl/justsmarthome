@@ -2,13 +2,14 @@ import React from 'react';
 import { Link } from 'react-scroll'// npm i react-scroll
 import Logo from '../../Pictures/CommonImages/Logo.jpeg';
 import Validation from './Validation.js';
-import json from '../../Justsmarthome.json'
+import json from '../../JustsmartCustomHomes.json'
 export default function Header(props) {
       return (
             <>
                   <div className="headermainbar">
                         <img src={Logo} alt="js-logo" />
                         <p>Justsmart Custom Homes</p>
+                        <div className='anchortags'>
                         <a href="/" className="home">Home</a>
                        
                         <a className="available">
@@ -38,16 +39,17 @@ export default function Header(props) {
                                     duration={500}>{props.fourth}
                               </Link>
                         </a>
-                        <a href="/gallery" className="gallery" >
+                        <a href="/Gallery" className="gallery" >
                              {props.fifth}
                         </a>
-                 <a className="menu"> {props.sixth}<br/> 
+                 {/* <a className="menu"> {props.sixth}<br/> 
                  <ul>
           {json.JustSmartCustomHomes[0].businessAsso.map((associate) =>
             
              <li> <a href={associate.link} target="_blank">{associate.name}</a></li>
            )}
-           </ul> </a> 
+           </ul> </a>  */}
+           </div>
         
                         <Validation />
                   </div>

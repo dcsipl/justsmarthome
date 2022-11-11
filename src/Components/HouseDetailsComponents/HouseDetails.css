@@ -98,7 +98,7 @@
 .housepagebooking {
     position: absolute;
     background: #D8F0D0;
-    width: 330px;
+    width: 300px;
     height: 80px;
     top: 680px;
     left: 565px;
@@ -172,9 +172,10 @@
     height:200px;
     margin-top: 20px;
     position: relative;
+    cursor: pointer;
+
 }
 .activee {
-    cursor: pointer;
     transform: scale(0.9);
 }
 .work{

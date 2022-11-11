@@ -1,42 +1,41 @@
 import React from 'react';
 import HouseIcon from '../../Pictures/CommonImages/houseicon.jpg';
 import './AboutusReview.css';
-import json from "../../Justsmarthome.json";
-
+import json from "../../JustsmartCustomHomes.json";
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
+import Typography from '@mui/material/Typography';
 export default function AboutusReview() {
-    function ClickEvent1() {
-        window.open("/Community-1", "_self");
-    }
-    function ClickEvent2() {
-        window.open("/Community-2", "_self");
-    }
-    function ClickEvent3() {
-        window.open("/Community-3", "_self");
-    }
-    function ClickEvent4() {
-        window.open("/Community-4", "_self");
-    }
-    function ClickEvent5() {
-        window.open("/Community-5", "_self");
-    }
-
-
-    const array = [ClickEvent1, ClickEvent2, ClickEvent3, ClickEvent4, ClickEvent5]
-    console.log(array)
+    const availableurl1= json.JustSmartCustomHomes.map((data,i)=>data.status2);
+    console.log(availableurl1)
+    const completedurl1= json.JustSmartCustomHomes.map((data,i)=>data.status3);
+    console.log(completedurl1)
     return (
         <>
             <div className="secondhalfcontainer">
                 <div className="availablehouses">
                     <img className="availablehouseicon" src={HouseIcon} alt="houseIcon" />
                     <p className="availablehousestitle" id="readilyavailable">
-                        Readily Available
+                         Available Projects
                     </p>
+                    
                     <div className="availableimgcontainer">
                         {json.JustSmartCustomHomes.map((community, i) =>
-                            <div key={i} className="availableimages">
-                                <img className="availableimg" src={community.availableImg} onClick={array[i]} />
-                                <h1 className="availablename">{community.name}</h1>
-                            </div>
+                            <Card className='availableimages'>
+                           <CardMedia
+                           className='availableimg'
+                             component="img"
+                             image={community.availableImg}
+                             onClick={()=>{window.open(availableurl1[i],"_self")}} 
+                           />
+                          
+                             <CardContent>
+                             <Typography gutterBottom variant="h6" color="gray" fontWeight="800"fontFamily="georgia" display="flex" justifyContent="center" component="div">
+                              {community.name}
+                             </Typography>
+                           </CardContent>
+                         </Card>
                         )}
                     </div>
                 </div>
@@ -72,11 +71,21 @@ export default function AboutusReview() {
                         Completed Projects
                     </p>
                     <div className="completedimgcontainer">
-                        {json.JustSmartCustomHomes.map((community, i) =>
-                            <div key={i} className="completedimages">
-                                <img className="completedimg" src={community.completedImg} onClick={array[i]} />
-                                <h1 className="completedname">{community.name}</h1>
-                            </div>
+                    {json.JustSmartCustomHomes.map((community, i) =>
+                            <Card className='completedimages'>
+                           <CardMedia
+                           className='completedimg'
+                             component="img"
+                             image={community.completedImg}
+                             onClick={()=>{window.open(completedurl1[i],"_self")}} 
+                           />
+                          
+                             <CardContent>
+                             <Typography gutterBottom variant="h6" color="gray" fontWeight="800"fontFamily="georgia" display="flex" justifyContent="center" component="div">
+                              {community.name}
+                             </Typography>
+                           </CardContent>
+                         </Card>
                         )}
                     </div>
                 </div>

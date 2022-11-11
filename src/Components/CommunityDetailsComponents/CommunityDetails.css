@@ -5,7 +5,7 @@
     position: absolute;
     width: 500px;
     height: 20px;
-    left: 50px;
+    left: 850px;
     top: -280px;
     font-family: "qwigley";
     font-size: 40px
@@ -14,7 +14,7 @@
     position: absolute;
     line-height: 20px;
     top: -230px;
-    left: 20px;
+    left: 720px;
     width: 650px;
     font-family: Georgia;
     font-size: 15px;
@@ -22,24 +22,20 @@
     
 }
 .housescontainer {
-    width: 690px;
     height: 900px;
     display: grid;
-    gap: 10px 50px;
+    gap: 10px 20px;
     grid-template-columns: auto auto;
-    padding-left: 10px;
+    padding-left: 720px;
     margin-top: -20px;
     overflow-y: auto;
     overflow-x: hidden
 }
 
-.housesname {
-    font-family: Playfair Display;
-    font-size: 20px;
-    width: 250px;
+.houses .housesname{
     position: relative;
-    left: 50px;
-    top: -5px
+    font-size: 20px;
+    left: 120px;
 }
 
 .housesimg {
@@ -56,7 +52,7 @@
     position: absolute;
     width: 500px;
     height: 20px;
-    left: 980px;
+    left: 300px;
     top: -270px;
     font-size: 20px;
     list-style: none;
@@ -67,7 +63,7 @@
     position: absolute;
     width: 670px;
     height: 360px;
-    left: 720px;
+    left: 20px;
     top: -240px;
     border-radius: 10px;
     border: 1px solid gray;
@@ -81,7 +77,7 @@
     border-radius: 5px;
     width: 150px;
     height: 30px;
-    left: 1130px;
+    left: 430px;
     top: 70px;
     font-size: 15px;
     cursor: pointer;
@@ -91,9 +87,8 @@
 .backgroundcolor {
     width: 670px;
     height: 1160px;
-    background-color: #BCFBEC;
     position: absolute;
-    left: 720px;
+    left: 20px;
     top: -270px
 }
 
@@ -105,7 +100,7 @@
     margin-left: 50px;
     width: 655px;
     top: 50px;
-    left: 680px;
+    left: 10px;
     line-height: 30px;
 
 }
@@ -116,14 +111,41 @@
     position: relative;
     top: -20px;
 }
+.descriptiontable{
+    position: "relative";
+    width: 600px;
+    height: 130px;
+    font-size: 16px;
+}
+.tablebody{
+    width: 550px;
+     display: flex;
+      justify-content: space-between;
+
+}
+.firstrow{
+    width: 120px;
+    display: flex;
+    justify-content: space-around 
+}
+.secondrow{
+    width: 175px;
+    display: flex;
+    justify-content: space-around 
+}
+.thirdrow{
+    width: 170px;
+    display: flex;
+    justify-content: space-around 
+}
 
 .communitypagebooking {
     position: absolute;
     background-color: lightgreen;
     width: 280px;
     height: 80px;
-    top: 290px;
-    left: 900px;
+    top: 350px;
+    left: 200px;
     border-radius: 10px;
     border: 1px solid gray;
     font-size: 22px;
@@ -142,8 +164,8 @@
     position: absolute;
     width: 600px;
     height: 80px;
-    top: 390px;
-    left: 980px;
+    top: 450px;
+    left: 280px;
     font-family: 'Playfair Display';
     font-size: 30px;
 
@@ -153,7 +175,7 @@
 
 .nearby ul {
     position: absolute;
-    top: 40px;
+    top: 60px;
     width: 500px;
     left: -200px;
     display: flex;
