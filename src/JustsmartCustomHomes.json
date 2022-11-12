@@ -246,7 +246,7 @@
           {
             "id": "identifier",
             "name": "Project 1",
-            "houseType": "House-1",
+            "houseType": "OnGoingCommunity-1House-1",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house1.jpg",
             "descriptions":[
               {
@@ -338,7 +338,7 @@
           {
             "id": "identifier",
             "name": "Project 2",
-            "houseType": "House-2",
+            "houseType": "OnGoingCommunity-1House-2",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house2.jpg",
             "descriptions":[
               {
@@ -430,7 +430,7 @@
           {
             "id": "identifier",
             "name": "Project 3",
-            "houseType": "House-3",
+            "houseType": "OnGoingCommunity-1House-3",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house3.jpg",
             "descriptions":[
               {
@@ -522,7 +522,7 @@
           {
             "id": "identifier",
             "name": "Project 4",
-            "houseType": "House-4",
+            "houseType": "OnGoingCommunity-1House-4",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house4.jpg",
             "descriptions":[
               {
@@ -596,7 +596,7 @@
           {
             "id": "identifier",
             "name": "Project 1",
-            "houseType": "House-1",
+            "houseType": "AvailableCommunity-1House-1",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house1.jpg",
             "descriptions":[
               {
@@ -688,7 +688,7 @@
           {
             "id": "identifier",
             "name": "Project 2",
-            "houseType": "House-2",
+            "houseType": "AvailableCommunity-1House-2",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house2.jpg",
             "descriptions":[
               {
@@ -781,7 +781,7 @@
           {
             "id": "identifier",
             "name": "Project 3",
-            "houseType": "House-3",
+            "houseType": "AvailableCommunity-1House-3",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house3.jpg",
             "descriptions":[
               {
@@ -856,7 +856,7 @@
           {
             "id": "identifier",
             "name": "Project 1",
-            "houseType": "House-1",
+            "houseType": "CompletedCommunity-1House-1",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house1.jpg",
             "descriptions":[
               {
@@ -949,7 +949,7 @@
           {
             "id": "identifier",
             "name": "Project 2",
-            "houseType": "House-2",
+            "houseType": "CompletedCommunity-1House-2",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house2.jpg",
             "descriptions":[
               {
@@ -1041,7 +1041,7 @@
           {
             "id": "identifier",
             "name": "Project 3",
-            "houseType": "House-3",
+            "houseType": "CompletedCommunity-1House-3",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house3.jpg",
             "descriptions":[
               {
@@ -1112,7 +1112,7 @@
           {
             "id": "identifier",
             "name": "Project 4",
-            "houseType": "House-4",
+            "houseType": "CompletedCommunity-1House-4",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house4.jpg",
             "descriptions":[
               {
@@ -1211,7 +1211,7 @@
           {
             "id": "identifier",
             "name": "Project 5",
-            "houseType": "House-5",
+            "houseType": "CompletedCommunity-1House-5",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house5.jpg",
             "descriptions":[
               {
@@ -1310,7 +1310,7 @@
           {
             "id": "identifier",
             "name": "Project 6",
-            "houseType": "House-6",
+            "houseType": "CompletedCommunity-1House-6",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house6.jpg",
             "descriptions":[
               {
@@ -1409,7 +1409,7 @@
           {
             "id": "identifier",
             "name": "Project 7",
-            "houseType": "House-7",
+            "houseType": "CompletedCommunity-1House-7",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house7.jpg",
             "descriptions":[
               {
@@ -1501,7 +1501,7 @@
           {
             "id": "identifier",
             "name": "Project 8",
-            "houseType": "House-8",
+            "houseType": "CompletedCommunity-1House-8",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house8.jpg",
             "descriptions":[
               {
@@ -1654,7 +1654,7 @@
           {
             "id": "identifier",
             "name": "Project 1",
-            "houseType": "House-1",
+            "houseType": "OnGoingCommunity-2House-1",
             "image": "./Pictures/CommunityDetailsImages/comp_canyon_house1.jpg",
             "descriptions":[
               {
@@ -1741,7 +1741,7 @@
           {
             "id": "identifier",
             "name": "Project 1",
-            "houseType": "House-1",
+            "houseType": "AvailableCommunity-2House-1",
             "image": "./Pictures/CommunityDetailsImages/comp_canyon_house1.jpg",
             "descriptions":[
               {
@@ -1828,7 +1828,7 @@
       {
         "id": "identifier",
         "name": "Project 1",
-        "houseType": "House-1",
+        "houseType": "CompletdCommunity-2House-1",
         "image": "./Pictures/CommunityDetailsImages/comp_canyon_house1.jpg",
         "descriptions":[
           {
@@ -1974,7 +1974,7 @@
           {
             "id": "identifier",
             "name": "Project 1",
-            "houseType": "House-1",
+            "houseType": "OnGoingCommunity-3House-1",
             "image": "./Pictures/CommunityDetailsImages/comp_thorn_house1.jpg",
             "descriptions":[
               {
@@ -2067,7 +2067,7 @@
           {
             "id": "identifier",
             "name": "Project 2",
-            "houseType": "House-2",
+            "houseType": "OnGoingCommunity-3House-2",
             "image": "./Pictures/CommunityDetailsImages/comp_thorn_house2.jpg",
             "descriptions":[
               {
@@ -2161,7 +2161,7 @@
             {
               "id": "identifier",
               "name": "Project 1",
-              "houseType": "House-1",
+              "houseType": "AvailableCommunity-3House-1",
               "image": "./Pictures/CommunityDetailsImages/comp_thorn_house2.jpg",
               "descriptions":[
                 {
@@ -2252,7 +2252,7 @@
             },{
               "id": "identifier",
               "name": "Project 2",
-              "houseType": "House-2",
+              "houseType": "AvailableCommunity-3House-2",
               "image": "./Pictures/CommunityDetailsImages/comp_thorn_house3.jpg",
               "descriptions":[
                 {
@@ -2346,7 +2346,7 @@
           {
             "id": "identifier",
             "name": "Project 1",
-            "houseType": "House-1",
+            "houseType": "CompletedCommunity-3House-1",
             "image": "./Pictures/CommunityDetailsImages/comp_thorn_house3.jpg",
             "descriptions":[
               {
@@ -2437,7 +2437,7 @@
           },{
             "id": "identifier",
             "name": "Project 2",
-            "houseType": "House-2",
+            "houseType": "CompletedCommunity-3House-2",
             "image": "./Pictures/CommunityDetailsImages/comp_thorn_house1.jpg",
             "descriptions":[
               {
@@ -2529,7 +2529,7 @@
           {
             "id": "identifier",
             "name": "Project 3",
-            "houseType": "House-3",
+            "houseType": "CompletedCommunity-3House-3",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house3.jpg",
             "descriptions":[
               {
@@ -2600,7 +2600,7 @@
           {
             "id": "identifier",
             "name": "Project 4",
-            "houseType": "House-4",
+            "houseType": "CompletedCommunity-3House-4",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house4.jpg",
             "descriptions":[
               {
@@ -2760,8 +2760,92 @@
           {
             "id": "identifier",
             "name": "Project 1",
-            "houseType": "House-1",
+            "houseType": "OnGoingCommunity-4House-1",
             "image": "../Pictures/CommunityDetailsImages/comp_grand_house1.jpg",
+            "descriptions":[
+              {
+                  "descriptitle1": "Bed Rooms",
+                  "descriptitle2": "Age of Home",
+                  "descriptitle3": "Cooling",
+                  "descripcontent1": "5",
+                  "descripcontent2": "2020/New",
+                  "descripcontent3": "Central Electric"
+              },
+      
+              {
+                  "descriptitle1": "Bathrooms",
+                  "descriptitle2": "Level",
+                  "descriptitle3": "Floor",
+                  "descripcontent1": "3",
+                  "descripcontent2": "2",
+                  "descripcontent3": "Tile/Carpet"
+              },
+              {
+                  "descriptitle1": "Lot Size",
+                  "descriptitle2": "Home Size",
+                  "descriptitle3": "Heat",
+                  "descripcontent1": "55x128",
+                  "descripcontent2": "2400sqft",
+                  "descripcontent3": "Central Gas"
+              },
+              {
+                  "descriptitle1": "Lot",
+                  "descriptitle2": "Block",
+                  "descriptitle3": "Garage",
+                  "descripcontent1": "11",
+                  "descripcontent2": "2",
+                  "descripcontent3": "2 Cars"
+              }
+          ],
+            "room": [
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room1.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room2.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room3.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room4.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room5.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room6.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              }
+            ]
+          }, {
+            "id": "identifier",
+            "name": "Project 2",
+            "houseType": "OnGoingCommunity-4House-2",
+            "image": "../Pictures/CommunityDetailsImages/comp_grand_house2.jpg",
             "descriptions":[
               {
                   "descriptitle1": "Bed Rooms",
@@ -2847,8 +2931,93 @@
           {
             "id": "identifier",
             "name": "Project 1",
-            "houseType": "House-1",
+            "houseType": "AvailableCommunity-4House-1",
             "image": "./Pictures/CommunityDetailsImages/comp_grand_house2.jpg",
+            "descriptions":[
+              {
+                  "descriptitle1": "Bed Rooms",
+                  "descriptitle2": "Age of Home",
+                  "descriptitle3": "Cooling",
+                  "descripcontent1": "5",
+                  "descripcontent2": "2020/New",
+                  "descripcontent3": "Central Electric"
+              },
+      
+              {
+                  "descriptitle1": "Bathrooms",
+                  "descriptitle2": "Level",
+                  "descriptitle3": "Floor",
+                  "descripcontent1": "3",
+                  "descripcontent2": "2",
+                  "descripcontent3": "Tile/Carpet"
+              },
+              {
+                  "descriptitle1": "Lot Size",
+                  "descriptitle2": "Home Size",
+                  "descriptitle3": "Heat",
+                  "descripcontent1": "55x128",
+                  "descripcontent2": "2400sqft",
+                  "descripcontent3": "Central Gas"
+              },
+              {
+                  "descriptitle1": "Lot",
+                  "descriptitle2": "Block",
+                  "descriptitle3": "Garage",
+                  "descripcontent1": "11",
+                  "descripcontent2": "2",
+                  "descripcontent3": "2 Cars"
+              }
+          ],
+            "room": [
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room1.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room2.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room3.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room4.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room5.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              },
+              {
+                "type": "",
+                "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room6.jpg",
+                "measurement": {
+                  "totalArea": "10/10 sq.ft"
+                }
+              }
+            ]
+          },
+          {
+            "id": "identifier",
+            "name": "Project 2",
+            "houseType": "AvailableCommunity-4House-2",
+            "image": "../Pictures/CommunityDetailsImages/comp_grand_house1.jpg",
             "descriptions":[
               {
                   "descriptitle1": "Bed Rooms",
@@ -2934,8 +3103,92 @@
       {
         "id": "identifier",
         "name": "Project 1",
-        "houseType": "House-1",
+        "houseType": "CompletedCommunity-4House-1",
         "image": "./Pictures/CommunityDetailsImages/comp_grand_house1.jpg",
+        "descriptions":[
+          {
+              "descriptitle1": "Bed Rooms",
+              "descriptitle2": "Age of Home",
+              "descriptitle3": "Cooling",
+              "descripcontent1": "5",
+              "descripcontent2": "2020/New",
+              "descripcontent3": "Central Electric"
+          },
+  
+          {
+              "descriptitle1": "Bathrooms",
+              "descriptitle2": "Level",
+              "descriptitle3": "Floor",
+              "descripcontent1": "3",
+              "descripcontent2": "2",
+              "descripcontent3": "Tile/Carpet"
+          },
+          {
+              "descriptitle1": "Lot Size",
+              "descriptitle2": "Home Size",
+              "descriptitle3": "Heat",
+              "descripcontent1": "55x128",
+              "descripcontent2": "2400sqft",
+              "descripcontent3": "Central Gas"
+          },
+          {
+              "descriptitle1": "Lot",
+              "descriptitle2": "Block",
+              "descriptitle3": "Garage",
+              "descripcontent1": "11",
+              "descripcontent2": "2",
+              "descripcontent3": "2 Cars"
+          }
+      ],
+        "room": [
+          {
+            "type": "",
+            "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room1.jpg",
+            "measurement": {
+              "totalArea": "10/10 sq.ft"
+            }
+          },
+          {
+            "type": "",
+            "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room2.jpg",
+            "measurement": {
+              "totalArea": "10/10 sq.ft"
+            }
+          },
+          {
+            "type": "",
+            "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room3.jpg",
+            "measurement": {
+              "totalArea": "10/10 sq.ft"
+            }
+          },
+          {
+            "type": "",
+            "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room4.jpg",
+            "measurement": {
+              "totalArea": "10/10 sq.ft"
+            }
+          },
+          {
+            "type": "",
+            "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room5.jpg",
+            "measurement": {
+              "totalArea": "10/10 sq.ft"
+            }
+          },
+          {
+            "type": "",
+            "image": "./Pictures/HouseDetailsImages/comp_canyon_house1_room6.jpg",
+            "measurement": {
+              "totalArea": "10/10 sq.ft"
+            }
+          }
+        ]
+      }, {
+        "id": "identifier",
+        "name": "Project 2",
+        "houseType": "CompletedCommunity-4House-2",
+        "image": "../Pictures/CommunityDetailsImages/comp_grand_house2.jpg",
         "descriptions":[
           {
               "descriptitle1": "Bed Rooms",

@@ -2,7 +2,7 @@ import React from 'react';
 import { useState, useEffect } from 'react';
 import json from '../../JustsmartCustomHomes.json';
 
-export default function HouseDetails(props) {
+export default function OnGoingHouseDetails(props) {
 
 
     const [roomIndex, setRoomIndex] = useState(0)
@@ -13,7 +13,7 @@ export default function HouseDetails(props) {
         return () => clearTimeout(interval)
     }, [roomIndex])
     function autoPlay() {
-        roomIndex === props.url1[0].room.length - 1 ?
+        roomIndex === props.ongoinghouseurls[0].room.length - 1 ?
             setRoomIndex(0)
             :
             setRoomIndex(roomIndex + 1)
@@ -29,11 +29,11 @@ export default function HouseDetails(props) {
         <>
             <div className='thirdpage'>
                 <div className="communityname-housename">
-                <p> Community name : Deer Valley Estates - {props.url1[0].name}</p>
+                <p> Community name : Deer Valley Estates - {props.ongoinghouseurls[0].name}</p>
             
                 </div>
                 <div>
-                    {props.url1[0].room.map((data, index) => {
+                    {props.ongoinghouseurls[0].room.map((data, index) => {
                         return (
                             <>
                                 <div key={index} className={index === roomIndex ? "myroomslides" : "myroomslidesnone"}>
@@ -42,7 +42,7 @@ export default function HouseDetails(props) {
                             </>)
                     })}
                     <div className='roomscontainer'>
-                        {props.url1[0].room.map((data, index) => {
+                        {props.ongoinghouseurls[0].room.map((data, index) => {
                             return (
                                 <>
                                     <div key={index} className={index === roomIndex ? "rooms activee" : "rooms"} onClick={() => smallroom(index)}>
@@ -68,16 +68,16 @@ export default function HouseDetails(props) {
             
                 </div>
                 <div className="houseplan" id="plan">
-                    <p> Plan: {props.url1[0].name}</p>
+                    <p> Plan: {props.ongoinghouseurls[0].name}</p>
                 </div>
                
                 {/* <div>
                 <h4 className="twobhktitle" id="plan">2 BHK</h4>
-                <img className="twobhkimg" src={props.url1[0].twobhk} />
+                <img className="twobhkimg" src={props.ongoinghouseurls[0].twobhk} />
             </div>
             <div>
                 <h4 className="threebhktitle" >3 BHK</h4>
-                <img className="threebhkimg" src={props.url1[0].threebhk} />
+                <img className="threebhkimg" src={props.ongoinghouseurls[0].threebhk} />
             </div> */}
                 </div>
         </>
