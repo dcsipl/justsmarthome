@@ -39,6 +39,8 @@
     margin-right: 10px;
     height: 260px;
     width:360px;
+    cursor: pointer;
+
 
 }
 .availableimg{
@@ -48,6 +50,8 @@
 
 .availableimages:hover {
     transform: scale(0.9);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      
 
 
 }
@@ -181,6 +185,7 @@
 
 .completedimages:hover {
     transform: scale(0.9);
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 
 
 }
@@ -190,11 +195,13 @@
     margin-right: 10px;
     height: 260px;
     width:360px;
+    cursor: pointer;
 
 }
 .completedimg{
     height: 200px;
     padding-top: 10px;
+    
 
 }
 
