@@ -3,10 +3,9 @@ import './CommunityDetails.css'
 import BasicTabs from './Tab.js';
 import '../CommunityDetailsComponents/Tab.css';
 import Card from '@mui/material/Card';
-import community from "../../JustsmartCustomHomes.json";
 export default function AvailableCommunityDetails(props) {
-   const availablehouseurl1= community.JustSmartCustomHomes[0].availablehouses.map((record,i)=>record.houseType);
-   console.log(availablehouseurl1)
+   const availablehouseurl= ["AvailableHouse-1","AvailableHouse-2","AvailableHouse-3","AvailableHouse-4","AvailableHouse-5","AvailableHouse-6","AvailableHouse-7","AvailableHouse-8","AvailableHouse-9","AvailableHouse-10"]
+   console.log(availablehouseurl)
 
            
 
@@ -21,7 +20,7 @@ export default function AvailableCommunityDetails(props) {
             {props.availableurl[0].availablehouses.map((record1, i) =>
                <div className='houses'>
                   <p className="housesname">{record1.name}</p>
-                  <img className="housesimg" src={record1.image} onClick={()=>{window.open(availablehouseurl1[i],"_self")}}  />
+                  <img className="housesimg" src={record1.image} onClick={()=>{window.open(availablehouseurl[i],"_self")}}  />
                   <div className="descriptiontable">
  <table>
      <tbody>

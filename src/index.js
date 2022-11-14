@@ -25,8 +25,14 @@ console.log(community);
 
 
     function Main(){
+        var  previousPageUrl= document.referrer;
+        var splitUrl=previousPageUrl.split("/")
+        const lastPath=splitUrl[splitUrl.length-1]
+console.log(lastPath);
+
     let filename = window.location.href.split('/').pop();
     console.log("FILENAME",filename)
+
               const ongoingurls = community.JustSmartCustomHomes.filter(data=>data.status1 === filename);
               console.log("ONGOINGURLS",Object.values(ongoingurls))
               const availableurls = community.JustSmartCustomHomes.filter(data=>data.status2 === filename);
@@ -34,13 +40,20 @@ console.log(community);
               const completedurls = community.JustSmartCustomHomes.filter(data=>data.status3 === filename);
               console.log("COMPLETEDURLS",Object.values(completedurls))
 
-              const ongoinghouseurls= community.JustSmartCustomHomes[0].ongoinghouses.filter((record,i)=>record.houseType===filename);
+              const ongoinghouseurl= ["OnGoingHouse-1","OnGoingHouse-2","OnGoingHouse-3","OnGoingHouse-4","OnGoingHouse-5","OnGoingHouse-6","OnGoingHouse-7","OnGoingHouse-8","OnGoingHouse-9","OnGoingHouse-10"]
+              const availablehouseurl= ["AvailableHouse-1","AvailableHouse-2","AvailableHouse-3","AvailableHouse-4","AvailableHouse-5","AvailableHouse-6","AvailableHouse-7","AvailableHouse-8","AvailableHouse-9","AvailableHouse-10"]
+              const completedhouseurl= ["CompletedHouse-1","CompletedHouse-2","CompletedHouse-3","CompletedHouse-4","CompletedHouse-5","CompletedHouse-6","CompletedHouse-7","CompletedHouse-8","CompletedHouse-9","CompletedHouse-10"]
+
+              const communityname=community.JustSmartCustomHomes.map((record=>record.name))
+              console.log("CNAME",communityname)
+              
+              const ongoinghouseurls=community.JustSmartCustomHomes.map(record=>record.ongoinghouses.filter(record=>record.houseType===filename))
               console.log("ONGOINGHOUSEURL",ongoinghouseurls)
-              const availablehouseurls= community.JustSmartCustomHomes[0].availablehouses.filter((record,i)=>record.houseType===filename);
+              const availablehouseurls= community.JustSmartCustomHomes.map(record=>record.availablehouses.filter(record=>record.houseType===filename));
               console.log("AVAILABLEHOUSEURL",availablehouseurls)
-              const completedhouseurls= community.JustSmartCustomHomes[0].completedhouses.filter((record,i)=>record.houseType===filename);
+              const completedhouseurls= community.JustSmartCustomHomes.map(record=>record.completedhouses.filter(record=>record.houseType===filename));
               console.log("COMPLETEDHOUSEURL",completedhouseurls)
-                   
+
                    const ongoingurl1= community.JustSmartCustomHomes.map((data,i)=>data.status1);
                    console.log(ongoingurl1)
                    const availableurl1= community.JustSmartCustomHomes.map((data,i)=>data.status2);
@@ -49,12 +62,6 @@ console.log(community);
                    console.log(completedurl1)
 
 
-                   const ongoinghouseurl1= community.JustSmartCustomHomes[0].ongoinghouses.map((record,i)=>record.houseType);
-                   console.log(ongoinghouseurl1)
-                   const availablehouseurl1= community.JustSmartCustomHomes[0].availablehouses.map((record,i)=>record.houseType);
-                   console.log(availablehouseurl1)
-                   const completedhouseurl1= community.JustSmartCustomHomes[0].completedhouses.map((record,i)=>record.houseType);
-                   console.log(completedhouseurl1)
                   
 return(
     <Router>
@@ -76,14 +83,29 @@ return(
 
 
             ))}
-            {ongoinghouseurl1.map(ongoinghousedetailspaths=>(
-            <Route path={ongoinghousedetailspaths} element={<OnGoingHouseDetailsPage ongoinghouseurls={ongoinghouseurls}/>} />
+            {ongoinghouseurl.map(ongoinghousedetailspaths=>(
+            <Route path={ongoinghousedetailspaths} element={
+            lastPath==="OnGoingCommunity-1"?<OnGoingHouseDetailsPage cname={communityname[0]} ongoinghouseurls={ongoinghouseurls[0]}/>:
+            lastPath==="OnGoingCommunity-2"?<OnGoingHouseDetailsPage cname={communityname[1]} ongoinghouseurls={ongoinghouseurls[1]}/>:
+            lastPath==="OnGoingCommunity-3"?<OnGoingHouseDetailsPage cname={communityname[2]} ongoinghouseurls={ongoinghouseurls[2]}/>:
+            <OnGoingHouseDetailsPage cname={communityname[3]} ongoinghouseurls={ongoinghouseurls[3]}/>
+            }/>
             ))}
-            {availablehouseurl1.map(availablehousedetailspaths=>(
-            <Route path={availablehousedetailspaths} element={<AvailableHouseDetailsPage availablehouseurls={availablehouseurls}/>} />
+            {availablehouseurl.map(availablehousedetailspaths=>(
+            <Route path={availablehousedetailspaths} element={
+            lastPath==="AvailableCommunity-1"?<AvailableHouseDetailsPage cname={communityname[0]} availablehouseurls={availablehouseurls[0]}/>:
+            lastPath==="AvailableCommunity-2"?<AvailableHouseDetailsPage cname={communityname[1]}availablehouseurls={availablehouseurls[1]}/>:
+            lastPath==="AvailableCommunity-3"?<AvailableHouseDetailsPage cname={communityname[2]} availablehouseurls={availablehouseurls[2]}/>:
+            <AvailableHouseDetailsPage cname={communityname[3]} availablehouseurls={availablehouseurls[3]}/>
+        } />
             ))}
-            {completedhouseurl1.map(completedhousedetailspaths=>(
-            <Route path={completedhousedetailspaths} element={<CompletedHouseDetailsPage completedhouseurls={completedhouseurls}/>} />
+            {completedhouseurl.map(completedhousedetailspaths=>(
+            <Route path={completedhousedetailspaths} element={
+            lastPath==="CompletedCommunity-1"?<CompletedHouseDetailsPage cname={communityname[0]} completedhouseurls={completedhouseurls[0]}/>:
+            lastPath==="CompletedCommunity-2"?<CompletedHouseDetailsPage cname={communityname[1]} completedhouseurls={completedhouseurls[1]}/>:
+            lastPath==="CompletedCommunity-3"?<CompletedHouseDetailsPage cname={communityname[2]} completedhouseurls={completedhouseurls[2]}/>:
+            <CompletedHouseDetailsPage cname={communityname[3]} completedhouseurls={completedhouseurls[3]}/>
+        } />
             ))}
         </Routes>
     </Router>

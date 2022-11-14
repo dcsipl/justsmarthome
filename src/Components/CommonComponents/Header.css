@@ -82,7 +82,9 @@ color: yellow;
 
 .headerbottombar1 {
   
-  position: absolute;
+  position: fixed;
+
+  z-index: 1;
 
   width: 100%;
 
@@ -99,7 +101,9 @@ color: yellow;
 
 .headerbottombar2 {
 
-  position: absolute; 
+  position: fixed; 
+
+  z-index: 1;
 
   width: 100%;
 

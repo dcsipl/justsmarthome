@@ -246,7 +246,7 @@
           {
             "id": "identifier",
             "name": "Project 1",
-            "houseType": "OnGoingCommunity-1House-1",
+            "houseType": "OnGoingHouse-1",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house1.jpg",
             "descriptions":[
               {
@@ -338,7 +338,7 @@
           {
             "id": "identifier",
             "name": "Project 2",
-            "houseType": "OnGoingCommunity-1House-2",
+            "houseType": "OnGoingHouse-2",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house2.jpg",
             "descriptions":[
               {
@@ -430,7 +430,7 @@
           {
             "id": "identifier",
             "name": "Project 3",
-            "houseType": "OnGoingCommunity-1House-3",
+            "houseType": "OnGoingHouse-3",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house3.jpg",
             "descriptions":[
               {
@@ -522,7 +522,7 @@
           {
             "id": "identifier",
             "name": "Project 4",
-            "houseType": "OnGoingCommunity-1House-4",
+            "houseType": "OnGoingHouse-4",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house4.jpg",
             "descriptions":[
               {
@@ -596,7 +596,7 @@
           {
             "id": "identifier",
             "name": "Project 1",
-            "houseType": "AvailableCommunity-1House-1",
+            "houseType": "AvailableHouse-1",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house1.jpg",
             "descriptions":[
               {
@@ -688,7 +688,7 @@
           {
             "id": "identifier",
             "name": "Project 2",
-            "houseType": "AvailableCommunity-1House-2",
+            "houseType": "AvailableHouse-2",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house2.jpg",
             "descriptions":[
               {
@@ -781,7 +781,7 @@
           {
             "id": "identifier",
             "name": "Project 3",
-            "houseType": "AvailableCommunity-1House-3",
+            "houseType": "AvailableHouse-3",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house3.jpg",
             "descriptions":[
               {
@@ -856,7 +856,7 @@
           {
             "id": "identifier",
             "name": "Project 1",
-            "houseType": "CompletedCommunity-1House-1",
+            "houseType": "CompletedHouse-1",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house1.jpg",
             "descriptions":[
               {
@@ -949,7 +949,7 @@
           {
             "id": "identifier",
             "name": "Project 2",
-            "houseType": "CompletedCommunity-1House-2",
+            "houseType": "CompletedHouse-2",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house2.jpg",
             "descriptions":[
               {
@@ -1041,7 +1041,7 @@
           {
             "id": "identifier",
             "name": "Project 3",
-            "houseType": "CompletedCommunity-1House-3",
+            "houseType": "CompletedHouse-3",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house3.jpg",
             "descriptions":[
               {
@@ -1112,7 +1112,7 @@
           {
             "id": "identifier",
             "name": "Project 4",
-            "houseType": "CompletedCommunity-1House-4",
+            "houseType": "CompletedHouse-4",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house4.jpg",
             "descriptions":[
               {
@@ -1211,7 +1211,7 @@
           {
             "id": "identifier",
             "name": "Project 5",
-            "houseType": "CompletedCommunity-1House-5",
+            "houseType": "CompletedHouse-5",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house5.jpg",
             "descriptions":[
               {
@@ -1310,7 +1310,7 @@
           {
             "id": "identifier",
             "name": "Project 6",
-            "houseType": "CompletedCommunity-1House-6",
+            "houseType": "CompletedHouse-6",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house6.jpg",
             "descriptions":[
               {
@@ -1409,7 +1409,7 @@
           {
             "id": "identifier",
             "name": "Project 7",
-            "houseType": "CompletedCommunity-1House-7",
+            "houseType": "CompletedHouse-7",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house7.jpg",
             "descriptions":[
               {
@@ -1501,7 +1501,7 @@
           {
             "id": "identifier",
             "name": "Project 8",
-            "houseType": "CompletedCommunity-1House-8",
+            "houseType": "CompletedHouse-8",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house8.jpg",
             "descriptions":[
               {
@@ -1654,7 +1654,7 @@
           {
             "id": "identifier",
             "name": "Project 1",
-            "houseType": "OnGoingCommunity-2House-1",
+            "houseType": "OnGoingHouse-1",
             "image": "./Pictures/CommunityDetailsImages/comp_canyon_house1.jpg",
             "descriptions":[
               {
@@ -1741,7 +1741,7 @@
           {
             "id": "identifier",
             "name": "Project 1",
-            "houseType": "AvailableCommunity-2House-1",
+            "houseType": "AvailableHouse-1",
             "image": "./Pictures/CommunityDetailsImages/comp_canyon_house1.jpg",
             "descriptions":[
               {
@@ -1828,7 +1828,7 @@
       {
         "id": "identifier",
         "name": "Project 1",
-        "houseType": "CompletdCommunity-2House-1",
+        "houseType": "CompletedHouse-1",
         "image": "./Pictures/CommunityDetailsImages/comp_canyon_house1.jpg",
         "descriptions":[
           {
@@ -1974,7 +1974,7 @@
           {
             "id": "identifier",
             "name": "Project 1",
-            "houseType": "OnGoingCommunity-3House-1",
+            "houseType": "OnGoingHouse-1",
             "image": "./Pictures/CommunityDetailsImages/comp_thorn_house1.jpg",
             "descriptions":[
               {
@@ -2067,7 +2067,7 @@
           {
             "id": "identifier",
             "name": "Project 2",
-            "houseType": "OnGoingCommunity-3House-2",
+            "houseType": "OnGoingHouse-2",
             "image": "./Pictures/CommunityDetailsImages/comp_thorn_house2.jpg",
             "descriptions":[
               {
@@ -2161,7 +2161,7 @@
             {
               "id": "identifier",
               "name": "Project 1",
-              "houseType": "AvailableCommunity-3House-1",
+              "houseType": "AvailableHouse-1",
               "image": "./Pictures/CommunityDetailsImages/comp_thorn_house2.jpg",
               "descriptions":[
                 {
@@ -2252,7 +2252,7 @@
             },{
               "id": "identifier",
               "name": "Project 2",
-              "houseType": "AvailableCommunity-3House-2",
+              "houseType": "AvailableHouse-2",
               "image": "./Pictures/CommunityDetailsImages/comp_thorn_house3.jpg",
               "descriptions":[
                 {
@@ -2346,7 +2346,7 @@
           {
             "id": "identifier",
             "name": "Project 1",
-            "houseType": "CompletedCommunity-3House-1",
+            "houseType": "CompletedHouse-1",
             "image": "./Pictures/CommunityDetailsImages/comp_thorn_house3.jpg",
             "descriptions":[
               {
@@ -2437,7 +2437,7 @@
           },{
             "id": "identifier",
             "name": "Project 2",
-            "houseType": "CompletedCommunity-3House-2",
+            "houseType": "CompletedHouse-2",
             "image": "./Pictures/CommunityDetailsImages/comp_thorn_house1.jpg",
             "descriptions":[
               {
@@ -2529,7 +2529,7 @@
           {
             "id": "identifier",
             "name": "Project 3",
-            "houseType": "CompletedCommunity-3House-3",
+            "houseType": "CompletedHouse-3",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house3.jpg",
             "descriptions":[
               {
@@ -2600,7 +2600,7 @@
           {
             "id": "identifier",
             "name": "Project 4",
-            "houseType": "CompletedCommunity-3House-4",
+            "houseType": "CompletedHouse-4",
             "image": "./Pictures/CommunityDetailsImages/comp_deer_house4.jpg",
             "descriptions":[
               {
@@ -2760,7 +2760,7 @@
           {
             "id": "identifier",
             "name": "Project 1",
-            "houseType": "OnGoingCommunity-4House-1",
+            "houseType": "OnGoingHouse-1",
             "image": "../Pictures/CommunityDetailsImages/comp_grand_house1.jpg",
             "descriptions":[
               {
@@ -2844,7 +2844,7 @@
           }, {
             "id": "identifier",
             "name": "Project 2",
-            "houseType": "OnGoingCommunity-4House-2",
+            "houseType": "OnGoingHouse-2",
             "image": "../Pictures/CommunityDetailsImages/comp_grand_house2.jpg",
             "descriptions":[
               {
@@ -2931,7 +2931,7 @@
           {
             "id": "identifier",
             "name": "Project 1",
-            "houseType": "AvailableCommunity-4House-1",
+            "houseType": "AvailableHouse-1",
             "image": "./Pictures/CommunityDetailsImages/comp_grand_house2.jpg",
             "descriptions":[
               {
@@ -3016,7 +3016,7 @@
           {
             "id": "identifier",
             "name": "Project 2",
-            "houseType": "AvailableCommunity-4House-2",
+            "houseType": "AvailableHouse-2",
             "image": "../Pictures/CommunityDetailsImages/comp_grand_house1.jpg",
             "descriptions":[
               {
@@ -3103,7 +3103,7 @@
       {
         "id": "identifier",
         "name": "Project 1",
-        "houseType": "CompletedCommunity-4House-1",
+        "houseType": "CompletedHouse-1",
         "image": "./Pictures/CommunityDetailsImages/comp_grand_house1.jpg",
         "descriptions":[
           {
@@ -3187,7 +3187,7 @@
       }, {
         "id": "identifier",
         "name": "Project 2",
-        "houseType": "CompletedCommunity-4House-2",
+        "houseType": "CompletedHouse-2",
         "image": "../Pictures/CommunityDetailsImages/comp_grand_house2.jpg",
         "descriptions":[
           {

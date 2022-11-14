@@ -29,7 +29,7 @@ export default function AvailableHouseDetails(props) {
         <>
             <div className='thirdpage'>
                 <div className="communityname-housename">
-                <p> Community name : Deer Valley Estates - {props.availablehouseurls[0].name}</p>
+                <p> Community name : {props.cname} - {props.availablehouseurls[0].name}</p>
             
                 </div>
                 <div>

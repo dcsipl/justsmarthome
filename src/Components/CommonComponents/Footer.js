@@ -13,18 +13,9 @@ export default function Footer() {
           {/* <TiLocation/> */}
             <p>{add.line1}<br /> {add.line2}<br /> {add.line3}</p>
           </div>)}
-<div className='footernavbar'>
-        <a href="/" className="footerHome">Home</a>
-        <a href="/gallery" className="footerGallery">Gallery</a>
-        <a href="/" className="footerAvailable">Available</a>
-        <a href="/" className="footerCompleted">Completed Proj</a>
-        </div>
+
         <div className="insideBox">
-        <h4>Our Business Associates:</h4>
-          <div className='business'>
-          {jsondata.JustSmartCustomHomes[0].businessAsso.map((business) =><a href={business.link} target="_blank"><li>{business.name}</li></a>)}
-          </div>
-          {/* <h1>Smart Step, Every Step</h1> */}
+          <h1>Smart Step, Every Step</h1>
         </div>
         {jsondata.JustSmartCustomHomes[0].contactus.map((contact) =>
           <div>

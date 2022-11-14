@@ -3,10 +3,9 @@ import './CommunityDetails.css'
 import BasicTabs from './Tab.js';
 import '../CommunityDetailsComponents/Tab.css';
 import Card from '@mui/material/Card';
-import community from "../../JustsmartCustomHomes.json"
 export default function OngoingCommunityDetails(props) {
-                 const ongoinghouseurl1= community.JustSmartCustomHomes[0].ongoinghouses.map((record,i)=>record.houseType);
-              console.log(ongoinghouseurl1)
+   const ongoinghouseurl= ["OnGoingHouse-1","OnGoingHouse-2","OnGoingHouse-3","OnGoingHouse-4","OnGoingHouse-5","OnGoingHouse-6","OnGoingHouse-7","OnGoingHouse-8","OnGoingHouse-9","OnGoingHouse-10"]
+   console.log(ongoinghouseurl)
               
               
  
@@ -23,7 +22,7 @@ export default function OngoingCommunityDetails(props) {
 
                   <div className='houses'>
                      <p className="housesname">{record1.name}</p>
-                     <img className="housesimg" src={record1.image} onClick={()=>{window.open(ongoinghouseurl1[i],"_self")}}  />
+                     <img className="housesimg" src={record1.image} onClick={()=>{window.open(ongoinghouseurl[i],"_self")}}  />
                      
                      
  <div className="descriptiontable">

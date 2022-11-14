@@ -3,11 +3,10 @@ import './CommunityDetails.css'
 import BasicTabs from './Tab.js';
 import '../CommunityDetailsComponents/Tab.css';
 import Card from '@mui/material/Card';
-import community from "../../JustsmartCustomHomes.json";
 
 export default function CompletedCommunityDetails(props) {
-   const completedhouseurl1= community.JustSmartCustomHomes[0].completedhouses.map((record,i)=>record.houseType);
-   console.log(completedhouseurl1)
+   const completedhouseurl= ["CompletedHouse-1","CompletedHouse-2","CompletedHouse-3","CompletedHouse-4","CompletedHouse-5","CompletedHouse-6","CompletedHouse-7","CompletedHouse-8","CompletedHouse-9","CompletedHouse-10"]
+   console.log(completedhouseurl)
    return (
       <>
       
@@ -20,7 +19,7 @@ export default function CompletedCommunityDetails(props) {
             {props.completedurl[0].completedhouses.map((record1, i) =>
                <div className='houses'>
                   <p className="housesname">{record1.name}</p>
-                  <img className="housesimg" src={record1.image} onClick={()=>{window.open(completedhouseurl1[i],"_self")}} />
+                  <img className="housesimg" src={record1.image} onClick={()=>{window.open(completedhouseurl[i],"_self")}} />
                   <div className="descriptiontable">
  <table>
      <tbody>
