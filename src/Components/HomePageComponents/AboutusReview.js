@@ -3,7 +3,6 @@ import HouseIcon from '../../Pictures/CommonImages/houseicon.jpg';
 import './AboutusReview.css';
 import json from "../../JustsmartCustomHomes.json";
 import Card from '@mui/material/Card';
-import CardHeader from '@mui/material/CardHeader';
 import Logo from "../../Pictures/CommonImages/Logo.jpeg"
  import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -24,9 +23,9 @@ export default function AboutusReview() {
                     
                     <div className="availableimgcontainer">
                         {json.JustSmartCustomHomes.map((community, i) =>
-                            <Card className='availableimages'>
+                            <Card className='availableimages' key={i}>
       <div className='cardheader'>
-          <img src={Logo} className="cardlogo" />
+          <img src={Logo} className="cardlogo" alt="cardlogo"/>
            
         
         <p className='cardtitle'>{community.name}<br/>
@@ -55,7 +54,7 @@ export default function AboutusReview() {
                     </div>
 
                     <div className="aboutuscontentbox">
-                        {json.JustSmartCustomHomes[0].aboutus.map((data) => <p className="aboutuscontent">{data.content}</p>)}
+                        {json.aboutus.map((data,i) => <p className="aboutuscontent" key={i}>{data.content}</p>)}
                     </div>
 
                     {/* <div className="reviewtitle" id="reviews">
@@ -82,9 +81,9 @@ export default function AboutusReview() {
                     </p>
                     <div className="completedimgcontainer">
                     {json.JustSmartCustomHomes.map((community, i) =>
-                            <Card className='completedimages'>
+                            <Card className='completedimages' key={i}>
                                 <div className='cardheader'>
-          <img src={Logo} className="cardlogo" />
+          <img src={Logo} className="cardlogo"  alt="cardlogo"/>
            
         
         <p className='cardtitle'>{community.name}<br/>

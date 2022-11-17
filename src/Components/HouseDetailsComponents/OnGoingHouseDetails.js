@@ -58,7 +58,7 @@ export default function OnGoingHouseDetails(props) {
                <table>
                   <tbody >
                      {json.JustSmartCustomHomes[0].booking.map((book, i) =>
-                        <tr>
+                        <tr key={i}>
                            <td style={{paddingRight:"10px"}}>{book.name}</td>
                            <td>{book.number}</td>
                         </tr>

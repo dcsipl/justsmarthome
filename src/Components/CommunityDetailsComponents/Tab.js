@@ -52,9 +52,9 @@ export default function BasicTabs(props) {
 
   return (
     <Box>
-      {props.tabs.map((tab) =>
+      {props.tabs.map((tab,i) =>
         <>
-          <Box className="box">
+          <Box className="box" key={i}>
             <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
 
               <Tab className="tab1" label={tab.title1} {...a11yProps(0)} />
