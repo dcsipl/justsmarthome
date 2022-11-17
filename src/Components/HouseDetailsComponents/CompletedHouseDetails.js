@@ -29,7 +29,7 @@ export default function CompletedHouseDetails(props) {
         <>
             <div className='thirdpage'>
                 <div className="communityname-housename">
-                <p> Community name : Deer Valley Estates - {props.completedhouseurls[0].name}</p>
+                <p> Community name : {props.cname} - {props.completedhouseurls[0].name}</p>
             
                 </div>
                 <div>
@@ -57,7 +57,7 @@ export default function CompletedHouseDetails(props) {
                <table>
                   <tbody >
                      {json.JustSmartCustomHomes[0].booking.map((book, i) =>
-                        <tr>
+                        <tr key={i}>
                            <td style={{paddingRight:"10px"}}>{book.name}</td>
                            <td>{book.number}</td>
                         </tr>

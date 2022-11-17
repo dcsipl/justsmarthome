@@ -11,7 +11,7 @@ export default function CompletedHouseDetailsPage(props) {
   return (
     <>
     <Header  second="Plan" third="Booking" fourth="Contact-us" fifth="Gallery" secondid="plan" thirdid="booking" fourthid="contactus"/>
-    <CompletedHouseDetails completedhouseurls={props.completedhouseurls}/>
+    <CompletedHouseDetails cname={props.cname} completedhouseurls={props.completedhouseurls}/>
     <Footer/>
     </>
     )

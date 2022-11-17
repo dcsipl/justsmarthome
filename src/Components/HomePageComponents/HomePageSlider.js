@@ -36,7 +36,7 @@ export default function HomePageImageSlider() {
    const [slideIndex, setSlideIndex] = useState(0)
     useEffect(() => {
         setTimeout(() => {
-            slideIndex === communityDetails.JustSmartCustomHomes[0].slides.length - 1 ?
+            slideIndex === communityDetails.slides.length - 1 ?
                 setSlideIndex(0) 
                 : 
                 setSlideIndex(slideIndex + 1)
@@ -65,7 +65,7 @@ export default function HomePageImageSlider() {
                         {data.booking1}<br />
                         {data.booking2}
                     </div> */}
-                {communityDetails.JustSmartCustomHomes[0].slides.map((data, index) => {
+                {communityDetails.slides.map((data, index) => {
                     return (<>
                         <div key={index} className={index === slideIndex ? "myslides fade" : "myslidesnone"}>
                             <img className="slideimg" src={data.image} alt="....." />

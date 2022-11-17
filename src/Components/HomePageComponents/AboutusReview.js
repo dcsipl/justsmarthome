@@ -3,7 +3,8 @@ import HouseIcon from '../../Pictures/CommonImages/houseicon.jpg';
 import './AboutusReview.css';
 import json from "../../JustsmartCustomHomes.json";
 import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
+import Logo from "../../Pictures/CommonImages/Logo.jpeg"
+ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 export default function AboutusReview() {
@@ -22,7 +23,15 @@ export default function AboutusReview() {
                     
                     <div className="availableimgcontainer">
                         {json.JustSmartCustomHomes.map((community, i) =>
-                            <Card className='availableimages'>
+                            <Card className='availableimages' key={i}>
+      <div className='cardheader'>
+          <img src={Logo} className="cardlogo" alt="cardlogo"/>
+           
+        
+        <p className='cardtitle'>{community.name}<br/>
+    <span>Ocklahoma</span></p>
+    </div>
+      
                            <CardMedia
                            className='availableimg'
                              component="img"
@@ -30,9 +39,9 @@ export default function AboutusReview() {
                              onClick={()=>{window.open(availableurl1[i],"_self")}} 
                            />
                           
-                             <CardContent>
-                             <Typography gutterBottom variant="h6" color="gray" fontWeight="800"fontFamily="georgia" display="flex" justifyContent="center" component="div">
-                              {community.name}
+                             <CardContent className='more'  >
+                             <Typography>
+                              Click for more details...
                              </Typography>
                            </CardContent>
                          </Card>
@@ -45,7 +54,7 @@ export default function AboutusReview() {
                     </div>
 
                     <div className="aboutuscontentbox">
-                        {json.JustSmartCustomHomes[0].aboutus.map((data) => <p className="aboutuscontent">{data.content}</p>)}
+                        {json.aboutus.map((data,i) => <p className="aboutuscontent" key={i}>{data.content}</p>)}
                     </div>
 
                     {/* <div className="reviewtitle" id="reviews">
@@ -72,7 +81,14 @@ export default function AboutusReview() {
                     </p>
                     <div className="completedimgcontainer">
                     {json.JustSmartCustomHomes.map((community, i) =>
-                            <Card className='completedimages'>
+                            <Card className='completedimages' key={i}>
+                                <div className='cardheader'>
+          <img src={Logo} className="cardlogo"  alt="cardlogo"/>
+           
+        
+        <p className='cardtitle'>{community.name}<br/>
+    <span>Ocklahoma</span></p>
+    </div>
                            <CardMedia
                            className='completedimg'
                              component="img"
@@ -81,8 +97,8 @@ export default function AboutusReview() {
                            />
                           
                              <CardContent>
-                             <Typography gutterBottom variant="h6" color="gray" fontWeight="800"fontFamily="georgia" display="flex" justifyContent="center" component="div">
-                              {community.name}
+                             <Typography className='more'>
+                              Click for more details...
                              </Typography>
                            </CardContent>
                          </Card>

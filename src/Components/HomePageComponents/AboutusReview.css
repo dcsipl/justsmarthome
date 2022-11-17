@@ -41,10 +41,42 @@
     width:360px;
     cursor: pointer;
 
+}
+.cardheader{
+    height: 40px;
+display: flex;
+}
+.cardlogo{
+    width:40px;
+    height:30px;
+    border-radius:50%;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.cardtitle{
+    position: relative;
+    left: 50px;
+    font-family: georgia;
+    font-size: 20px;
+}
+.cardtitle span{
+    font-weight: 400;
+    color: gray;
+    font-family:Arial;
+    font-size: 15px;
 
 }
-.availableimg{
+.more{
     height: 200px;
+    color: gray;
+    padding-left: 70px;
+    margin-left: 70px;
+
+}
+
+
+.availableimg{
+    height: 180px;
     padding-top: 10px;
 }
 
@@ -199,7 +231,7 @@
 
 }
 .completedimg{
-    height: 200px;
+    height: 180px;
     padding-top: 10px;
     
 

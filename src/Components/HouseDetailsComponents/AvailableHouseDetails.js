@@ -29,7 +29,7 @@ export default function AvailableHouseDetails(props) {
         <>
             <div className='thirdpage'>
                 <div className="communityname-housename">
-                <p> Community name : Deer Valley Estates - {props.availablehouseurls[0].name}</p>
+                <p> Community name : {props.cname} - {props.availablehouseurls[0].name}</p>
             
                 </div>
                 <div>
@@ -57,8 +57,8 @@ export default function AvailableHouseDetails(props) {
                <table>
                   <tbody >
                      {json.JustSmartCustomHomes[0].booking.map((book, i) =>
-                        <tr>
-                           <td style={{paddingRight:"10px"}}>{book.name}</td>
+                        <tr key={i}>
+                           <td style={{paddingRight:"10px"}} >{book.name}</td>
                            <td>{book.number}</td>
                         </tr>
                      )}

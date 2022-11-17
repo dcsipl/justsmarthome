@@ -8,11 +8,8 @@ import "./Gallery.css"
 export default function Gallery() {
   return (
     <div className='gallerybox'>
-    {json.JustSmartCustomHomes[0].gallery.map((data)=>
-          
-            
-         
-    <Card className='galleryimages'>
+    {json.gallery.map((data,i)=>         
+    <Card className='galleryimages' key={i}>
        <CardContent>
         <Typography gutterBottom variant="h5" height="5px" fontFamily="georgia"fontSize="25px" component="div">
           {data.cname}

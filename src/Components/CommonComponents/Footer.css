@@ -3,7 +3,7 @@
     width: 100%;
     height: 28px;
     top: 1722px;
-    background: #C4C4C4;
+    background: #01326066;
     
 }
 
@@ -12,7 +12,7 @@
     width: 100%;
     height: 160px;
     top: 1750px;
-    background: rgba(39, 42, 42, 0.8);
+    background: #012060;
 }
 
 .address {
@@ -39,30 +39,7 @@
     line-height: 24px;
     color: white;
 }
-.footerMainBar a:hover{
-    color: yellow;
-    text-decoration-line: underline;
-    text-decoration-color: white;
 
-}
-.footernavbar{
-    position: absolute;
-    left: 330px;
-    top: 5px;
-    width:680px;
-    display: flex;
-    justify-content: space-around;
-    font-style: normal;
-    font-weight: 400;
-    font-family: "qwigley";
-    font-size: 40px;
-    line-height: 45px;
-   
-}
-.footernavbar a{
-    text-decoration:none;
-    color: white;
-}
 .insideBox {
     position: relative;
     width: 680px;
@@ -75,41 +52,16 @@
     padding: 10px;
 }
 .insideBox h1{
-    left:190px;
+    left:120px;
     position: relative;
     font-family: "qwigley";
-    font-size: 40px;
+    font-size: 70px;
     color:#012060;
-    
-    
-}
-.insideBox h4{
-    top:-10px;
-    position: relative;
-    font-family: georgia;
-    font-size: 20px;
-    
+bottom: 10px;    
     
 }
 
-.insideBox .business{
-position: relative;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    font-family: georgia;
-}
-.business a{
-    
-    text-decoration: none;
-   color: black;
-   font-size: 18px;
-   width: 80px;
-   list-style: none;
-}
-.business a:hover{
-    color: rgb(17, 92, 189);
-}
+
 .contact {
     position: absolute;
     width: 274px;
@@ -173,6 +125,6 @@ position: relative;
     font-weight: 400;
     font-size: 18px;
     color: #FFFFFF;
-    background-color: rgb(48, 46, 46);
+    background-color: #013260B2;
     text-align: center;
 }

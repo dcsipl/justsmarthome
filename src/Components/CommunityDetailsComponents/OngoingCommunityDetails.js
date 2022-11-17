@@ -3,10 +3,16 @@ import './CommunityDetails.css'
 import BasicTabs from './Tab.js';
 import '../CommunityDetailsComponents/Tab.css';
 import Card from '@mui/material/Card';
-import community from "../../JustsmartCustomHomes.json"
+import json from "../../JustsmartCustomHomes.json"
 export default function OngoingCommunityDetails(props) {
-                 const ongoinghouseurl1= community.JustSmartCustomHomes[0].ongoinghouses.map((record,i)=>record.houseType);
-              console.log(ongoinghouseurl1)
+   
+   const ongoinghouseurl = json.JustSmartCustomHomes.map((data, i) => data.ongoinghouses.map((data2, i) => data2.houseType))
+   console.log("ongoinghouseurl",ongoinghouseurl)
+   const maximumlengthofongoinghouseurl = ongoinghouseurl.map(a=>a.length).indexOf(Math.max(...ongoinghouseurl.map(a=>a.length)));
+   console.log("maximumlengthofongoinghouseurl",maximumlengthofongoinghouseurl)
+         const ongoinghouseurlss=ongoinghouseurl[maximumlengthofongoinghouseurl]
+         console.log(ongoinghouseurlss)
+  
               
               
  
@@ -21,16 +27,16 @@ export default function OngoingCommunityDetails(props) {
                {props.ongoingurl[0].ongoinghouses.map((record1, i) =>
                
 
-                  <div className='houses'>
+                  <div className='houses' key={i}>
                      <p className="housesname">{record1.name}</p>
-                     <img className="housesimg" src={record1.image} onClick={()=>{window.open(ongoinghouseurl1[i],"_self")}}  />
+                     <img className="housesimg" src={record1.image} alt="houseimg" onClick={()=>{window.open(ongoinghouseurlss[i],"_self")}}  />
                      
                      
  <div className="descriptiontable">
  <table>
      <tbody>
-         {record1.descriptions.map((datas) =>
-             <div className="tablebody">
+         {record1.descriptions.map((datas,i) =>
+             <div className="tablebody" key={i}>
                  <tr className="firstrow">
                      <td >{datas.descriptitle1}:</td>
                      <td >{datas.descripcontent1}</td>
@@ -55,13 +61,13 @@ export default function OngoingCommunityDetails(props) {
             <Card className="backgroundcolor"></Card>
 
 <li className="mainhousename">{props.ongoingurl[0].name}</li>
-<img className="mainhouseimg" src={props.ongoingurl[0].ongoinghouses[0].image}/>
+<img className="mainhouseimg" src={props.ongoingurl[0].ongoinghouses[0].image} alt="mainhouseimg"/>
             <div className="communitypagebooking">For Details:<br />
             <span>
                <table>
                   <tbody >
                      {props.ongoingurl[0].booking.map((book, i) =>
-                        <tr>
+                        <tr key={i}>
                            <td style={{paddingRight:"10px"}}>{book.name}</td>
                            <td>{book.number}</td>
                         </tr>
@@ -89,11 +95,11 @@ export default function OngoingCommunityDetails(props) {
             </div>
             <div className="overview" >
                <p>Community Plan</p>
-               <img src={props.ongoingurl[0].communityPlan} />
+               <img src={props.ongoingurl[0].communityPlan} alt="communityplan"/>
             </div>
             <div className="location" id="location">
                <p>Location</p>
-               <img src={props.ongoingurl[0].location} />
+               <img src={props.ongoingurl[0].location} alt="location" />
             </div>
          </div>
       </>

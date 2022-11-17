@@ -3,11 +3,15 @@ import './CommunityDetails.css'
 import BasicTabs from './Tab.js';
 import '../CommunityDetailsComponents/Tab.css';
 import Card from '@mui/material/Card';
-import community from "../../JustsmartCustomHomes.json";
-
+import json from "../../JustsmartCustomHomes.json"
 export default function CompletedCommunityDetails(props) {
-   const completedhouseurl1= community.JustSmartCustomHomes[0].completedhouses.map((record,i)=>record.houseType);
-   console.log(completedhouseurl1)
+
+   const completedhouseurl = json.JustSmartCustomHomes.map((data, i) => data.completedhouses.map((data2, i) => data2.houseType))
+   console.log("completedhouseurl",completedhouseurl)
+   const maximumlengthofcompletedhouseurl = completedhouseurl.map(a=>a.length).indexOf(Math.max(...completedhouseurl.map(a=>a.length)));
+   console.log("maximumlengthofcompletedhouseurl",maximumlengthofcompletedhouseurl)
+         const completedhouseurlss=completedhouseurl[maximumlengthofcompletedhouseurl]
+         console.log(completedhouseurlss)
    return (
       <>
       
@@ -18,14 +22,14 @@ export default function CompletedCommunityDetails(props) {
          
          <div className="housescontainer">
             {props.completedurl[0].completedhouses.map((record1, i) =>
-               <div className='houses'>
+               <div className='houses' key={i}>
                   <p className="housesname">{record1.name}</p>
-                  <img className="housesimg" src={record1.image} onClick={()=>{window.open(completedhouseurl1[i],"_self")}} />
+                  <img className="housesimg" src={record1.image} alt="houseimg" onClick={()=>{window.open(completedhouseurlss[i],"_self")}} />
                   <div className="descriptiontable">
  <table>
      <tbody>
-         {record1.descriptions.map((datas) =>
-             <div className="tablebody">
+         {record1.descriptions.map((datas,i) =>
+             <div className="tablebody" key={i}>
                  <tr className="firstrow">
                      <td >{datas.descriptitle1}:</td>
                      <td >{datas.descripcontent1}</td>
@@ -49,13 +53,13 @@ export default function CompletedCommunityDetails(props) {
          <Card className="backgroundcolor"></Card>
 
 <li className="mainhousename">{props.completedurl[0].name}</li>
-<img className="mainhouseimg" src={props.completedurl[0].completedhouses[0].image}/> 
+<img className="mainhouseimg" alt="mainhouse" src={props.completedurl[0].completedhouses[0].image}/> 
          <div className="communitypagebooking">For Details:<br />
          <span>
                <table>
                   <tbody>
                      {props.completedurl[0].booking.map((book, i) =>
-                        <tr>
+                        <tr key={i}>
                            <td style={{paddingRight:"10px"}}>{book.name}</td>
                            <td>{book.number}</td>
                         </tr>
@@ -82,11 +86,11 @@ export default function CompletedCommunityDetails(props) {
          </div>
          <div className="overview" >
             <p>Community Plan</p>
-            <img src={props.completedurl[0].communityPlan} />
+            <img src={props.completedurl[0].communityPlan} alt="communityplan"/>
          </div>
          <div className="location" id="location">
             <p>Location</p>
-            <img src={props.completedurl[0].location} />
+            <img src={props.completedurl[0].location} alt="location" />
          </div>
          </div>
     </>
