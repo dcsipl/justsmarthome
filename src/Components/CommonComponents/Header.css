@@ -115,4 +115,57 @@ color: yellow;
   
   background: #01326066;
   
+  
+}
+.closeButton
+{
+  cursor:pointer;
+  margin-right:10px;
+  position:absolute;
+  right:-10px
+}
+  .card
+  { width: 600px;
+    height: 550px;
+    margin: 50px 50px;
+    box-shadow: 0 9px 5px 0 rgba(0,0,0,0.2)
+  }
+  .cardheader{
+    height: 40px;
+display: flex;
+}
+.cardlogo{
+  width:40px;
+  height:30px;
+  border-radius:50%;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.cardtitle{
+  position: relative;
+  left: 50px;
+  font-family: georgia;
+  font-size: 20px;
+}
+.cardtitle span{
+  font-weight: 400;
+  color: gray;
+  font-family:Arial;
+  font-size: 15px;
+
+}
+.homeimg{
+  height: 300px;
+  padding-top: 10px;
+}
+.cardcontentcontainer{
+  border:2px solid #01326066;
+  width:580px;
+  margin-left:-5px
+}
+.cardcontentheading{
+  color:black;
+  font-weight:800;
+  font-family:georgia;
+  margin-left:180px
 }
