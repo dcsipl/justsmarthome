@@ -32,6 +32,7 @@
     overflow-y: auto;
     top:50px;
     left: 40px;
+    background-color: rgba(224, 228, 240, 0.588);
 }
 
 .availableimages {
@@ -40,6 +41,7 @@
     height: 260px;
     width:360px;
     cursor: pointer;
+    margin-left: 11px;
 
 }
 .cardheader{
@@ -212,7 +214,8 @@ display: flex;
     top:50px;
     position: relative;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: auto;background-color: rgba(224, 228, 240, 0.588);
+
 }
 
 .completedimages:hover {
@@ -228,6 +231,8 @@ display: flex;
     height: 260px;
     width:360px;
     cursor: pointer;
+    margin-left: 11px;
+
 
 }
 .completedimg{

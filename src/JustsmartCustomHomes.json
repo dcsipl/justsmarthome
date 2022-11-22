@@ -80,13 +80,14 @@
     }
   ],
   "contactus": [
-    {
+    {"name1":"Raju",
       "email1": "Raju@justsmartcustomhomes.com",
-      "phone1": "(405) 361 - 6198"
+      "phone1": "(405)361-6198"
     },
     {
-      "email2": "jay@justsmartcustomhomes.com",
-      "phone2": "(650) 888 - 0015"
+      "name2":"Jay",
+      "email2": "Jay@justsmartcustomhomes.com",
+      "phone2": "(650)888-0015"
     }
   ],
   "copyRight": " Copyright © 2022 JustSmartCustom Homes. All Rights Reserved.",

@@ -30,7 +30,7 @@ function Main() {
 
     //Get the current page url path
     let currentpageurl = window.location.href.split('/').pop();
-    console.log("FILENAME", currentpageurl)
+    console.log("CURRENTPAGE URL", currentpageurl)
 
     const ongoingurl1 = community.JustSmartCustomHomes.map((data, i) => data.status1);
     console.log(ongoingurl1)
@@ -114,26 +114,47 @@ function Main() {
 
                 {ongoinghouseurlss.map((ongoinghousedetailspaths, i) => (
                     <Route key={i} path={ongoinghousedetailspaths} element={
-                        lastPath === "OnGoingCommunity-1" ? <OnGoingHouseDetailsPage cname={communityname[0]} ongoinghouseurls={ongoinghouseurls[0]} /> :
-                            lastPath === "OnGoingCommunity-2" ? <OnGoingHouseDetailsPage cname={communityname[1]} ongoinghouseurls={ongoinghouseurls[1]} /> :
-                                lastPath === "OnGoingCommunity-3" ? <OnGoingHouseDetailsPage cname={communityname[2]} ongoinghouseurls={ongoinghouseurls[2]} /> :
-                                    <OnGoingHouseDetailsPage cname={communityname[3]} ongoinghouseurls={ongoinghouseurls[3]} />
+                        lastPath === ongoingurl1[0] ? <OnGoingHouseDetailsPage cname={communityname[0]} ongoinghouseurls={ongoinghouseurls[0]} /> :
+                            lastPath === ongoingurl1[1] ? <OnGoingHouseDetailsPage cname={communityname[1]} ongoinghouseurls={ongoinghouseurls[1]} /> :
+                                lastPath === ongoingurl1[2] ? <OnGoingHouseDetailsPage cname={communityname[2]} ongoinghouseurls={ongoinghouseurls[2]} /> :
+                                    lastPath === ongoingurl1[3] ? <OnGoingHouseDetailsPage cname={communityname[3]} ongoinghouseurls={ongoinghouseurls[3]} /> :
+                                        lastPath === ongoingurl1[4] ? <OnGoingHouseDetailsPage cname={communityname[4]} ongoinghouseurls={ongoinghouseurls[4]} /> :
+                                            lastPath === ongoingurl1[5] ? <OnGoingHouseDetailsPage cname={communityname[5]} ongoinghouseurls={ongoinghouseurls[5]} /> :
+                                                lastPath === ongoingurl1[6] ? <OnGoingHouseDetailsPage cname={communityname[6]} ongoinghouseurls={ongoinghouseurls[6]} /> :
+                                                    lastPath === ongoingurl1[7] ? <OnGoingHouseDetailsPage cname={communityname[7]} ongoinghouseurls={ongoinghouseurls[7]} /> :
+                                                        lastPath === ongoingurl1[8] ? <OnGoingHouseDetailsPage cname={communityname[8]} ongoinghouseurls={ongoinghouseurls[8]} /> :
+                                                            lastPath === ongoingurl1[9] ? <OnGoingHouseDetailsPage cname={communityname[9]} ongoinghouseurls={ongoinghouseurls[9]} /> :
+                                                                <OnGoingHouseDetailsPage cname={communityname[10]} ongoinghouseurls={ongoinghouseurls[10]} />
                     } />
                 ))}
                 {availablehouseurlss.map((availablehousedetailspaths, i) => (
                     <Route key={i} path={availablehousedetailspaths} element={
-                        lastPath === "AvailableCommunity-1" ? <AvailableHouseDetailsPage cname={communityname[0]} availablehouseurls={availablehouseurls[0]} /> :
-                            lastPath === "AvailableCommunity-2" ? <AvailableHouseDetailsPage cname={communityname[1]} availablehouseurls={availablehouseurls[1]} /> :
-                                lastPath === "AvailableCommunity-3" ? <AvailableHouseDetailsPage cname={communityname[2]} availablehouseurls={availablehouseurls[2]} /> :
-                                    <AvailableHouseDetailsPage cname={communityname[3]} availablehouseurls={availablehouseurls[3]} />
+                        lastPath === availableurl1[0] ? <AvailableHouseDetailsPage cname={communityname[0]} availablehouseurls={availablehouseurls[0]} /> :
+                            lastPath === availableurl1[1] ? <AvailableHouseDetailsPage cname={communityname[1]} availablehouseurls={availablehouseurls[1]} /> :
+                                lastPath === availableurl1[2] ? <AvailableHouseDetailsPage cname={communityname[2]} availablehouseurls={availablehouseurls[2]} /> :
+                                    lastPath === availableurl1[3] ? <AvailableHouseDetailsPage cname={communityname[3]} availablehouseurls={availablehouseurls[3]} /> :
+                                        lastPath === availableurl1[4] ? <AvailableHouseDetailsPage cname={communityname[4]} availablehouseurls={availablehouseurls[4]} /> :
+                                            lastPath === availableurl1[5] ? <AvailableHouseDetailsPage cname={communityname[5]} availablehouseurls={availablehouseurls[5]} /> :
+                                                lastPath === availableurl1[6] ? <AvailableHouseDetailsPage cname={communityname[6]} availablehouseurls={availablehouseurls[6]} /> :
+                                                    lastPath === availableurl1[7] ? <AvailableHouseDetailsPage cname={communityname[7]} availablehouseurls={availablehouseurls[7]} /> :
+                                                        lastPath === availableurl1[8] ? <AvailableHouseDetailsPage cname={communityname[8]} availablehouseurls={availablehouseurls[8]} /> :
+                                                            lastPath === availableurl1[9] ? <AvailableHouseDetailsPage cname={communityname[9]} availablehouseurls={availablehouseurls[9]} /> :
+                                                                <AvailableHouseDetailsPage cname={communityname[10]} availablehouseurls={availablehouseurls[10]} />
                     } />
                 ))}
                 {completedhouseurlss.map((completedhousedetailspaths, i) => (
                     <Route key={i} path={completedhousedetailspaths} element={
-                        lastPath === "CompletedCommunity-1" ? <CompletedHouseDetailsPage cname={communityname[0]} completedhouseurls={completedhouseurls[0]} /> :
-                            lastPath === "CompletedCommunity-2" ? <CompletedHouseDetailsPage cname={communityname[1]} completedhouseurls={completedhouseurls[1]} /> :
-                                lastPath === "CompletedCommunity-3" ? <CompletedHouseDetailsPage cname={communityname[2]} completedhouseurls={completedhouseurls[2]} /> :
-                                    <CompletedHouseDetailsPage cname={communityname[3]} completedhouseurls={completedhouseurls[3]} />
+                        lastPath === completedurl1[0] ? <CompletedHouseDetailsPage cname={communityname[0]} completedhouseurls={completedhouseurls[0]} /> :
+                            lastPath === completedurl1[1] ? <CompletedHouseDetailsPage cname={communityname[1]} completedhouseurls={completedhouseurls[1]} /> :
+                                lastPath === completedurl1[2] ? <CompletedHouseDetailsPage cname={communityname[2]} completedhouseurls={completedhouseurls[2]} /> :
+                                    lastPath === completedurl1[3] ? <CompletedHouseDetailsPage cname={communityname[3]} completedhouseurls={completedhouseurls[3]} /> :
+                                        lastPath === completedurl1[4] ? <CompletedHouseDetailsPage cname={communityname[4]} completedhouseurls={completedhouseurls[4]} /> :
+                                            lastPath === completedurl1[5] ? <CompletedHouseDetailsPage cname={communityname[5]} completedhouseurls={completedhouseurls[5]} /> :
+                                                lastPath === completedurl1[6] ? <CompletedHouseDetailsPage cname={communityname[6]} completedhouseurls={completedhouseurls[6]} /> :
+                                                    lastPath === completedurl1[7] ? <CompletedHouseDetailsPage cname={communityname[7]} completedhouseurls={completedhouseurls[7]} /> :
+                                                        lastPath === completedurl1[8] ? <CompletedHouseDetailsPage cname={communityname[8]} completedhouseurls={completedhouseurls[8]} /> :
+                                                            lastPath === completedurl1[9] ? <CompletedHouseDetailsPage cname={communityname[9]} completedhouseurls={completedhouseurls[9]} /> :
+                                                                <CompletedHouseDetailsPage cname={communityname[10]} completedhouseurls={completedhouseurls[10]} />
                     } />
                 ))}
             </Routes>
