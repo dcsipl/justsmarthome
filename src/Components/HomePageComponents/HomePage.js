@@ -13,7 +13,7 @@ export default function HomePage() {
     return (
         <>
             <Header second="Available" third="Completed Proj" fourth="Contact-us" fifth="Gallery" sixth="OurBusinessAssociates" secondid="readilyavailable" thirdid="completedproj" fourthid="contactus" />
-            {/* <HomePageSlider /> */}
+            <HomePageSlider />
             <AboutusReview />
             <Footer />
         </>
