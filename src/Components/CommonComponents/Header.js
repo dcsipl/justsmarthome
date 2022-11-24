@@ -102,13 +102,13 @@ export default function Header(props) {
                                                       </Typography>
                                                       {json.contactus.map((contact) =>
                                                             <div>
-                                                                  <Typography style={{ lineHeight: "40px", color: "#012060", fontWeight: 800, fontFamily: "georgia", fontSize: "15px" }}>
-                                                                        {contact.name1} - {contact.phone1}
+                                                                  <Typography style={{ lineHeight: "40px", color: "#012060", fontWeight: 800, fontFamily: "georgia", fontSize: "15px",marginLeft: "5px" }}>
+                                                                        {contact.name1} - <span style={{fontFamily:"Playfair Display",fontSize:"16px"}}>{contact.phone1}</span>
                                                                         <br />
                                                                         {contact.email1}
                                                                   </Typography>
-                                                                  <Typography style={{ lineHeight: "40px", color: "#012060", fontWeight: 800, fontFamily: "georgia", marginLeft: "300px", marginTop: "-80px", fontSize: "15px" }}>
-                                                                        {contact.name2} - {contact.phone2}
+                                                                  <Typography style={{ lineHeight: "40px", color: "#012060", fontWeight: 800, fontFamily: "georgia", marginLeft: "305px", marginTop: "-80px", fontSize: "15px" }}>
+                                                                        {contact.name2} - <span style={{fontFamily:"Playfair Display",fontSize:"16px",marginLeft:"30px"}}>{contact.phone1}</span>
                                                                         <br />
                                                                         {contact.email2}
                                                                   </Typography></div>)}

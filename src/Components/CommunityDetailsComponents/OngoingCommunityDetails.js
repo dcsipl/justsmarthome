@@ -77,8 +77,15 @@ export default function OngoingCommunityDetails(props) {
                </span>
             </div>
 
+           
+
+
+            <div className="features" id="features">
+               Features:
+               <div className="points">{props.ongoingurl[0].extraFeatures}</div>
+            </div>
             {props.ongoingurl[0].nearby.map((near, i) =>
-               <div className="nearby" id="nearbyplaces" key={i}>Near by
+               <div className="nearby" id="nearbyplaces" key={i}>Near by:
                   <ul>
                      <li>{near.place1}<br />{near.km1}</li>
                      <li>{near.place2}<br />{near.km2}</li>
@@ -87,12 +94,6 @@ export default function OngoingCommunityDetails(props) {
                   </ul>
                </div>)}
             <BasicTabs tabs={props.ongoingurl[0].tabs} />
-
-
-            <div className="features" id="features">
-               Features:
-               <div className="points">{props.ongoingurl[0].extraFeatures}</div>
-            </div>
             <div className="overview" >
                <p>Community Plan</p>
                <img src={props.ongoingurl[0].communityPlan} alt="communityplan"/>

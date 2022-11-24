@@ -1,39 +1,21 @@
-/* .
-gallerybox{
-    position:absolute;
-    top:150px;
-    left: 80px;
-    display: grid;
-    gap: 30px 30px;
-    grid-template-columns: auto auto auto;
-  
-}
-.galleryimages{
-   
-    width:400px;
-    height: 230px;
-    border-radius: 5px;
-    border: 1.5px solid gray;
-}
-.galleryimages:hover{
-    transform: scale(0.9);
 
-} */
 .gallerybox{
-    position:absolute;
+    position:relative;
     width: 1300px;
-    height: 1550px;
-    overflow-y: auto;;
-    overflow-x: hidden;
-    top:150px;
+    height: auto;
     left: 80px;
     display: grid;
     gap: 30px 50px;
     grid-template-columns: auto auto auto;
+    padding-top: 110px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+    margin-left: -20px;
   
 }
 .galleryimages{
-    width: 380px;
+padding: 10px;
+top:110px;    width: 380px;
     height: 380px;
 }
 .galleryimages:hover{

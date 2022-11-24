@@ -2,10 +2,17 @@
     width: 35%;
     position: absolute;
     border-bottom: 1px solid gray;
-    top: 600px;
+    top: 1480px;
     left: 50px;
 }
-
+.amenities{
+    font-family: 'Playfair Display';
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
+    top:500px;
+    left:50px
+}
 .tab1 {
     position: absolute;
     width: 10%;
@@ -42,6 +49,6 @@
 .tabcontent {
     position: absolute;
     width: 400px;
-    top: 750px;
+    top: 1600px;
     left: 200px
 }

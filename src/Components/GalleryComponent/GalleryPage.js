@@ -9,7 +9,7 @@ import '../CommonComponents/Footer.css';
 export default function GalleryPage() {
   return (
     <div>
-        <Header third="Contact-us"  fifth="Gallery" thirdid="contactus" fifthid="/gallery" />
+        <Header fourth="Contact-us" fourthid="contactus"/>
         <Gallery/>
         <Footer/>
     </div>

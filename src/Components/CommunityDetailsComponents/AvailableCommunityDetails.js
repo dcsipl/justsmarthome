@@ -72,8 +72,15 @@ export default function AvailableCommunityDetails(props) {
                </table>
                </span>
             </div>
+         
+
+
+         <div className="features" id="features">
+            Features:
+            <div className="points">{props.availableurl[0].extraFeatures}</div>
+         </div>
          {props.availableurl[0].nearby.map((near, i) =>
-            <div className="nearby" id="nearbyplaces" key={i}>Near by
+            <div className="nearby" id="nearbyplaces" key={i}>Near by:
                <ul>
                   <li>{near.place1}<br />{near.km1}</li>
                   <li>{near.place2}<br />{near.km2}</li>
@@ -82,12 +89,6 @@ export default function AvailableCommunityDetails(props) {
                </ul>
             </div>)}
          <BasicTabs tabs={props.availableurl[0].tabs} />
-
-
-         <div className="features" id="features">
-            Features:
-            <div className="points">{props.availableurl[0].extraFeatures}</div>
-         </div>
          <div className="overview" >
             <p>Community Plan</p>
             <img src={props.availableurl[0].communityPlan} alt="communityplan"/>

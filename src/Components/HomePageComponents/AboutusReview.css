@@ -2,8 +2,9 @@
     display: flex;
     width: 100%;
     position: relative;
-    top: 580px;
-    height: auto
+    height: auto;
+    padding: 10px;
+    margin: 0;
 }
 
 .availablehouseicon {
@@ -11,7 +12,6 @@
     left:70px;
     height: 90px;
     width: 80px;
-    top:60px
 
 }
 
@@ -20,18 +20,18 @@
     font-size: 45px;
     color: #000000;
     left: 160px;
-    top: 95px;
+    top: 35px;
     position: absolute;
 }
 
 .availableimgcontainer {
-    width: 400px;
-    height:980px;
+    width: 385px;
     position: relative;
-    overflow-x: hidden;
-    overflow-y: auto;
-    top:50px;
-    left: 40px;
+    padding-top:1px;
+    padding-bottom: 20px;
+    padding-left: 2px;
+    left: 20px;
+    height:auto;
     background-color: rgba(224, 228, 240, 0.588);
 }
 
@@ -94,7 +94,7 @@ display: flex;
 
     position: absolute;
     left: 535px;
-    top: 87px;
+    top: 35px;
     font-family: "qwigley";
     font-size: 45px;
     color: #000000
@@ -105,7 +105,7 @@ display: flex;
     width: 520px;
     height: 640px;
     left: 445px;
-    top: 125px;
+    top: 75px;
 }
 
 .aboutuscontent {
@@ -195,7 +195,6 @@ display: flex;
     left:600px;
     height: 90px;
     width: 80px;
-    top:60px
 }
 
 .completedhousestitle {
@@ -203,18 +202,20 @@ display: flex;
     font-size: 45px;
     color: #000000;
     left: 1100px;
-    top: 95px;
+    top: 35px;
     position: absolute;
 }
 
 .completedimgcontainer {
-    width: 400px;
-    height: 980px;
+    width: 385px;
     left: 600px;
-    top:50px;
     position: relative;
-    overflow-x: hidden;
-    overflow-y: auto;background-color: rgba(224, 228, 240, 0.588);
+    background-color: rgba(224, 228, 240, 0.588);
+    padding-top:1px;
+    padding-bottom: 20px;
+    padding-left: 2px;
+    height:auto;
+
 
 }
 
