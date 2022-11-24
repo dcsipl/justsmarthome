@@ -49,7 +49,7 @@ export default function HomePageImageSlider() {
     communityDetails.JustSmartCustomHomes.map((data,index)=>{
         return (
         <>    
-
+<div className="firsthalfcontainer">
              <div key={index} className={index===sliderImgIndex?"sliderimages":"sliderimagesnone"}>       
                      <img className="sliderimg" src={data.sliderImg}  alt={data.name} onClick={()=>{window.open(ongoingurl1[index],"_self")}}/>
                      <div className="ongoing">on going</div>
@@ -57,7 +57,7 @@ export default function HomePageImageSlider() {
                         <div  onClick={Prev}> <AiOutlineLeftCircle size={"50px"} /> </div>
                         <div  onClick={Next}> <AiOutlineRightCircle size={"50px"} /> </div>
                     </div>
-                     <button  className="morebutton" onClick={()=>{window.open(ongoingurl1[index],"_self")}}>MoreDetails...</button>
+                     <button  className="morebutton" onClick={()=>{window.open(ongoingurl1[index],"_self")}}>Click for more details...</button>
                      <div className="communame">{data.name}</div>
                      <div className="descriptioncontent">{data.mainDescr}</div>
                      {/* <div className="booking">For Booking:</div>
@@ -76,6 +76,7 @@ export default function HomePageImageSlider() {
                         </div>
                     </>)
                 })}
+            </div>
             </div>
         </>
     )}))

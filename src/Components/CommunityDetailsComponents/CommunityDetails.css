@@ -1,19 +1,19 @@
 .wholedivision{
     position: relative;
-    top:400px;
+    height: 1800px;
 }.communityname {
     position: absolute;
     width: 500px;
     height: 20px;
     left: 800px;
-    top: -280px;
+    top: 110px;
     font-family: "qwigley";
     font-size: 40px
 }
 .communitydescription{
     position: absolute;
     line-height: 20px;
-    top: -230px;
+    top: 150px;
     left: 610px;
     width: 750px;
     font-family: Georgia;
@@ -29,7 +29,9 @@
     padding-left: 600px;
     margin-top: -20px;
     overflow-y: auto;
-    overflow-x: hidden
+    overflow-x: hidden;
+    position: relative;
+    top:340px
 }
 .houses{
     height: 330px;
@@ -58,7 +60,7 @@ border-radius: 10px;
     width: 500px;
     height: 20px;
     left: 180px;
-    top: -280px;
+    top: 110px;
     font-family: "qwigley";
     font-size: 40px;
     list-style: none;
@@ -70,7 +72,7 @@ border-radius: 10px;
     width: 570px;
     height: 400px;
     left: 20px;
-    top: -240px;
+    top: 150px;
     border-radius: 10px;
     border: 1px solid gray;
     cursor: pointer;
@@ -92,10 +94,10 @@ border-radius: 10px;
 
 .backgroundcolor {
     width: 570px;
-    height: 1160px;
+    height: 1600px;
     position: absolute;
     left: 20px;
-    top: -270px
+    top: 170px
 }
 
 .description {
@@ -147,15 +149,16 @@ border-radius: 10px;
 
 .communitypagebooking {
     position: absolute;
-    background-color: lightgreen;
-    width: 280px;
+    background-color: #3b7dbb66;
+    width: 350px;
     height: 80px;
-    top: 270px;
-    left: 150px;
-    border-radius: 10px;
+    top: 590px;
+    left: 120px;
+    border-radius: 5px;
     border: 1px solid gray;
     font-size: 22px;
     padding: 5px;
+    word-spacing: 10px;
 
 
 
@@ -170,10 +173,11 @@ border-radius: 10px;
     position: absolute;
     width: 600px;
     height: 80px;
-    top: 400px;
-    left: 250px;
+    top: 1200px;
+    left: 50px;
     font-family: 'Playfair Display';
     font-size: 30px;
+    font-weight: 800;
 
 
 
@@ -181,14 +185,16 @@ border-radius: 10px;
 
 .nearby ul {
     position: absolute;
-    top: 60px;
+    top: 90px;
     width: 500px;
-    left: -200px;
+    left: 10px;
     display: flex;
     font-family: 'Playfair Display';
     font-size: 17px;
     list-style-type: none;
     justify-content: space-between;
+    font-weight: 400;
+
 
 }
 
@@ -197,20 +203,21 @@ border-radius: 10px;
     position: absolute;
     width: 250px;
     height: 44px;
-    left: 30px;
-    top: 950px;
+    left: 50px;
+    top: 690px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 800;
     font-size: 30px;
     line-height: 60px;
     color: #000000;
+    font-family: Playfair Display;
 }
 
 .features .points {
     position: absolute;
     width: 233px;
-    left: 50px;
-    font-family: 'calibri';
+    left: 80px;
+    font-family: 'georgia';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -222,18 +229,18 @@ border-radius: 10px;
 
 .overview img {
     position: absolute;
-    top: 1030px;
-    left: 370px;
+    top: 1350px;
+    left: 600px;
     border-radius: 10px;
     border: 1px solid gray;
-    width: 460px;
-    height: 300px;
+    width: 390px;
+    height: 400px;
 }
 
 .overview p {
     position: absolute;
-    top: 970px;
-    left: 370px;
+    top: 1300px;
+    left: 600px;
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
@@ -242,17 +249,17 @@ border-radius: 10px;
 
 .location img {
     position: absolute;
-    top: 1030px;
-    left: 900px;
+    top: 1350px;
+    left: 1000px;
     border-radius: 10px;
     border: 1px solid gray;
-    width: 460px;
-    height: 300px;
+    width: 390px;
+    height: 400px;
 }
 .location p {
     position: absolute;
-    top: 970px;
-    left: 900px;
+    top: 1300px;
+    left: 1000px;
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
