@@ -1,22 +1,24 @@
-import React, { useState,useEffect } from "react";
+import React, { useState,useEffect, useCallback } from "react";
 import { AiOutlineLeftCircle, AiOutlineRightCircle } from "react-icons/ai";//npm i react-icons
 import communityDetails from '../../JustsmartCustomHomes.json';
 import "./HomePageSlider.css";
 
 
-export default function HomePageImageSlider() {         
+export default function HomePageImageSlider() {   
+    
     
     const[sliderImgIndex,setSliderImgIndex]=useState(0)
-    useEffect(()=>{
+    const autoPlay = useCallback(()=>{
+        sliderImgIndex===communityDetails.JustSmartCustomHomes.length-1?
+                setSliderImgIndex(0):setSliderImgIndex(sliderImgIndex+1)
+            },[sliderImgIndex])
+    useEffect(()=>{        
        const interval=setTimeout(()=>{
                   autoPlay()
         },5000)
         return()=>clearTimeout(interval)
-    },[sliderImgIndex])
-    function autoPlay(){
-       sliderImgIndex===communityDetails.JustSmartCustomHomes.length-1?
-              setSliderImgIndex(0):setSliderImgIndex(sliderImgIndex+1)
-        }
+    },[sliderImgIndex,autoPlay])
+    
            
     function Prev(){
         sliderImgIndex===0?

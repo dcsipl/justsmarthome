@@ -11,6 +11,8 @@ import Typography from '@mui/material/Typography';
 import House from "../../Pictures/CommunityDetailsImages/construction-1.jpg";
 import { IoMdClose } from 'react-icons/io'
 import json from "../../JustsmartCustomHomes.json"
+import { Button } from '@mui/material';
+
 const styles = {
       position: 'absolute',
       top: '50%',
@@ -38,7 +40,7 @@ export default function Header(props) {
                         <div className='anchortags'>
                               <a href="/" className="home">Home</a>
 
-                              <a className="available">
+                              <Button className="available">
                                     <Link activeClass="active"
                                           to={props.secondid}
                                           spy={true}
@@ -46,8 +48,8 @@ export default function Header(props) {
                                           offset={-100}
                                           duration={500}>{props.second}
                                     </Link>
-                              </a>
-                              <a className="completed">
+                              </Button>
+                              <Button className="completed">
                                     <Link activeClass="active"
                                           to={props.thirdid}
                                           spy={true}
@@ -55,8 +57,8 @@ export default function Header(props) {
                                           offset={-100}
                                           duration={500}>{props.third}
                                     </Link>
-                              </a>
-                              <a className="contactus" onClick={handleOpen}>{props.fourth}
+                              </Button>
+                              <Button className="contactus" onClick={handleOpen}>{props.fourth}
                                     {/* <Link activeClass="active"
                                     to={props.fourthid}
                                     spy={true}
@@ -64,7 +66,7 @@ export default function Header(props) {
                                     offset={-100}
                                     duration={500}>{props.fourth}
                               </Link> */}
-                              </a>
+                              </Button>
                               <a href="/Gallery" className="gallery" >
                                     {props.fifth}
                               </a>

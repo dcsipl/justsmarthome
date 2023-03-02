@@ -93,25 +93,25 @@
   "copyRight": " Copyright © 2022 JustSmartCustom Homes. All Rights Reserved.",
   "gallery": [
     {
-      "image": "./pictures/GalleryImages/image1.jpg",
+      "image": "./Pictures/GalleryImages/image1.jpg",
       "cname": "Deer Valley Estates",
       "hname": "Project-1",
       "description": "Deer Valley Estates is conveniently located across Spring Creek Elementary School on N Rockwell Ave and North of 150th Street."
     },
     {
-      "image": "./pictures/GalleryImages/image2.jpg",
+      "image": "./Pictures/GalleryImages/image2.jpg",
       "cname": "Canyon Lakes",
       "hname": "Project-2",
       "description": "Canyon Lakes community is conveniently located in south east corner of Memorial and Council."
     },
     {
-      "image": "./pictures/GalleryImages/image3.jpg",
+      "image": "./Pictures/GalleryImages/image3.jpg",
       "cname": "Thorn Hills",
       "hname": "Project-1",
       "description": "Thornhill Addition in West Edmond is a unique neighborhood located off Danforth Road between Penn and Western Avenues."
     },
     {
-      "image": "./pictures/GalleryImages/image4.jpg",
+      "image": "./Pictures/GalleryImages/image4.jpg",
       "cname": "Deer Valley Estates",
       "hname": "Project-3",
       "description": "Deer Valley Estates is conveniently located across Spring Creek Elementary School on N Rockwell Ave and North of 150th Street."
@@ -135,13 +135,13 @@
       "description": "Deer Valley Estates is conveniently located across Spring Creek Elementary School on N Rockwell Ave and North of 150th Street."
     },
     {
-      "image": "./pictures/GalleryImages/image8.jpg",
+      "image": "./Pictures/GalleryImages/image8.jpg",
       "cname": "Canyon Lakes",
       "hname": "Project-3",
       "description": "Canyon Lakes community is conveniently located in south east corner of Memorial and Council."
     },
     {
-      "image": "./pictures/GalleryImages/image9.jpg",
+      "image": "./Pictures/GalleryImages/image9.jpg",
       "cname": "Thorn Hills",
       "hname": "Project-1",
       "description": "Thornhill Addition in West Edmond is a unique neighborhood located off Danforth Road between Penn and Western Avenues."

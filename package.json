@@ -15,8 +15,8 @@
     "react-dom": "^17.0.2",
     "react-icons": "^4.3.1",
     "react-router": "^6.3.0",
-    "react-router-dom": "^6.3.0",
-    "react-scripts": "5.0.0",
+    "react-router-dom": "^6.8.2",
+    "react-scripts": "^5.0.1",
     "react-scroll": "^1.8.7",
     "web-vitals": "^2.1.4"
   },
@@ -43,5 +43,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "overrides": {
+    "babel-plugin-lodash": {
+      "@babel/types": "~7.20.0"
+    }
   }
 }

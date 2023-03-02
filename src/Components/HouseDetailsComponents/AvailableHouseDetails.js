@@ -1,24 +1,27 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
+import { useState, useEffect,useCallback } from 'react';
 import json from '../../JustsmartCustomHomes.json';
 
 export default function AvailableHouseDetails(props) {
 
 
     const [roomIndex, setRoomIndex] = useState(0)
-    useEffect(() => {
-        const interval = setTimeout(() => {
-            autoPlay()
-        }, 4000)
-        return () => clearTimeout(interval)
-    }, [roomIndex])
-    function autoPlay() {
+
+    const autoPlay=useCallback(()=> {
         roomIndex === props.availablehouseurls[0].room.length - 1 ?
             setRoomIndex(0)
             :
             setRoomIndex(roomIndex + 1)
 
-    }
+    },[roomIndex,props.availablehouseurls])
+
+    useEffect(() => {
+        const interval = setTimeout(() => {
+            autoPlay()
+        }, 4000)
+        return () => clearTimeout(interval)
+    }, [roomIndex,autoPlay])
+    
     const smallroom = (roomIndex) => setRoomIndex(roomIndex)
 
 
