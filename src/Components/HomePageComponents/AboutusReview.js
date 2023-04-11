@@ -1,10 +1,10 @@
 import React from 'react';
-import HouseIcon from '../../Pictures/CommonImages/houseicon.jpg';
+import HouseIcon from '../../Pictures/houseicon.jpg';
 import './AboutusReview.css';
 import json from "../../JustsmartCustomHomes.json";
 import Card from '@mui/material/Card';
-import Logo from "../../Pictures/CommonImages/Logo.jpeg"
- import CardContent from '@mui/material/CardContent';
+import Logo from "../../Pictures/Logo.jpeg"
+import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 export default function AboutusReview() {
@@ -22,29 +22,30 @@ export default function AboutusReview() {
                     </p>
                     
                     <div className="availableimgcontainer">
-                        {json.JustSmartCustomHomes.map((community, i) =>
-                            <Card className='availableimages' key={i}>
-      <div className='cardheader'>
-          <img src={Logo} className="cardlogo" alt="cardlogo"/>
-           
-        
-        <p className='cardtitle'>{community.name}<br/>
-    <span>Ocklahoma</span></p>
-    </div>
+                        {json.JustSmartCustomHomes.map((community, i) =>{
+                        return(
+                          community.availableImg &&   
+                          <Card className='availableimages' key={i}>
+                                <div className='cardheader'>
+                                   <img src={Logo} className="cardlogo" alt="cardlogo"/>
+                                     <p className='cardtitle'>{community.name}<br/>
+                                     <span>Ocklahoma</span>
+                                    </p>
+                                </div>
       
                            <CardMedia
-                           className='availableimg'
+                             className='availableimg'
                              component="img"
                              image={community.availableImg}
                              onClick={()=>{window.open(availableurl1[i],"_self")}} 
                            />
-                          
-                             <CardContent className='more'  >
+
+                             <CardContent className='more'>
                              <Typography>
                               Click for more details...
                              </Typography>
                            </CardContent>
-                         </Card>
+                         </Card>)}
                         )}
                     </div>
                 </div>
@@ -56,23 +57,6 @@ export default function AboutusReview() {
                     <div className="aboutuscontentbox">
                         {json.aboutus.map((data,i) => <p className="aboutuscontent" key={i}>{data.content}</p>)}
                     </div>
-
-                    {/* <div className="reviewtitle" id="reviews">
-                        Reviews
-                    </div>
-
-                    <div className="reviewcontentbox1">
-                        "Exceptional and on-time"<br />
-                        <span>-Arun</span>
-                        <img className="reviewhouseicon1" src={HouseIcon} alt="houseIcon1" />
-                        <p className="reviewcontent1">More details about the reviews</p>
-                    </div>
-                    <div className="reviewcontentbox2">
-                        "Exceptional and on-time"<br />
-                        <span>-Arun</span>
-                        <img className="reviewhouseicon2" src={HouseIcon} alt="houseIcon1" />
-                        <p className="reviewcontent2">More details about the reviews</p>
-                    </div> */}
                 </div>
                 <div className="completedhouses">
                     <img className="completedhouseicon" src={HouseIcon} alt="houseIcon" />
@@ -80,15 +64,16 @@ export default function AboutusReview() {
                         Completed Projects
                     </p>
                     <div className="completedimgcontainer">
-                    {json.JustSmartCustomHomes.map((community, i) =>
+                    {json.JustSmartCustomHomes.map((community, i) =>{
+                        return(
+                          community.completedImg &&   
                             <Card className='completedimages' key={i}>
                                 <div className='cardheader'>
-          <img src={Logo} className="cardlogo"  alt="cardlogo"/>
-           
-        
-        <p className='cardtitle'>{community.name}<br/>
-    <span>Ocklahoma</span></p>
-    </div>
+                                    <img src={Logo} className="cardlogo"  alt="cardlogo"/>
+                                    <p className='cardtitle'>{community.name}<br/>
+                                    <span>Ocklahoma</span></p>
+                                </div>
+
                            <CardMedia
                            className='completedimg'
                              component="img"
@@ -101,7 +86,7 @@ export default function AboutusReview() {
                               Click for more details...
                              </Typography>
                            </CardContent>
-                         </Card>
+                         </Card>)}
                         )}
                     </div>
                 </div>

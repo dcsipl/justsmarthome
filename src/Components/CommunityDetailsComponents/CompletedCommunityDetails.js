@@ -10,50 +10,52 @@ export default function CompletedCommunityDetails(props) {
    console.log("completedhouseurl",completedhouseurl)
    const maximumlengthofcompletedhouseurl = completedhouseurl.map(a=>a.length).indexOf(Math.max(...completedhouseurl.map(a=>a.length)));
    console.log("maximumlengthofcompletedhouseurl",maximumlengthofcompletedhouseurl)
-         const completedhouseurlss=completedhouseurl[maximumlengthofcompletedhouseurl]
-         console.log(completedhouseurlss)
+   const completedhouseurlss=completedhouseurl[maximumlengthofcompletedhouseurl]
+   console.log(completedhouseurlss)
    return (
       <>
       
       <div className="wholedivision">
-         <p className="communityname">Community name : {props.completedurl[0].name}
-         </p>
+         <p className="communityname">Community name : {props.completedurl[0].name}</p>
          <div className='communitydescription'>{props.completedurl[0].mainDescr}</div>
          
          <div className="housescontainer">
-            {props.completedurl[0].completedhouses.map((record1, i) =>
+            {props.completedurl[0].completedhouses.map((record1, i) =>{
+                  return(
+                  record1.image &&
                <div className='houses' key={i}>
                   <p className="housesname">{record1.name}</p>
                   <img className="housesimg" src={record1.image} alt="houseimg" onClick={()=>{window.open(completedhouseurlss[i],"_self")}} />
                   <div className="descriptiontable">
- <table>
-     <tbody>
-         {record1.descriptions.map((datas,i) =>
-             <div className="tablebody" key={i}>
-                 <tr className="firstrow">
-                     <td >{datas.descriptitle1}:</td>
-                     <td >{datas.descripcontent1}</td>
-                 </tr>
-                 <tr className="secondrow">
-                     <td >{datas.descriptitle2}:</td>
-                     <td>{datas.descripcontent2}</td>
-                 </tr>
-                 <tr className="thirdrow">
-                     <td>{datas.descriptitle3}:</td>
-                     <td>{datas.descripcontent3}</td>
-                 </tr>
-             </div>
-         )}
-     </tbody>
- </table>
-</div>
-               </div>)}
+                     <table>
+                        <tbody>
+                              {record1.descriptions.map((datas,i) =>
+                                 <div className="tablebody" key={i}>
+                                    <tr className="firstrow">
+                                          <td >{datas.descriptitle1}:</td>
+                                          <td >{datas.descripcontent1}</td>
+                                    </tr>
+                                    <tr className="secondrow">
+                                          <td >{datas.descriptitle2}:</td>
+                                          <td>{datas.descripcontent2}</td>
+                                    </tr>
+                                    <tr className="thirdrow">
+                                          <td>{datas.descriptitle3}:</td>
+                                          <td>{datas.descripcontent3}</td>
+                                    </tr>
+                                 </div>
+                              )}
+                        </tbody>
+                     </table>
+                  </div>
+               </div>)})}
          </div>
          
          <Card className="backgroundcolor"></Card>
-
-<li className="mainhousename">{props.completedurl[0].name}</li>
-<img className="mainhouseimg" alt="mainhouse" src={props.completedurl[0].completedhouses[0].image}/> 
+         {props.completedurl[0].completedhouses[0].image && <>
+         <li className="mainhousename">{props.completedurl[0].name}</li>
+         <img className="mainhouseimg" alt="mainhouse" src={props.completedurl[0].completedhouses[0].image}/> 
+         </>}
          <div className="communitypagebooking">For Details:<br />
          <span>
                <table>
@@ -66,8 +68,8 @@ export default function CompletedCommunityDetails(props) {
                      )}
                   </tbody>
                </table>
-               </span>
-            </div>
+         </span>
+         </div>
          
 
 
@@ -78,10 +80,10 @@ export default function CompletedCommunityDetails(props) {
          {props.completedurl[0].nearby.map((near, i) =>
             <div className="nearby" id="nearbyplaces" key={i}>Near by:
                <ul>
-                  <li>{near.place1}<br />{near.km1}</li>
-                  <li>{near.place2}<br />{near.km2}</li>
-                  <li>{near.place3}<br />{near.km3}</li>
-                  <li>{near.place4}<br />{near.km4}</li>
+                  <li>{near.place1}<br /></li>
+                  <li>{near.place2}<br /></li>
+                  <li>{near.place3}<br /></li>
+                  <li>{near.place4}<br /></li>
                </ul>
             </div>)}
          <BasicTabs tabs={props.completedurl[0].tabs} />

@@ -10,8 +10,8 @@ export default function OngoingCommunityDetails(props) {
    console.log("ongoinghouseurl",ongoinghouseurl)
    const maximumlengthofongoinghouseurl = ongoinghouseurl.map(a=>a.length).indexOf(Math.max(...ongoinghouseurl.map(a=>a.length)));
    console.log("maximumlengthofongoinghouseurl",maximumlengthofongoinghouseurl)
-         const ongoinghouseurlss=ongoinghouseurl[maximumlengthofongoinghouseurl]
-         console.log(ongoinghouseurlss)
+   const ongoinghouseurlss=ongoinghouseurl[maximumlengthofongoinghouseurl]
+   console.log(ongoinghouseurlss)
   
               
               
@@ -19,49 +19,50 @@ export default function OngoingCommunityDetails(props) {
    return (
       <>
          <div className="wholedivision">
-            <p className="communityname">Community name : {props.ongoingurl[0].name}
-            </p>
+            <p className="communityname">Community name : {props.ongoingurl[0].name}</p>
             <div className='communitydescription'>{props.ongoingurl[0].mainDescr}</div>
 
             <div className="housescontainer">
-               {props.ongoingurl[0].ongoinghouses.map((record1, i) =>
-               
-
+               {props.ongoingurl[0].ongoinghouses.map((record1, i) =>{
+                  return(
+                  record1.image &&
                   <div className='houses' key={i}>
                      <p className="housesname">{record1.name}</p>
                      <img className="housesimg" src={record1.image} alt="houseimg" onClick={()=>{window.open(ongoinghouseurlss[i],"_self")}}  />
-                     
-                     
- <div className="descriptiontable">
- <table>
-     <tbody>
-         {record1.descriptions.map((datas,i) =>
-             <div className="tablebody" key={i}>
-                 <tr className="firstrow">
-                     <td >{datas.descriptitle1}:</td>
-                     <td >{datas.descripcontent1}</td>
-                 </tr>
-                 <tr className="secondrow">
-                     <td >{datas.descriptitle2}:</td>
-                     <td>{datas.descripcontent2}</td>
-                 </tr>
-                 <tr className="thirdrow">
-                     <td>{datas.descriptitle3}:</td>
-                     <td>{datas.descripcontent3}</td>
-                 </tr>
-             </div>
-         )}
-     </tbody>
- </table>
-</div>
-</div>)}
+                      <div className="descriptiontable">
+                        <table>
+                           <tbody>
+                                 {record1.descriptions.map((datas,i) =>
+                                    <div className="tablebody" key={i}>
+                                       <tr className="firstrow">
+                                             <td >{datas.descriptitle1}:</td>
+                                             <td >{datas.descripcontent1}</td>
+                                       </tr>
+                                       <tr className="secondrow">
+                                             <td >{datas.descriptitle2}:</td>
+                                             <td>{datas.descripcontent2}</td>
+                                       </tr>
+                                       <tr className="thirdrow">
+                                             <td>{datas.descriptitle3}:</td>
+                                             <td>{datas.descripcontent3}</td>
+                                       </tr>
+                                    </div>
+                                 )}
+                           </tbody>
+                        </table>
+                     </div>
+               </div>)
+               })}
                
             </div>
 
             <Card className="backgroundcolor"></Card>
-
-<li className="mainhousename">{props.ongoingurl[0].name}</li>
-<img className="mainhouseimg" src={props.ongoingurl[0].ongoinghouses[0].image} alt="mainhouseimg"/>
+            
+            {props.ongoingurl[0].ongoinghouses[0].image &&
+            <>
+            <li className="mainhousename">{props.ongoingurl[0].name}</li>
+            <img className="mainhouseimg" src={props.ongoingurl[0].ongoinghouses[0].image} alt="mainhouseimg"/>
+            </>}
             <div className="communitypagebooking">For Details:<br />
             <span>
                <table>
@@ -74,11 +75,8 @@ export default function OngoingCommunityDetails(props) {
                      )}
                   </tbody>
                </table>
-               </span>
+            </span>
             </div>
-
-           
-
 
             <div className="features" id="features">
                Features:
@@ -87,10 +85,10 @@ export default function OngoingCommunityDetails(props) {
             {props.ongoingurl[0].nearby.map((near, i) =>
                <div className="nearby" id="nearbyplaces" key={i}>Near by:
                   <ul>
-                     <li>{near.place1}<br />{near.km1}</li>
-                     <li>{near.place2}<br />{near.km2}</li>
-                     <li>{near.place3}<br />{near.km3}</li>
-                     <li>{near.place4}<br />{near.km4}</li>
+                     <li>{near.place1}<br /></li>
+                     <li>{near.place2}<br /></li>
+                     <li>{near.place3}<br /></li>
+                     <li>{near.place4}<br /></li>
                   </ul>
                </div>)}
             <BasicTabs tabs={props.ongoingurl[0].tabs} />

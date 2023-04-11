@@ -151,7 +151,7 @@ border-radius: 10px;
     position: absolute;
     background-color: #3b7dbb66;
     width: 350px;
-    height: 80px;
+    height: 100px;
     top: 590px;
     left: 120px;
     border-radius: 5px;
@@ -185,13 +185,14 @@ border-radius: 10px;
 
 .nearby ul {
     position: absolute;
-    top: 90px;
+    top: 50px;
     width: 500px;
-    left: 10px;
+    left: 80px;
     display: flex;
+    flex-direction: column;
     font-family: 'Playfair Display';
     font-size: 17px;
-    list-style-type: none;
+    line-height: 30px;
     justify-content: space-between;
     font-weight: 400;
 

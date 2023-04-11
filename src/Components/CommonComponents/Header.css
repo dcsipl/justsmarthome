@@ -44,7 +44,7 @@
 
 }
 
-.headermainbar a:hover{
+.headermainbar a:hover, Button:hover{
 
 text-decoration: underline;
 
@@ -76,6 +76,25 @@ color: yellow;
   color: white;
   
   cursor: pointer;
+
+}
+.anchortags Button{
+  text-decoration:none;
+
+  color: white;
+  
+  cursor: pointer;
+  font-family: "qwigley";
+
+  font-style: normal;
+ 
+  font-weight: 400;
+
+  margin-top: -14px;
+
+  font-size: 35px;
+
+  text-transform:capitalize;
 
 }
 

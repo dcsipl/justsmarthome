@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-scroll'// npm i react-scroll
-import Logo from '../../Pictures/CommonImages/Logo.jpeg';
+import Logo from '../../Pictures/Logo.jpeg';
 import Validation from './Validation.js';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
@@ -8,7 +8,7 @@ import Modal from '@mui/material/Modal';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import House from "../../Pictures/CommunityDetailsImages/construction-1.jpg";
+import House from "../../Pictures/construction-1.jpg";
 import { IoMdClose } from 'react-icons/io'
 import json from "../../JustsmartCustomHomes.json"
 import { Button } from '@mui/material';
@@ -87,7 +87,8 @@ export default function Header(props) {
 
 
                                                 <p className='cardtitle'>JustSmart Custom Homes<br />
-                                                      <span> Edmond, OK</span></p>
+                                                <span> Edmond, OK</span>
+                                                </p>
                                           </div>
 
                                           <CardMedia
@@ -113,7 +114,9 @@ export default function Header(props) {
                                                                         {contact.name2} - <span style={{fontFamily:"Playfair Display",fontSize:"16px",marginLeft:"30px"}}>{contact.phone1}</span>
                                                                         <br />
                                                                         {contact.email2}
-                                                                  </Typography></div>)}
+                                                                  </Typography>
+                                                            </div>
+                                                      )}
                                                 </div>
                                                 <Typography style={{ color: "black", fontWeight: 800, fontFamily: "qwigley", fontSize: "50px", marginLeft: "100px" }}>
                                                       Smart Step, Every Step

@@ -10,47 +10,45 @@ export default function AvailableCommunityDetails(props) {
    console.log("availablehouseurl",availablehouseurl)
    const maximumlengthofavailablehouseurl = availablehouseurl.map(a=>a.length).indexOf(Math.max(...availablehouseurl.map(a=>a.length)));
    console.log("maximumlengthofavailablehouseurl",maximumlengthofavailablehouseurl)
-         const availablehouseurlss=availablehouseurl[maximumlengthofavailablehouseurl]
-         console.log(availablehouseurlss)
-
-
-           
+   const availablehouseurlss=availablehouseurl[maximumlengthofavailablehouseurl]
+   console.log(availablehouseurlss)        
 
    return (
       <>
       <div className="wholedivision">
-         <p className="communityname">Community name : {props.availableurl[0].name}
-         </p>
+         <p className="communityname">Community name : {props.availableurl[0].name}</p>
          <div className='communitydescription'>{props.availableurl[0].mainDescr}</div>
          
          <div className="housescontainer">
-            {props.availableurl[0].availablehouses.map((record1, i) =>
+            {props.availableurl[0].availablehouses.map((record1, i) =>{
+                  return(
+                  record1.image &&
                <div className='houses'key={i}>
                   <p className="housesname">{record1.name}</p>
                   <img className="housesimg" src={record1.image} alt="houseimg" onClick={()=>{window.open(availablehouseurlss[i],"_self")}}  />
                   <div className="descriptiontable">
- <table>
-     <tbody>
-         {record1.descriptions.map((datas,i) =>
-             <div className="tablebody" key={i}>
-                 <tr className="firstrow">
-                     <td >{datas.descriptitle1}:</td>
-                     <td >{datas.descripcontent1}</td>
-                 </tr>
-                 <tr className="secondrow">
-                     <td >{datas.descriptitle2}:</td>
-                     <td>{datas.descripcontent2}</td>
-                 </tr>
-                 <tr className="thirdrow">
-                     <td>{datas.descriptitle3}:</td>
-                     <td>{datas.descripcontent3}</td>
-                 </tr>
-             </div>
-         )}
-     </tbody>
- </table>
-</div>
-               </div>)}
+                     <table>
+                        <tbody>
+                              {record1.descriptions.map((datas,i) =>
+                                 <div className="tablebody" key={i}>
+                                    <tr className="firstrow">
+                                          <td >{datas.descriptitle1}:</td>
+                                          <td >{datas.descripcontent1}</td>
+                                    </tr>
+                                    <tr className="secondrow">
+                                          <td >{datas.descriptitle2}:</td>
+                                          <td>{datas.descripcontent2}</td>
+                                    </tr>
+                                    <tr className="thirdrow">
+                                          <td>{datas.descriptitle3}:</td>
+                                          <td>{datas.descripcontent3}</td>
+                                    </tr>
+                                 </div>
+                              )}
+                        </tbody>
+                     </table>
+                  </div>
+               </div>)})}
          </div>
          
 
@@ -70,8 +68,8 @@ export default function AvailableCommunityDetails(props) {
                      )}
                   </tbody>
                </table>
-               </span>
-            </div>
+         </span>
+         </div>
          
 
 
@@ -82,10 +80,10 @@ export default function AvailableCommunityDetails(props) {
          {props.availableurl[0].nearby.map((near, i) =>
             <div className="nearby" id="nearbyplaces" key={i}>Near by:
                <ul>
-                  <li>{near.place1}<br />{near.km1}</li>
-                  <li>{near.place2}<br />{near.km2}</li>
-                  <li>{near.place3}<br />{near.km3}</li>
-                  <li>{near.place4}<br />{near.km4}</li>
+                  <li>{near.place1}<br /></li>
+                  <li>{near.place2}<br /></li>
+                  <li>{near.place3}<br /></li>
+                  <li>{near.place4}<br /></li>
                </ul>
             </div>)}
          <BasicTabs tabs={props.availableurl[0].tabs} />

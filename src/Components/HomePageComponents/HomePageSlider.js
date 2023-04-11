@@ -51,22 +51,28 @@ export default function HomePageImageSlider() {
     communityDetails.JustSmartCustomHomes.map((data,index)=>{
         return (
         <>    
-<div className="firsthalfcontainer">
+        <div className="firsthalfcontainer">
              <div key={index} className={index===sliderImgIndex?"sliderimages":"sliderimagesnone"}>       
-                     <img className="sliderimg" src={data.sliderImg}  alt={data.name} onClick={()=>{window.open(ongoingurl1[index],"_self")}}/>
+                     <img className="sliderimg" src={data.sliderImg}  alt={data.name} 
+                     onClick={()=>{
+                        (data.ongoinghouses.map((projects)=>{
+                                projects.image &&
+                        window.open(ongoingurl1[index],"_self")
+                        }))
+                        }}/>
                      <div className="ongoing">on going</div>
                      <div className="arrowcontainer">
                         <div  onClick={Prev}> <AiOutlineLeftCircle size={"50px"} /> </div>
                         <div  onClick={Next}> <AiOutlineRightCircle size={"50px"} /> </div>
                     </div>
-                     <button  className="morebutton" onClick={()=>{window.open(ongoingurl1[index],"_self")}}>Click for more details...</button>
+                    {data.ongoinghouses.map((projects)=>{
+                        return(
+                            projects.image && <button  className="morebutton" onClick={()=>{window.open(ongoingurl1[index],"_self")}}>Click for more details...</button>
+                        )
+                    })}           
                      <div className="communame">{data.name}</div>
                      <div className="descriptioncontent">{data.mainDescr}</div>
-                     {/* <div className="booking">For Booking:</div>
-                    <div className="bookingnum">
-                        {data.booking1}<br />
-                        {data.booking2}
-                    </div> */}
+
                 {communityDetails.slides.map((data, index) => {
                     return (<>
                         <div key={index} className={index === slideIndex ? "myslides fade" : "myslidesnone"}>

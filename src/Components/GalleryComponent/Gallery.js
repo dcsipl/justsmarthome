@@ -15,21 +15,21 @@ export default function Gallery() {
           {data.cname}
         </Typography>
         </CardContent>
-      <CardMedia
-        component="img"
-        alt="green iguana"
-        height="200"
-        image={data.image}
-      />
-     
+        <CardMedia
+          component="img"
+          alt="green iguana"
+          height="250"
+          image={data.image}
+        />
+      
         <CardContent>
         <Typography gutterBottom variant="h6" fontFamily="georgia" component="div">
-         ({data.hname})
+         {data.hname}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
+        {/* <Typography variant="body2" color="text.secondary">
       {data.description}
-        </Typography>
-      </CardContent>
+        </Typography> */}
+        </CardContent>
     </Card>)}
     </div>
   );
