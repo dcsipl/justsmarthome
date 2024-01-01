@@ -128,7 +128,7 @@ top:55px
 
   left:1280px;
 
-  top:-40px;
+  top:-53px;
 
   transform:rotate(45deg);
 
@@ -141,7 +141,7 @@ top:55px
 
   background:lightgray;
 
-  border-radius: 10px;
+  border-radius: 7px;
 
   border-top: none;
 
@@ -151,7 +151,7 @@ top:55px
 
   position: relative;
 
-  top:-50px;
+  top:-63px;
 
   left:985px;
 }
@@ -171,6 +171,7 @@ top:55px
   font-weight: 800;
   
   color: #012060;
+
   
   
   }
@@ -196,13 +197,13 @@ top:55px
 
   position: absolute;
 
-  top: 5px;
+  top: -5px;
 
   right: 5px;
 
   font-size: 20px;
 
-  font-weight: bold;
+  font-weight: 800;
   
   text-decoration: none;
   
@@ -211,7 +212,7 @@ top:55px
 
 .popup .close:hover{
 
-color: red
+color: #012060
 
 }
 
